@@ -132,14 +132,16 @@ namespace OpenIM.IMSDK
     }
     public class UpdateFriendsReq
     {
+        [JsonProperty("ownerUserID")]
+        public string OwnerUserID;
         [JsonProperty("friendUserIDs")]
         public string[] FriendUserIDs;
         [JsonProperty("isPinned")]
-        public BoolValue IsPinned;
+        public bool? IsPinned;
         [JsonProperty("remark")]
-        public StringValue Remark;
+        public string Remark;
         [JsonProperty("ex")]
-        public StringValue Ex;
+        public string Ex;
     }
     public class SearchFriendItem : FriendInfo
     {

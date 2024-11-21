@@ -90,17 +90,19 @@ namespace OpenIM.IMSDK
     public class ConversationReq
     {
         [JsonProperty("recvMsgOpt")]
-        public Int32Value RecvMsgOpt;
+        public int? RecvMsgOpt;
         [JsonProperty("isPinned")]
-        public BoolValue IsPinned;
+        public bool? IsPinned;
+        [JsonProperty("attachedInfo")]
+        public string AttachedInfo;
         [JsonProperty("isPrivateChat")]
-        public BoolValue IsPrivateChat;
+        public bool? IsPrivateChat;
         [JsonProperty("ex")]
-        public StringValue Ex;
+        public string Ex;
         [JsonProperty("burnDuration")]
-        public Int32Value BurnDuration;
+        public int? BurnDuration;
         [JsonProperty("groupAtType")]
-        public Int32Value GroupAtType;
+        public int? GroupAtType;
     }
     public class CreateGroupReq
     {

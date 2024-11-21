@@ -198,16 +198,16 @@ namespace OpenIM.IMSDK
         public string UserID;
 
         [JsonProperty("nickname")]
-        public StringValue Nickname;
+        public string Nickname;
 
         [JsonProperty("faceURL")]
-        public StringValue FaceURL;
+        public string FaceURL;
 
         [JsonProperty("roleLevel")]
-        public Int32Value RoleLevel;
+        public Int32? RoleLevel;
 
         [JsonProperty("ex")]
-        public StringValue Ex;
+        public string Ex;
     }
 
     public class GroupInfoForSet
@@ -228,16 +228,16 @@ namespace OpenIM.IMSDK
         public string FaceURL;
 
         [JsonProperty("ex")]
-        public StringValue Ex;
+        public string Ex;
 
         [JsonProperty("needVerification")]
-        public Int32Value NeedVerification;
+        public int? NeedVerification;
 
         [JsonProperty("lookMemberInfo")]
-        public Int32Value LookMemberInfo;
+        public int? LookMemberInfo;
 
         [JsonProperty("applyMemberFriend")]
-        public Int32Value ApplyMemberFriend;
+        public int? ApplyMemberFriend;
     }
 
 }
