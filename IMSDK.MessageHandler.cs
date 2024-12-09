@@ -1,511 +1,504 @@
-using OpenIM.IMSDK.Native;
-using Newtonsoft.Json;
 using OpenIM.IMSDK.Util;
-using System.Collections.Generic;
-using System;
+using OpenIM.Proto;
 using System.Collections.Concurrent;
 using System.Runtime.InteropServices;
 using System.Text;
-using System.Diagnostics;
 
 namespace OpenIM.IMSDK
 {
-    internal class Error
-    {
-        [JsonProperty("errCode")]
-        public int ErrCode;
-        [JsonProperty("errMsg")]
-        public string ErrMsg;
-        [JsonProperty("operationId")]
-        public string OperationId;
-    }
-    internal class Success
-    {
-        [JsonProperty("operationId")]
-        public string OperationId;
-        [JsonProperty("dataType")]
-        public int DataType;
-        [JsonProperty("data")]
-        public string Data;
-    }
-    internal class ActiveCallResult
-    {
-        [JsonProperty("operationId")]
-        public string OperationId;
-        [JsonProperty("errCode")]
-        public int ErrCode;
-        [JsonProperty("errMsg")]
-        public string ErrMsg;
-        [JsonProperty("dataType")]
-        public int DataType;
-        [JsonProperty("data")]
-        public string Data;
-    }
-
-    internal class Progress
-    {
-        [JsonProperty("operationId")]
-        public string OperationId;
-        [JsonProperty("progress")]
-        public int _Progress;
-    }
-
-    internal class MsgIDAndList
-    {
-        [JsonProperty("msgId")]
-        public string Id;
-        [JsonProperty("list")]
-        public string List;
-    }
-    internal struct IdMsg
-    {
-        public int Id;
-        public string Data;
-    }
-
-
     public partial class IMSDK
     {
+        static ConcurrentQueue<FfiResult> events = new ConcurrentQueue<FfiResult>();
+        private static void EventHandler(IntPtr dataPtr, int len)
+        {
+            try
+            {
+                string data = Marshal.PtrToStringUTF8(dataPtr);
+                Utils.Log("Recv:" + data);
+                var byteArray = Encoding.UTF8.GetBytes(data);
+                var result = FfiResult.Parser.ParseFrom(byteArray);
+                events.Enqueue(result);
+            }
+            catch (Exception e)
+            {
+                Utils.Log(e.ToString());
+            }
+        }
+        public static void DispatorMsg(FfiResult result)
+        {
+            var handleID = result.HandleID;
+            var errCode = result.ErrCode;
+            var errMsg = result.ErrMsg;
+            var funcName = result.FuncName;
+            var data = result.Data;
+            switch (funcName)
+            {
+                case FuncRequestEventName.None:
+                    break;
 
-        static ConcurrentQueue<IdMsg> msgCache = new ConcurrentQueue<IdMsg>();
+                case FuncRequestEventName.InitSdk:
+                    {
+                        var resp = InitSDKResp.Parser.ParseFrom(data);
+                        
+                        break;
+                    }
 
-        private static void MessageHandler(int id, IntPtr data)
-        {
-            var idmsg = new IdMsg
-            {
-                Id = id,
-                Data = Marshal.PtrToStringUTF8(data)
-            };
-            msgCache.Enqueue(idmsg);
-        }
-        public static void DispatorMsg(MessageDef id, string msg)
-        {
-            switch (id)
-            {
-                case MessageDef.Msg_Connecting:
-                    connListener?.OnConnecting();
+                case FuncRequestEventName.Login:
                     break;
-                case MessageDef.Msg_ConnectSuccess:
-                    connListener?.OnConnectSuccess();
+
+                case FuncRequestEventName.Logout:
                     break;
-                case MessageDef.Msg_ConnectFailed:
-                    {
-                        Error err = Utils.FromJson<Error>(msg);
-                        connListener?.OnConnectFailed(err.ErrCode, err.ErrMsg);
-                        break;
-                    }
-                case MessageDef.Msg_KickedOffline:
-                    connListener?.OnKickedOffline();
+
+                case FuncRequestEventName.SetAppBackgroundStatus:
                     break;
-                case MessageDef.Msg_UserTokenExpired:
-                    connListener?.OnUserTokenExpired();
+
+                case FuncRequestEventName.NetworkStatusChanged:
                     break;
-                case MessageDef.Msg_UserTokenInvalid:
-                    {
-                        Error err = Utils.FromJson<Error>(msg);
-                        connListener?.OnUserTokenInvalid(err.ErrMsg);
-                        break;
-                    }
-                case MessageDef.Msg_SyncServerStart:
-                    conversationListener?.OnSyncServerStart();
+
+                case FuncRequestEventName.GetLoginStatus:
                     break;
-                case MessageDef.Msg_SyncServerFinish:
-                    conversationListener?.OnSyncServerFinish();
+
+                case FuncRequestEventName.Version:
                     break;
-                case MessageDef.Msg_SyncServerProgress:
-                    {
-                        var progress = Utils.FromJson<Progress>(msg);
-                        conversationListener?.OnSyncServerProgress(progress._Progress);
-                        break;
-                    }
-                case MessageDef.Msg_SyncServerFailed:
-                    conversationListener?.OnSyncServerFailed();
+
+                case FuncRequestEventName.SendMessage:
                     break;
-                case MessageDef.Msg_NewConversation:
-                    {
-                        var data = Utils.FromJson<List<Conversation>>(msg);
-                        conversationListener?.OnNewConversation(data);
-                        break;
-                    }
-                case MessageDef.Msg_ConversationChanged:
-                    {
-                        var data = Utils.FromJson<List<Conversation>>(msg);
-                        conversationListener?.OnConversationChanged(data);
-                        break;
-                    }
-                case MessageDef.Msg_TotalUnreadMessageCountChanged:
-                    if (int.TryParse(msg, out int count))
-                    {
-                        conversationListener?.OnTotalUnreadMessageCountChanged(count);
-                    }
+
+                case FuncRequestEventName.UploadLogs:
                     break;
-                case MessageDef.Msg_ConversationUserInputStatusChanged:
-                    {
-                        var data = Utils.FromJson<InputStatesChangedData>(msg);
-                        conversationListener?.OnConversationUserInputStatusChanged(data);
-                    }
+
+                case FuncRequestEventName.UploadFile:
                     break;
-                case MessageDef.Msg_Advanced_RecvNewMessage:
-                    {
-                        var data = Utils.FromJson<Message>(msg);
-                        advancedMsgListener?.OnRecvNewMessage(data);
-                    }
+
+                case FuncRequestEventName.Log:
                     break;
-                case MessageDef.Msg_Advanced_RecvC2CReadReceipt:
-                    {
-                        var data = Utils.FromJson<List<MessageReceipt>>(msg);
-                        advancedMsgListener?.OnRecvC2CReadReceipt(data);
-                    }
+
+                case FuncRequestEventName.UpdateFcmToken:
                     break;
-                case MessageDef.Msg_Advanced_RecvGroupReadReceipt:
-                    {
-                        var data = Utils.FromJson<List<MessageReceipt>>(msg);
-                        advancedMsgListener?.OnRecvGroupReadReceipt(data);
-                    }
+
+                case FuncRequestEventName.SetAppBadge:
                     break;
-                case MessageDef.Msg_Advanced_NewRecvMessageRevoked:
-                    {
-                        var data = Utils.FromJson<MessageRevoked>(msg);
-                        advancedMsgListener?.OnNewRecvMessageRevoked(data);
-                    }
+
+                case FuncRequestEventName.EventOnSendMsgProgress:
                     break;
-                case MessageDef.Msg_Advanced_RecvMessageExtensionsChanged:
-                    {
-                        var data = Utils.FromJson<MsgIDAndList>(msg);
-                        advancedMsgListener?.OnRecvMessageExtensionsChanged(data.Id, data.List);
-                    }
+
+                case FuncRequestEventName.EventOnUploadFileProgress:
                     break;
-                case MessageDef.Msg_Advanced_RecvMessageExtensionsDeleted:
-                    {
-                        var data = Utils.FromJson<MsgIDAndList>(msg);
-                        advancedMsgListener?.OnRecvMessageExtensionsDeleted(data.Id, data.List);
-                    }
+
+                case FuncRequestEventName.EventOnUploadLogsProgress:
                     break;
-                case MessageDef.Msg_Advanced_RecvMessageExtensionsAdded:
-                    {
-                        var data = Utils.FromJson<MsgIDAndList>(msg);
-                        advancedMsgListener?.OnRecvMessageExtensionsAdded(data.Id, data.List);
-                    }
+
+                case FuncRequestEventName.EventOnConnecting:
                     break;
-                case MessageDef.Msg_Advanced_RecvOfflineNewMessage:
-                    {
-                        var data = Utils.FromJson<Message>(msg);
-                        advancedMsgListener?.OnRecvOfflineNewMessage(data);
-                    }
+
+                case FuncRequestEventName.EventOnConnectSuccess:
                     break;
-                case MessageDef.Msg_Advanced_MsgDeleted:
-                    {
-                        var data = Utils.FromJson<Message>(msg);
-                        advancedMsgListener?.OnMsgDeleted(data);
-                    }
+
+                case FuncRequestEventName.EventOnConnectFailed:
                     break;
-                case MessageDef.Msg_Advanced_RecvOnlineOnlyMessage:
-                    {
-                        var data = Utils.FromJson<Message>(msg);
-                        advancedMsgListener?.OnRecvOnlineOnlyMessage(data);
-                    }
+
+                case FuncRequestEventName.EventOnKickedOffline:
                     break;
-                case MessageDef.Msg_Batch_RecvNewMessages:
-                    {
-                        var data = Utils.FromJson<List<Message>>(msg);
-                        batchMsgListener?.OnRecvNewMessages(data);
-                    }
+
+                case FuncRequestEventName.EventOnUserTokenExpired:
                     break;
-                case MessageDef.Msg_Batch_RecvOfflineNewMessages:
-                    {
-                        var data = Utils.FromJson<List<Message>>(msg);
-                        batchMsgListener?.OnRecvOfflineNewMessages(data);
-                    }
+
+                case FuncRequestEventName.EventOnUserTokenInvalid:
                     break;
-                case MessageDef.Msg_FriendApplicationAdded:
-                    {
-                        var data = Utils.FromJson<FriendApplicationInfo>(msg);
-                        friendShipListener?.OnFriendApplicationAdded(data);
-                    }
+
+                case FuncRequestEventName.EventOnSyncServerStart:
                     break;
-                case MessageDef.Msg_FriendApplicationDeleted:
-                    {
-                        var data = Utils.FromJson<FriendApplicationInfo>(msg);
-                        friendShipListener?.OnFriendApplicationDeleted(data);
-                    }
+
+                case FuncRequestEventName.EventOnSyncServerFinish:
                     break;
-                case MessageDef.Msg_FriendApplicationAccepted:
-                    {
-                        var data = Utils.FromJson<FriendApplicationInfo>(msg);
-                        friendShipListener?.OnFriendApplicationAccepted(data);
-                    }
+
+                case FuncRequestEventName.EventOnSyncServerFailed:
                     break;
-                case MessageDef.Msg_FriendApplicationRejected:
-                    {
-                        var data = Utils.FromJson<FriendApplicationInfo>(msg);
-                        friendShipListener?.OnFriendApplicationRejected(data);
-                    }
+
+                case FuncRequestEventName.EventOnSyncServerProgress:
                     break;
-                case MessageDef.Msg_FriendAdded:
-                    {
-                        var data = Utils.FromJson<FriendInfo>(msg);
-                        friendShipListener?.OnFriendAdded(data);
-                    }
+
+                case FuncRequestEventName.EventOnNewConversation:
                     break;
-                case MessageDef.Msg_FriendDeleted:
-                    {
-                        var data = Utils.FromJson<FriendInfo>(msg);
-                        friendShipListener?.OnFriendDeleted(data);
-                    }
+
+                case FuncRequestEventName.EventOnConversationChanged:
                     break;
-                case MessageDef.Msg_FriendInfoChanged:
-                    {
-                        var data = Utils.FromJson<FriendInfo>(msg);
-                        friendShipListener?.OnFriendInfoChanged(data);
-                    }
+
+                case FuncRequestEventName.EventOnTotalUnreadMessageCountChanged:
                     break;
-                case MessageDef.Msg_BlackAdded:
-                    {
-                        var data = Utils.FromJson<BlackInfo>(msg);
-                        friendShipListener?.OnBlackAdded(data);
-                    }
+
+                case FuncRequestEventName.EventOnConversationUserInputStatusChanged:
                     break;
-                case MessageDef.Msg_BlackDeleted:
-                    {
-                        var data = Utils.FromJson<BlackInfo>(msg);
-                        friendShipListener?.OnBlackDeleted(data);
-                    }
+
+                case FuncRequestEventName.EventOnRecvNewMessage:
                     break;
-                case MessageDef.Msg_JoinedGroupAdded:
-                    {
-                        var data = Utils.FromJson<GroupInfo>(msg);
-                        groupListener?.OnJoinedGroupAdded(data);
-                    }
+
+                case FuncRequestEventName.EventOnRecvC2CreadReceipt:
                     break;
-                case MessageDef.Msg_JoinedGroupDeleted:
-                    {
-                        var data = Utils.FromJson<GroupInfo>(msg);
-                        groupListener?.OnJoinedGroupDeleted(data);
-                    }
+
+                case FuncRequestEventName.EventOnNewRecvMessageRevoked:
                     break;
-                case MessageDef.Msg_GroupMemberAdded:
-                    {
-                        var data = Utils.FromJson<GroupMember>(msg);
-                        groupListener?.OnGroupMemberAdded(data);
-                    }
+
+                case FuncRequestEventName.EventOnRecvOfflineNewMessage:
                     break;
-                case MessageDef.Msg_GroupMemberDeleted:
-                    {
-                        var data = Utils.FromJson<GroupMember>(msg);
-                        groupListener?.OnGroupMemberDeleted(data);
-                    }
+
+                case FuncRequestEventName.EventOnMessageDeleted:
                     break;
-                case MessageDef.Msg_GroupApplicationAdded:
-                    {
-                        var data = Utils.FromJson<GroupApplicationInfo>(msg);
-                        groupListener?.OnGroupApplicationAdded(data);
-                    }
+
+                case FuncRequestEventName.EventOnRecvOnlineOnlyMessage:
                     break;
-                case MessageDef.Msg_GroupApplicationDeleted:
-                    {
-                        var data = Utils.FromJson<GroupApplicationInfo>(msg);
-                        groupListener?.OnGroupApplicationDeleted(data);
-                    }
+
+                case FuncRequestEventName.EventOnMessageEdited:
                     break;
-                case MessageDef.Msg_GroupInfoChanged:
-                    {
-                        var data = Utils.FromJson<GroupInfo>(msg);
-                        groupListener?.OnGroupInfoChanged(data);
-                    }
+
+                case FuncRequestEventName.EventOnFriendApplicationAdded:
                     break;
-                case MessageDef.Msg_GroupDismissed:
-                    {
-                        var data = Utils.FromJson<GroupInfo>(msg);
-                        groupListener?.OnGroupDismissed(data);
-                    }
+
+                case FuncRequestEventName.EventOnFriendApplicationDeleted:
                     break;
-                case MessageDef.Msg_GroupMemberInfoChanged:
-                    {
-                        var data = Utils.FromJson<GroupMember>(msg);
-                        groupListener?.OnGroupMemberInfoChanged(data);
-                    }
+
+                case FuncRequestEventName.EventOnFriendApplicationAccepted:
                     break;
-                case MessageDef.Msg_GroupApplicationAccepted:
-                    {
-                        var data = Utils.FromJson<GroupApplicationInfo>(msg);
-                        groupListener?.OnGroupApplicationAccepted(data);
-                    }
+
+                case FuncRequestEventName.EventOnFriendApplicationRejected:
                     break;
-                case MessageDef.Msg_GroupApplicationRejected:
-                    {
-                        var data = Utils.FromJson<GroupApplicationInfo>(msg);
-                        groupListener?.OnGroupApplicationRejected(data);
-                    }
+
+                case FuncRequestEventName.EventOnFriendAdded:
                     break;
-                case MessageDef.Msg_RecvCustomBusinessMessage:
-                    {
-                    }
+
+                case FuncRequestEventName.EventOnFriendDeleted:
                     break;
-                case MessageDef.Msg_SelfInfoUpdated:
-                    {
-                        var data = Utils.FromJson<UserInfo>(msg);
-                        userListener?.OnSelfInfoUpdated(data);
-                    }
+
+                case FuncRequestEventName.EventOnFriendInfoChanged:
                     break;
-                case MessageDef.Msg_UserStatusChanged:
-                    {
-                        var data = Utils.FromJson<OnlineStatus>(msg);
-                        userListener?.OnUserStatusChanged(data);
-                    }
+
+                case FuncRequestEventName.EventOnBlackAdded:
                     break;
-                case MessageDef.Msg_UserCommandAdd:
-                    {
-                        userListener?.OnUserCommandAdd(msg);
-                        break;
-                    }
-                case MessageDef.Msg_UserCommandDelete:
-                    {
-                        userListener?.OnUserCommandDelete(msg);
-                        break;
-                    }
-                case MessageDef.Msg_UserCommandUpdate:
-                    {
-                        userListener?.OnUserCommandUpdate(msg);
-                        break;
-                    }
-                case MessageDef.Msg_SendMessage_Error:
-                    {
-                        var data = Utils.FromJson<Error>(msg);
-                        if (msgSendCallBackDic.TryGetValue(data.OperationId, out var callBack))
-                        {
-                            callBack.OnError(data.ErrCode, data.ErrMsg);
-                            msgSendCallBackDic.Remove(data.OperationId);
-                        }
-                    }
+
+                case FuncRequestEventName.EventOnBlackDeleted:
                     break;
-                case MessageDef.Msg_SendMessage_Success:
-                    {
-                        var data = Utils.FromJson<Success>(msg);
-                        Message message = Utils.FromJson<Message>(data.Data);
-                        if (msgSendCallBackDic.TryGetValue(data.OperationId, out var callBack))
-                        {
-                            callBack.OnSuccess(message);
-                            msgSendCallBackDic.Remove(data.OperationId);
-                        }
-                    }
+
+                case FuncRequestEventName.EventOnJoinedGroupAdded:
                     break;
-                case MessageDef.Msg_SendMessage_Progress:
-                    {
-                        var data = Utils.FromJson<Progress>(msg);
-                        if (msgSendCallBackDic.TryGetValue(data.OperationId, out var callBack))
-                        {
-                            callBack.OnProgress(data._Progress);
-                            msgSendCallBackDic.Remove(data.OperationId);
-                        }
-                    }
+
+                case FuncRequestEventName.EventOnJoinedGroupDeleted:
                     break;
-                case MessageDef.Msg_ActiveCall:
-                    DispatorActiveCallMsg(Utils.FromJson<ActiveCallResult>(msg));
+
+                case FuncRequestEventName.EventOnGroupMemberAdded:
+                    break;
+
+                case FuncRequestEventName.EventOnGroupMemberDeleted:
+                    break;
+
+                case FuncRequestEventName.EventOnGroupApplicationAdded:
+                    break;
+
+                case FuncRequestEventName.EventOnGroupApplicationDeleted:
+                    break;
+
+                case FuncRequestEventName.EventOnGroupInfoChanged:
+                    break;
+
+                case FuncRequestEventName.EventOnGroupDismissed:
+                    break;
+
+                case FuncRequestEventName.EventOnGroupMemberInfoChanged:
+                    break;
+
+                case FuncRequestEventName.EventOnGroupApplicationAccepted:
+                    break;
+
+                case FuncRequestEventName.EventOnGroupApplicationRejected:
+                    break;
+
+                case FuncRequestEventName.EventOnRecvCustomBusinessMessage:
+                    break;
+
+                case FuncRequestEventName.EventOnSelfInfoUpdated:
+                    break;
+
+                case FuncRequestEventName.EventOnUserStatusChanged:
+                    break;
+
+                case FuncRequestEventName.EventOnUserCommandAdd:
+                    break;
+
+                case FuncRequestEventName.EventOnUserCommandDelete:
+                    break;
+
+                case FuncRequestEventName.EventOnUserCommandUpdate:
+                    break;
+
+                case FuncRequestEventName.CreateGroup:
+                    break;
+
+                case FuncRequestEventName.JoinGroup:
+                    break;
+
+                case FuncRequestEventName.QuitGroup:
+                    break;
+
+                case FuncRequestEventName.DismissGroup:
+                    break;
+
+                case FuncRequestEventName.ChangeGroupMute:
+                    break;
+
+                case FuncRequestEventName.ChangeGroupMemberMute:
+                    break;
+
+                case FuncRequestEventName.TransferGroupOwner:
+                    break;
+
+                case FuncRequestEventName.KickGroupMember:
+                    break;
+
+                case FuncRequestEventName.SetGroupInfo:
+                    break;
+
+                case FuncRequestEventName.SetGroupMemberInfo:
+                    break;
+
+                case FuncRequestEventName.GetJoinedGroups:
+                    break;
+
+                case FuncRequestEventName.GetJoinedGroupsPage:
+                    break;
+
+                case FuncRequestEventName.GetSpecifiedGroupsInfo:
+                    break;
+
+                case FuncRequestEventName.SearchGroups:
+                    break;
+
+                case FuncRequestEventName.GetGroupMemberOwnerAndAdmin:
+                    break;
+
+                case FuncRequestEventName.GetGroupMembersByJoinTimeFilter:
+                    break;
+
+                case FuncRequestEventName.GetSpecifiedGroupMembersInfo:
+                    break;
+
+                case FuncRequestEventName.GetGroupMembers:
+                    break;
+
+                case FuncRequestEventName.GetGroupRequest:
+                    break;
+
+                case FuncRequestEventName.SearchGroupMembers:
+                    break;
+
+                case FuncRequestEventName.IsJoinGroup:
+                    break;
+
+                case FuncRequestEventName.GetUsersInGroup:
+                    break;
+
+                case FuncRequestEventName.InviteUserToGroup:
+                    break;
+
+                case FuncRequestEventName.HandlerGroupRequest:
+                    break;
+
+                case FuncRequestEventName.GetSpecifiedFriends:
+                    break;
+
+                case FuncRequestEventName.AddFriend:
+                    break;
+
+                case FuncRequestEventName.GetFriendRequests:
+                    break;
+
+                case FuncRequestEventName.HandlerFriendRequest:
+                    break;
+
+                case FuncRequestEventName.CheckFriend:
+                    break;
+
+                case FuncRequestEventName.DeleteFriend:
+                    break;
+
+                case FuncRequestEventName.GetFriends:
+                    break;
+
+                case FuncRequestEventName.GetFriendsPage:
+                    break;
+
+                case FuncRequestEventName.SearchFriends:
+                    break;
+
+                case FuncRequestEventName.AddBlack:
+                    break;
+
+                case FuncRequestEventName.DeleteBlack:
+                    break;
+
+                case FuncRequestEventName.GetBlacks:
+                    break;
+
+                case FuncRequestEventName.UpdateFriends:
+                    break;
+
+                case FuncRequestEventName.GetAllConversationList:
+                    break;
+
+                case FuncRequestEventName.GetConversationListSplit:
+                    break;
+
+                case FuncRequestEventName.HideConversation:
+                    break;
+
+                case FuncRequestEventName.GetAtAllTag:
+                    break;
+
+                case FuncRequestEventName.GetOneConversation:
+                    break;
+
+                case FuncRequestEventName.GetMultipleConversation:
+                    break;
+
+                case FuncRequestEventName.HideAllConversations:
+                    break;
+
+                case FuncRequestEventName.SetConversationDraft:
+                    break;
+
+                case FuncRequestEventName.SetConversation:
+                    break;
+
+                case FuncRequestEventName.GetTotalUnreadMsgCount:
+                    break;
+
+                case FuncRequestEventName.GetConversationIdbySessionType:
+                    break;
+
+                case FuncRequestEventName.FindMessageList:
+                    break;
+
+                case FuncRequestEventName.GetAdvancedHistoryMessageList:
+                    break;
+
+                case FuncRequestEventName.GetAdvancedHistoryMessageListReverse:
+                    break;
+
+                case FuncRequestEventName.RevokeMessage:
+                    break;
+
+                case FuncRequestEventName.TypingStatusUpdate:
+                    break;
+
+                case FuncRequestEventName.MarkConversationMessageAsRead:
+                    break;
+
+                case FuncRequestEventName.MarkAllConversationMessageAsRead:
+                    break;
+
+                case FuncRequestEventName.DeleteMessageFromLocalStorage:
+                    break;
+
+                case FuncRequestEventName.DeleteMessage:
+                    break;
+
+                case FuncRequestEventName.DeleteAllMsgFromLocalAndServer:
+                    break;
+
+                case FuncRequestEventName.DeleteAllMessageFromLocalStorage:
+                    break;
+
+                case FuncRequestEventName.ClearConversationAndDeleteAllMsg:
+                    break;
+
+                case FuncRequestEventName.DeleteConversationAndDeleteAllMsg:
+                    break;
+
+                case FuncRequestEventName.InsertSingleMessageToLocalStorage:
+                    break;
+
+                case FuncRequestEventName.InsertGroupMessageToLocalStorage:
+                    break;
+
+                case FuncRequestEventName.SearchLocalMessages:
+                    break;
+
+                case FuncRequestEventName.SetMessageLocalEx:
+                    break;
+
+                case FuncRequestEventName.SearchConversation:
+                    break;
+
+                case FuncRequestEventName.CreateTextMessage:
+                    break;
+
+                case FuncRequestEventName.CreateAdvancedTextMessage:
+                    break;
+
+                case FuncRequestEventName.CreateTextAtMessage:
+                    break;
+
+                case FuncRequestEventName.CreateLocationMessage:
+                    break;
+
+                case FuncRequestEventName.CreateCustomMessage:
+                    break;
+
+                case FuncRequestEventName.CreateQuoteMessage:
+                    break;
+
+                case FuncRequestEventName.CreateAdvancedQuoteMessage:
+                    break;
+
+                case FuncRequestEventName.CreateCardMessage:
+                    break;
+
+                case FuncRequestEventName.CreateImageMessage:
+                    break;
+
+                case FuncRequestEventName.CreateSoundMessage:
+                    break;
+
+                case FuncRequestEventName.CreateVideoMessage:
+                    break;
+
+                case FuncRequestEventName.CreateFileMessage:
+                    break;
+
+                case FuncRequestEventName.CreateMergerMessage:
+                    break;
+
+                case FuncRequestEventName.CreateFaceMessage:
+                    break;
+
+                case FuncRequestEventName.CreateForwardMessage:
+                    break;
+
+                case FuncRequestEventName.ProcessUserCommandGetAll:
+                    break;
+
+                case FuncRequestEventName.GetSelfUserInfo:
+                    break;
+
+                case FuncRequestEventName.SetSelfInfo:
+                    break;
+
+                case FuncRequestEventName.ProcessUserCommandAdd:
+                    break;
+
+                case FuncRequestEventName.ProcessUserCommandDelete:
+                    break;
+
+                case FuncRequestEventName.ProcessUserCommandUpdate:
+                    break;
+
+                case FuncRequestEventName.GetUsersInfo:
+                    break;
+
+                case FuncRequestEventName.SubscribeUsersOnlineStatus:
+                    break;
+
+                case FuncRequestEventName.UnsubscribeUsersOnlineStatus:
                     break;
             }
-        }
-        private static void DispatorActiveCallMsg(ActiveCallResult res)
-        {
-            if (callBackDic.TryGetValue(res.OperationId, out Delegate func))
-            {
-                func.DynamicInvoke(ConvertDataType(res), 0, "");
-                callBackDic.Remove(res.OperationId);
-            }
-        }
-        private static object ConvertDataType(ActiveCallResult res)
-        {
-            var type = (DataTypeDef)res.DataType;
-            var msg = res.Data;
-            if (res.ErrCode > 0)
-            {
-                if (type == DataTypeDef.DataType_Empty)
-                {
-                    return false;
-                }
-                else if (type == DataTypeDef.DataType_Bool)
-                {
-                    return Utils.FromJson<bool>(msg);
-                }
-                else if (type == DataTypeDef.DataType_Int)
-                {
-                    return 0;
-                }
-                else
-                {
-                    return null;
-                }
-            }
-            else
-            {
-                switch (type)
-                {
-                    case DataTypeDef.DataType_Empty:
-                        return true;
-                    case DataTypeDef.DataType_Int:
-                        return Utils.FromJson<int>(msg);
-                    case DataTypeDef.DataType_Bool:
-                        return Utils.FromJson<bool>(msg);
-                    case DataTypeDef.DataType_StringArray:
-                        return Utils.FromJson<string[]>(msg);
-                    case DataTypeDef.DataType_Conversation:
-                        return Utils.FromJson<Conversation>(msg);
-                    case DataTypeDef.DataType_Conversation_List:
-                        return Utils.FromJson<List<Conversation>>(msg);
-                    case DataTypeDef.DataType_FindMessageResult:
-                        return Utils.FromJson<FindMessageResult>(msg);
-                    case DataTypeDef.DataType_AdvancedHistoryMessageResult:
-                        return Utils.FromJson<AdvancedMessageResult>(msg);
-                    case DataTypeDef.DataType_Message:
-                        return Utils.FromJson<Message>(msg);
-                    case DataTypeDef.DataType_SearchMessagesResult:
-                        return Utils.FromJson<SearchMessageResult>(msg);
-                    case DataTypeDef.DataType_UserInfo:
-                        return Utils.FromJson<UserInfo>(msg);
-                    case DataTypeDef.DataType_UserInfo_List:
-                        return Utils.FromJson<List<UserInfo>>(msg);
-                    case DataTypeDef.DataType_PublicUserInfo:
-                        return Utils.FromJson<PublicUserInfo>(msg);
-                    case DataTypeDef.DataType_PublicUserInfo_List:
-                        return Utils.FromJson<List<PublicUserInfo>>(msg);
-                    case DataTypeDef.DataType_OnlineStatus:
-                        return Utils.FromJson<OnlineStatus>(msg);
-                    case DataTypeDef.DataType_OnlineStatus_List:
-                        return Utils.FromJson<List<OnlineStatus>>(msg);
-                    case DataTypeDef.DataType_SearchFriendItem:
-                        return Utils.FromJson<SearchFriendItem>(msg);
-                    case DataTypeDef.DataType_SearchFriendItem_List:
-                        return Utils.FromJson<List<SearchFriendItem>>(msg);
-                    case DataTypeDef.DataType_UserIDResult:
-                        return Utils.FromJson<UserIDResult>(msg);
-                    case DataTypeDef.DataType_UserIDResult_List:
-                        return Utils.FromJson<List<UserIDResult>>(msg);
-                    case DataTypeDef.DataType_FriendInfo:
-                        return Utils.FromJson<FriendInfo>(msg);
-                    case DataTypeDef.DataType_FriendInfo_List:
-                        return Utils.FromJson<List<FriendInfo>>(msg);
-                    case DataTypeDef.DataType_FriendApplicationInfo:
-                        return Utils.FromJson<FriendApplicationInfo>(msg);
-                    case DataTypeDef.DataType_FriendApplicationInfo_List:
-                        return Utils.FromJson<List<FriendApplicationInfo>>(msg);
-                    case DataTypeDef.DataType_BlackInfo:
-                        return Utils.FromJson<BlackInfo>(msg);
-                    case DataTypeDef.DataType_BlackInfo_List:
-                        return Utils.FromJson<List<BlackInfo>>(msg);
-                    case DataTypeDef.DataType_GroupInfo:
-                        return Utils.FromJson<GroupInfo>(msg);
-                    case DataTypeDef.DataType_GroupInfo_List:
-                        return Utils.FromJson<List<GroupInfo>>(msg);
-                    case DataTypeDef.DataType_GroupMember:
-                        return Utils.FromJson<GroupMember>(msg);
-                    case DataTypeDef.DataType_GroupMember_List:
-                        return Utils.FromJson<List<GroupMember>>(msg);
-                    case DataTypeDef.DataType_GroupApplicationInfo:
-                        return Utils.FromJson<GroupApplicationInfo>(msg);
-                    case DataTypeDef.DataType_GroupApplicationInfo_List:
-                        return Utils.FromJson<List<GroupApplicationInfo>>(msg);
-                }
-            }
-            return null;
         }
     }
 }

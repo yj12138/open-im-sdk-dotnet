@@ -1,46 +1,65 @@
-using System;
 using System.Runtime.InteropServices;
+using System.Text;
+using Google.Protobuf;
+using OpenIM.Proto;
 
 namespace OpenIM.IMSDK.Native
 {
-    delegate void MessageHandler(int id, IntPtr msg);
+    delegate void EventHandler(IntPtr dataPtr, int len);
     class NativeSDK
     {
         const string IMDLLName = "openimsdk";
 
         [DllImport(IMDLLName, CallingConvention = CallingConvention.Cdecl)]
-        static extern void set_msg_handler_func(MessageHandler handler);
+        static extern void ffi_init(EventHandler handler, int protocolType);
 
         [DllImport(IMDLLName, CallingConvention = CallingConvention.Cdecl)]
-        static extern IntPtr call_api(int apiKey, byte[] args);
+        static extern void ffi_request(byte[] data, int length);
 
         [DllImport(IMDLLName, CallingConvention = CallingConvention.Cdecl)]
-        static extern void free_data(IntPtr memPointer);
+        static extern void ffi_drop_handle(long handleId);
 
-        public static void SetMessageHandler(MessageHandler handler)
+
+        public static void Init(EventHandler handler)
         {
-            set_msg_handler_func(handler);
+            // 1 :json 2: use Protobuf
+            ffi_init(handler, 2);
         }
-        public static T CallAPI<T>(APIKey key, string apiArgs) where T : class
+        static int operationId = 0;
+        static string GetOperationId()
         {
-            Util.Utils.Log(string.Format("[{0}]->{1}", key, apiArgs));
-            byte[] args = System.Text.Encoding.UTF8.GetBytes(apiArgs);
-            IntPtr res = call_api((int)key, args);
-            var str = Marshal.PtrToStringUTF8(res);
-            free_data(res);
-            Util.Utils.Log(string.Format("[{0}]<-{1}", key, str));
+            operationId++;
+            return string.Format("{0}", operationId);
+        }
+        public static void CallAPI<T>(ulong handleId, FuncRequestEventName apiKey, T req) where T : IMessage
+        {
             try
             {
-                if (!string.IsNullOrEmpty(str))
+                FfiRequest request = new FfiRequest()
                 {
-                    return Util.Utils.FromJson<T>(str);
+                    OperationID = GetOperationId(),
+                    HandleID = handleId,
+                    FuncName = apiKey,
+                    Data = ByteString.CopyFrom(req.ToByteArray()),
+                };
+                byte[] byteArray;
+                using (var memoryStream = new MemoryStream())
+                {
+                    request.WriteTo(memoryStream);
+                    byteArray = memoryStream.ToArray();
+                    var str = Encoding.Default.GetString(byteArray);
+                    byte[] args = Encoding.UTF8.GetBytes(str);
+                    ffi_request(args, args.Length);
                 }
             }
             catch (Exception e)
             {
-                Util.Utils.Log(string.Format("Convert Type Error {0}:{1}", typeof(T), str), e.ToString());
+                Util.Utils.Log(e.ToString());
             }
-            return default;
+        }
+        public static void DropHandle(long handleId)
+        {
+            ffi_drop_handle(handleId);
         }
     }
 }
