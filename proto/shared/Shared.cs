@@ -31,250 +31,264 @@ namespace OpenIM.Proto {
             "LmNvbW1vbi5HbG9iYWxSZWN2TXNnT3B0EhAKCGF0dGFjaGVkGAcgASgJImgK",
             "C0NvbW1hbmRJbmZvEg4KBnVzZXJJRBgBIAEoCRIMCgR0eXBlGAIgASgFEhIK",
             "CmNyZWF0ZVRpbWUYAyABKAMSDAoEdXVpZBgEIAEoCRINCgV2YWx1ZRgFIAEo",
-            "CRIKCgJleBgGIAEoCSLbAQoISU1GcmllbmQSEwoLb3duZXJVc2VySUQYASAB",
+            "CRIKCgJleBgGIAEoCSL8AQoISU1GcmllbmQSEwoLb3duZXJVc2VySUQYASAB",
             "KAkSFAoMZnJpZW5kVXNlcklEGAIgASgJEg4KBnJlbWFyaxgDIAEoCRISCgpj",
-            "cmVhdGVUaW1lGAQgASgDEhEKCWFkZFNvdXJjZRgFIAEoBRIWCg5vcGVyYXRv",
-            "clVzZXJJRBgGIAEoCRIQCghuaWNrbmFtZRgHIAEoCRIPCgdmYWNlVVJMGAgg",
-            "ASgJEgoKAmV4GAkgASgJEhQKDGF0dGFjaGVkSW5mbxgKIAEoCRIQCghpc1Bp",
-            "bm5lZBgLIAEoCCKzAQoHSU1CbGFjaxITCgtvd25lclVzZXJJRBgBIAEoCRIT",
-            "CgtibG9ja1VzZXJJRBgCIAEoCRIQCghuaWNrbmFtZRgDIAEoCRIPCgdmYWNl",
-            "VVJMGAQgASgJEhIKCmNyZWF0ZVRpbWUYBSABKAMSEQoJYWRkU291cmNlGAYg",
-            "ASgFEhYKDm9wZXJhdG9yVXNlcklEGAcgASgJEgoKAmV4GAggASgJEhAKCGF0",
-            "dGFjaGVkGAkgASgJIqMCChNJTUZyaWVuZEFwcGxpY2F0aW9uEhIKCmZyb21V",
-            "c2VySUQYASABKAkSFAoMZnJvbU5pY2tuYW1lGAIgASgJEhMKC2Zyb21GYWNl",
-            "VVJMGAMgASgJEhAKCHRvVXNlcklEGAQgASgJEhIKCnRvTmlja25hbWUYBSAB",
-            "KAkSEQoJdG9GYWNlVVJMGAYgASgJEhQKDGhhbmRsZVJlc3VsdBgHIAEoBRIO",
-            "CgZyZXFNc2cYCCABKAkSEgoKY3JlYXRlVGltZRgJIAEoAxIVCg1oYW5kbGVy",
-            "VXNlcklEGAogASgJEhEKCWhhbmRsZU1zZxgLIAEoCRISCgpoYW5kbGVUaW1l",
-            "GAwgASgDEgoKAmV4GA0gASgJEhAKCGF0dGFjaGVkGA4gASgJIpcECgdJTUdy",
-            "b3VwEg8KB2dyb3VwSUQYASABKAkSEQoJZ3JvdXBOYW1lGAIgASgJEhQKDG5v",
-            "dGlmaWNhdGlvbhgDIAEoCRIUCgxpbnRyb2R1Y3Rpb24YBCABKAkSDwoHZmFj",
-            "ZVVSTBgFIAEoCRITCgtvd25lclVzZXJJRBgGIAEoCRISCgpjcmVhdGVUaW1l",
-            "GAcgASgDEhMKC21lbWJlckNvdW50GAggASgDEgoKAmV4GAkgASgJEi4KBnN0",
-            "YXR1cxgKIAEoDjIeLm9wZW5pbS5zZGsuc2hhcmVkLkdyb3VwU3RhdHVzEhUK",
-            "DWNyZWF0b3JVc2VySUQYCyABKAkSQgoQbmVlZFZlcmlmaWNhdGlvbhgMIAEo",
-            "DjIoLm9wZW5pbS5zZGsuc2hhcmVkLkdyb3VwTmVlZFZlcmlmaWNhdGlvbhI+",
-            "Cg5sb29rTWVtYmVySW5mbxgNIAEoDjImLm9wZW5pbS5zZGsuc2hhcmVkLkdy",
-            "b3VwTG9va01lbWJlckluZm8SRAoRYXBwbHlNZW1iZXJGcmllbmQYDiABKA4y",
-            "KS5vcGVuaW0uc2RrLnNoYXJlZC5Hcm91cEFwcGx5TWVtYmVyRnJpZW5kEh4K",
-            "Fm5vdGlmaWNhdGlvblVwZGF0ZVRpbWUYDyABKAMSGgoSbm90aWZpY2F0aW9u",
-            "VXNlcklEGBAgASgJEhQKDGF0dGFjaGVkSW5mbxgRIAEoCSKWAgoNSU1Hcm91",
-            "cE1lbWJlchIPCgdncm91cElEGAEgASgJEg4KBnVzZXJJRBgCIAEoCRIQCghu",
-            "aWNrbmFtZRgDIAEoCRIPCgdmYWNlVVJMGAQgASgJEhEKCXJvbGVMZXZlbBgF",
-            "IAEoBRIQCghqb2luVGltZRgGIAEoAxI2Cgpqb2luU291cmNlGAcgASgOMiIu",
-            "b3BlbmltLnNkay5zaGFyZWQuR3JvdXBKb2luU291cmNlEhUKDWludml0ZXJV",
-            "c2VySUQYCCABKAkSEwoLbXV0ZUVuZFRpbWUYCSABKAMSFgoOb3BlcmF0b3JV",
-            "c2VySUQYCiABKAkSCgoCZXgYCyABKAkSFAoMYXR0YWNoZWRJbmZvGAwgASgJ",
-            "Iv0DChJJTUdyb3VwQXBwbGljYXRpb24SDwoHZ3JvdXBJRBgBIAEoCRIRCgln",
-            "cm91cE5hbWUYAiABKAkSFAoMbm90aWZpY2F0aW9uGAMgASgJEhQKDGludHJv",
-            "ZHVjdGlvbhgEIAEoCRIUCgxncm91cEZhY2VVUkwYBSABKAkSEgoKY3JlYXRl",
-            "VGltZRgGIAEoAxIOCgZzdGF0dXMYByABKAUSFQoNY3JlYXRvclVzZXJJRBgI",
-            "IAEoCRITCgtvd25lclVzZXJJRBgJIAEoCRITCgttZW1iZXJDb3VudBgKIAEo",
-            "BRIOCgZ1c2VySUQYCyABKAkSEAoIbmlja25hbWUYDCABKAkSEwoLdXNlckZh",
-            "Y2VVUkwYDSABKAkSFAoMaGFuZGxlUmVzdWx0GA4gASgFEg4KBnJlcU1zZxgP",
-            "IAEoCRISCgpoYW5kbGVkTXNnGBAgASgJEg8KB3JlcVRpbWUYESABKAMSFAoM",
-            "aGFuZGxlVXNlcklEGBIgASgJEhMKC2hhbmRsZWRUaW1lGBMgASgDEgoKAmV4",
-            "GBQgASgJEhQKDGF0dGFjaGVkSW5mbxgVIAEoCRI2Cgpqb2luU291cmNlGBYg",
-            "ASgOMiIub3BlbmltLnNkay5zaGFyZWQuR3JvdXBKb2luU291cmNlEhUKDWlu",
-            "dml0ZXJVc2VySUQYFyABKAkinAQKDklNQ29udmVyc2F0aW9uEhYKDmNvbnZl",
-            "cnNhdGlvbklEGAEgASgJEjgKEGNvbnZlcnNhdGlvblR5cGUYAiABKA4yHi5v",
-            "cGVuaW0uc2RrLmNvbW1vbi5TZXNzaW9uVHlwZRIOCgZ1c2VySUQYAyABKAkS",
-            "DwoHZ3JvdXBJRBgEIAEoCRIQCghzaG93TmFtZRgFIAEoCRIPCgdmYWNlVVJM",
-            "GAYgASgJEjUKCnJlY3ZNc2dPcHQYByABKA4yIS5vcGVuaW0uc2RrLmNvbW1v",
-            "bi5Db252UmVjdk1zZ09wdBITCgt1bnJlYWRDb3VudBgIIAEoBRI3Cgtncm91",
-            "cEF0VHlwZRgJIAEoDjIiLm9wZW5pbS5zZGsuY29tbW9uLkNvbnZHcm91cEF0",
-            "VHlwZRIvCglsYXRlc3RNc2cYCiABKAsyHC5vcGVuaW0uc2RrLnNoYXJlZC5J",
-            "TU1lc3NhZ2USGQoRbGF0ZXN0TXNnU2VuZFRpbWUYCyABKAMSEQoJZHJhZnRU",
-            "ZXh0GAwgASgJEhUKDWRyYWZ0VGV4dFRpbWUYDSABKAMSEAoIaXNQaW5uZWQY",
-            "DiABKAgSFQoNaXNQcml2YXRlQ2hhdBgPIAEoCBIUCgxidXJuRHVyYXRpb24Y",
-            "ECABKAUSCgoCZXgYESABKAkSFwoPbXNnRGVzdHJ1Y3RUaW1lGBIgASgDEhUK",
-            "DWlzTXNnRGVzdHJ1Y3QYEyABKAgiMQoGQXRJbmZvEhAKCGF0VXNlcklEGAEg",
-            "ASgJEhUKDWdyb3VwTmlja25hbWUYAiABKAkiRgoJSW1hZ2VJbmZvEg0KBXdp",
-            "ZHRoGAEgASgFEg4KBmhlaWdodBgCIAEoBRIMCgR0eXBlGAMgASgJEgwKBHNp",
-            "emUYBCABKAMiZwoPUGljdHVyZUJhc2VJbmZvEgwKBHV1aWQYASABKAkSDAoE",
-            "dHlwZRgCIAEoCRIMCgRzaXplGAMgASgDEg0KBXdpZHRoGAQgASgFEg4KBmhl",
-            "aWdodBgFIAEoBRILCgN1cmwYBiABKAkiegoNU291bmRCYXNlSW5mbxIMCgR1",
-            "dWlkGAEgASgJEhEKCXNvdW5kUGF0aBgCIAEoCRIRCglzb3VyY2VVUkwYAyAB",
-            "KAkSEAoIZGF0YVNpemUYBCABKAMSEAoIZHVyYXRpb24YBSABKAMSEQoJc291",
-            "bmRUeXBlGAYgASgJIpsCCg1WaWRlb0Jhc2VJbmZvEhEKCXZpZGVvUGF0aBgB",
-            "IAEoCRIRCgl2aWRlb1VVSUQYAiABKAkSEAoIdmlkZW9VUkwYAyABKAkSEQoJ",
-            "dmlkZW9UeXBlGAQgASgJEhEKCXZpZGVvU2l6ZRgFIAEoAxIQCghkdXJhdGlv",
-            "bhgGIAEoAxIUCgxzbmFwc2hvdFBhdGgYByABKAkSFAoMc25hcHNob3RVVUlE",
-            "GAggASgJEhQKDHNuYXBzaG90U2l6ZRgJIAEoAxITCgtzbmFwc2hvdFVSTBgK",
-            "IAEoCRIVCg1zbmFwc2hvdFdpZHRoGAsgASgFEhYKDnNuYXBzaG90SGVpZ2h0",
-            "GAwgASgFEhQKDHNuYXBzaG90VHlwZRgNIAEoCSJ3CgxGaWxlQmFzZUluZm8S",
-            "EAoIZmlsZVBhdGgYASABKAkSDAoEdXVpZBgCIAEoCRIRCglzb3VyY2VVUkwY",
-            "AyABKAkSEAoIZmlsZU5hbWUYBCABKAkSEAoIZmlsZVNpemUYBSABKAMSEAoI",
-            "ZmlsZVR5cGUYBiABKAkiGwoIVGV4dEVsZW0SDwoHY29udGVudBgBIAEoCSJJ",
-            "CghDYXJkRWxlbRIOCgZ1c2VySUQYASABKAkSEAoIbmlja25hbWUYAiABKAkS",
-            "DwoHZmFjZVVSTBgDIAEoCRIKCgJleBgEIAEoCSLRAQoLUGljdHVyZUVsZW0S",
-            "EgoKc291cmNlUGF0aBgBIAEoCRI5Cg1zb3VyY2VQaWN0dXJlGAIgASgLMiIu",
-            "b3BlbmltLnNkay5zaGFyZWQuUGljdHVyZUJhc2VJbmZvEjYKCmJpZ1BpY3R1",
-            "cmUYAyABKAsyIi5vcGVuaW0uc2RrLnNoYXJlZC5QaWN0dXJlQmFzZUluZm8S",
-            "OwoPc25hcHNob3RQaWN0dXJlGAQgASgLMiIub3BlbmltLnNkay5zaGFyZWQu",
-            "UGljdHVyZUJhc2VJbmZvInYKCVNvdW5kRWxlbRIMCgR1dWlkGAEgASgJEhEK",
-            "CXNvdW5kUGF0aBgCIAEoCRIRCglzb3VyY2VVUkwYAyABKAkSEAoIZGF0YVNp",
-            "emUYBCABKAMSEAoIZHVyYXRpb24YBSABKAMSEQoJc291bmRUeXBlGAYgASgJ",
-            "IpcCCglWaWRlb0VsZW0SEQoJdmlkZW9QYXRoGAEgASgJEhEKCXZpZGVvVVVJ",
-            "RBgCIAEoCRIQCgh2aWRlb1VSTBgDIAEoCRIRCgl2aWRlb1R5cGUYBCABKAkS",
-            "EQoJdmlkZW9TaXplGAUgASgDEhAKCGR1cmF0aW9uGAYgASgDEhQKDHNuYXBz",
-            "aG90UGF0aBgHIAEoCRIUCgxzbmFwc2hvdFVVSUQYCCABKAkSFAoMc25hcHNo",
-            "b3RTaXplGAkgASgDEhMKC3NuYXBzaG90VVJMGAogASgJEhUKDXNuYXBzaG90",
-            "V2lkdGgYCyABKAUSFgoOc25hcHNob3RIZWlnaHQYDCABKAUSFAoMc25hcHNo",
-            "b3RUeXBlGA0gASgJInMKCEZpbGVFbGVtEhAKCGZpbGVQYXRoGAEgASgJEgwK",
-            "BHV1aWQYAiABKAkSEQoJc291cmNlVVJMGAMgASgJEhAKCGZpbGVOYW1lGAQg",
-            "ASgJEhAKCGZpbGVTaXplGAUgASgDEhAKCGZpbGVUeXBlGAYgASgJIlYKDU1l",
-            "c3NhZ2VFbnRpdHkSDAoEdHlwZRgBIAEoCRIOCgZvZmZzZXQYAiABKAUSDgoG",
-            "bGVuZ3RoGAMgASgFEgsKA3VybBgEIAEoCRIKCgJleBgFIAEoCSKhAQoJTWVy",
-            "Z2VFbGVtEg0KBXRpdGxlGAEgASgJEhQKDGFic3RyYWN0TGlzdBgCIAMoCRIy",
-            "CgxtdWx0aU1lc3NhZ2UYAyADKAsyHC5vcGVuaW0uc2RrLnNoYXJlZC5JTU1l",
-            "c3NhZ2USOwoRbWVzc2FnZUVudGl0eUxpc3QYBCADKAsyIC5vcGVuaW0uc2Rr",
-            "LnNoYXJlZC5NZXNzYWdlRW50aXR5IqQBCgpBdFRleHRFbGVtEgwKBHRleHQY",
-            "ASABKAkSEgoKYXRVc2VyTGlzdBgCIAMoCRIuCgthdFVzZXJzSW5mbxgDIAMo",
-            "CzIZLm9wZW5pbS5zZGsuc2hhcmVkLkF0SW5mbxIyCgxxdW90ZU1lc3NhZ2UY",
-            "BCABKAsyHC5vcGVuaW0uc2RrLnNoYXJlZC5JTU1lc3NhZ2USEAoIaXNBdFNl",
-            "bGYYBSABKAgiJwoIRmFjZUVsZW0SDQoFaW5kZXgYASABKAUSDAoEZGF0YRgC",
-            "IAEoCSJICgxMb2NhdGlvbkVsZW0SEwoLZGVzY3JpcHRpb24YASABKAkSEQoJ",
-            "bG9uZ2l0dWRlGAIgASgBEhAKCGxhdGl0dWRlGAMgASgBIkIKCkN1c3RvbUVs",
-            "ZW0SDAoEZGF0YRgBIAEoCRITCgtkZXNjcmlwdGlvbhgCIAEoCRIRCglleHRl",
-            "bnNpb24YAyABKAkiigEKCVF1b3RlRWxlbRIMCgR0ZXh0GAEgASgJEjIKDHF1",
-            "b3RlTWVzc2FnZRgCIAEoCzIcLm9wZW5pbS5zZGsuc2hhcmVkLklNTWVzc2Fn",
-            "ZRI7ChFtZXNzYWdlRW50aXR5TGlzdBgDIAMoCzIgLm9wZW5pbS5zZGsuc2hh",
-            "cmVkLk1lc3NhZ2VFbnRpdHkiXQoQQWR2YW5jZWRUZXh0RWxlbRIMCgR0ZXh0",
-            "GAEgASgJEjsKEW1lc3NhZ2VFbnRpdHlMaXN0GAIgAygLMiAub3BlbmltLnNk",
-            "ay5zaGFyZWQuTWVzc2FnZUVudGl0eSIdCgpUeXBpbmdFbGVtEg8KB21zZ1Rp",
-            "cHMYASABKAkiSQoKU3RyZWFtRWxlbRIMCgR0eXBlGAEgASgJEg8KB2NvbnRl",
-            "bnQYAiABKAkSDwoHcGFja2V0cxgDIAMoCRILCgNlbmQYBCABKAgiUAoOVXBs",
-            "b2FkUHJvZ3Jlc3MSDQoFdG90YWwYASABKAMSDAoEc2F2ZRgCIAEoAxIPCgdj",
-            "dXJyZW50GAMgASgDEhAKCHVwbG9hZElEGAQgASgJIokBChBBdHRhY2hlZElu",
-            "Zm9FbGVtEhUKDWlzUHJpdmF0ZUNoYXQYASABKAgSFAoMYnVybkR1cmF0aW9u",
-            "GAIgASgFEhMKC2hhc1JlYWRUaW1lGAMgASgDEjMKCHByb2dyZXNzGAQgASgL",
-            "MiEub3BlbmltLnNkay5zaGFyZWQuVXBsb2FkUHJvZ3Jlc3Mi9gEKEEdyb3Vw",
-            "Q3JlYXRlZFRpcHMSKQoFZ3JvdXAYASABKAsyGi5vcGVuaW0uc2RrLnNoYXJl",
-            "ZC5JTUdyb3VwEjAKBm9wVXNlchgCIAEoCzIgLm9wZW5pbS5zZGsuc2hhcmVk",
-            "LklNR3JvdXBNZW1iZXISNAoKbWVtYmVyTGlzdBgDIAMoCzIgLm9wZW5pbS5z",
-            "ZGsuc2hhcmVkLklNR3JvdXBNZW1iZXISFQoNb3BlcmF0aW9uVGltZRgEIAEo",
-            "AxI4Cg5ncm91cE93bmVyVXNlchgFIAEoCzIgLm9wZW5pbS5zZGsuc2hhcmVk",
-            "LklNR3JvdXBNZW1iZXIihgEKDk1lbWJlclF1aXRUaXBzEikKBWdyb3VwGAEg",
-            "ASgLMhoub3BlbmltLnNkay5zaGFyZWQuSU1Hcm91cBIyCghxdWl0VXNlchgC",
+            "cmVhdGVUaW1lGAQgASgDEjIKCWFkZFNvdXJjZRgFIAEoDjIfLm9wZW5pbS5z",
+            "ZGsuY29tbW9uLkZyaWVuZFNvdXJjZRIWCg5vcGVyYXRvclVzZXJJRBgGIAEo",
+            "CRIQCghuaWNrbmFtZRgHIAEoCRIPCgdmYWNlVVJMGAggASgJEgoKAmV4GAkg",
+            "ASgJEhQKDGF0dGFjaGVkSW5mbxgKIAEoCRIQCghpc1Bpbm5lZBgLIAEoCCLU",
+            "AQoHSU1CbGFjaxITCgtvd25lclVzZXJJRBgBIAEoCRITCgtibG9ja1VzZXJJ",
+            "RBgCIAEoCRIQCghuaWNrbmFtZRgDIAEoCRIPCgdmYWNlVVJMGAQgASgJEhIK",
+            "CmNyZWF0ZVRpbWUYBSABKAMSMgoJYWRkU291cmNlGAYgASgOMh8ub3Blbmlt",
+            "LnNkay5jb21tb24uRnJpZW5kU291cmNlEhYKDm9wZXJhdG9yVXNlcklEGAcg",
+            "ASgJEgoKAmV4GAggASgJEhAKCGF0dGFjaGVkGAkgASgJIsQCChNJTUZyaWVu",
+            "ZEFwcGxpY2F0aW9uEhIKCmZyb21Vc2VySUQYASABKAkSFAoMZnJvbU5pY2tu",
+            "YW1lGAIgASgJEhMKC2Zyb21GYWNlVVJMGAMgASgJEhAKCHRvVXNlcklEGAQg",
+            "ASgJEhIKCnRvTmlja25hbWUYBSABKAkSEQoJdG9GYWNlVVJMGAYgASgJEjUK",
+            "DGhhbmRsZVJlc3VsdBgHIAEoDjIfLm9wZW5pbS5zZGsuY29tbW9uLkhhbmRs",
+            "ZVJlc3VsdBIOCgZyZXFNc2cYCCABKAkSEgoKY3JlYXRlVGltZRgJIAEoAxIV",
+            "Cg1oYW5kbGVyVXNlcklEGAogASgJEhEKCWhhbmRsZU1zZxgLIAEoCRISCgpo",
+            "YW5kbGVUaW1lGAwgASgDEgoKAmV4GA0gASgJEhAKCGF0dGFjaGVkGA4gASgJ",
+            "IpcECgdJTUdyb3VwEg8KB2dyb3VwSUQYASABKAkSEQoJZ3JvdXBOYW1lGAIg",
+            "ASgJEhQKDG5vdGlmaWNhdGlvbhgDIAEoCRIUCgxpbnRyb2R1Y3Rpb24YBCAB",
+            "KAkSDwoHZmFjZVVSTBgFIAEoCRITCgtvd25lclVzZXJJRBgGIAEoCRISCgpj",
+            "cmVhdGVUaW1lGAcgASgDEhMKC21lbWJlckNvdW50GAggASgDEgoKAmV4GAkg",
+            "ASgJEi4KBnN0YXR1cxgKIAEoDjIeLm9wZW5pbS5zZGsuc2hhcmVkLkdyb3Vw",
+            "U3RhdHVzEhUKDWNyZWF0b3JVc2VySUQYCyABKAkSQgoQbmVlZFZlcmlmaWNh",
+            "dGlvbhgMIAEoDjIoLm9wZW5pbS5zZGsuc2hhcmVkLkdyb3VwTmVlZFZlcmlm",
+            "aWNhdGlvbhI+Cg5sb29rTWVtYmVySW5mbxgNIAEoDjImLm9wZW5pbS5zZGsu",
+            "c2hhcmVkLkdyb3VwTG9va01lbWJlckluZm8SRAoRYXBwbHlNZW1iZXJGcmll",
+            "bmQYDiABKA4yKS5vcGVuaW0uc2RrLnNoYXJlZC5Hcm91cEFwcGx5TWVtYmVy",
+            "RnJpZW5kEh4KFm5vdGlmaWNhdGlvblVwZGF0ZVRpbWUYDyABKAMSGgoSbm90",
+            "aWZpY2F0aW9uVXNlcklEGBAgASgJEhQKDGF0dGFjaGVkSW5mbxgRIAEoCSKW",
+            "AgoNSU1Hcm91cE1lbWJlchIPCgdncm91cElEGAEgASgJEg4KBnVzZXJJRBgC",
+            "IAEoCRIQCghuaWNrbmFtZRgDIAEoCRIPCgdmYWNlVVJMGAQgASgJEhEKCXJv",
+            "bGVMZXZlbBgFIAEoBRIQCghqb2luVGltZRgGIAEoAxI2Cgpqb2luU291cmNl",
+            "GAcgASgOMiIub3BlbmltLnNkay5zaGFyZWQuR3JvdXBKb2luU291cmNlEhUK",
+            "DWludml0ZXJVc2VySUQYCCABKAkSEwoLbXV0ZUVuZFRpbWUYCSABKAMSFgoO",
+            "b3BlcmF0b3JVc2VySUQYCiABKAkSCgoCZXgYCyABKAkSFAoMYXR0YWNoZWRJ",
+            "bmZvGAwgASgJIp4EChJJTUdyb3VwQXBwbGljYXRpb24SDwoHZ3JvdXBJRBgB",
+            "IAEoCRIRCglncm91cE5hbWUYAiABKAkSFAoMbm90aWZpY2F0aW9uGAMgASgJ",
+            "EhQKDGludHJvZHVjdGlvbhgEIAEoCRIUCgxncm91cEZhY2VVUkwYBSABKAkS",
+            "EgoKY3JlYXRlVGltZRgGIAEoAxIOCgZzdGF0dXMYByABKAUSFQoNY3JlYXRv",
+            "clVzZXJJRBgIIAEoCRITCgtvd25lclVzZXJJRBgJIAEoCRITCgttZW1iZXJD",
+            "b3VudBgKIAEoBRIOCgZ1c2VySUQYCyABKAkSEAoIbmlja25hbWUYDCABKAkS",
+            "EwoLdXNlckZhY2VVUkwYDSABKAkSNQoMaGFuZGxlUmVzdWx0GA4gASgOMh8u",
+            "b3BlbmltLnNkay5jb21tb24uSGFuZGxlUmVzdWx0Eg4KBnJlcU1zZxgPIAEo",
+            "CRISCgpoYW5kbGVkTXNnGBAgASgJEg8KB3JlcVRpbWUYESABKAMSFAoMaGFu",
+            "ZGxlVXNlcklEGBIgASgJEhMKC2hhbmRsZWRUaW1lGBMgASgDEgoKAmV4GBQg",
+            "ASgJEhQKDGF0dGFjaGVkSW5mbxgVIAEoCRI2Cgpqb2luU291cmNlGBYgASgO",
+            "MiIub3BlbmltLnNkay5zaGFyZWQuR3JvdXBKb2luU291cmNlEhUKDWludml0",
+            "ZXJVc2VySUQYFyABKAki7AMKDklNQ29udmVyc2F0aW9uEhYKDmNvbnZlcnNh",
+            "dGlvbklEGAEgASgJEjgKEGNvbnZlcnNhdGlvblR5cGUYAiABKA4yHi5vcGVu",
+            "aW0uc2RrLmNvbW1vbi5TZXNzaW9uVHlwZRIOCgZ1c2VySUQYAyABKAkSDwoH",
+            "Z3JvdXBJRBgEIAEoCRIQCghzaG93TmFtZRgFIAEoCRIPCgdmYWNlVVJMGAYg",
+            "ASgJEjUKCnJlY3ZNc2dPcHQYByABKA4yIS5vcGVuaW0uc2RrLmNvbW1vbi5D",
+            "b252UmVjdk1zZ09wdBITCgt1bnJlYWRDb3VudBgIIAEoBRI3Cgtncm91cEF0",
+            "VHlwZRgJIAEoDjIiLm9wZW5pbS5zZGsuY29tbW9uLkNvbnZHcm91cEF0VHlw",
+            "ZRIvCglsYXRlc3RNc2cYCiABKAsyHC5vcGVuaW0uc2RrLnNoYXJlZC5JTU1l",
+            "c3NhZ2USGQoRbGF0ZXN0TXNnU2VuZFRpbWUYCyABKAMSEQoJZHJhZnRUZXh0",
+            "GAwgASgJEhUKDWRyYWZ0VGV4dFRpbWUYDSABKAMSEAoIaXNQaW5uZWQYDiAB",
+            "KAgSFQoNaXNQcml2YXRlQ2hhdBgPIAEoCBIUCgxidXJuRHVyYXRpb24YECAB",
+            "KAUSCgoCZXgYESABKAkiMQoGQXRJbmZvEhAKCGF0VXNlcklEGAEgASgJEhUK",
+            "DWdyb3VwTmlja25hbWUYAiABKAkiRgoJSW1hZ2VJbmZvEg0KBXdpZHRoGAEg",
+            "ASgFEg4KBmhlaWdodBgCIAEoBRIMCgR0eXBlGAMgASgJEgwKBHNpemUYBCAB",
+            "KAMiZwoPUGljdHVyZUJhc2VJbmZvEgwKBHV1aWQYASABKAkSDAoEdHlwZRgC",
+            "IAEoCRIMCgRzaXplGAMgASgDEg0KBXdpZHRoGAQgASgFEg4KBmhlaWdodBgF",
+            "IAEoBRILCgN1cmwYBiABKAkiegoNU291bmRCYXNlSW5mbxIMCgR1dWlkGAEg",
+            "ASgJEhEKCXNvdW5kUGF0aBgCIAEoCRIRCglzb3VyY2VVUkwYAyABKAkSEAoI",
+            "ZGF0YVNpemUYBCABKAMSEAoIZHVyYXRpb24YBSABKAMSEQoJc291bmRUeXBl",
+            "GAYgASgJIpsCCg1WaWRlb0Jhc2VJbmZvEhEKCXZpZGVvUGF0aBgBIAEoCRIR",
+            "Cgl2aWRlb1VVSUQYAiABKAkSEAoIdmlkZW9VUkwYAyABKAkSEQoJdmlkZW9U",
+            "eXBlGAQgASgJEhEKCXZpZGVvU2l6ZRgFIAEoAxIQCghkdXJhdGlvbhgGIAEo",
+            "AxIUCgxzbmFwc2hvdFBhdGgYByABKAkSFAoMc25hcHNob3RVVUlEGAggASgJ",
+            "EhQKDHNuYXBzaG90U2l6ZRgJIAEoAxITCgtzbmFwc2hvdFVSTBgKIAEoCRIV",
+            "Cg1zbmFwc2hvdFdpZHRoGAsgASgFEhYKDnNuYXBzaG90SGVpZ2h0GAwgASgF",
+            "EhQKDHNuYXBzaG90VHlwZRgNIAEoCSJ3CgxGaWxlQmFzZUluZm8SEAoIZmls",
+            "ZVBhdGgYASABKAkSDAoEdXVpZBgCIAEoCRIRCglzb3VyY2VVUkwYAyABKAkS",
+            "EAoIZmlsZU5hbWUYBCABKAkSEAoIZmlsZVNpemUYBSABKAMSEAoIZmlsZVR5",
+            "cGUYBiABKAkiGwoIVGV4dEVsZW0SDwoHY29udGVudBgBIAEoCSJJCghDYXJk",
+            "RWxlbRIOCgZ1c2VySUQYASABKAkSEAoIbmlja25hbWUYAiABKAkSDwoHZmFj",
+            "ZVVSTBgDIAEoCRIKCgJleBgEIAEoCSLRAQoLUGljdHVyZUVsZW0SEgoKc291",
+            "cmNlUGF0aBgBIAEoCRI5Cg1zb3VyY2VQaWN0dXJlGAIgASgLMiIub3Blbmlt",
+            "LnNkay5zaGFyZWQuUGljdHVyZUJhc2VJbmZvEjYKCmJpZ1BpY3R1cmUYAyAB",
+            "KAsyIi5vcGVuaW0uc2RrLnNoYXJlZC5QaWN0dXJlQmFzZUluZm8SOwoPc25h",
+            "cHNob3RQaWN0dXJlGAQgASgLMiIub3BlbmltLnNkay5zaGFyZWQuUGljdHVy",
+            "ZUJhc2VJbmZvInYKCVNvdW5kRWxlbRIMCgR1dWlkGAEgASgJEhEKCXNvdW5k",
+            "UGF0aBgCIAEoCRIRCglzb3VyY2VVUkwYAyABKAkSEAoIZGF0YVNpemUYBCAB",
+            "KAMSEAoIZHVyYXRpb24YBSABKAMSEQoJc291bmRUeXBlGAYgASgJIpcCCglW",
+            "aWRlb0VsZW0SEQoJdmlkZW9QYXRoGAEgASgJEhEKCXZpZGVvVVVJRBgCIAEo",
+            "CRIQCgh2aWRlb1VSTBgDIAEoCRIRCgl2aWRlb1R5cGUYBCABKAkSEQoJdmlk",
+            "ZW9TaXplGAUgASgDEhAKCGR1cmF0aW9uGAYgASgDEhQKDHNuYXBzaG90UGF0",
+            "aBgHIAEoCRIUCgxzbmFwc2hvdFVVSUQYCCABKAkSFAoMc25hcHNob3RTaXpl",
+            "GAkgASgDEhMKC3NuYXBzaG90VVJMGAogASgJEhUKDXNuYXBzaG90V2lkdGgY",
+            "CyABKAUSFgoOc25hcHNob3RIZWlnaHQYDCABKAUSFAoMc25hcHNob3RUeXBl",
+            "GA0gASgJInMKCEZpbGVFbGVtEhAKCGZpbGVQYXRoGAEgASgJEgwKBHV1aWQY",
+            "AiABKAkSEQoJc291cmNlVVJMGAMgASgJEhAKCGZpbGVOYW1lGAQgASgJEhAK",
+            "CGZpbGVTaXplGAUgASgDEhAKCGZpbGVUeXBlGAYgASgJIlYKDU1lc3NhZ2VF",
+            "bnRpdHkSDAoEdHlwZRgBIAEoCRIOCgZvZmZzZXQYAiABKAUSDgoGbGVuZ3Ro",
+            "GAMgASgFEgsKA3VybBgEIAEoCRIKCgJleBgFIAEoCSKhAQoJTWVyZ2VFbGVt",
+            "Eg0KBXRpdGxlGAEgASgJEhQKDGFic3RyYWN0TGlzdBgCIAMoCRIyCgxtdWx0",
+            "aU1lc3NhZ2UYAyADKAsyHC5vcGVuaW0uc2RrLnNoYXJlZC5JTU1lc3NhZ2US",
+            "OwoRbWVzc2FnZUVudGl0eUxpc3QYBCADKAsyIC5vcGVuaW0uc2RrLnNoYXJl",
+            "ZC5NZXNzYWdlRW50aXR5IqQBCgpBdFRleHRFbGVtEgwKBHRleHQYASABKAkS",
+            "EgoKYXRVc2VyTGlzdBgCIAMoCRIuCgthdFVzZXJzSW5mbxgDIAMoCzIZLm9w",
+            "ZW5pbS5zZGsuc2hhcmVkLkF0SW5mbxIyCgxxdW90ZU1lc3NhZ2UYBCABKAsy",
+            "HC5vcGVuaW0uc2RrLnNoYXJlZC5JTU1lc3NhZ2USEAoIaXNBdFNlbGYYBSAB",
+            "KAgiJwoIRmFjZUVsZW0SDQoFaW5kZXgYASABKAUSDAoEZGF0YRgCIAEoCSJI",
+            "CgxMb2NhdGlvbkVsZW0SEwoLZGVzY3JpcHRpb24YASABKAkSEQoJbG9uZ2l0",
+            "dWRlGAIgASgBEhAKCGxhdGl0dWRlGAMgASgBIkIKCkN1c3RvbUVsZW0SDAoE",
+            "ZGF0YRgBIAEoCRITCgtkZXNjcmlwdGlvbhgCIAEoCRIRCglleHRlbnNpb24Y",
+            "AyABKAkiigEKCVF1b3RlRWxlbRIMCgR0ZXh0GAEgASgJEjIKDHF1b3RlTWVz",
+            "c2FnZRgCIAEoCzIcLm9wZW5pbS5zZGsuc2hhcmVkLklNTWVzc2FnZRI7ChFt",
+            "ZXNzYWdlRW50aXR5TGlzdBgDIAMoCzIgLm9wZW5pbS5zZGsuc2hhcmVkLk1l",
+            "c3NhZ2VFbnRpdHkiXQoQQWR2YW5jZWRUZXh0RWxlbRIMCgR0ZXh0GAEgASgJ",
+            "EjsKEW1lc3NhZ2VFbnRpdHlMaXN0GAIgAygLMiAub3BlbmltLnNkay5zaGFy",
+            "ZWQuTWVzc2FnZUVudGl0eSIdCgpUeXBpbmdFbGVtEg8KB21zZ1RpcHMYASAB",
+            "KAkiSQoKU3RyZWFtRWxlbRIMCgR0eXBlGAEgASgJEg8KB2NvbnRlbnQYAiAB",
+            "KAkSDwoHcGFja2V0cxgDIAMoCRILCgNlbmQYBCABKAgiUAoOVXBsb2FkUHJv",
+            "Z3Jlc3MSDQoFdG90YWwYASABKAMSDAoEc2F2ZRgCIAEoAxIPCgdjdXJyZW50",
+            "GAMgASgDEhAKCHVwbG9hZElEGAQgASgJIokBChBBdHRhY2hlZEluZm9FbGVt",
+            "EhUKDWlzUHJpdmF0ZUNoYXQYASABKAgSFAoMYnVybkR1cmF0aW9uGAIgASgF",
+            "EhMKC2hhc1JlYWRUaW1lGAMgASgDEjMKCHByb2dyZXNzGAQgASgLMiEub3Bl",
+            "bmltLnNkay5zaGFyZWQuVXBsb2FkUHJvZ3Jlc3Mi9gEKEEdyb3VwQ3JlYXRl",
+            "ZFRpcHMSKQoFZ3JvdXAYASABKAsyGi5vcGVuaW0uc2RrLnNoYXJlZC5JTUdy",
+            "b3VwEjAKBm9wVXNlchgCIAEoCzIgLm9wZW5pbS5zZGsuc2hhcmVkLklNR3Jv",
+            "dXBNZW1iZXISNAoKbWVtYmVyTGlzdBgDIAMoCzIgLm9wZW5pbS5zZGsuc2hh",
+            "cmVkLklNR3JvdXBNZW1iZXISFQoNb3BlcmF0aW9uVGltZRgEIAEoAxI4Cg5n",
+            "cm91cE93bmVyVXNlchgFIAEoCzIgLm9wZW5pbS5zZGsuc2hhcmVkLklNR3Jv",
+            "dXBNZW1iZXIicwoUR3JvdXBJbmZvU2V0TmFtZVRpcHMSMAoGb3BVc2VyGAEg",
+            "ASgLMiAub3BlbmltLnNkay5zaGFyZWQuSU1Hcm91cE1lbWJlchIpCgVncm91",
+            "cBgCIAEoCzIaLm9wZW5pbS5zZGsuc2hhcmVkLklNR3JvdXAitQEKHEdyb3Vw",
+            "SW5mb1NldEFubm91bmNlbWVudFRpcHMSMAoGb3BVc2VyGAEgASgLMiAub3Bl",
+            "bmltLnNkay5zaGFyZWQuSU1Hcm91cE1lbWJlchIpCgVncm91cBgCIAEoCzIa",
+            "Lm9wZW5pbS5zZGsuc2hhcmVkLklNR3JvdXASGgoSZ3JvdXBNZW1iZXJWZXJz",
+            "aW9uGAMgASgEEhwKFGdyb3VwTWVtYmVyVmVyc2lvbklEGAQgASgJIoYBCg5N",
+            "ZW1iZXJRdWl0VGlwcxIpCgVncm91cBgBIAEoCzIaLm9wZW5pbS5zZGsuc2hh",
+            "cmVkLklNR3JvdXASMgoIcXVpdFVzZXIYAiABKAsyIC5vcGVuaW0uc2RrLnNo",
+            "YXJlZC5JTUdyb3VwTWVtYmVyEhUKDW9wZXJhdGlvblRpbWUYAyABKAMinAIK",
+            "GUdyb3VwT3duZXJUcmFuc2ZlcnJlZFRpcHMSKQoFZ3JvdXAYASABKAsyGi5v",
+            "cGVuaW0uc2RrLnNoYXJlZC5JTUdyb3VwEjAKBm9wVXNlchgCIAEoCzIgLm9w",
+            "ZW5pbS5zZGsuc2hhcmVkLklNR3JvdXBNZW1iZXISNwoNbmV3R3JvdXBPd25l",
+            "chgDIAEoCzIgLm9wZW5pbS5zZGsuc2hhcmVkLklNR3JvdXBNZW1iZXISFQoN",
+            "b2xkR3JvdXBPd25lchgEIAEoCRIVCg1vcGVyYXRpb25UaW1lGAUgASgDEjsK",
+            "EW9sZEdyb3VwT3duZXJJbmZvGAYgASgLMiAub3BlbmltLnNkay5zaGFyZWQu",
+            "SU1Hcm91cE1lbWJlciLAAQoQTWVtYmVyS2lja2VkVGlwcxIpCgVncm91cBgB",
+            "IAEoCzIaLm9wZW5pbS5zZGsuc2hhcmVkLklNR3JvdXASMAoGb3BVc2VyGAIg",
+            "ASgLMiAub3BlbmltLnNkay5zaGFyZWQuSU1Hcm91cE1lbWJlchI4Cg5raWNr",
+            "ZWRVc2VyTGlzdBgDIAMoCzIgLm9wZW5pbS5zZGsuc2hhcmVkLklNR3JvdXBN",
+            "ZW1iZXISFQoNb3BlcmF0aW9uVGltZRgEIAEoAyL5AQoRTWVtYmVySW52aXRl",
+            "ZFRpcHMSKQoFZ3JvdXAYASABKAsyGi5vcGVuaW0uc2RrLnNoYXJlZC5JTUdy",
+            "b3VwEjAKBm9wVXNlchgCIAEoCzIgLm9wZW5pbS5zZGsuc2hhcmVkLklNR3Jv",
+            "dXBNZW1iZXISOQoPaW52aXRlZFVzZXJMaXN0GAMgAygLMiAub3BlbmltLnNk",
+            "ay5zaGFyZWQuSU1Hcm91cE1lbWJlchIVCg1vcGVyYXRpb25UaW1lGAQgASgD",
+            "EjUKC2ludml0ZXJVc2VyGAcgASgLMiAub3BlbmltLnNkay5zaGFyZWQuSU1H",
+            "cm91cE1lbWJlciKKAQoPTWVtYmVyRW50ZXJUaXBzEikKBWdyb3VwGAEgASgL",
+            "Mhoub3BlbmltLnNkay5zaGFyZWQuSU1Hcm91cBI1CgtlbnRyYW50VXNlchgC",
             "IAEoCzIgLm9wZW5pbS5zZGsuc2hhcmVkLklNR3JvdXBNZW1iZXISFQoNb3Bl",
-            "cmF0aW9uVGltZRgDIAEoAyKcAgoZR3JvdXBPd25lclRyYW5zZmVycmVkVGlw",
-            "cxIpCgVncm91cBgBIAEoCzIaLm9wZW5pbS5zZGsuc2hhcmVkLklNR3JvdXAS",
-            "MAoGb3BVc2VyGAIgASgLMiAub3BlbmltLnNkay5zaGFyZWQuSU1Hcm91cE1l",
-            "bWJlchI3Cg1uZXdHcm91cE93bmVyGAMgASgLMiAub3BlbmltLnNkay5zaGFy",
-            "ZWQuSU1Hcm91cE1lbWJlchIVCg1vbGRHcm91cE93bmVyGAQgASgJEhUKDW9w",
-            "ZXJhdGlvblRpbWUYBSABKAMSOwoRb2xkR3JvdXBPd25lckluZm8YBiABKAsy",
-            "IC5vcGVuaW0uc2RrLnNoYXJlZC5JTUdyb3VwTWVtYmVyIsABChBNZW1iZXJL",
-            "aWNrZWRUaXBzEikKBWdyb3VwGAEgASgLMhoub3BlbmltLnNkay5zaGFyZWQu",
-            "SU1Hcm91cBIwCgZvcFVzZXIYAiABKAsyIC5vcGVuaW0uc2RrLnNoYXJlZC5J",
-            "TUdyb3VwTWVtYmVyEjgKDmtpY2tlZFVzZXJMaXN0GAMgAygLMiAub3Blbmlt",
-            "LnNkay5zaGFyZWQuSU1Hcm91cE1lbWJlchIVCg1vcGVyYXRpb25UaW1lGAQg",
-            "ASgDIvkBChFNZW1iZXJJbnZpdGVkVGlwcxIpCgVncm91cBgBIAEoCzIaLm9w",
-            "ZW5pbS5zZGsuc2hhcmVkLklNR3JvdXASMAoGb3BVc2VyGAIgASgLMiAub3Bl",
-            "bmltLnNkay5zaGFyZWQuSU1Hcm91cE1lbWJlchI5Cg9pbnZpdGVkVXNlckxp",
-            "c3QYAyADKAsyIC5vcGVuaW0uc2RrLnNoYXJlZC5JTUdyb3VwTWVtYmVyEhUK",
-            "DW9wZXJhdGlvblRpbWUYBCABKAMSNQoLaW52aXRlclVzZXIYByABKAsyIC5v",
-            "cGVuaW0uc2RrLnNoYXJlZC5JTUdyb3VwTWVtYmVyIooBCg9NZW1iZXJFbnRl",
-            "clRpcHMSKQoFZ3JvdXAYASABKAsyGi5vcGVuaW0uc2RrLnNoYXJlZC5JTUdy",
-            "b3VwEjUKC2VudHJhbnRVc2VyGAIgASgLMiAub3BlbmltLnNkay5zaGFyZWQu",
-            "SU1Hcm91cE1lbWJlchIVCg1vcGVyYXRpb25UaW1lGAMgASgDIogBChJHcm91",
-            "cERpc21pc3NlZFRpcHMSKQoFZ3JvdXAYASABKAsyGi5vcGVuaW0uc2RrLnNo",
-            "YXJlZC5JTUdyb3VwEjAKBm9wVXNlchgCIAEoCzIgLm9wZW5pbS5zZGsuc2hh",
-            "cmVkLklNR3JvdXBNZW1iZXISFQoNb3BlcmF0aW9uVGltZRgDIAEoAyLVAQoU",
-            "R3JvdXBNZW1iZXJNdXRlZFRpcHMSKQoFZ3JvdXAYASABKAsyGi5vcGVuaW0u",
-            "c2RrLnNoYXJlZC5JTUdyb3VwEjAKBm9wVXNlchgCIAEoCzIgLm9wZW5pbS5z",
-            "ZGsuc2hhcmVkLklNR3JvdXBNZW1iZXISFQoNb3BlcmF0aW9uVGltZRgDIAEo",
-            "AxIzCgltdXRlZFVzZXIYBCABKAsyIC5vcGVuaW0uc2RrLnNoYXJlZC5JTUdy",
-            "b3VwTWVtYmVyEhQKDG11dGVkU2Vjb25kcxgFIAEoDSLFAQoaR3JvdXBNZW1i",
-            "ZXJDYW5jZWxNdXRlZFRpcHMSKQoFZ3JvdXAYASABKAsyGi5vcGVuaW0uc2Rr",
-            "LnNoYXJlZC5JTUdyb3VwEjAKBm9wVXNlchgCIAEoCzIgLm9wZW5pbS5zZGsu",
-            "c2hhcmVkLklNR3JvdXBNZW1iZXISFQoNb3BlcmF0aW9uVGltZRgDIAEoAxIz",
-            "CgltdXRlZFVzZXIYBCABKAsyIC5vcGVuaW0uc2RrLnNoYXJlZC5JTUdyb3Vw",
-            "TWVtYmVyIoQBCg5Hcm91cE11dGVkVGlwcxIpCgVncm91cBgBIAEoCzIaLm9w",
-            "ZW5pbS5zZGsuc2hhcmVkLklNR3JvdXASMAoGb3BVc2VyGAIgASgLMiAub3Bl",
-            "bmltLnNkay5zaGFyZWQuSU1Hcm91cE1lbWJlchIVCg1vcGVyYXRpb25UaW1l",
-            "GAMgASgDIooBChRHcm91cENhbmNlbE11dGVkVGlwcxIpCgVncm91cBgBIAEo",
-            "CzIaLm9wZW5pbS5zZGsuc2hhcmVkLklNR3JvdXASMAoGb3BVc2VyGAIgASgL",
-            "MiAub3BlbmltLnNkay5zaGFyZWQuSU1Hcm91cE1lbWJlchIVCg1vcGVyYXRp",
-            "b25UaW1lGAMgASgDIjQKDEZyb21Ub1VzZXJJRBISCgpmcm9tVXNlcklEGAEg",
-            "ASgJEhAKCHRvVXNlcklEGAIgASgJIlYKHUZyaWVuZEFwcGxpY2F0aW9uQXBw",
-            "cm92ZWRUaXBzEjUKDGZyb21Ub1VzZXJJRBgBIAEoCzIfLm9wZW5pbS5zZGsu",
-            "c2hhcmVkLkZyb21Ub1VzZXJJRCKGAgoLUmV2b2tlZFRpcHMSEQoJcmV2b2tl",
-            "cklEGAEgASgJEhMKC3Jldm9rZXJSb2xlGAIgASgFEhMKC2NsaWVudE1zZ0lE",
-            "GAMgASgJEhcKD3Jldm9rZXJOaWNrbmFtZRgEIAEoCRISCgpyZXZva2VUaW1l",
-            "GAUgASgDEh0KFXNvdXJjZU1lc3NhZ2VTZW5kVGltZRgGIAEoAxIbChNzb3Vy",
-            "Y2VNZXNzYWdlU2VuZElEGAcgASgJEiMKG3NvdXJjZU1lc3NhZ2VTZW5kZXJO",
-            "aWNrbmFtZRgIIAEoCRITCgtzZXNzaW9uVHlwZRgKIAEoBRILCgNzZXEYCyAB",
-            "KAMSCgoCZXgYDCABKAkiaAobQ29udmVyc2F0aW9uUHJpdmF0ZUNoYXRUaXBz",
-            "Eg4KBnJlY3ZJRBgBIAEoCRIOCgZzZW5kSUQYAiABKAkSEQoJaXNQcml2YXRl",
-            "GAMgASgIEhYKDmNvbnZlcnNhdGlvbklEGAQgASgJIikKDEJ1c2luZXNzVGlw",
-            "cxILCgNrZXkYASABKAkSDAoEZGF0YRgCIAEoCSKpEwoJSU1NZXNzYWdlEhMK",
-            "C2NsaWVudE1zZ0lEGAEgASgJEhMKC3NlcnZlck1zZ0lEGAIgASgJEhIKCmNy",
-            "ZWF0ZVRpbWUYAyABKAMSEAoIc2VuZFRpbWUYBCABKAMSMwoLc2Vzc2lvblR5",
-            "cGUYBSABKA4yHi5vcGVuaW0uc2RrLmNvbW1vbi5TZXNzaW9uVHlwZRIOCgZz",
-            "ZW5kSUQYBiABKAkSDgoGcmVjdklEGAcgASgJEisKB21zZ0Zyb20YCCABKA4y",
-            "Gi5vcGVuaW0uc2RrLmNvbW1vbi5Nc2dGcm9tEjMKC2NvbnRlbnRUeXBlGAkg",
-            "ASgOMh4ub3BlbmltLnNkay5jb21tb24uQ29udGVudFR5cGUSNQoQc2VuZGVy",
-            "UGxhdGZvcm1JRBgKIAEoDjIbLm9wZW5pbS5zZGsuY29tbW9uLlBsYXRmb3Jt",
-            "EhYKDnNlbmRlck5pY2tuYW1lGAsgASgJEhUKDXNlbmRlckZhY2VVUkwYDCAB",
-            "KAkSDwoHZ3JvdXBJRBgNIAEoCRILCgNzZXEYDyABKAMSDgoGaXNSZWFkGBAg",
-            "ASgIEiwKBnN0YXR1cxgRIAEoDjIcLm9wZW5pbS5zZGsuY29tbW9uLk1zZ1N0",
-            "YXR1cxI3CgtvZmZsaW5lUHVzaBgSIAEoCzIiLm9wZW5pbS5zZGsuY29tbW9u",
-            "Lk9mZmxpbmVQdXNoSW5mbxIKCgJleBgUIAEoCRIPCgdsb2NhbEV4GBUgASgJ",
-            "Ej0KEGF0dGFjaGVkSW5mb0VsZW0YFiABKAsyIy5vcGVuaW0uc2RrLnNoYXJl",
-            "ZC5BdHRhY2hlZEluZm9FbGVtEi8KCHRleHRFbGVtGBcgASgLMhsub3Blbmlt",
-            "LnNkay5zaGFyZWQuVGV4dEVsZW1IABIvCghjYXJkRWxlbRgYIAEoCzIbLm9w",
-            "ZW5pbS5zZGsuc2hhcmVkLkNhcmRFbGVtSAASNQoLcGljdHVyZUVsZW0YGSAB",
-            "KAsyHi5vcGVuaW0uc2RrLnNoYXJlZC5QaWN0dXJlRWxlbUgAEjEKCXNvdW5k",
-            "RWxlbRgaIAEoCzIcLm9wZW5pbS5zZGsuc2hhcmVkLlNvdW5kRWxlbUgAEjEK",
-            "CXZpZGVvRWxlbRgbIAEoCzIcLm9wZW5pbS5zZGsuc2hhcmVkLlZpZGVvRWxl",
-            "bUgAEi8KCGZpbGVFbGVtGBwgASgLMhsub3BlbmltLnNkay5zaGFyZWQuRmls",
-            "ZUVsZW1IABIxCgltZXJnZUVsZW0YHSABKAsyHC5vcGVuaW0uc2RrLnNoYXJl",
-            "ZC5NZXJnZUVsZW1IABIzCgphdFRleHRFbGVtGB4gASgLMh0ub3BlbmltLnNk",
-            "ay5zaGFyZWQuQXRUZXh0RWxlbUgAEi8KCGZhY2VFbGVtGB8gASgLMhsub3Bl",
-            "bmltLnNkay5zaGFyZWQuRmFjZUVsZW1IABI3Cgxsb2NhdGlvbkVsZW0YICAB",
-            "KAsyHy5vcGVuaW0uc2RrLnNoYXJlZC5Mb2NhdGlvbkVsZW1IABIzCgpjdXN0",
-            "b21FbGVtGCEgASgLMh0ub3BlbmltLnNkay5zaGFyZWQuQ3VzdG9tRWxlbUgA",
-            "EjEKCXF1b3RlRWxlbRgiIAEoCzIcLm9wZW5pbS5zZGsuc2hhcmVkLlF1b3Rl",
-            "RWxlbUgAEj8KEGFkdmFuY2VkVGV4dEVsZW0YIyABKAsyIy5vcGVuaW0uc2Rr",
-            "LnNoYXJlZC5BZHZhbmNlZFRleHRFbGVtSAASMwoKdHlwaW5nRWxlbRgkIAEo",
-            "CzIdLm9wZW5pbS5zZGsuc2hhcmVkLlR5cGluZ0VsZW1IABIzCgpzdHJlYW1F",
-            "bGVtGCUgASgLMh0ub3BlbmltLnNkay5zaGFyZWQuU3RyZWFtRWxlbUgAEjUK",
-            "C3Jldm9rZWRUaXBzGCYgASgLMh4ub3BlbmltLnNkay5zaGFyZWQuUmV2b2tl",
-            "ZFRpcHNIABJAChBncm91cENyZWF0ZWRUaXBzGLcCIAEoCzIjLm9wZW5pbS5z",
-            "ZGsuc2hhcmVkLkdyb3VwQ3JlYXRlZFRpcHNIABI7Cg5tZW1iZXJRdWl0VGlw",
-            "cxgrIAEoCzIhLm9wZW5pbS5zZGsuc2hhcmVkLk1lbWJlclF1aXRUaXBzSAAS",
-            "UQoZZ3JvdXBPd25lclRyYW5zZmVycmVkVGlwcxguIAEoCzIsLm9wZW5pbS5z",
-            "ZGsuc2hhcmVkLkdyb3VwT3duZXJUcmFuc2ZlcnJlZFRpcHNIABI/ChBtZW1i",
-            "ZXJLaWNrZWRUaXBzGC8gASgLMiMub3BlbmltLnNkay5zaGFyZWQuTWVtYmVy",
-            "S2lja2VkVGlwc0gAEkEKEW1lbWJlckludml0ZWRUaXBzGDAgASgLMiQub3Bl",
-            "bmltLnNkay5zaGFyZWQuTWVtYmVySW52aXRlZFRpcHNIABI9Cg9tZW1iZXJF",
-            "bnRlclRpcHMYMSABKAsyIi5vcGVuaW0uc2RrLnNoYXJlZC5NZW1iZXJFbnRl",
-            "clRpcHNIABJDChJncm91cERpc21pc3NlZFRpcHMYMiABKAsyJS5vcGVuaW0u",
-            "c2RrLnNoYXJlZC5Hcm91cERpc21pc3NlZFRpcHNIABJHChRncm91cE1lbWJl",
-            "ck11dGVkVGlwcxgzIAEoCzInLm9wZW5pbS5zZGsuc2hhcmVkLkdyb3VwTWVt",
-            "YmVyTXV0ZWRUaXBzSAASUwoaZ3JvdXBNZW1iZXJDYW5jZWxNdXRlZFRpcHMY",
-            "NCABKAsyLS5vcGVuaW0uc2RrLnNoYXJlZC5Hcm91cE1lbWJlckNhbmNlbE11",
-            "dGVkVGlwc0gAEjsKDmdyb3VwTXV0ZWRUaXBzGDUgASgLMiEub3BlbmltLnNk",
-            "ay5zaGFyZWQuR3JvdXBNdXRlZFRpcHNIABJHChRncm91cENhbmNlbE11dGVk",
-            "VGlwcxg2IAEoCzInLm9wZW5pbS5zZGsuc2hhcmVkLkdyb3VwQ2FuY2VsTXV0",
-            "ZWRUaXBzSAASWQodZnJpZW5kQXBwbGljYXRpb25BcHByb3ZlZFRpcHMYOSAB",
-            "KAsyMC5vcGVuaW0uc2RrLnNoYXJlZC5GcmllbmRBcHBsaWNhdGlvbkFwcHJv",
-            "dmVkVGlwc0gAElUKG2NvbnZlcnNhdGlvblByaXZhdGVDaGF0VGlwcxhPIAEo",
-            "CzIuLm9wZW5pbS5zZGsuc2hhcmVkLkNvbnZlcnNhdGlvblByaXZhdGVDaGF0",
-            "VGlwc0gAEjcKDGJ1c2luZXNzVGlwcxhQIAEoCzIfLm9wZW5pbS5zZGsuc2hh",
-            "cmVkLkJ1c2luZXNzVGlwc0gAQgkKB2NvbnRlbnQqKQoLR3JvdXBTdGF0dXMS",
-            "CwoHRGVmYXVsdBAAEg0KCURpc21pc3NlZBACKloKD0dyb3VwSm9pblNvdXJj",
-            "ZRIUChBHcm91cEpvaW5Tb3VyY2VfEAASCQoFQWRtaW4QARIOCgpJbnZpdGF0",
-            "aW9uEAISCgoGU2VhcmNoEAMSCgoGUVJDb2RlEAQqawoVR3JvdXBOZWVkVmVy",
-            "aWZpY2F0aW9uEicKI0FwcGx5TmVlZFZlcmlmaWNhdGlvbkludml0ZURpcmVj",
-            "dGx5EAASFwoTQWxsTmVlZFZlcmlmaWNhdGlvbhABEhAKDERpcmVjdEFjY2Vz",
-            "cxACKlQKE0dyb3VwTG9va01lbWJlckluZm8SHwobUHJvaGliaXRHcm91cExv",
-            "b2tNZW1iZXJJbmZvEAASHAoYQWxsb3dHcm91cExvb2tNZW1iZXJJbmZvEAEq",
-            "XQoWR3JvdXBBcHBseU1lbWJlckZyaWVuZBIiCh5Qcm9oaWJpdEdyb3VwQXBw",
-            "bHlNZW1iZXJGcmllbmQQABIfChtBbGxvd0dyb3VwQXBwbHlNZW1iZXJGcmll",
-            "bmQQAUJLWjdnaXRodWIuY29tL29wZW5pbXNkay9vcGVuaW0tc2RrLWNvcmUv",
-            "djMvcHJvdG8vZ28vc2hhcmVkqgIMT3BlbklNLlByb3RvugIAYgZwcm90bzM="));
+            "cmF0aW9uVGltZRgDIAEoAyKIAQoSR3JvdXBEaXNtaXNzZWRUaXBzEikKBWdy",
+            "b3VwGAEgASgLMhoub3BlbmltLnNkay5zaGFyZWQuSU1Hcm91cBIwCgZvcFVz",
+            "ZXIYAiABKAsyIC5vcGVuaW0uc2RrLnNoYXJlZC5JTUdyb3VwTWVtYmVyEhUK",
+            "DW9wZXJhdGlvblRpbWUYAyABKAMi1QEKFEdyb3VwTWVtYmVyTXV0ZWRUaXBz",
+            "EikKBWdyb3VwGAEgASgLMhoub3BlbmltLnNkay5zaGFyZWQuSU1Hcm91cBIw",
+            "CgZvcFVzZXIYAiABKAsyIC5vcGVuaW0uc2RrLnNoYXJlZC5JTUdyb3VwTWVt",
+            "YmVyEhUKDW9wZXJhdGlvblRpbWUYAyABKAMSMwoJbXV0ZWRVc2VyGAQgASgL",
+            "MiAub3BlbmltLnNkay5zaGFyZWQuSU1Hcm91cE1lbWJlchIUCgxtdXRlZFNl",
+            "Y29uZHMYBSABKA0ixQEKGkdyb3VwTWVtYmVyQ2FuY2VsTXV0ZWRUaXBzEikK",
+            "BWdyb3VwGAEgASgLMhoub3BlbmltLnNkay5zaGFyZWQuSU1Hcm91cBIwCgZv",
+            "cFVzZXIYAiABKAsyIC5vcGVuaW0uc2RrLnNoYXJlZC5JTUdyb3VwTWVtYmVy",
+            "EhUKDW9wZXJhdGlvblRpbWUYAyABKAMSMwoJbXV0ZWRVc2VyGAQgASgLMiAu",
+            "b3BlbmltLnNkay5zaGFyZWQuSU1Hcm91cE1lbWJlciKEAQoOR3JvdXBNdXRl",
+            "ZFRpcHMSKQoFZ3JvdXAYASABKAsyGi5vcGVuaW0uc2RrLnNoYXJlZC5JTUdy",
+            "b3VwEjAKBm9wVXNlchgCIAEoCzIgLm9wZW5pbS5zZGsuc2hhcmVkLklNR3Jv",
+            "dXBNZW1iZXISFQoNb3BlcmF0aW9uVGltZRgDIAEoAyKKAQoUR3JvdXBDYW5j",
+            "ZWxNdXRlZFRpcHMSKQoFZ3JvdXAYASABKAsyGi5vcGVuaW0uc2RrLnNoYXJl",
+            "ZC5JTUdyb3VwEjAKBm9wVXNlchgCIAEoCzIgLm9wZW5pbS5zZGsuc2hhcmVk",
+            "LklNR3JvdXBNZW1iZXISFQoNb3BlcmF0aW9uVGltZRgDIAEoAyI0CgxGcm9t",
+            "VG9Vc2VySUQSEgoKZnJvbVVzZXJJRBgBIAEoCRIQCgh0b1VzZXJJRBgCIAEo",
+            "CSJWCh1GcmllbmRBcHBsaWNhdGlvbkFwcHJvdmVkVGlwcxI1Cgxmcm9tVG9V",
+            "c2VySUQYASABKAsyHy5vcGVuaW0uc2RrLnNoYXJlZC5Gcm9tVG9Vc2VySUQi",
+            "xgIKC1Jldm9rZWRUaXBzEhEKCXJldm9rZXJJRBgBIAEoCRIzCgtyZXZva2Vy",
+            "Um9sZRgCIAEoDjIeLm9wZW5pbS5zZGsuY29tbW9uLlJldm9rZXJSb2xlEhMK",
+            "C2NsaWVudE1zZ0lEGAMgASgJEhcKD3Jldm9rZXJOaWNrbmFtZRgEIAEoCRIS",
+            "CgpyZXZva2VUaW1lGAUgASgDEh0KFXNvdXJjZU1lc3NhZ2VTZW5kVGltZRgG",
+            "IAEoAxIbChNzb3VyY2VNZXNzYWdlU2VuZElEGAcgASgJEiMKG3NvdXJjZU1l",
+            "c3NhZ2VTZW5kZXJOaWNrbmFtZRgIIAEoCRIzCgtzZXNzaW9uVHlwZRgKIAEo",
+            "DjIeLm9wZW5pbS5zZGsuY29tbW9uLlNlc3Npb25UeXBlEgsKA3NlcRgLIAEo",
+            "AxIKCgJleBgMIAEoCSJoChtDb252ZXJzYXRpb25Qcml2YXRlQ2hhdFRpcHMS",
+            "DgoGcmVjdklEGAEgASgJEg4KBnNlbmRJRBgCIAEoCRIRCglpc1ByaXZhdGUY",
+            "AyABKAgSFgoOY29udmVyc2F0aW9uSUQYBCABKAkiKQoMQnVzaW5lc3NUaXBz",
+            "EgsKA2tleRgBIAEoCRIMCgRkYXRhGAIgASgJIs0UCglJTU1lc3NhZ2USEwoL",
+            "Y2xpZW50TXNnSUQYASABKAkSEwoLc2VydmVyTXNnSUQYAiABKAkSEgoKY3Jl",
+            "YXRlVGltZRgDIAEoAxIQCghzZW5kVGltZRgEIAEoAxIzCgtzZXNzaW9uVHlw",
+            "ZRgFIAEoDjIeLm9wZW5pbS5zZGsuY29tbW9uLlNlc3Npb25UeXBlEg4KBnNl",
+            "bmRJRBgGIAEoCRIOCgZyZWN2SUQYByABKAkSKwoHbXNnRnJvbRgIIAEoDjIa",
+            "Lm9wZW5pbS5zZGsuY29tbW9uLk1zZ0Zyb20SMwoLY29udGVudFR5cGUYCSAB",
+            "KA4yHi5vcGVuaW0uc2RrLmNvbW1vbi5Db250ZW50VHlwZRI1ChBzZW5kZXJQ",
+            "bGF0Zm9ybUlEGAogASgOMhsub3BlbmltLnNkay5jb21tb24uUGxhdGZvcm0S",
+            "FgoOc2VuZGVyTmlja25hbWUYCyABKAkSFQoNc2VuZGVyRmFjZVVSTBgMIAEo",
+            "CRIPCgdncm91cElEGA0gASgJEgsKA3NlcRgPIAEoAxIOCgZpc1JlYWQYECAB",
+            "KAgSLAoGc3RhdHVzGBEgASgOMhwub3BlbmltLnNkay5jb21tb24uTXNnU3Rh",
+            "dHVzEjcKC29mZmxpbmVQdXNoGBIgASgLMiIub3BlbmltLnNkay5jb21tb24u",
+            "T2ZmbGluZVB1c2hJbmZvEgoKAmV4GBQgASgJEg8KB2xvY2FsRXgYFSABKAkS",
+            "PQoQYXR0YWNoZWRJbmZvRWxlbRgWIAEoCzIjLm9wZW5pbS5zZGsuc2hhcmVk",
+            "LkF0dGFjaGVkSW5mb0VsZW0SLwoIdGV4dEVsZW0YFyABKAsyGy5vcGVuaW0u",
+            "c2RrLnNoYXJlZC5UZXh0RWxlbUgAEi8KCGNhcmRFbGVtGBggASgLMhsub3Bl",
+            "bmltLnNkay5zaGFyZWQuQ2FyZEVsZW1IABI1CgtwaWN0dXJlRWxlbRgZIAEo",
+            "CzIeLm9wZW5pbS5zZGsuc2hhcmVkLlBpY3R1cmVFbGVtSAASMQoJc291bmRF",
+            "bGVtGBogASgLMhwub3BlbmltLnNkay5zaGFyZWQuU291bmRFbGVtSAASMQoJ",
+            "dmlkZW9FbGVtGBsgASgLMhwub3BlbmltLnNkay5zaGFyZWQuVmlkZW9FbGVt",
+            "SAASLwoIZmlsZUVsZW0YHCABKAsyGy5vcGVuaW0uc2RrLnNoYXJlZC5GaWxl",
+            "RWxlbUgAEjEKCW1lcmdlRWxlbRgdIAEoCzIcLm9wZW5pbS5zZGsuc2hhcmVk",
+            "Lk1lcmdlRWxlbUgAEjMKCmF0VGV4dEVsZW0YHiABKAsyHS5vcGVuaW0uc2Rr",
+            "LnNoYXJlZC5BdFRleHRFbGVtSAASLwoIZmFjZUVsZW0YHyABKAsyGy5vcGVu",
+            "aW0uc2RrLnNoYXJlZC5GYWNlRWxlbUgAEjcKDGxvY2F0aW9uRWxlbRggIAEo",
+            "CzIfLm9wZW5pbS5zZGsuc2hhcmVkLkxvY2F0aW9uRWxlbUgAEjMKCmN1c3Rv",
+            "bUVsZW0YISABKAsyHS5vcGVuaW0uc2RrLnNoYXJlZC5DdXN0b21FbGVtSAAS",
+            "MQoJcXVvdGVFbGVtGCIgASgLMhwub3BlbmltLnNkay5zaGFyZWQuUXVvdGVF",
+            "bGVtSAASPwoQYWR2YW5jZWRUZXh0RWxlbRgjIAEoCzIjLm9wZW5pbS5zZGsu",
+            "c2hhcmVkLkFkdmFuY2VkVGV4dEVsZW1IABIzCgp0eXBpbmdFbGVtGCQgASgL",
+            "Mh0ub3BlbmltLnNkay5zaGFyZWQuVHlwaW5nRWxlbUgAEjMKCnN0cmVhbUVs",
+            "ZW0YJSABKAsyHS5vcGVuaW0uc2RrLnNoYXJlZC5TdHJlYW1FbGVtSAASNQoL",
+            "cmV2b2tlZFRpcHMYJiABKAsyHi5vcGVuaW0uc2RrLnNoYXJlZC5SZXZva2Vk",
+            "VGlwc0gAEkAKEGdyb3VwQ3JlYXRlZFRpcHMYtwIgASgLMiMub3BlbmltLnNk",
+            "ay5zaGFyZWQuR3JvdXBDcmVhdGVkVGlwc0gAEkgKFGdyb3VwSW5mb1NldE5h",
+            "bWVUaXBzGLgCIAEoCzInLm9wZW5pbS5zZGsuc2hhcmVkLkdyb3VwSW5mb1Nl",
+            "dE5hbWVUaXBzSAASWAocZ3JvdXBJbmZvU2V0QW5ub3VuY2VtZW50VGlwcxi5",
+            "AiABKAsyLy5vcGVuaW0uc2RrLnNoYXJlZC5Hcm91cEluZm9TZXRBbm5vdW5j",
+            "ZW1lbnRUaXBzSAASOwoObWVtYmVyUXVpdFRpcHMYKyABKAsyIS5vcGVuaW0u",
+            "c2RrLnNoYXJlZC5NZW1iZXJRdWl0VGlwc0gAElEKGWdyb3VwT3duZXJUcmFu",
+            "c2ZlcnJlZFRpcHMYLiABKAsyLC5vcGVuaW0uc2RrLnNoYXJlZC5Hcm91cE93",
+            "bmVyVHJhbnNmZXJyZWRUaXBzSAASPwoQbWVtYmVyS2lja2VkVGlwcxgvIAEo",
+            "CzIjLm9wZW5pbS5zZGsuc2hhcmVkLk1lbWJlcktpY2tlZFRpcHNIABJBChFt",
+            "ZW1iZXJJbnZpdGVkVGlwcxgwIAEoCzIkLm9wZW5pbS5zZGsuc2hhcmVkLk1l",
+            "bWJlckludml0ZWRUaXBzSAASPQoPbWVtYmVyRW50ZXJUaXBzGDEgASgLMiIu",
+            "b3BlbmltLnNkay5zaGFyZWQuTWVtYmVyRW50ZXJUaXBzSAASQwoSZ3JvdXBE",
+            "aXNtaXNzZWRUaXBzGDIgASgLMiUub3BlbmltLnNkay5zaGFyZWQuR3JvdXBE",
+            "aXNtaXNzZWRUaXBzSAASRwoUZ3JvdXBNZW1iZXJNdXRlZFRpcHMYMyABKAsy",
+            "Jy5vcGVuaW0uc2RrLnNoYXJlZC5Hcm91cE1lbWJlck11dGVkVGlwc0gAElMK",
+            "Gmdyb3VwTWVtYmVyQ2FuY2VsTXV0ZWRUaXBzGDQgASgLMi0ub3BlbmltLnNk",
+            "ay5zaGFyZWQuR3JvdXBNZW1iZXJDYW5jZWxNdXRlZFRpcHNIABI7Cg5ncm91",
+            "cE11dGVkVGlwcxg1IAEoCzIhLm9wZW5pbS5zZGsuc2hhcmVkLkdyb3VwTXV0",
+            "ZWRUaXBzSAASRwoUZ3JvdXBDYW5jZWxNdXRlZFRpcHMYNiABKAsyJy5vcGVu",
+            "aW0uc2RrLnNoYXJlZC5Hcm91cENhbmNlbE11dGVkVGlwc0gAElkKHWZyaWVu",
+            "ZEFwcGxpY2F0aW9uQXBwcm92ZWRUaXBzGDkgASgLMjAub3BlbmltLnNkay5z",
+            "aGFyZWQuRnJpZW5kQXBwbGljYXRpb25BcHByb3ZlZFRpcHNIABJVChtjb252",
+            "ZXJzYXRpb25Qcml2YXRlQ2hhdFRpcHMYTyABKAsyLi5vcGVuaW0uc2RrLnNo",
+            "YXJlZC5Db252ZXJzYXRpb25Qcml2YXRlQ2hhdFRpcHNIABI3CgxidXNpbmVz",
+            "c1RpcHMYUCABKAsyHy5vcGVuaW0uc2RrLnNoYXJlZC5CdXNpbmVzc1RpcHNI",
+            "AEIJCgdjb250ZW50KikKC0dyb3VwU3RhdHVzEgsKB0RlZmF1bHQQABINCglE",
+            "aXNtaXNzZWQQAipaCg9Hcm91cEpvaW5Tb3VyY2USFAoQR3JvdXBKb2luU291",
+            "cmNlXxAAEgkKBUFkbWluEAESDgoKSW52aXRhdGlvbhACEgoKBlNlYXJjaBAD",
+            "EgoKBlFSQ29kZRAEKmsKFUdyb3VwTmVlZFZlcmlmaWNhdGlvbhInCiNBcHBs",
+            "eU5lZWRWZXJpZmljYXRpb25JbnZpdGVEaXJlY3RseRAAEhcKE0FsbE5lZWRW",
+            "ZXJpZmljYXRpb24QARIQCgxEaXJlY3RBY2Nlc3MQAipUChNHcm91cExvb2tN",
+            "ZW1iZXJJbmZvEh8KG1Byb2hpYml0R3JvdXBMb29rTWVtYmVySW5mbxAAEhwK",
+            "GEFsbG93R3JvdXBMb29rTWVtYmVySW5mbxABKl0KFkdyb3VwQXBwbHlNZW1i",
+            "ZXJGcmllbmQSIgoeUHJvaGliaXRHcm91cEFwcGx5TWVtYmVyRnJpZW5kEAAS",
+            "HwobQWxsb3dHcm91cEFwcGx5TWVtYmVyRnJpZW5kEAFCS1o3Z2l0aHViLmNv",
+            "bS9vcGVuaW1zZGsvb3BlbmltLXNkay1jb3JlL3YzL3Byb3RvL2dvL3NoYXJl",
+            "ZKoCDE9wZW5JTS5Qcm90b7oCAGIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::OpenIM.Proto.CommonReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::OpenIM.Proto.GroupStatus), typeof(global::OpenIM.Proto.GroupJoinSource), typeof(global::OpenIM.Proto.GroupNeedVerification), typeof(global::OpenIM.Proto.GroupLookMemberInfo), typeof(global::OpenIM.Proto.GroupApplyMemberFriend), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -286,7 +300,7 @@ namespace OpenIM.Proto {
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.IMGroup), global::OpenIM.Proto.IMGroup.Parser, new[]{ "GroupID", "GroupName", "Notification", "Introduction", "FaceURL", "OwnerUserID", "CreateTime", "MemberCount", "Ex", "Status", "CreatorUserID", "NeedVerification", "LookMemberInfo", "ApplyMemberFriend", "NotificationUpdateTime", "NotificationUserID", "AttachedInfo" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.IMGroupMember), global::OpenIM.Proto.IMGroupMember.Parser, new[]{ "GroupID", "UserID", "Nickname", "FaceURL", "RoleLevel", "JoinTime", "JoinSource", "InviterUserID", "MuteEndTime", "OperatorUserID", "Ex", "AttachedInfo" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.IMGroupApplication), global::OpenIM.Proto.IMGroupApplication.Parser, new[]{ "GroupID", "GroupName", "Notification", "Introduction", "GroupFaceURL", "CreateTime", "Status", "CreatorUserID", "OwnerUserID", "MemberCount", "UserID", "Nickname", "UserFaceURL", "HandleResult", "ReqMsg", "HandledMsg", "ReqTime", "HandleUserID", "HandledTime", "Ex", "AttachedInfo", "JoinSource", "InviterUserID" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.IMConversation), global::OpenIM.Proto.IMConversation.Parser, new[]{ "ConversationID", "ConversationType", "UserID", "GroupID", "ShowName", "FaceURL", "RecvMsgOpt", "UnreadCount", "GroupAtType", "LatestMsg", "LatestMsgSendTime", "DraftText", "DraftTextTime", "IsPinned", "IsPrivateChat", "BurnDuration", "Ex", "MsgDestructTime", "IsMsgDestruct" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.IMConversation), global::OpenIM.Proto.IMConversation.Parser, new[]{ "ConversationID", "ConversationType", "UserID", "GroupID", "ShowName", "FaceURL", "RecvMsgOpt", "UnreadCount", "GroupAtType", "LatestMsg", "LatestMsgSendTime", "DraftText", "DraftTextTime", "IsPinned", "IsPrivateChat", "BurnDuration", "Ex" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.AtInfo), global::OpenIM.Proto.AtInfo.Parser, new[]{ "AtUserID", "GroupNickname" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.ImageInfo), global::OpenIM.Proto.ImageInfo.Parser, new[]{ "Width", "Height", "Type", "Size" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.PictureBaseInfo), global::OpenIM.Proto.PictureBaseInfo.Parser, new[]{ "Uuid", "Type", "Size", "Width", "Height", "Url" }, null, null, null, null),
@@ -312,6 +326,8 @@ namespace OpenIM.Proto {
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.UploadProgress), global::OpenIM.Proto.UploadProgress.Parser, new[]{ "Total", "Save", "Current", "UploadID" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.AttachedInfoElem), global::OpenIM.Proto.AttachedInfoElem.Parser, new[]{ "IsPrivateChat", "BurnDuration", "HasReadTime", "Progress" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.GroupCreatedTips), global::OpenIM.Proto.GroupCreatedTips.Parser, new[]{ "Group", "OpUser", "MemberList", "OperationTime", "GroupOwnerUser" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.GroupInfoSetNameTips), global::OpenIM.Proto.GroupInfoSetNameTips.Parser, new[]{ "OpUser", "Group" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.GroupInfoSetAnnouncementTips), global::OpenIM.Proto.GroupInfoSetAnnouncementTips.Parser, new[]{ "OpUser", "Group", "GroupMemberVersion", "GroupMemberVersionID" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.MemberQuitTips), global::OpenIM.Proto.MemberQuitTips.Parser, new[]{ "Group", "QuitUser", "OperationTime" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.GroupOwnerTransferredTips), global::OpenIM.Proto.GroupOwnerTransferredTips.Parser, new[]{ "Group", "OpUser", "NewGroupOwner", "OldGroupOwner", "OperationTime", "OldGroupOwnerInfo" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.MemberKickedTips), global::OpenIM.Proto.MemberKickedTips.Parser, new[]{ "Group", "OpUser", "KickedUserList", "OperationTime" }, null, null, null, null),
@@ -327,7 +343,7 @@ namespace OpenIM.Proto {
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.RevokedTips), global::OpenIM.Proto.RevokedTips.Parser, new[]{ "RevokerID", "RevokerRole", "ClientMsgID", "RevokerNickname", "RevokeTime", "SourceMessageSendTime", "SourceMessageSendID", "SourceMessageSenderNickname", "SessionType", "Seq", "Ex" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.ConversationPrivateChatTips), global::OpenIM.Proto.ConversationPrivateChatTips.Parser, new[]{ "RecvID", "SendID", "IsPrivate", "ConversationID" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.BusinessTips), global::OpenIM.Proto.BusinessTips.Parser, new[]{ "Key", "Data" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.IMMessage), global::OpenIM.Proto.IMMessage.Parser, new[]{ "ClientMsgID", "ServerMsgID", "CreateTime", "SendTime", "SessionType", "SendID", "RecvID", "MsgFrom", "ContentType", "SenderPlatformID", "SenderNickname", "SenderFaceURL", "GroupID", "Seq", "IsRead", "Status", "OfflinePush", "Ex", "LocalEx", "AttachedInfoElem", "TextElem", "CardElem", "PictureElem", "SoundElem", "VideoElem", "FileElem", "MergeElem", "AtTextElem", "FaceElem", "LocationElem", "CustomElem", "QuoteElem", "AdvancedTextElem", "TypingElem", "StreamElem", "RevokedTips", "GroupCreatedTips", "MemberQuitTips", "GroupOwnerTransferredTips", "MemberKickedTips", "MemberInvitedTips", "MemberEnterTips", "GroupDismissedTips", "GroupMemberMutedTips", "GroupMemberCancelMutedTips", "GroupMutedTips", "GroupCancelMutedTips", "FriendApplicationApprovedTips", "ConversationPrivateChatTips", "BusinessTips" }, new[]{ "Content" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.IMMessage), global::OpenIM.Proto.IMMessage.Parser, new[]{ "ClientMsgID", "ServerMsgID", "CreateTime", "SendTime", "SessionType", "SendID", "RecvID", "MsgFrom", "ContentType", "SenderPlatformID", "SenderNickname", "SenderFaceURL", "GroupID", "Seq", "IsRead", "Status", "OfflinePush", "Ex", "LocalEx", "AttachedInfoElem", "TextElem", "CardElem", "PictureElem", "SoundElem", "VideoElem", "FileElem", "MergeElem", "AtTextElem", "FaceElem", "LocationElem", "CustomElem", "QuoteElem", "AdvancedTextElem", "TypingElem", "StreamElem", "RevokedTips", "GroupCreatedTips", "GroupInfoSetNameTips", "GroupInfoSetAnnouncementTips", "MemberQuitTips", "GroupOwnerTransferredTips", "MemberKickedTips", "MemberInvitedTips", "MemberEnterTips", "GroupDismissedTips", "GroupMemberMutedTips", "GroupMemberCancelMutedTips", "GroupMutedTips", "GroupCancelMutedTips", "FriendApplicationApprovedTips", "ConversationPrivateChatTips", "BusinessTips" }, new[]{ "Content" }, null, null, null)
           }));
     }
     #endregion
@@ -759,7 +775,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -802,7 +822,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -1142,7 +1166,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -1181,7 +1209,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -1336,13 +1368,13 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "addSource" field.</summary>
     public const int AddSourceFieldNumber = 5;
-    private int addSource_;
+    private global::OpenIM.Proto.FriendSource addSource_ = global::OpenIM.Proto.FriendSource.FriendSource;
     /// <summary>
     /// Friend add source
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int AddSource {
+    public global::OpenIM.Proto.FriendSource AddSource {
       get { return addSource_; }
       set {
         addSource_ = value;
@@ -1476,7 +1508,7 @@ namespace OpenIM.Proto {
       if (FriendUserID.Length != 0) hash ^= FriendUserID.GetHashCode();
       if (Remark.Length != 0) hash ^= Remark.GetHashCode();
       if (CreateTime != 0L) hash ^= CreateTime.GetHashCode();
-      if (AddSource != 0) hash ^= AddSource.GetHashCode();
+      if (AddSource != global::OpenIM.Proto.FriendSource.FriendSource) hash ^= AddSource.GetHashCode();
       if (OperatorUserID.Length != 0) hash ^= OperatorUserID.GetHashCode();
       if (Nickname.Length != 0) hash ^= Nickname.GetHashCode();
       if (FaceURL.Length != 0) hash ^= FaceURL.GetHashCode();
@@ -1517,9 +1549,9 @@ namespace OpenIM.Proto {
         output.WriteRawTag(32);
         output.WriteInt64(CreateTime);
       }
-      if (AddSource != 0) {
+      if (AddSource != global::OpenIM.Proto.FriendSource.FriendSource) {
         output.WriteRawTag(40);
-        output.WriteInt32(AddSource);
+        output.WriteEnum((int) AddSource);
       }
       if (OperatorUserID.Length != 0) {
         output.WriteRawTag(50);
@@ -1571,9 +1603,9 @@ namespace OpenIM.Proto {
         output.WriteRawTag(32);
         output.WriteInt64(CreateTime);
       }
-      if (AddSource != 0) {
+      if (AddSource != global::OpenIM.Proto.FriendSource.FriendSource) {
         output.WriteRawTag(40);
-        output.WriteInt32(AddSource);
+        output.WriteEnum((int) AddSource);
       }
       if (OperatorUserID.Length != 0) {
         output.WriteRawTag(50);
@@ -1621,8 +1653,8 @@ namespace OpenIM.Proto {
       if (CreateTime != 0L) {
         size += 1 + pb::CodedOutputStream.ComputeInt64Size(CreateTime);
       }
-      if (AddSource != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(AddSource);
+      if (AddSource != global::OpenIM.Proto.FriendSource.FriendSource) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) AddSource);
       }
       if (OperatorUserID.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(OperatorUserID);
@@ -1666,7 +1698,7 @@ namespace OpenIM.Proto {
       if (other.CreateTime != 0L) {
         CreateTime = other.CreateTime;
       }
-      if (other.AddSource != 0) {
+      if (other.AddSource != global::OpenIM.Proto.FriendSource.FriendSource) {
         AddSource = other.AddSource;
       }
       if (other.OperatorUserID.Length != 0) {
@@ -1698,7 +1730,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -1719,7 +1755,7 @@ namespace OpenIM.Proto {
             break;
           }
           case 40: {
-            AddSource = input.ReadInt32();
+            AddSource = (global::OpenIM.Proto.FriendSource) input.ReadEnum();
             break;
           }
           case 50: {
@@ -1757,7 +1793,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -1778,7 +1818,7 @@ namespace OpenIM.Proto {
             break;
           }
           case 40: {
-            AddSource = input.ReadInt32();
+            AddSource = (global::OpenIM.Proto.FriendSource) input.ReadEnum();
             break;
           }
           case 50: {
@@ -1942,13 +1982,13 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "addSource" field.</summary>
     public const int AddSourceFieldNumber = 6;
-    private int addSource_;
+    private global::OpenIM.Proto.FriendSource addSource_ = global::OpenIM.Proto.FriendSource.FriendSource;
     /// <summary>
     /// Block source
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int AddSource {
+    public global::OpenIM.Proto.FriendSource AddSource {
       get { return addSource_; }
       set {
         addSource_ = value;
@@ -2036,7 +2076,7 @@ namespace OpenIM.Proto {
       if (Nickname.Length != 0) hash ^= Nickname.GetHashCode();
       if (FaceURL.Length != 0) hash ^= FaceURL.GetHashCode();
       if (CreateTime != 0L) hash ^= CreateTime.GetHashCode();
-      if (AddSource != 0) hash ^= AddSource.GetHashCode();
+      if (AddSource != global::OpenIM.Proto.FriendSource.FriendSource) hash ^= AddSource.GetHashCode();
       if (OperatorUserID.Length != 0) hash ^= OperatorUserID.GetHashCode();
       if (Ex.Length != 0) hash ^= Ex.GetHashCode();
       if (Attached.Length != 0) hash ^= Attached.GetHashCode();
@@ -2078,9 +2118,9 @@ namespace OpenIM.Proto {
         output.WriteRawTag(40);
         output.WriteInt64(CreateTime);
       }
-      if (AddSource != 0) {
+      if (AddSource != global::OpenIM.Proto.FriendSource.FriendSource) {
         output.WriteRawTag(48);
-        output.WriteInt32(AddSource);
+        output.WriteEnum((int) AddSource);
       }
       if (OperatorUserID.Length != 0) {
         output.WriteRawTag(58);
@@ -2124,9 +2164,9 @@ namespace OpenIM.Proto {
         output.WriteRawTag(40);
         output.WriteInt64(CreateTime);
       }
-      if (AddSource != 0) {
+      if (AddSource != global::OpenIM.Proto.FriendSource.FriendSource) {
         output.WriteRawTag(48);
-        output.WriteInt32(AddSource);
+        output.WriteEnum((int) AddSource);
       }
       if (OperatorUserID.Length != 0) {
         output.WriteRawTag(58);
@@ -2165,8 +2205,8 @@ namespace OpenIM.Proto {
       if (CreateTime != 0L) {
         size += 1 + pb::CodedOutputStream.ComputeInt64Size(CreateTime);
       }
-      if (AddSource != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(AddSource);
+      if (AddSource != global::OpenIM.Proto.FriendSource.FriendSource) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) AddSource);
       }
       if (OperatorUserID.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(OperatorUserID);
@@ -2204,7 +2244,7 @@ namespace OpenIM.Proto {
       if (other.CreateTime != 0L) {
         CreateTime = other.CreateTime;
       }
-      if (other.AddSource != 0) {
+      if (other.AddSource != global::OpenIM.Proto.FriendSource.FriendSource) {
         AddSource = other.AddSource;
       }
       if (other.OperatorUserID.Length != 0) {
@@ -2227,7 +2267,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -2252,7 +2296,7 @@ namespace OpenIM.Proto {
             break;
           }
           case 48: {
-            AddSource = input.ReadInt32();
+            AddSource = (global::OpenIM.Proto.FriendSource) input.ReadEnum();
             break;
           }
           case 58: {
@@ -2278,7 +2322,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -2303,7 +2351,7 @@ namespace OpenIM.Proto {
             break;
           }
           case 48: {
-            AddSource = input.ReadInt32();
+            AddSource = (global::OpenIM.Proto.FriendSource) input.ReadEnum();
             break;
           }
           case 58: {
@@ -2475,13 +2523,13 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "handleResult" field.</summary>
     public const int HandleResultFieldNumber = 7;
-    private int handleResult_;
+    private global::OpenIM.Proto.HandleResult handleResult_ = global::OpenIM.Proto.HandleResult.ResultDefault;
     /// <summary>
     /// Request handle result
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int HandleResult {
+    public global::OpenIM.Proto.HandleResult HandleResult {
       get { return handleResult_; }
       set {
         handleResult_ = value;
@@ -2635,7 +2683,7 @@ namespace OpenIM.Proto {
       if (ToUserID.Length != 0) hash ^= ToUserID.GetHashCode();
       if (ToNickname.Length != 0) hash ^= ToNickname.GetHashCode();
       if (ToFaceURL.Length != 0) hash ^= ToFaceURL.GetHashCode();
-      if (HandleResult != 0) hash ^= HandleResult.GetHashCode();
+      if (HandleResult != global::OpenIM.Proto.HandleResult.ResultDefault) hash ^= HandleResult.GetHashCode();
       if (ReqMsg.Length != 0) hash ^= ReqMsg.GetHashCode();
       if (CreateTime != 0L) hash ^= CreateTime.GetHashCode();
       if (HandlerUserID.Length != 0) hash ^= HandlerUserID.GetHashCode();
@@ -2685,9 +2733,9 @@ namespace OpenIM.Proto {
         output.WriteRawTag(50);
         output.WriteString(ToFaceURL);
       }
-      if (HandleResult != 0) {
+      if (HandleResult != global::OpenIM.Proto.HandleResult.ResultDefault) {
         output.WriteRawTag(56);
-        output.WriteInt32(HandleResult);
+        output.WriteEnum((int) HandleResult);
       }
       if (ReqMsg.Length != 0) {
         output.WriteRawTag(66);
@@ -2751,9 +2799,9 @@ namespace OpenIM.Proto {
         output.WriteRawTag(50);
         output.WriteString(ToFaceURL);
       }
-      if (HandleResult != 0) {
+      if (HandleResult != global::OpenIM.Proto.HandleResult.ResultDefault) {
         output.WriteRawTag(56);
-        output.WriteInt32(HandleResult);
+        output.WriteEnum((int) HandleResult);
       }
       if (ReqMsg.Length != 0) {
         output.WriteRawTag(66);
@@ -2811,8 +2859,8 @@ namespace OpenIM.Proto {
       if (ToFaceURL.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(ToFaceURL);
       }
-      if (HandleResult != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(HandleResult);
+      if (HandleResult != global::OpenIM.Proto.HandleResult.ResultDefault) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) HandleResult);
       }
       if (ReqMsg.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(ReqMsg);
@@ -2865,7 +2913,7 @@ namespace OpenIM.Proto {
       if (other.ToFaceURL.Length != 0) {
         ToFaceURL = other.ToFaceURL;
       }
-      if (other.HandleResult != 0) {
+      if (other.HandleResult != global::OpenIM.Proto.HandleResult.ResultDefault) {
         HandleResult = other.HandleResult;
       }
       if (other.ReqMsg.Length != 0) {
@@ -2900,7 +2948,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -2929,7 +2981,7 @@ namespace OpenIM.Proto {
             break;
           }
           case 56: {
-            HandleResult = input.ReadInt32();
+            HandleResult = (global::OpenIM.Proto.HandleResult) input.ReadEnum();
             break;
           }
           case 66: {
@@ -2971,7 +3023,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -3000,7 +3056,7 @@ namespace OpenIM.Proto {
             break;
           }
           case 56: {
-            HandleResult = input.ReadInt32();
+            HandleResult = (global::OpenIM.Proto.HandleResult) input.ReadEnum();
             break;
           }
           case 66: {
@@ -3709,7 +3765,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -3792,7 +3852,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -4382,7 +4446,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -4445,7 +4513,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -4768,13 +4840,13 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "handleResult" field.</summary>
     public const int HandleResultFieldNumber = 14;
-    private int handleResult_;
+    private global::OpenIM.Proto.HandleResult handleResult_ = global::OpenIM.Proto.HandleResult.ResultDefault;
     /// <summary>
     /// group application handle result
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int HandleResult {
+    public global::OpenIM.Proto.HandleResult HandleResult {
       get { return handleResult_; }
       set {
         handleResult_ = value;
@@ -4974,7 +5046,7 @@ namespace OpenIM.Proto {
       if (UserID.Length != 0) hash ^= UserID.GetHashCode();
       if (Nickname.Length != 0) hash ^= Nickname.GetHashCode();
       if (UserFaceURL.Length != 0) hash ^= UserFaceURL.GetHashCode();
-      if (HandleResult != 0) hash ^= HandleResult.GetHashCode();
+      if (HandleResult != global::OpenIM.Proto.HandleResult.ResultDefault) hash ^= HandleResult.GetHashCode();
       if (ReqMsg.Length != 0) hash ^= ReqMsg.GetHashCode();
       if (HandledMsg.Length != 0) hash ^= HandledMsg.GetHashCode();
       if (ReqTime != 0L) hash ^= ReqTime.GetHashCode();
@@ -5054,9 +5126,9 @@ namespace OpenIM.Proto {
         output.WriteRawTag(106);
         output.WriteString(UserFaceURL);
       }
-      if (HandleResult != 0) {
+      if (HandleResult != global::OpenIM.Proto.HandleResult.ResultDefault) {
         output.WriteRawTag(112);
-        output.WriteInt32(HandleResult);
+        output.WriteEnum((int) HandleResult);
       }
       if (ReqMsg.Length != 0) {
         output.WriteRawTag(122);
@@ -5156,9 +5228,9 @@ namespace OpenIM.Proto {
         output.WriteRawTag(106);
         output.WriteString(UserFaceURL);
       }
-      if (HandleResult != 0) {
+      if (HandleResult != global::OpenIM.Proto.HandleResult.ResultDefault) {
         output.WriteRawTag(112);
-        output.WriteInt32(HandleResult);
+        output.WriteEnum((int) HandleResult);
       }
       if (ReqMsg.Length != 0) {
         output.WriteRawTag(122);
@@ -5245,8 +5317,8 @@ namespace OpenIM.Proto {
       if (UserFaceURL.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(UserFaceURL);
       }
-      if (HandleResult != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(HandleResult);
+      if (HandleResult != global::OpenIM.Proto.HandleResult.ResultDefault) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) HandleResult);
       }
       if (ReqMsg.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(ReqMsg);
@@ -5326,7 +5398,7 @@ namespace OpenIM.Proto {
       if (other.UserFaceURL.Length != 0) {
         UserFaceURL = other.UserFaceURL;
       }
-      if (other.HandleResult != 0) {
+      if (other.HandleResult != global::OpenIM.Proto.HandleResult.ResultDefault) {
         HandleResult = other.HandleResult;
       }
       if (other.ReqMsg.Length != 0) {
@@ -5367,7 +5439,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -5424,7 +5500,7 @@ namespace OpenIM.Proto {
             break;
           }
           case 112: {
-            HandleResult = input.ReadInt32();
+            HandleResult = (global::OpenIM.Proto.HandleResult) input.ReadEnum();
             break;
           }
           case 122: {
@@ -5474,7 +5550,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -5531,7 +5611,7 @@ namespace OpenIM.Proto {
             break;
           }
           case 112: {
-            HandleResult = input.ReadInt32();
+            HandleResult = (global::OpenIM.Proto.HandleResult) input.ReadEnum();
             break;
           }
           case 122: {
@@ -5629,8 +5709,6 @@ namespace OpenIM.Proto {
       isPrivateChat_ = other.isPrivateChat_;
       burnDuration_ = other.burnDuration_;
       ex_ = other.ex_;
-      msgDestructTime_ = other.msgDestructTime_;
-      isMsgDestruct_ = other.isMsgDestruct_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -5844,30 +5922,6 @@ namespace OpenIM.Proto {
       }
     }
 
-    /// <summary>Field number for the "msgDestructTime" field.</summary>
-    public const int MsgDestructTimeFieldNumber = 18;
-    private long msgDestructTime_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public long MsgDestructTime {
-      get { return msgDestructTime_; }
-      set {
-        msgDestructTime_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "isMsgDestruct" field.</summary>
-    public const int IsMsgDestructFieldNumber = 19;
-    private bool isMsgDestruct_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool IsMsgDestruct {
-      get { return isMsgDestruct_; }
-      set {
-        isMsgDestruct_ = value;
-      }
-    }
-
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -5900,8 +5954,6 @@ namespace OpenIM.Proto {
       if (IsPrivateChat != other.IsPrivateChat) return false;
       if (BurnDuration != other.BurnDuration) return false;
       if (Ex != other.Ex) return false;
-      if (MsgDestructTime != other.MsgDestructTime) return false;
-      if (IsMsgDestruct != other.IsMsgDestruct) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -5926,8 +5978,6 @@ namespace OpenIM.Proto {
       if (IsPrivateChat != false) hash ^= IsPrivateChat.GetHashCode();
       if (BurnDuration != 0) hash ^= BurnDuration.GetHashCode();
       if (Ex.Length != 0) hash ^= Ex.GetHashCode();
-      if (MsgDestructTime != 0L) hash ^= MsgDestructTime.GetHashCode();
-      if (IsMsgDestruct != false) hash ^= IsMsgDestruct.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -6014,14 +6064,6 @@ namespace OpenIM.Proto {
         output.WriteRawTag(138, 1);
         output.WriteString(Ex);
       }
-      if (MsgDestructTime != 0L) {
-        output.WriteRawTag(144, 1);
-        output.WriteInt64(MsgDestructTime);
-      }
-      if (IsMsgDestruct != false) {
-        output.WriteRawTag(152, 1);
-        output.WriteBool(IsMsgDestruct);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -6100,14 +6142,6 @@ namespace OpenIM.Proto {
         output.WriteRawTag(138, 1);
         output.WriteString(Ex);
       }
-      if (MsgDestructTime != 0L) {
-        output.WriteRawTag(144, 1);
-        output.WriteInt64(MsgDestructTime);
-      }
-      if (IsMsgDestruct != false) {
-        output.WriteRawTag(152, 1);
-        output.WriteBool(IsMsgDestruct);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -6168,12 +6202,6 @@ namespace OpenIM.Proto {
       }
       if (Ex.Length != 0) {
         size += 2 + pb::CodedOutputStream.ComputeStringSize(Ex);
-      }
-      if (MsgDestructTime != 0L) {
-        size += 2 + pb::CodedOutputStream.ComputeInt64Size(MsgDestructTime);
-      }
-      if (IsMsgDestruct != false) {
-        size += 2 + 1;
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -6241,12 +6269,6 @@ namespace OpenIM.Proto {
       if (other.Ex.Length != 0) {
         Ex = other.Ex;
       }
-      if (other.MsgDestructTime != 0L) {
-        MsgDestructTime = other.MsgDestructTime;
-      }
-      if (other.IsMsgDestruct != false) {
-        IsMsgDestruct = other.IsMsgDestruct;
-      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -6258,7 +6280,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -6333,14 +6359,6 @@ namespace OpenIM.Proto {
             Ex = input.ReadString();
             break;
           }
-          case 144: {
-            MsgDestructTime = input.ReadInt64();
-            break;
-          }
-          case 152: {
-            IsMsgDestruct = input.ReadBool();
-            break;
-          }
         }
       }
     #endif
@@ -6352,7 +6370,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -6425,14 +6447,6 @@ namespace OpenIM.Proto {
           }
           case 138: {
             Ex = input.ReadString();
-            break;
-          }
-          case 144: {
-            MsgDestructTime = input.ReadInt64();
-            break;
-          }
-          case 152: {
-            IsMsgDestruct = input.ReadBool();
             break;
           }
         }
@@ -6627,7 +6641,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -6650,7 +6668,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -6912,7 +6934,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -6943,7 +6969,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -7271,7 +7301,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -7310,7 +7344,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -7646,7 +7684,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -7685,7 +7727,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -8224,7 +8270,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -8291,7 +8341,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -8655,7 +8709,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -8694,7 +8752,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -8885,7 +8947,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -8904,7 +8970,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -9162,7 +9232,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -9193,7 +9267,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -9472,7 +9550,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -9512,7 +9594,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -9849,7 +9935,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -9888,7 +9978,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -10427,7 +10521,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -10494,7 +10592,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -10858,7 +10960,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -10897,7 +11003,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -11204,7 +11314,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -11239,7 +11353,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -11480,7 +11598,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -11511,7 +11633,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -11791,7 +11917,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -11829,7 +11959,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -12048,7 +12182,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -12071,7 +12209,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -12304,7 +12446,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -12331,7 +12477,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -12568,7 +12718,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -12595,7 +12749,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -12824,7 +12982,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -12854,7 +13016,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -13054,7 +13220,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -13077,7 +13247,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -13252,7 +13426,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -13271,7 +13449,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -13518,7 +13700,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -13549,7 +13735,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -13819,7 +14009,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -13850,7 +14044,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -14123,7 +14321,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -14157,7 +14359,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -14188,7 +14394,7 @@ namespace OpenIM.Proto {
   }
 
   /// <summary>
-  ///////////////////////group/////////////////////
+  ///&#x2F;///////////////////group/////////////////////
   ///
   ///	OnGroupCreated()
   /// </summary>
@@ -14462,7 +14668,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -14506,7 +14716,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -14537,6 +14751,592 @@ namespace OpenIM.Proto {
               GroupOwnerUser = new global::OpenIM.Proto.IMGroupMember();
             }
             input.ReadMessage(GroupOwnerUser);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class GroupInfoSetNameTips : pb::IMessage<GroupInfoSetNameTips>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<GroupInfoSetNameTips> _parser = new pb::MessageParser<GroupInfoSetNameTips>(() => new GroupInfoSetNameTips());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<GroupInfoSetNameTips> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::OpenIM.Proto.SharedReflection.Descriptor.MessageTypes[34]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GroupInfoSetNameTips() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GroupInfoSetNameTips(GroupInfoSetNameTips other) : this() {
+      opUser_ = other.opUser_ != null ? other.opUser_.Clone() : null;
+      group_ = other.group_ != null ? other.group_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GroupInfoSetNameTips Clone() {
+      return new GroupInfoSetNameTips(this);
+    }
+
+    /// <summary>Field number for the "opUser" field.</summary>
+    public const int OpUserFieldNumber = 1;
+    private global::OpenIM.Proto.IMGroupMember opUser_;
+    /// <summary>
+    ///who do this
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::OpenIM.Proto.IMGroupMember OpUser {
+      get { return opUser_; }
+      set {
+        opUser_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "group" field.</summary>
+    public const int GroupFieldNumber = 2;
+    private global::OpenIM.Proto.IMGroup group_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::OpenIM.Proto.IMGroup Group {
+      get { return group_; }
+      set {
+        group_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as GroupInfoSetNameTips);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(GroupInfoSetNameTips other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(OpUser, other.OpUser)) return false;
+      if (!object.Equals(Group, other.Group)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (opUser_ != null) hash ^= OpUser.GetHashCode();
+      if (group_ != null) hash ^= Group.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (opUser_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(OpUser);
+      }
+      if (group_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Group);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (opUser_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(OpUser);
+      }
+      if (group_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Group);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (opUser_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(OpUser);
+      }
+      if (group_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Group);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(GroupInfoSetNameTips other) {
+      if (other == null) {
+        return;
+      }
+      if (other.opUser_ != null) {
+        if (opUser_ == null) {
+          OpUser = new global::OpenIM.Proto.IMGroupMember();
+        }
+        OpUser.MergeFrom(other.OpUser);
+      }
+      if (other.group_ != null) {
+        if (group_ == null) {
+          Group = new global::OpenIM.Proto.IMGroup();
+        }
+        Group.MergeFrom(other.Group);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (opUser_ == null) {
+              OpUser = new global::OpenIM.Proto.IMGroupMember();
+            }
+            input.ReadMessage(OpUser);
+            break;
+          }
+          case 18: {
+            if (group_ == null) {
+              Group = new global::OpenIM.Proto.IMGroup();
+            }
+            input.ReadMessage(Group);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            if (opUser_ == null) {
+              OpUser = new global::OpenIM.Proto.IMGroupMember();
+            }
+            input.ReadMessage(OpUser);
+            break;
+          }
+          case 18: {
+            if (group_ == null) {
+              Group = new global::OpenIM.Proto.IMGroup();
+            }
+            input.ReadMessage(Group);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class GroupInfoSetAnnouncementTips : pb::IMessage<GroupInfoSetAnnouncementTips>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<GroupInfoSetAnnouncementTips> _parser = new pb::MessageParser<GroupInfoSetAnnouncementTips>(() => new GroupInfoSetAnnouncementTips());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<GroupInfoSetAnnouncementTips> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::OpenIM.Proto.SharedReflection.Descriptor.MessageTypes[35]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GroupInfoSetAnnouncementTips() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GroupInfoSetAnnouncementTips(GroupInfoSetAnnouncementTips other) : this() {
+      opUser_ = other.opUser_ != null ? other.opUser_.Clone() : null;
+      group_ = other.group_ != null ? other.group_.Clone() : null;
+      groupMemberVersion_ = other.groupMemberVersion_;
+      groupMemberVersionID_ = other.groupMemberVersionID_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GroupInfoSetAnnouncementTips Clone() {
+      return new GroupInfoSetAnnouncementTips(this);
+    }
+
+    /// <summary>Field number for the "opUser" field.</summary>
+    public const int OpUserFieldNumber = 1;
+    private global::OpenIM.Proto.IMGroupMember opUser_;
+    /// <summary>
+    ///who do this
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::OpenIM.Proto.IMGroupMember OpUser {
+      get { return opUser_; }
+      set {
+        opUser_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "group" field.</summary>
+    public const int GroupFieldNumber = 2;
+    private global::OpenIM.Proto.IMGroup group_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::OpenIM.Proto.IMGroup Group {
+      get { return group_; }
+      set {
+        group_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "groupMemberVersion" field.</summary>
+    public const int GroupMemberVersionFieldNumber = 3;
+    private ulong groupMemberVersion_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ulong GroupMemberVersion {
+      get { return groupMemberVersion_; }
+      set {
+        groupMemberVersion_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "groupMemberVersionID" field.</summary>
+    public const int GroupMemberVersionIDFieldNumber = 4;
+    private string groupMemberVersionID_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string GroupMemberVersionID {
+      get { return groupMemberVersionID_; }
+      set {
+        groupMemberVersionID_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as GroupInfoSetAnnouncementTips);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(GroupInfoSetAnnouncementTips other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(OpUser, other.OpUser)) return false;
+      if (!object.Equals(Group, other.Group)) return false;
+      if (GroupMemberVersion != other.GroupMemberVersion) return false;
+      if (GroupMemberVersionID != other.GroupMemberVersionID) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (opUser_ != null) hash ^= OpUser.GetHashCode();
+      if (group_ != null) hash ^= Group.GetHashCode();
+      if (GroupMemberVersion != 0UL) hash ^= GroupMemberVersion.GetHashCode();
+      if (GroupMemberVersionID.Length != 0) hash ^= GroupMemberVersionID.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (opUser_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(OpUser);
+      }
+      if (group_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Group);
+      }
+      if (GroupMemberVersion != 0UL) {
+        output.WriteRawTag(24);
+        output.WriteUInt64(GroupMemberVersion);
+      }
+      if (GroupMemberVersionID.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(GroupMemberVersionID);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (opUser_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(OpUser);
+      }
+      if (group_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Group);
+      }
+      if (GroupMemberVersion != 0UL) {
+        output.WriteRawTag(24);
+        output.WriteUInt64(GroupMemberVersion);
+      }
+      if (GroupMemberVersionID.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(GroupMemberVersionID);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (opUser_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(OpUser);
+      }
+      if (group_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Group);
+      }
+      if (GroupMemberVersion != 0UL) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(GroupMemberVersion);
+      }
+      if (GroupMemberVersionID.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(GroupMemberVersionID);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(GroupInfoSetAnnouncementTips other) {
+      if (other == null) {
+        return;
+      }
+      if (other.opUser_ != null) {
+        if (opUser_ == null) {
+          OpUser = new global::OpenIM.Proto.IMGroupMember();
+        }
+        OpUser.MergeFrom(other.OpUser);
+      }
+      if (other.group_ != null) {
+        if (group_ == null) {
+          Group = new global::OpenIM.Proto.IMGroup();
+        }
+        Group.MergeFrom(other.Group);
+      }
+      if (other.GroupMemberVersion != 0UL) {
+        GroupMemberVersion = other.GroupMemberVersion;
+      }
+      if (other.GroupMemberVersionID.Length != 0) {
+        GroupMemberVersionID = other.GroupMemberVersionID;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (opUser_ == null) {
+              OpUser = new global::OpenIM.Proto.IMGroupMember();
+            }
+            input.ReadMessage(OpUser);
+            break;
+          }
+          case 18: {
+            if (group_ == null) {
+              Group = new global::OpenIM.Proto.IMGroup();
+            }
+            input.ReadMessage(Group);
+            break;
+          }
+          case 24: {
+            GroupMemberVersion = input.ReadUInt64();
+            break;
+          }
+          case 34: {
+            GroupMemberVersionID = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            if (opUser_ == null) {
+              OpUser = new global::OpenIM.Proto.IMGroupMember();
+            }
+            input.ReadMessage(OpUser);
+            break;
+          }
+          case 18: {
+            if (group_ == null) {
+              Group = new global::OpenIM.Proto.IMGroup();
+            }
+            input.ReadMessage(Group);
+            break;
+          }
+          case 24: {
+            GroupMemberVersion = input.ReadUInt64();
+            break;
+          }
+          case 34: {
+            GroupMemberVersionID = input.ReadString();
             break;
           }
         }
@@ -14590,7 +15390,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.SharedReflection.Descriptor.MessageTypes[34]; }
+      get { return global::OpenIM.Proto.SharedReflection.Descriptor.MessageTypes[36]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -14795,7 +15595,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -14828,7 +15632,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -14892,7 +15700,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.SharedReflection.Descriptor.MessageTypes[35]; }
+      get { return global::OpenIM.Proto.SharedReflection.Descriptor.MessageTypes[37]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -15190,7 +15998,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -15241,7 +16053,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -15307,7 +16123,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.SharedReflection.Descriptor.MessageTypes[36]; }
+      get { return global::OpenIM.Proto.SharedReflection.Descriptor.MessageTypes[38]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -15530,7 +16346,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -15567,7 +16387,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -15619,7 +16443,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.SharedReflection.Descriptor.MessageTypes[37]; }
+      get { return global::OpenIM.Proto.SharedReflection.Descriptor.MessageTypes[39]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -15874,7 +16698,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -15918,7 +16746,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -15977,7 +16809,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.SharedReflection.Descriptor.MessageTypes[38]; }
+      get { return global::OpenIM.Proto.SharedReflection.Descriptor.MessageTypes[40]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -16182,7 +17014,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -16215,7 +17051,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -16261,7 +17101,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.SharedReflection.Descriptor.MessageTypes[39]; }
+      get { return global::OpenIM.Proto.SharedReflection.Descriptor.MessageTypes[41]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -16466,7 +17306,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -16499,7 +17343,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -16545,7 +17393,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.SharedReflection.Descriptor.MessageTypes[40]; }
+      get { return global::OpenIM.Proto.SharedReflection.Descriptor.MessageTypes[42]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -16811,7 +17659,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -16855,7 +17707,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -16912,7 +17768,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.SharedReflection.Descriptor.MessageTypes[41]; }
+      get { return global::OpenIM.Proto.SharedReflection.Descriptor.MessageTypes[43]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -17149,7 +18005,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -17189,7 +18049,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -17240,7 +18104,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.SharedReflection.Descriptor.MessageTypes[42]; }
+      get { return global::OpenIM.Proto.SharedReflection.Descriptor.MessageTypes[44]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -17445,7 +18309,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -17478,7 +18346,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -17522,7 +18394,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.SharedReflection.Descriptor.MessageTypes[43]; }
+      get { return global::OpenIM.Proto.SharedReflection.Descriptor.MessageTypes[45]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -17727,7 +18599,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -17760,7 +18636,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -17798,11 +18678,11 @@ namespace OpenIM.Proto {
   ///  shared.IMGroupMember changedUser = 4;
   ///}
   ///
-  ///////////////////////friend/////////////////////
+  ///&#x2F;///////////////////friend/////////////////////
   ///
   ///message FriendApplication {
   ///  int64 addTime = 1;
-  ///  string addSource = 2;
+  ///  common.FriendSource addSource = 2;
   ///  string addWording = 3;
   ///}
   /// </summary>
@@ -17821,7 +18701,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.SharedReflection.Descriptor.MessageTypes[44]; }
+      get { return global::OpenIM.Proto.SharedReflection.Descriptor.MessageTypes[46]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -17991,7 +18871,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -18014,7 +18898,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -18057,7 +18945,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.SharedReflection.Descriptor.MessageTypes[45]; }
+      get { return global::OpenIM.Proto.SharedReflection.Descriptor.MessageTypes[47]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -18201,7 +19089,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -18223,7 +19115,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -18256,7 +19152,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.SharedReflection.Descriptor.MessageTypes[46]; }
+      get { return global::OpenIM.Proto.SharedReflection.Descriptor.MessageTypes[48]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -18310,10 +19206,10 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "revokerRole" field.</summary>
     public const int RevokerRoleFieldNumber = 2;
-    private int revokerRole_;
+    private global::OpenIM.Proto.RevokerRole revokerRole_ = global::OpenIM.Proto.RevokerRole.Default;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int RevokerRole {
+    public global::OpenIM.Proto.RevokerRole RevokerRole {
       get { return revokerRole_; }
       set {
         revokerRole_ = value;
@@ -18394,10 +19290,10 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "sessionType" field.</summary>
     public const int SessionTypeFieldNumber = 10;
-    private int sessionType_;
+    private global::OpenIM.Proto.SessionType sessionType_ = global::OpenIM.Proto.SessionType.SessionType;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int SessionType {
+    public global::OpenIM.Proto.SessionType SessionType {
       get { return sessionType_; }
       set {
         sessionType_ = value;
@@ -18462,14 +19358,14 @@ namespace OpenIM.Proto {
     public override int GetHashCode() {
       int hash = 1;
       if (RevokerID.Length != 0) hash ^= RevokerID.GetHashCode();
-      if (RevokerRole != 0) hash ^= RevokerRole.GetHashCode();
+      if (RevokerRole != global::OpenIM.Proto.RevokerRole.Default) hash ^= RevokerRole.GetHashCode();
       if (ClientMsgID.Length != 0) hash ^= ClientMsgID.GetHashCode();
       if (RevokerNickname.Length != 0) hash ^= RevokerNickname.GetHashCode();
       if (RevokeTime != 0L) hash ^= RevokeTime.GetHashCode();
       if (SourceMessageSendTime != 0L) hash ^= SourceMessageSendTime.GetHashCode();
       if (SourceMessageSendID.Length != 0) hash ^= SourceMessageSendID.GetHashCode();
       if (SourceMessageSenderNickname.Length != 0) hash ^= SourceMessageSenderNickname.GetHashCode();
-      if (SessionType != 0) hash ^= SessionType.GetHashCode();
+      if (SessionType != global::OpenIM.Proto.SessionType.SessionType) hash ^= SessionType.GetHashCode();
       if (Seq != 0L) hash ^= Seq.GetHashCode();
       if (Ex.Length != 0) hash ^= Ex.GetHashCode();
       if (_unknownFields != null) {
@@ -18494,9 +19390,9 @@ namespace OpenIM.Proto {
         output.WriteRawTag(10);
         output.WriteString(RevokerID);
       }
-      if (RevokerRole != 0) {
+      if (RevokerRole != global::OpenIM.Proto.RevokerRole.Default) {
         output.WriteRawTag(16);
-        output.WriteInt32(RevokerRole);
+        output.WriteEnum((int) RevokerRole);
       }
       if (ClientMsgID.Length != 0) {
         output.WriteRawTag(26);
@@ -18522,9 +19418,9 @@ namespace OpenIM.Proto {
         output.WriteRawTag(66);
         output.WriteString(SourceMessageSenderNickname);
       }
-      if (SessionType != 0) {
+      if (SessionType != global::OpenIM.Proto.SessionType.SessionType) {
         output.WriteRawTag(80);
-        output.WriteInt32(SessionType);
+        output.WriteEnum((int) SessionType);
       }
       if (Seq != 0L) {
         output.WriteRawTag(88);
@@ -18548,9 +19444,9 @@ namespace OpenIM.Proto {
         output.WriteRawTag(10);
         output.WriteString(RevokerID);
       }
-      if (RevokerRole != 0) {
+      if (RevokerRole != global::OpenIM.Proto.RevokerRole.Default) {
         output.WriteRawTag(16);
-        output.WriteInt32(RevokerRole);
+        output.WriteEnum((int) RevokerRole);
       }
       if (ClientMsgID.Length != 0) {
         output.WriteRawTag(26);
@@ -18576,9 +19472,9 @@ namespace OpenIM.Proto {
         output.WriteRawTag(66);
         output.WriteString(SourceMessageSenderNickname);
       }
-      if (SessionType != 0) {
+      if (SessionType != global::OpenIM.Proto.SessionType.SessionType) {
         output.WriteRawTag(80);
-        output.WriteInt32(SessionType);
+        output.WriteEnum((int) SessionType);
       }
       if (Seq != 0L) {
         output.WriteRawTag(88);
@@ -18601,8 +19497,8 @@ namespace OpenIM.Proto {
       if (RevokerID.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(RevokerID);
       }
-      if (RevokerRole != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(RevokerRole);
+      if (RevokerRole != global::OpenIM.Proto.RevokerRole.Default) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) RevokerRole);
       }
       if (ClientMsgID.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(ClientMsgID);
@@ -18622,8 +19518,8 @@ namespace OpenIM.Proto {
       if (SourceMessageSenderNickname.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(SourceMessageSenderNickname);
       }
-      if (SessionType != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(SessionType);
+      if (SessionType != global::OpenIM.Proto.SessionType.SessionType) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) SessionType);
       }
       if (Seq != 0L) {
         size += 1 + pb::CodedOutputStream.ComputeInt64Size(Seq);
@@ -18646,7 +19542,7 @@ namespace OpenIM.Proto {
       if (other.RevokerID.Length != 0) {
         RevokerID = other.RevokerID;
       }
-      if (other.RevokerRole != 0) {
+      if (other.RevokerRole != global::OpenIM.Proto.RevokerRole.Default) {
         RevokerRole = other.RevokerRole;
       }
       if (other.ClientMsgID.Length != 0) {
@@ -18667,7 +19563,7 @@ namespace OpenIM.Proto {
       if (other.SourceMessageSenderNickname.Length != 0) {
         SourceMessageSenderNickname = other.SourceMessageSenderNickname;
       }
-      if (other.SessionType != 0) {
+      if (other.SessionType != global::OpenIM.Proto.SessionType.SessionType) {
         SessionType = other.SessionType;
       }
       if (other.Seq != 0L) {
@@ -18687,7 +19583,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -18696,7 +19596,7 @@ namespace OpenIM.Proto {
             break;
           }
           case 16: {
-            RevokerRole = input.ReadInt32();
+            RevokerRole = (global::OpenIM.Proto.RevokerRole) input.ReadEnum();
             break;
           }
           case 26: {
@@ -18724,7 +19624,7 @@ namespace OpenIM.Proto {
             break;
           }
           case 80: {
-            SessionType = input.ReadInt32();
+            SessionType = (global::OpenIM.Proto.SessionType) input.ReadEnum();
             break;
           }
           case 88: {
@@ -18746,7 +19646,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -18755,7 +19659,7 @@ namespace OpenIM.Proto {
             break;
           }
           case 16: {
-            RevokerRole = input.ReadInt32();
+            RevokerRole = (global::OpenIM.Proto.RevokerRole) input.ReadEnum();
             break;
           }
           case 26: {
@@ -18783,7 +19687,7 @@ namespace OpenIM.Proto {
             break;
           }
           case 80: {
-            SessionType = input.ReadInt32();
+            SessionType = (global::OpenIM.Proto.SessionType) input.ReadEnum();
             break;
           }
           case 88: {
@@ -18816,7 +19720,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.SharedReflection.Descriptor.MessageTypes[47]; }
+      get { return global::OpenIM.Proto.SharedReflection.Descriptor.MessageTypes[49]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -19044,7 +19948,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -19075,7 +19983,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -19117,7 +20029,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.SharedReflection.Descriptor.MessageTypes[48]; }
+      get { return global::OpenIM.Proto.SharedReflection.Descriptor.MessageTypes[50]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -19287,7 +20199,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -19310,7 +20226,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -19344,7 +20264,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.SharedReflection.Descriptor.MessageTypes[49]; }
+      get { return global::OpenIM.Proto.SharedReflection.Descriptor.MessageTypes[51]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -19435,6 +20355,12 @@ namespace OpenIM.Proto {
           break;
         case ContentOneofCase.GroupCreatedTips:
           GroupCreatedTips = other.GroupCreatedTips.Clone();
+          break;
+        case ContentOneofCase.GroupInfoSetNameTips:
+          GroupInfoSetNameTips = other.GroupInfoSetNameTips.Clone();
+          break;
+        case ContentOneofCase.GroupInfoSetAnnouncementTips:
+          GroupInfoSetAnnouncementTips = other.GroupInfoSetAnnouncementTips.Clone();
           break;
         case ContentOneofCase.MemberQuitTips:
           MemberQuitTips = other.MemberQuitTips.Clone();
@@ -19930,6 +20856,30 @@ namespace OpenIM.Proto {
       }
     }
 
+    /// <summary>Field number for the "groupInfoSetNameTips" field.</summary>
+    public const int GroupInfoSetNameTipsFieldNumber = 312;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::OpenIM.Proto.GroupInfoSetNameTips GroupInfoSetNameTips {
+      get { return contentCase_ == ContentOneofCase.GroupInfoSetNameTips ? (global::OpenIM.Proto.GroupInfoSetNameTips) content_ : null; }
+      set {
+        content_ = value;
+        contentCase_ = value == null ? ContentOneofCase.None : ContentOneofCase.GroupInfoSetNameTips;
+      }
+    }
+
+    /// <summary>Field number for the "groupInfoSetAnnouncementTips" field.</summary>
+    public const int GroupInfoSetAnnouncementTipsFieldNumber = 313;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::OpenIM.Proto.GroupInfoSetAnnouncementTips GroupInfoSetAnnouncementTips {
+      get { return contentCase_ == ContentOneofCase.GroupInfoSetAnnouncementTips ? (global::OpenIM.Proto.GroupInfoSetAnnouncementTips) content_ : null; }
+      set {
+        content_ = value;
+        contentCase_ = value == null ? ContentOneofCase.None : ContentOneofCase.GroupInfoSetAnnouncementTips;
+      }
+    }
+
     /// <summary>Field number for the "memberQuitTips" field.</summary>
     public const int MemberQuitTipsFieldNumber = 43;
     /// <summary>
@@ -20145,6 +21095,8 @@ namespace OpenIM.Proto {
       StreamElem = 37,
       RevokedTips = 38,
       GroupCreatedTips = 311,
+      GroupInfoSetNameTips = 312,
+      GroupInfoSetAnnouncementTips = 313,
       MemberQuitTips = 43,
       GroupOwnerTransferredTips = 46,
       MemberKickedTips = 47,
@@ -20225,6 +21177,8 @@ namespace OpenIM.Proto {
       if (!object.Equals(StreamElem, other.StreamElem)) return false;
       if (!object.Equals(RevokedTips, other.RevokedTips)) return false;
       if (!object.Equals(GroupCreatedTips, other.GroupCreatedTips)) return false;
+      if (!object.Equals(GroupInfoSetNameTips, other.GroupInfoSetNameTips)) return false;
+      if (!object.Equals(GroupInfoSetAnnouncementTips, other.GroupInfoSetAnnouncementTips)) return false;
       if (!object.Equals(MemberQuitTips, other.MemberQuitTips)) return false;
       if (!object.Equals(GroupOwnerTransferredTips, other.GroupOwnerTransferredTips)) return false;
       if (!object.Equals(MemberKickedTips, other.MemberKickedTips)) return false;
@@ -20283,6 +21237,8 @@ namespace OpenIM.Proto {
       if (contentCase_ == ContentOneofCase.StreamElem) hash ^= StreamElem.GetHashCode();
       if (contentCase_ == ContentOneofCase.RevokedTips) hash ^= RevokedTips.GetHashCode();
       if (contentCase_ == ContentOneofCase.GroupCreatedTips) hash ^= GroupCreatedTips.GetHashCode();
+      if (contentCase_ == ContentOneofCase.GroupInfoSetNameTips) hash ^= GroupInfoSetNameTips.GetHashCode();
+      if (contentCase_ == ContentOneofCase.GroupInfoSetAnnouncementTips) hash ^= GroupInfoSetAnnouncementTips.GetHashCode();
       if (contentCase_ == ContentOneofCase.MemberQuitTips) hash ^= MemberQuitTips.GetHashCode();
       if (contentCase_ == ContentOneofCase.GroupOwnerTransferredTips) hash ^= GroupOwnerTransferredTips.GetHashCode();
       if (contentCase_ == ContentOneofCase.MemberKickedTips) hash ^= MemberKickedTips.GetHashCode();
@@ -20515,6 +21471,14 @@ namespace OpenIM.Proto {
         output.WriteRawTag(186, 19);
         output.WriteMessage(GroupCreatedTips);
       }
+      if (contentCase_ == ContentOneofCase.GroupInfoSetNameTips) {
+        output.WriteRawTag(194, 19);
+        output.WriteMessage(GroupInfoSetNameTips);
+      }
+      if (contentCase_ == ContentOneofCase.GroupInfoSetAnnouncementTips) {
+        output.WriteRawTag(202, 19);
+        output.WriteMessage(GroupInfoSetAnnouncementTips);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -20725,6 +21689,14 @@ namespace OpenIM.Proto {
         output.WriteRawTag(186, 19);
         output.WriteMessage(GroupCreatedTips);
       }
+      if (contentCase_ == ContentOneofCase.GroupInfoSetNameTips) {
+        output.WriteRawTag(194, 19);
+        output.WriteMessage(GroupInfoSetNameTips);
+      }
+      if (contentCase_ == ContentOneofCase.GroupInfoSetAnnouncementTips) {
+        output.WriteRawTag(202, 19);
+        output.WriteMessage(GroupInfoSetAnnouncementTips);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -20845,6 +21817,12 @@ namespace OpenIM.Proto {
       }
       if (contentCase_ == ContentOneofCase.GroupCreatedTips) {
         size += 2 + pb::CodedOutputStream.ComputeMessageSize(GroupCreatedTips);
+      }
+      if (contentCase_ == ContentOneofCase.GroupInfoSetNameTips) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(GroupInfoSetNameTips);
+      }
+      if (contentCase_ == ContentOneofCase.GroupInfoSetAnnouncementTips) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(GroupInfoSetAnnouncementTips);
       }
       if (contentCase_ == ContentOneofCase.MemberQuitTips) {
         size += 2 + pb::CodedOutputStream.ComputeMessageSize(MemberQuitTips);
@@ -21066,6 +22044,18 @@ namespace OpenIM.Proto {
           }
           GroupCreatedTips.MergeFrom(other.GroupCreatedTips);
           break;
+        case ContentOneofCase.GroupInfoSetNameTips:
+          if (GroupInfoSetNameTips == null) {
+            GroupInfoSetNameTips = new global::OpenIM.Proto.GroupInfoSetNameTips();
+          }
+          GroupInfoSetNameTips.MergeFrom(other.GroupInfoSetNameTips);
+          break;
+        case ContentOneofCase.GroupInfoSetAnnouncementTips:
+          if (GroupInfoSetAnnouncementTips == null) {
+            GroupInfoSetAnnouncementTips = new global::OpenIM.Proto.GroupInfoSetAnnouncementTips();
+          }
+          GroupInfoSetAnnouncementTips.MergeFrom(other.GroupInfoSetAnnouncementTips);
+          break;
         case ContentOneofCase.MemberQuitTips:
           if (MemberQuitTips == null) {
             MemberQuitTips = new global::OpenIM.Proto.MemberQuitTips();
@@ -21157,7 +22147,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -21517,6 +22511,24 @@ namespace OpenIM.Proto {
             GroupCreatedTips = subBuilder;
             break;
           }
+          case 2498: {
+            global::OpenIM.Proto.GroupInfoSetNameTips subBuilder = new global::OpenIM.Proto.GroupInfoSetNameTips();
+            if (contentCase_ == ContentOneofCase.GroupInfoSetNameTips) {
+              subBuilder.MergeFrom(GroupInfoSetNameTips);
+            }
+            input.ReadMessage(subBuilder);
+            GroupInfoSetNameTips = subBuilder;
+            break;
+          }
+          case 2506: {
+            global::OpenIM.Proto.GroupInfoSetAnnouncementTips subBuilder = new global::OpenIM.Proto.GroupInfoSetAnnouncementTips();
+            if (contentCase_ == ContentOneofCase.GroupInfoSetAnnouncementTips) {
+              subBuilder.MergeFrom(GroupInfoSetAnnouncementTips);
+            }
+            input.ReadMessage(subBuilder);
+            GroupInfoSetAnnouncementTips = subBuilder;
+            break;
+          }
         }
       }
     #endif
@@ -21528,7 +22540,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -21886,6 +22902,24 @@ namespace OpenIM.Proto {
             }
             input.ReadMessage(subBuilder);
             GroupCreatedTips = subBuilder;
+            break;
+          }
+          case 2498: {
+            global::OpenIM.Proto.GroupInfoSetNameTips subBuilder = new global::OpenIM.Proto.GroupInfoSetNameTips();
+            if (contentCase_ == ContentOneofCase.GroupInfoSetNameTips) {
+              subBuilder.MergeFrom(GroupInfoSetNameTips);
+            }
+            input.ReadMessage(subBuilder);
+            GroupInfoSetNameTips = subBuilder;
+            break;
+          }
+          case 2506: {
+            global::OpenIM.Proto.GroupInfoSetAnnouncementTips subBuilder = new global::OpenIM.Proto.GroupInfoSetAnnouncementTips();
+            if (contentCase_ == ContentOneofCase.GroupInfoSetAnnouncementTips) {
+              subBuilder.MergeFrom(GroupInfoSetAnnouncementTips);
+            }
+            input.ReadMessage(subBuilder);
+            GroupInfoSetAnnouncementTips = subBuilder;
             break;
           }
         }

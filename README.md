@@ -15,7 +15,7 @@ For the SDK reference, see [https://docs.openim.io/sdks/quickstart/unity](https:
 ### Add Pacakge
 
 ```bash
-dotnet add package open-im-sdk --version 1.0.5
+dotnet add package open-im-sdk --version 2.0.0
 ```
 
 ## dotnet pack

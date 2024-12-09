@@ -1,4 +1,5 @@
 using Google.Protobuf;
+using OpenIM.IMSDK.Native;
 using OpenIM.IMSDK.Util;
 using OpenIM.Proto;
 using System.Collections.Concurrent;
@@ -14,9 +15,8 @@ namespace OpenIM.IMSDK
         {
             try
             {
-                string data = Marshal.PtrToStringUTF8(dataPtr);
-                Utils.Log("RecvEvent:" + data);
-                var byteArray = Encoding.UTF8.GetBytes(data);
+                byte[] byteArray = new byte[len];
+                Marshal.Copy(dataPtr, byteArray, 0, len);
                 var result = FfiResult.Parser.ParseFrom(byteArray);
                 events.Enqueue(result);
             }
@@ -38,6 +38,7 @@ namespace OpenIM.IMSDK
             {
                 errorHandler(errCode, errMsg);
             }
+            NativeSDK.DropHandle(handleId);
         }
         static void dispatchEvent(bool suc, ulong handleId, FuncRequestEventName eventName, ByteString data, int errCode, string errMsg)
         {
@@ -685,9 +686,9 @@ namespace OpenIM.IMSDK
                     }
                     break;
 
-                case FuncRequestEventName.HandlerGroupRequest:
+                case FuncRequestEventName.HandleGroupRequest:
                     {
-                        var resp = HandlerGroupRequestResp.Parser.ParseFrom(data);
+                        var resp = HandleGroupRequestResp.Parser.ParseFrom(data);
                         callBack?.DynamicInvoke(suc);
                     }
                     break;
@@ -713,7 +714,7 @@ namespace OpenIM.IMSDK
                     }
                     break;
 
-                case FuncRequestEventName.HandlerFriendRequest:
+                case FuncRequestEventName.HandleFriendRequest:
                     {
                         var resp = HandleFriendRequestResp.Parser.ParseFrom(data);
                         callBack?.DynamicInvoke(suc);
@@ -776,9 +777,9 @@ namespace OpenIM.IMSDK
                     }
                     break;
 
-                case FuncRequestEventName.UpdateFriends:
+                case FuncRequestEventName.UpdateFriend:
                     {
-                        var resp = UpdatesFriendsResp.Parser.ParseFrom(data);
+                        var resp = UpdateFriendResp.Parser.ParseFrom(data);
                         callBack?.DynamicInvoke(suc);
                     }
                     break;

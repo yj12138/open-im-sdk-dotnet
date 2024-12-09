@@ -348,7 +348,7 @@ namespace OpenIM.IMSDK
             callBackDic[handleId] = cb;
             NativeSDK.CallAPI(handleId, FuncRequestEventName.GetOneConversation, new GetOneConversationReq
             {
-                SessionType = (int)sessionType,
+                SessionType = sessionType,
                 SourceID = sourceId,
             });
         }
@@ -410,7 +410,7 @@ namespace OpenIM.IMSDK
             NativeSDK.CallAPI(handleId, FuncRequestEventName.GetConversationIdbySessionType, new GetConversationIDBySessionTypeReq
             {
                 SourceID = sourceId,
-                SessionType = (int)sessionType,
+                SessionType = sessionType,
             });
         }
         public static void SendMessage(ISendMsg cb, IMMessage message, string recvId, string groupId, bool isOnlineOnly)
@@ -713,11 +713,11 @@ namespace OpenIM.IMSDK
                 SearchRemark = searchRemark
             });
         }
-        public static void UpdateFriends(Action<bool> cb, string userId, bool pinned, string remark, string ex)
+        public static void UpdateFriend(Action<bool> cb, string userId, bool pinned, string remark, string ex)
         {
             var handleId = GetHandleId();
             callBackDic[handleId] = cb;
-            NativeSDK.CallAPI(handleId, FuncRequestEventName.UpdateFriends, new UpdatesFriendsReq
+            NativeSDK.CallAPI(handleId, FuncRequestEventName.UpdateFriend, new UpdateFriendReq
             {
                 UserID = userId,
                 Pinned = pinned,
@@ -767,7 +767,7 @@ namespace OpenIM.IMSDK
         {
             var handleId = GetHandleId();
             callBackDic[handleId] = cb;
-            NativeSDK.CallAPI(handleId, FuncRequestEventName.HandlerFriendRequest, new HandleFriendRequestReq
+            NativeSDK.CallAPI(handleId, FuncRequestEventName.HandleFriendRequest, new HandleFriendRequestReq
             {
                 UserID = userId,
                 HandleMsg = handleMsg,
@@ -1021,7 +1021,7 @@ namespace OpenIM.IMSDK
         {
             var handleId = GetHandleId();
             callBackDic[handleId] = cb;
-            NativeSDK.CallAPI(handleId, FuncRequestEventName.HandlerGroupRequest, new HandlerGroupRequestReq
+            NativeSDK.CallAPI(handleId, FuncRequestEventName.HandleGroupRequest, new HandleGroupRequestReq
             {
                 GroupID = groupId,
                 FromUserID = fromUserId,

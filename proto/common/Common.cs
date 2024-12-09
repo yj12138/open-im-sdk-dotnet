@@ -42,7 +42,7 @@ namespace OpenIM.Proto {
             "EAkSDAoIQXZhbG9uaWEQChILCgdDb3Jkb3ZhEAsSCgoGVW5pQXBwEAwqZwoJ",
             "TXNnU3RhdHVzEg4KCk1zZ1N0YXR1c18QABILCgdTZW5kaW5nEAESDwoLU2Vu",
             "ZFN1Y2Nlc3MQAhIOCgpTZW5kRmFpbGVkEAMSDgoKSGFzRGVsZXRlZBAEEgwK",
-            "CEZpbHRlcmVkEAUqhwYKC0NvbnRlbnRUeXBlEhAKDENvbnRlbnRUeXBlXxAA",
+            "CEZpbHRlcmVkEAUq1QYKC0NvbnRlbnRUeXBlEhAKDENvbnRlbnRUeXBlXxAA",
             "EggKBFRleHQQZRILCgdQaWN0dXJlEGYSCQoFU291bmQQZxIJCgVWaWRlbxBo",
             "EggKBEZpbGUQaRIKCgZBdFRleHQQahIJCgVNZXJnZRBrEggKBENhcmQQbBIM",
             "CghMb2NhdGlvbhBtEgoKBkN1c3RvbRBuEgoKBlR5cGluZxBxEgkKBVF1b3Rl",
@@ -57,25 +57,33 @@ namespace OpenIM.Proto {
             "b3RpZmljYXRpb24Q5wsSIQocR3JvdXBNZW1iZXJNdXRlZE5vdGlmaWNhdGlv",
             "bhDoCxInCiJHcm91cE1lbWJlckNhbmNlbE11dGVkTm90aWZpY2F0aW9uEOkL",
             "EhsKFkdyb3VwTXV0ZWROb3RpZmljYXRpb24Q6gsSIQocR3JvdXBDYW5jZWxN",
-            "dXRlZE5vdGlmaWNhdGlvbhDrCxIoCiNDb252ZXJzYXRpb25Qcml2YXRlQ2hh",
-            "dE5vdGlmaWNhdGlvbhClDRIZChRCdXNpbmVzc05vdGlmaWNhdGlvbhDRDxIY",
-            "ChNSZXZva2VkTm90aWZpY2F0aW9uELUQKkIKDkFwcHJvdmFsU3RhdHVzEgsK",
-            "B0RlZmF1bHQQABIMCghBcHByb3ZlZBABEhUKCFJlamVjdGVkEP//////////",
-            "/wEqWAoOQ29udlJlY3ZNc2dPcHQSEgoOUmVjZWl2ZU1lc3NhZ2UQABIVChFO",
-            "b3RSZWNlaXZlTWVzc2FnZRABEhsKF1JlY2VpdmVOb3ROb3RpZnlNZXNzYWdl",
-            "EAIqQwoPQ29udkdyb3VwQXRUeXBlEgwKCEF0Tm9ybWFsEAASCAoEQXRNZRAB",
-            "EgkKBUF0QWxsEAISDQoJQXRBbGxBdE1lEAMqPQoQR2xvYmFsUmVjdk1zZ09w",
-            "dBIKCgZOb3JtYWwQABIOCgpOb3RSZWNlaXZlEAESDQoJTm90Tm90aWZ5EAIq",
-            "fwoITG9nTGV2ZWwSDgoKTGV2ZWxGYXRhbBAAEg4KCkxldmVsUGFuaWMQARIO",
-            "CgpMZXZlbEVycm9yEAISDQoJTGV2ZWxXYXJuEAMSDQoJTGV2ZWxJbmZvEAQS",
-            "DgoKTGV2ZWxEZWJ1ZxAFEhUKEUxldmVsRGVidWdXaXRoU1FMEAYqXgoRVXBs",
-            "b2FkU0RLRGF0YU1vZGUSFgoSVXBsb2FkU0RLRGF0YU1vZGVfEAASDgoKVXBs",
-            "b2FkTG9ncxABEgwKCFVwbG9hZERCEAISEwoPVXBsb2FkTG9nc0FuZERCEANC",
-            "S1o3Z2l0aHViLmNvbS9vcGVuaW1zZGsvb3BlbmltLXNkay1jb3JlL3YzL3By",
-            "b3RvL2dvL2NvbW1vbqoCDE9wZW5JTS5Qcm90b7oCAGIGcHJvdG8z"));
+            "dXRlZE5vdGlmaWNhdGlvbhDrCxIpCiRHcm91cEluZm9TZXRBbm5vdW5jZW1l",
+            "bnROb3RpZmljYXRpb24Q7wsSIQocR3JvdXBJbmZvU2V0TmFtZU5vdGlmaWNh",
+            "dGlvbhDwCxIoCiNDb252ZXJzYXRpb25Qcml2YXRlQ2hhdE5vdGlmaWNhdGlv",
+            "bhClDRIZChRCdXNpbmVzc05vdGlmaWNhdGlvbhDRDxIYChNSZXZva2VkTm90",
+            "aWZpY2F0aW9uELUQKkIKDkFwcHJvdmFsU3RhdHVzEgsKB0RlZmF1bHQQABIM",
+            "CghBcHByb3ZlZBABEhUKCFJlamVjdGVkEP///////////wEqWAoOQ29udlJl",
+            "Y3ZNc2dPcHQSEgoOUmVjZWl2ZU1lc3NhZ2UQABIVChFOb3RSZWNlaXZlTWVz",
+            "c2FnZRABEhsKF1JlY2VpdmVOb3ROb3RpZnlNZXNzYWdlEAIqQwoPQ29udkdy",
+            "b3VwQXRUeXBlEgwKCEF0Tm9ybWFsEAASCAoEQXRNZRABEgkKBUF0QWxsEAIS",
+            "DQoJQXRBbGxBdE1lEAMqPQoQR2xvYmFsUmVjdk1zZ09wdBIKCgZOb3JtYWwQ",
+            "ABIOCgpOb3RSZWNlaXZlEAESDQoJTm90Tm90aWZ5EAIqfwoITG9nTGV2ZWwS",
+            "DgoKTGV2ZWxGYXRhbBAAEg4KCkxldmVsUGFuaWMQARIOCgpMZXZlbEVycm9y",
+            "EAISDQoJTGV2ZWxXYXJuEAMSDQoJTGV2ZWxJbmZvEAQSDgoKTGV2ZWxEZWJ1",
+            "ZxAFEhUKEUxldmVsRGVidWdXaXRoU1FMEAYqXgoRVXBsb2FkU0RLRGF0YU1v",
+            "ZGUSFgoSVXBsb2FkU0RLRGF0YU1vZGVfEAASDgoKVXBsb2FkTG9ncxABEgwK",
+            "CFVwbG9hZERCEAISEwoPVXBsb2FkTG9nc0FuZERCEAMqaAoLUmV2b2tlclJv",
+            "bGUSFgoSUmV2b2tlclJvbGVEZWZhdWx0EAASFAoQUmV2b2tlclJvbGVPd25l",
+            "chBkEhQKEFJldm9rZXJSb2xlQWRtaW4QPBIVChFSZXZva2VyUm9sZU1lbWJl",
+            "chAUKjkKDEZyaWVuZFNvdXJjZRIRCg1GcmllbmRTb3VyY2VfEAASCgoGU2Vh",
+            "cmNoEAMSCgoGUVJDb2RlEAQqTwoMSGFuZGxlUmVzdWx0EhEKDVJlc3VsdERl",
+            "ZmF1bHQQABIaCg1SZXN1bHREZWNsaW5lEP///////////wESEAoMUmVzdWx0",
+            "QWNjZXB0EAFCS1o3Z2l0aHViLmNvbS9vcGVuaW1zZGsvb3BlbmltLXNkay1j",
+            "b3JlL3YzL3Byb3RvL2dvL2NvbW1vbqoCDE9wZW5JTS5Qcm90b7oCAGIGcHJv",
+            "dG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
-          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::OpenIM.Proto.SessionType), typeof(global::OpenIM.Proto.MsgFrom), typeof(global::OpenIM.Proto.Platform), typeof(global::OpenIM.Proto.AppFramework), typeof(global::OpenIM.Proto.MsgStatus), typeof(global::OpenIM.Proto.ContentType), typeof(global::OpenIM.Proto.ApprovalStatus), typeof(global::OpenIM.Proto.ConvRecvMsgOpt), typeof(global::OpenIM.Proto.ConvGroupAtType), typeof(global::OpenIM.Proto.GlobalRecvMsgOpt), typeof(global::OpenIM.Proto.LogLevel), typeof(global::OpenIM.Proto.UploadSDKDataMode), }, null, new pbr::GeneratedClrTypeInfo[] {
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::OpenIM.Proto.SessionType), typeof(global::OpenIM.Proto.MsgFrom), typeof(global::OpenIM.Proto.Platform), typeof(global::OpenIM.Proto.AppFramework), typeof(global::OpenIM.Proto.MsgStatus), typeof(global::OpenIM.Proto.ContentType), typeof(global::OpenIM.Proto.ApprovalStatus), typeof(global::OpenIM.Proto.ConvRecvMsgOpt), typeof(global::OpenIM.Proto.ConvGroupAtType), typeof(global::OpenIM.Proto.GlobalRecvMsgOpt), typeof(global::OpenIM.Proto.LogLevel), typeof(global::OpenIM.Proto.UploadSDKDataMode), typeof(global::OpenIM.Proto.RevokerRole), typeof(global::OpenIM.Proto.FriendSource), typeof(global::OpenIM.Proto.HandleResult), }, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.OfflinePushInfo), global::OpenIM.Proto.OfflinePushInfo.Parser, new[]{ "Title", "Desc", "Ex", "IOSPushSound", "IOSBadgeCount", "SignalInfo" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.RequestPagination), global::OpenIM.Proto.RequestPagination.Parser, new[]{ "PageNumber", "ShowNumber" }, null, null, null, null)
           }));
@@ -91,15 +99,18 @@ namespace OpenIM.Proto {
     /// </summary>
     [pbr::OriginalName("Single")] Single = 1,
     /// <summary>
-    /// WriteGroup represents a write-diffusion group chat session type (not currently enabled, can be ignored).
+    /// WriteGroup represents a write-diffusion group chat session type (not
+    /// currently enabled, can be ignored).
     /// </summary>
     [pbr::OriginalName("WriteGroup")] WriteGroup = 2,
     /// <summary>
-    /// ReadGroup represents a read-diffusion group chat session type, used for all current group chats in OpenIM.
+    /// ReadGroup represents a read-diffusion group chat session type, used for all
+    /// current group chats in OpenIM.
     /// </summary>
     [pbr::OriginalName("ReadGroup")] ReadGroup = 3,
     /// <summary>
-    /// Notification represents a notification session type, generated by the client when the server sends a notification.
+    /// Notification represents a notification session type, generated by the
+    /// client when the server sends a notification.
     /// </summary>
     [pbr::OriginalName("Notification")] Notification = 4,
   }
@@ -155,8 +166,9 @@ namespace OpenIM.Proto {
     /// </summary>
     [pbr::OriginalName("iPad")] IPad = 9,
     /// <summary>
-    /// Admin represents the admin panel or management platform, typically used for backend administrators.
-    /// This platform is specifically for administrative filling and can generally be ignored.
+    /// Admin represents the admin panel or management platform, typically used for
+    /// backend administrators. This platform is specifically for administrative
+    /// filling and can generally be ignored.
     /// </summary>
     [pbr::OriginalName("Admin")] Admin = 10,
     /// <summary>
@@ -247,15 +259,18 @@ namespace OpenIM.Proto {
     [pbr::OriginalName("GroupMemberMutedNotification")] GroupMemberMutedNotification = 1512,
     [pbr::OriginalName("GroupMemberCancelMutedNotification")] GroupMemberCancelMutedNotification = 1513,
     [pbr::OriginalName("GroupMutedNotification")] GroupMutedNotification = 1514,
+    [pbr::OriginalName("GroupCancelMutedNotification")] GroupCancelMutedNotification = 1515,
     /// <summary>
     ///  GroupMemberInfoSetNotification = 1516;
     ///  GroupMemberSetToAdminNotification = 1517;
     ///  GroupMemberSetToOrdinaryUserNotification = 1518;
     ///  GroupInfoSetAnnouncementNotification = 1519;
-    ///  GroupInfoSetNameNotification = 1520;
+    /// </summary>
+    [pbr::OriginalName("GroupInfoSetAnnouncementNotification")] GroupInfoSetAnnouncementNotification = 1519,
+    /// <summary>
     ///  GroupNotificationEnd                     = 1599;
     /// </summary>
-    [pbr::OriginalName("GroupCancelMutedNotification")] GroupCancelMutedNotification = 1515,
+    [pbr::OriginalName("GroupInfoSetNameNotification")] GroupInfoSetNameNotification = 1520,
     /// <summary>
     ///  ClearConversationNotification = 1703;
     /// </summary>
@@ -286,10 +301,13 @@ namespace OpenIM.Proto {
   /// <summary>
   /// GlobalRecvMsgOpt represents the global message receive option.
   ///
-  /// In the globalRecvMsgOpt of UserInfo, globally control whether to receive offline push notifications.
+  /// In the globalRecvMsgOpt of UserInfo, globally control whether to receive
+  /// offline push notifications.
   ///
-  /// In the recvMsgOpt of a ConversationInfo, in addition to controlling whether to receive offline push notifications for that session,
-  /// it also controls whether the unread count of that session is included in the total unread count.
+  /// In the recvMsgOpt of a ConversationInfo, in addition to controlling whether
+  /// to receive offline push notifications for that session, it also controls
+  /// whether the unread count of that session is included in the total unread
+  /// count.
   /// </summary>
   public enum GlobalRecvMsgOpt {
     /// <summary>
@@ -301,7 +319,7 @@ namespace OpenIM.Proto {
     /// </summary>
     [pbr::OriginalName("NotReceive")] NotReceive = 1,
     /// <summary>
-    /// Receive messages, but no offline push. When in conversation, this conversation's unread count is not included in the total unread count
+    /// Receive messages, but no offline push. When in conversation,
     /// </summary>
     [pbr::OriginalName("NotNotify")] NotNotify = 2,
   }
@@ -348,11 +366,11 @@ namespace OpenIM.Proto {
   /// </summary>
   public enum UploadSDKDataMode {
     /// <summary>
-    /// invalid mode. Because the first enum value must be 0 in proto3, this field is required.
+    /// invalid mode. Because the first enum value must be
     /// </summary>
     [pbr::OriginalName("UploadSDKDataMode_")] UploadSdkdataMode = 0,
     /// <summary>
-    /// only upload logs
+    /// 0 in proto3, this field is required.
     /// </summary>
     [pbr::OriginalName("UploadLogs")] UploadLogs = 1,
     /// <summary>
@@ -363,6 +381,25 @@ namespace OpenIM.Proto {
     /// upload db and logs
     /// </summary>
     [pbr::OriginalName("UploadLogsAndDB")] UploadLogsAndDb = 3,
+  }
+
+  public enum RevokerRole {
+    [pbr::OriginalName("RevokerRoleDefault")] Default = 0,
+    [pbr::OriginalName("RevokerRoleOwner")] Owner = 100,
+    [pbr::OriginalName("RevokerRoleAdmin")] Admin = 60,
+    [pbr::OriginalName("RevokerRoleMember")] Member = 20,
+  }
+
+  public enum FriendSource {
+    [pbr::OriginalName("FriendSource_")] FriendSource = 0,
+    [pbr::OriginalName("Search")] Search = 3,
+    [pbr::OriginalName("QRCode")] Qrcode = 4,
+  }
+
+  public enum HandleResult {
+    [pbr::OriginalName("ResultDefault")] ResultDefault = 0,
+    [pbr::OriginalName("ResultDecline")] ResultDecline = -1,
+    [pbr::OriginalName("ResultAccept")] ResultAccept = 1,
   }
 
   #endregion
@@ -669,7 +706,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -708,7 +749,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -928,7 +973,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -951,7 +1000,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;

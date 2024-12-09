@@ -51,68 +51,69 @@ namespace OpenIM.Proto {
             "dmVyc2F0aW9uTGlzdBgBIAMoCzIhLm9wZW5pbS5zZGsuc2hhcmVkLklNQ29u",
             "dmVyc2F0aW9uIi0KE0hpZGVDb252ZXJzYXRpb25SZXESFgoOY29udmVyc2F0",
             "aW9uSUQYASABKAkiFgoUSGlkZUNvbnZlcnNhdGlvblJlc3AiEAoOR2V0QXRB",
-            "bGxUYWdSZXEiHgoPR2V0QXRBbGxUYWdSZXNwEgsKA3RhZxgBIAEoCSI+ChVH",
-            "ZXRPbmVDb252ZXJzYXRpb25SZXESEwoLc2Vzc2lvblR5cGUYASABKAUSEAoI",
-            "c291cmNlSUQYAiABKAkiUQoWR2V0T25lQ29udmVyc2F0aW9uUmVzcBI3Cgxj",
-            "b252ZXJzYXRpb24YASABKAsyIS5vcGVuaW0uc2RrLnNoYXJlZC5JTUNvbnZl",
-            "cnNhdGlvbiI4ChpHZXRNdWx0aXBsZUNvbnZlcnNhdGlvblJlcRIaChJjb252",
-            "ZXJzYXRpb25JRExpc3QYASADKAkiWgobR2V0TXVsdGlwbGVDb252ZXJzYXRp",
-            "b25SZXNwEjsKEGNvbnZlcnNhdGlvbkxpc3QYASADKAsyIS5vcGVuaW0uc2Rr",
-            "LnNoYXJlZC5JTUNvbnZlcnNhdGlvbiIZChdIaWRlQWxsQ29udmVyc2F0aW9u",
-            "c1JlcSIaChhIaWRlQWxsQ29udmVyc2F0aW9uc1Jlc3AiRAoXU2V0Q29udmVy",
-            "c2F0aW9uRHJhZnRSZXESFgoOY29udmVyc2F0aW9uSUQYASABKAkSEQoJZHJh",
-            "ZnRUZXh0GAIgASgJIhoKGFNldENvbnZlcnNhdGlvbkRyYWZ0UmVzcCK7AwoS",
-            "U2V0Q29udmVyc2F0aW9uUmVxEhYKDmNvbnZlcnNhdGlvbklEGAEgASgJEjoK",
-            "CnJlY3ZNc2dPcHQYAiABKA4yIS5vcGVuaW0uc2RrLmNvbW1vbi5Db252UmVj",
-            "dk1zZ09wdEgAiAEBEjwKC2dyb3VwQXRUeXBlGAMgASgOMiIub3BlbmltLnNk",
-            "ay5jb21tb24uQ29udkdyb3VwQXRUeXBlSAGIAQESFQoIaXNQaW5uZWQYBCAB",
-            "KAhIAogBARIaCg1pc1ByaXZhdGVDaGF0GAUgASgISAOIAQESGQoMYnVybkR1",
-            "cmF0aW9uGAYgASgFSASIAQESDwoCZXgYByABKAlIBYgBARIcCg9tc2dEZXN0",
-            "cnVjdFRpbWUYCCABKANIBogBARIaCg1pc01zZ0Rlc3RydWN0GAkgASgISAeI",
-            "AQFCDQoLX3JlY3ZNc2dPcHRCDgoMX2dyb3VwQXRUeXBlQgsKCV9pc1Bpbm5l",
-            "ZEIQCg5faXNQcml2YXRlQ2hhdEIPCg1fYnVybkR1cmF0aW9uQgUKA19leEIS",
-            "ChBfbXNnRGVzdHJ1Y3RUaW1lQhAKDl9pc01zZ0Rlc3RydWN0IhUKE1NldENv",
-            "bnZlcnNhdGlvblJlc3AiGwoZR2V0VG90YWxVbnJlYWRNc2dDb3VudFJlcSI2",
-            "ChpHZXRUb3RhbFVucmVhZE1zZ0NvdW50UmVzcBIYChB0b3RhbFVucmVhZENv",
-            "dW50GAEgASgFIkoKIUdldENvbnZlcnNhdGlvbklEQnlTZXNzaW9uVHlwZVJl",
-            "cRIQCghzb3VyY2VJRBgBIAEoCRITCgtzZXNzaW9uVHlwZRgCIAEoBSI8CiJH",
-            "ZXRDb252ZXJzYXRpb25JREJ5U2Vzc2lvblR5cGVSZXNwEhYKDmNvbnZlcnNh",
-            "dGlvbklEGAEgASgJIloKEkZpbmRNZXNzYWdlTGlzdFJlcRJEChFjb252ZXJz",
-            "YXRpb25zQXJncxgBIAMoCzIpLm9wZW5pbS5zZGsuY29udmVyc2F0aW9uLkNv",
-            "bnZlcnNhdGlvbkFyZ3MidwoTRmluZE1lc3NhZ2VMaXN0UmVzcBJMCg9maW5k",
-            "UmVzdWx0SXRlbXMYASADKAsyMy5vcGVuaW0uc2RrLmNvbnZlcnNhdGlvbi5T",
-            "ZWFyY2hCeUNvbnZlcnNhdGlvblJlc3VsdBISCgp0b3RhbENvdW50GAIgASgF",
-            "IjoKIE1hcmtDb252ZXJzYXRpb25NZXNzYWdlQXNSZWFkUmVxEhYKDmNvbnZl",
-            "cnNhdGlvbklEGAEgASgJIiMKIU1hcmtDb252ZXJzYXRpb25NZXNzYWdlQXNS",
-            "ZWFkUmVzcCIlCiNNYXJrQWxsQ29udmVyc2F0aW9uTWVzc2FnZUFzUmVhZFJl",
-            "cSImCiRNYXJrQWxsQ29udmVyc2F0aW9uTWVzc2FnZUFzUmVhZFJlc3AiTwog",
-            "RGVsZXRlTWVzc2FnZUZyb21Mb2NhbFN0b3JhZ2VSZXESFgoOY29udmVyc2F0",
-            "aW9uSUQYASABKAkSEwoLY2xpZW50TXNnSUQYAiABKAkiIwohRGVsZXRlTWVz",
-            "c2FnZUZyb21Mb2NhbFN0b3JhZ2VSZXNwIj0KI0NsZWFyQ29udmVyc2F0aW9u",
-            "QW5kRGVsZXRlQWxsTXNnUmVxEhYKDmNvbnZlcnNhdGlvbklEGAEgASgJIiYK",
-            "JENsZWFyQ29udmVyc2F0aW9uQW5kRGVsZXRlQWxsTXNnUmVzcCI+CiREZWxl",
-            "dGVDb252ZXJzYXRpb25BbmREZWxldGVBbGxNc2dSZXESFgoOY29udmVyc2F0",
-            "aW9uSUQYASABKAkiJwolRGVsZXRlQ29udmVyc2F0aW9uQW5kRGVsZXRlQWxs",
-            "TXNnUmVzcCJhChZTZWFyY2hMb2NhbE1lc3NhZ2VzUmVxEkcKC3NlYXJjaFBh",
-            "cmFtGAEgASgLMjIub3BlbmltLnNkay5jb252ZXJzYXRpb24uU2VhcmNoTG9j",
-            "YWxNZXNzYWdlc1BhcmFtcyJlChdTZWFyY2hMb2NhbE1lc3NhZ2VzUmVzcBJK",
-            "CgxzZWFyY2hSZXN1bHQYASABKAsyNC5vcGVuaW0uc2RrLmNvbnZlcnNhdGlv",
-            "bi5TZWFyY2hMb2NhbE1lc3NhZ2VzQ2FsbGJhY2siVAoUU2V0TWVzc2FnZUxv",
-            "Y2FsRXhSZXESFgoOY29udmVyc2F0aW9uSUQYASABKAkSEwoLY2xpZW50TXNn",
-            "SUQYAiABKAkSDwoHbG9jYWxFeBgDIAEoCSIoChVTZXRNZXNzYWdlTG9jYWxF",
-            "eFJlc3ASDwoHc3VjY2VzcxgBIAEoCCIsChVTZWFyY2hDb252ZXJzYXRpb25S",
-            "ZXESEwoLc2VhcmNoUGFyYW0YASABKAkiVQoWU2VhcmNoQ29udmVyc2F0aW9u",
-            "UmVzcBI7ChBjb252ZXJzYXRpb25MaXN0GAEgAygLMiEub3BlbmltLnNkay5z",
-            "aGFyZWQuSU1Db252ZXJzYXRpb24iVAoSVXNlck9ubGluZVBsYXRmb3JtEg4K",
-            "BnVzZXJJRBgBIAEoCRIuCglwbGF0Zm9ybXMYAiADKA4yGy5vcGVuaW0uc2Rr",
-            "LmNvbW1vbi5QbGF0Zm9ybSIwCh1TdWJzY3JpYmVVc2Vyc09ubGluZVN0YXR1",
-            "c1JlcRIPCgd1c2VySURzGAEgAygJIl0KHlN1YnNjcmliZVVzZXJzT25saW5l",
-            "U3RhdHVzUmVzcBI7CgZzdGF0dXMYASADKAsyKy5vcGVuaW0uc2RrLmNvbnZl",
-            "cnNhdGlvbi5Vc2VyT25saW5lUGxhdGZvcm0iMgofVW5zdWJzY3JpYmVVc2Vy",
-            "c09ubGluZVN0YXR1c1JlcRIPCgd1c2VySURzGAEgAygJIiIKIFVuc3Vic2Ny",
-            "aWJlVXNlcnNPbmxpbmVTdGF0dXNSZXNwQlFaPWdpdGh1Yi5jb20vb3Blbmlt",
-            "c2RrL29wZW5pbS1zZGstY29yZS92My9wcm90by9nby9jb252ZXJzYXRpb26q",
-            "AgxPcGVuSU0uUHJvdG+6AgBiBnByb3RvMw=="));
+            "bGxUYWdSZXEiHgoPR2V0QXRBbGxUYWdSZXNwEgsKA3RhZxgBIAEoCSJeChVH",
+            "ZXRPbmVDb252ZXJzYXRpb25SZXESMwoLc2Vzc2lvblR5cGUYASABKA4yHi5v",
+            "cGVuaW0uc2RrLmNvbW1vbi5TZXNzaW9uVHlwZRIQCghzb3VyY2VJRBgCIAEo",
+            "CSJRChZHZXRPbmVDb252ZXJzYXRpb25SZXNwEjcKDGNvbnZlcnNhdGlvbhgB",
+            "IAEoCzIhLm9wZW5pbS5zZGsuc2hhcmVkLklNQ29udmVyc2F0aW9uIjgKGkdl",
+            "dE11bHRpcGxlQ29udmVyc2F0aW9uUmVxEhoKEmNvbnZlcnNhdGlvbklETGlz",
+            "dBgBIAMoCSJaChtHZXRNdWx0aXBsZUNvbnZlcnNhdGlvblJlc3ASOwoQY29u",
+            "dmVyc2F0aW9uTGlzdBgBIAMoCzIhLm9wZW5pbS5zZGsuc2hhcmVkLklNQ29u",
+            "dmVyc2F0aW9uIhkKF0hpZGVBbGxDb252ZXJzYXRpb25zUmVxIhoKGEhpZGVB",
+            "bGxDb252ZXJzYXRpb25zUmVzcCJEChdTZXRDb252ZXJzYXRpb25EcmFmdFJl",
+            "cRIWCg5jb252ZXJzYXRpb25JRBgBIAEoCRIRCglkcmFmdFRleHQYAiABKAki",
+            "GgoYU2V0Q29udmVyc2F0aW9uRHJhZnRSZXNwIrsDChJTZXRDb252ZXJzYXRp",
+            "b25SZXESFgoOY29udmVyc2F0aW9uSUQYASABKAkSOgoKcmVjdk1zZ09wdBgC",
+            "IAEoDjIhLm9wZW5pbS5zZGsuY29tbW9uLkNvbnZSZWN2TXNnT3B0SACIAQES",
+            "PAoLZ3JvdXBBdFR5cGUYAyABKA4yIi5vcGVuaW0uc2RrLmNvbW1vbi5Db252",
+            "R3JvdXBBdFR5cGVIAYgBARIVCghpc1Bpbm5lZBgEIAEoCEgCiAEBEhoKDWlz",
+            "UHJpdmF0ZUNoYXQYBSABKAhIA4gBARIZCgxidXJuRHVyYXRpb24YBiABKAVI",
+            "BIgBARIPCgJleBgHIAEoCUgFiAEBEhwKD21zZ0Rlc3RydWN0VGltZRgIIAEo",
+            "A0gGiAEBEhoKDWlzTXNnRGVzdHJ1Y3QYCSABKAhIB4gBAUINCgtfcmVjdk1z",
+            "Z09wdEIOCgxfZ3JvdXBBdFR5cGVCCwoJX2lzUGlubmVkQhAKDl9pc1ByaXZh",
+            "dGVDaGF0Qg8KDV9idXJuRHVyYXRpb25CBQoDX2V4QhIKEF9tc2dEZXN0cnVj",
+            "dFRpbWVCEAoOX2lzTXNnRGVzdHJ1Y3QiFQoTU2V0Q29udmVyc2F0aW9uUmVz",
+            "cCIbChlHZXRUb3RhbFVucmVhZE1zZ0NvdW50UmVxIjYKGkdldFRvdGFsVW5y",
+            "ZWFkTXNnQ291bnRSZXNwEhgKEHRvdGFsVW5yZWFkQ291bnQYASABKAUiagoh",
+            "R2V0Q29udmVyc2F0aW9uSURCeVNlc3Npb25UeXBlUmVxEhAKCHNvdXJjZUlE",
+            "GAEgASgJEjMKC3Nlc3Npb25UeXBlGAIgASgOMh4ub3BlbmltLnNkay5jb21t",
+            "b24uU2Vzc2lvblR5cGUiPAoiR2V0Q29udmVyc2F0aW9uSURCeVNlc3Npb25U",
+            "eXBlUmVzcBIWCg5jb252ZXJzYXRpb25JRBgBIAEoCSJaChJGaW5kTWVzc2Fn",
+            "ZUxpc3RSZXESRAoRY29udmVyc2F0aW9uc0FyZ3MYASADKAsyKS5vcGVuaW0u",
+            "c2RrLmNvbnZlcnNhdGlvbi5Db252ZXJzYXRpb25BcmdzIncKE0ZpbmRNZXNz",
+            "YWdlTGlzdFJlc3ASTAoPZmluZFJlc3VsdEl0ZW1zGAEgAygLMjMub3Blbmlt",
+            "LnNkay5jb252ZXJzYXRpb24uU2VhcmNoQnlDb252ZXJzYXRpb25SZXN1bHQS",
+            "EgoKdG90YWxDb3VudBgCIAEoBSI6CiBNYXJrQ29udmVyc2F0aW9uTWVzc2Fn",
+            "ZUFzUmVhZFJlcRIWCg5jb252ZXJzYXRpb25JRBgBIAEoCSIjCiFNYXJrQ29u",
+            "dmVyc2F0aW9uTWVzc2FnZUFzUmVhZFJlc3AiJQojTWFya0FsbENvbnZlcnNh",
+            "dGlvbk1lc3NhZ2VBc1JlYWRSZXEiJgokTWFya0FsbENvbnZlcnNhdGlvbk1l",
+            "c3NhZ2VBc1JlYWRSZXNwIk8KIERlbGV0ZU1lc3NhZ2VGcm9tTG9jYWxTdG9y",
+            "YWdlUmVxEhYKDmNvbnZlcnNhdGlvbklEGAEgASgJEhMKC2NsaWVudE1zZ0lE",
+            "GAIgASgJIiMKIURlbGV0ZU1lc3NhZ2VGcm9tTG9jYWxTdG9yYWdlUmVzcCI9",
+            "CiNDbGVhckNvbnZlcnNhdGlvbkFuZERlbGV0ZUFsbE1zZ1JlcRIWCg5jb252",
+            "ZXJzYXRpb25JRBgBIAEoCSImCiRDbGVhckNvbnZlcnNhdGlvbkFuZERlbGV0",
+            "ZUFsbE1zZ1Jlc3AiPgokRGVsZXRlQ29udmVyc2F0aW9uQW5kRGVsZXRlQWxs",
+            "TXNnUmVxEhYKDmNvbnZlcnNhdGlvbklEGAEgASgJIicKJURlbGV0ZUNvbnZl",
+            "cnNhdGlvbkFuZERlbGV0ZUFsbE1zZ1Jlc3AiYQoWU2VhcmNoTG9jYWxNZXNz",
+            "YWdlc1JlcRJHCgtzZWFyY2hQYXJhbRgBIAEoCzIyLm9wZW5pbS5zZGsuY29u",
+            "dmVyc2F0aW9uLlNlYXJjaExvY2FsTWVzc2FnZXNQYXJhbXMiZQoXU2VhcmNo",
+            "TG9jYWxNZXNzYWdlc1Jlc3ASSgoMc2VhcmNoUmVzdWx0GAEgASgLMjQub3Bl",
+            "bmltLnNkay5jb252ZXJzYXRpb24uU2VhcmNoTG9jYWxNZXNzYWdlc0NhbGxi",
+            "YWNrIlQKFFNldE1lc3NhZ2VMb2NhbEV4UmVxEhYKDmNvbnZlcnNhdGlvbklE",
+            "GAEgASgJEhMKC2NsaWVudE1zZ0lEGAIgASgJEg8KB2xvY2FsRXgYAyABKAki",
+            "KAoVU2V0TWVzc2FnZUxvY2FsRXhSZXNwEg8KB3N1Y2Nlc3MYASABKAgiLAoV",
+            "U2VhcmNoQ29udmVyc2F0aW9uUmVxEhMKC3NlYXJjaFBhcmFtGAEgASgJIlUK",
+            "FlNlYXJjaENvbnZlcnNhdGlvblJlc3ASOwoQY29udmVyc2F0aW9uTGlzdBgB",
+            "IAMoCzIhLm9wZW5pbS5zZGsuc2hhcmVkLklNQ29udmVyc2F0aW9uIlQKElVz",
+            "ZXJPbmxpbmVQbGF0Zm9ybRIOCgZ1c2VySUQYASABKAkSLgoJcGxhdGZvcm1z",
+            "GAIgAygOMhsub3BlbmltLnNkay5jb21tb24uUGxhdGZvcm0iMAodU3Vic2Ny",
+            "aWJlVXNlcnNPbmxpbmVTdGF0dXNSZXESDwoHdXNlcklEcxgBIAMoCSJdCh5T",
+            "dWJzY3JpYmVVc2Vyc09ubGluZVN0YXR1c1Jlc3ASOwoGc3RhdHVzGAEgAygL",
+            "Misub3BlbmltLnNkay5jb252ZXJzYXRpb24uVXNlck9ubGluZVBsYXRmb3Jt",
+            "IjIKH1Vuc3Vic2NyaWJlVXNlcnNPbmxpbmVTdGF0dXNSZXESDwoHdXNlcklE",
+            "cxgBIAMoCSIiCiBVbnN1YnNjcmliZVVzZXJzT25saW5lU3RhdHVzUmVzcEJR",
+            "Wj1naXRodWIuY29tL29wZW5pbXNkay9vcGVuaW0tc2RrLWNvcmUvdjMvcHJv",
+            "dG8vZ28vY29udmVyc2F0aW9uqgIMT3BlbklNLlByb3RvugIAYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::OpenIM.Proto.CommonReflection.Descriptor, global::OpenIM.Proto.SharedReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -346,7 +347,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -369,7 +374,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -562,7 +571,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -585,7 +598,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -959,7 +976,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -1011,7 +1032,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -1233,7 +1258,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -1256,7 +1285,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -1594,7 +1627,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -1637,7 +1674,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -1806,7 +1847,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -1821,7 +1866,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -1977,7 +2026,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -1996,7 +2049,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -2196,7 +2253,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -2219,7 +2280,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -2383,7 +2448,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -2402,7 +2471,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -2573,7 +2646,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -2592,7 +2669,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -2734,7 +2815,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -2749,7 +2834,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -2887,7 +2976,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -2902,7 +2995,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -3069,7 +3166,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -3088,7 +3189,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -3151,10 +3256,10 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "sessionType" field.</summary>
     public const int SessionTypeFieldNumber = 1;
-    private int sessionType_;
+    private global::OpenIM.Proto.SessionType sessionType_ = global::OpenIM.Proto.SessionType.SessionType;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int SessionType {
+    public global::OpenIM.Proto.SessionType SessionType {
       get { return sessionType_; }
       set {
         sessionType_ = value;
@@ -3197,7 +3302,7 @@ namespace OpenIM.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (SessionType != 0) hash ^= SessionType.GetHashCode();
+      if (SessionType != global::OpenIM.Proto.SessionType.SessionType) hash ^= SessionType.GetHashCode();
       if (SourceID.Length != 0) hash ^= SourceID.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -3217,9 +3322,9 @@ namespace OpenIM.Proto {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (SessionType != 0) {
+      if (SessionType != global::OpenIM.Proto.SessionType.SessionType) {
         output.WriteRawTag(8);
-        output.WriteInt32(SessionType);
+        output.WriteEnum((int) SessionType);
       }
       if (SourceID.Length != 0) {
         output.WriteRawTag(18);
@@ -3235,9 +3340,9 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (SessionType != 0) {
+      if (SessionType != global::OpenIM.Proto.SessionType.SessionType) {
         output.WriteRawTag(8);
-        output.WriteInt32(SessionType);
+        output.WriteEnum((int) SessionType);
       }
       if (SourceID.Length != 0) {
         output.WriteRawTag(18);
@@ -3253,8 +3358,8 @@ namespace OpenIM.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (SessionType != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(SessionType);
+      if (SessionType != global::OpenIM.Proto.SessionType.SessionType) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) SessionType);
       }
       if (SourceID.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(SourceID);
@@ -3271,7 +3376,7 @@ namespace OpenIM.Proto {
       if (other == null) {
         return;
       }
-      if (other.SessionType != 0) {
+      if (other.SessionType != global::OpenIM.Proto.SessionType.SessionType) {
         SessionType = other.SessionType;
       }
       if (other.SourceID.Length != 0) {
@@ -3288,12 +3393,16 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            SessionType = input.ReadInt32();
+            SessionType = (global::OpenIM.Proto.SessionType) input.ReadEnum();
             break;
           }
           case 18: {
@@ -3311,12 +3420,16 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 8: {
-            SessionType = input.ReadInt32();
+            SessionType = (global::OpenIM.Proto.SessionType) input.ReadEnum();
             break;
           }
           case 18: {
@@ -3489,7 +3602,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -3511,7 +3628,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -3674,7 +3795,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -3693,7 +3818,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -3853,7 +3982,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -3872,7 +4005,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -4014,7 +4151,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -4029,7 +4170,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -4167,7 +4312,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -4182,7 +4331,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -4378,7 +4531,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -4401,7 +4558,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -4547,7 +4708,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -4562,7 +4727,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -5082,7 +5251,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -5133,7 +5306,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -5307,7 +5484,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -5322,7 +5503,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -5460,7 +5645,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -5475,7 +5664,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -5642,7 +5835,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -5661,7 +5858,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -5736,10 +5937,10 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "sessionType" field.</summary>
     public const int SessionTypeFieldNumber = 2;
-    private int sessionType_;
+    private global::OpenIM.Proto.SessionType sessionType_ = global::OpenIM.Proto.SessionType.SessionType;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int SessionType {
+    public global::OpenIM.Proto.SessionType SessionType {
       get { return sessionType_; }
       set {
         sessionType_ = value;
@@ -5771,7 +5972,7 @@ namespace OpenIM.Proto {
     public override int GetHashCode() {
       int hash = 1;
       if (SourceID.Length != 0) hash ^= SourceID.GetHashCode();
-      if (SessionType != 0) hash ^= SessionType.GetHashCode();
+      if (SessionType != global::OpenIM.Proto.SessionType.SessionType) hash ^= SessionType.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -5794,9 +5995,9 @@ namespace OpenIM.Proto {
         output.WriteRawTag(10);
         output.WriteString(SourceID);
       }
-      if (SessionType != 0) {
+      if (SessionType != global::OpenIM.Proto.SessionType.SessionType) {
         output.WriteRawTag(16);
-        output.WriteInt32(SessionType);
+        output.WriteEnum((int) SessionType);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -5812,9 +6013,9 @@ namespace OpenIM.Proto {
         output.WriteRawTag(10);
         output.WriteString(SourceID);
       }
-      if (SessionType != 0) {
+      if (SessionType != global::OpenIM.Proto.SessionType.SessionType) {
         output.WriteRawTag(16);
-        output.WriteInt32(SessionType);
+        output.WriteEnum((int) SessionType);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -5829,8 +6030,8 @@ namespace OpenIM.Proto {
       if (SourceID.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(SourceID);
       }
-      if (SessionType != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(SessionType);
+      if (SessionType != global::OpenIM.Proto.SessionType.SessionType) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) SessionType);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -5847,7 +6048,7 @@ namespace OpenIM.Proto {
       if (other.SourceID.Length != 0) {
         SourceID = other.SourceID;
       }
-      if (other.SessionType != 0) {
+      if (other.SessionType != global::OpenIM.Proto.SessionType.SessionType) {
         SessionType = other.SessionType;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -5861,7 +6062,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -5870,7 +6075,7 @@ namespace OpenIM.Proto {
             break;
           }
           case 16: {
-            SessionType = input.ReadInt32();
+            SessionType = (global::OpenIM.Proto.SessionType) input.ReadEnum();
             break;
           }
         }
@@ -5884,7 +6089,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -5893,7 +6102,7 @@ namespace OpenIM.Proto {
             break;
           }
           case 16: {
-            SessionType = input.ReadInt32();
+            SessionType = (global::OpenIM.Proto.SessionType) input.ReadEnum();
             break;
           }
         }
@@ -6059,7 +6268,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -6078,7 +6291,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -6238,7 +6455,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -6257,7 +6478,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -6446,7 +6671,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -6469,7 +6698,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -6644,7 +6877,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -6663,7 +6900,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -6805,7 +7046,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -6820,7 +7065,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -6958,7 +7207,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -6973,7 +7226,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -7111,7 +7368,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -7126,7 +7387,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -7322,7 +7587,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -7345,7 +7614,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -7491,7 +7764,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -7506,7 +7783,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -7673,7 +7954,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -7692,7 +7977,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -7834,7 +8123,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -7849,7 +8142,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -8016,7 +8313,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -8035,7 +8336,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -8177,7 +8482,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -8192,7 +8501,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -8362,7 +8675,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -8384,7 +8701,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -8561,7 +8882,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -8583,7 +8908,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -8815,7 +9144,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -8842,7 +9175,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -9021,7 +9358,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -9040,7 +9381,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -9211,7 +9556,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -9230,7 +9579,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -9390,7 +9743,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -9409,7 +9766,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -9601,7 +9962,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -9625,7 +9990,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -9790,7 +10159,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -9809,7 +10182,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -9969,7 +10346,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -9988,7 +10369,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -10148,7 +10533,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -10167,7 +10556,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -10309,7 +10702,11 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -10324,7 +10721,11 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;

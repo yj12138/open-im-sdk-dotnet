@@ -17,7 +17,7 @@ namespace OpenIM.IMSDK.Native
         static extern void ffi_request(byte[] data, int length);
 
         [DllImport(IMDLLName, CallingConvention = CallingConvention.Cdecl)]
-        static extern void ffi_drop_handle(long handleId);
+        static extern void ffi_drop_handle(ulong handleId);
 
 
         public static void Init(OnRecvEvent handler)
@@ -47,9 +47,7 @@ namespace OpenIM.IMSDK.Native
                 {
                     request.WriteTo(memoryStream);
                     byteArray = memoryStream.ToArray();
-                    var str = Encoding.Default.GetString(byteArray);
-                    byte[] args = Encoding.UTF8.GetBytes(str);
-                    ffi_request(args, args.Length);
+                    ffi_request(byteArray, byteArray.Length);
                 }
             }
             catch (Exception e)
@@ -57,7 +55,7 @@ namespace OpenIM.IMSDK.Native
                 Util.Utils.Log(e.ToString());
             }
         }
-        public static void DropHandle(long handleId)
+        public static void DropHandle(ulong handleId)
         {
             ffi_drop_handle(handleId);
         }
