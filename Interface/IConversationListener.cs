@@ -8,8 +8,8 @@ namespace OpenIM.IMSDK.Listener
         void OnSyncServerFinish(bool reinstalled);
         void OnSyncServerProgress(int progress);
         void OnSyncServerFailed(bool reinstalled);
-        void OnNewConversation(List<IMConversation> conversationList);
-        void OnConversationChanged(List<IMConversation> conversationList);
+        void OnNewConversation(IMConversation[] conversations);
+        void OnConversationChanged(IMConversation[] conversations);
         void OnTotalUnreadMessageCountChanged(int totalUnreadCount);
         void OnConversationUserInputStatusChanged(string conversationId, string userId, Platform[] platforms);
     }

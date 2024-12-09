@@ -5,13 +5,13 @@ using OpenIM.Proto;
 
 namespace OpenIM.IMSDK.Native
 {
-    delegate void EventHandler(IntPtr dataPtr, int len);
+    delegate void OnRecvEvent(IntPtr dataPtr, int len);
     class NativeSDK
     {
         const string IMDLLName = "openimsdk";
 
         [DllImport(IMDLLName, CallingConvention = CallingConvention.Cdecl)]
-        static extern void ffi_init(EventHandler handler, int protocolType);
+        static extern void ffi_init(OnRecvEvent handler, int protocolType);
 
         [DllImport(IMDLLName, CallingConvention = CallingConvention.Cdecl)]
         static extern void ffi_request(byte[] data, int length);
@@ -20,7 +20,7 @@ namespace OpenIM.IMSDK.Native
         static extern void ffi_drop_handle(long handleId);
 
 
-        public static void Init(EventHandler handler)
+        public static void Init(OnRecvEvent handler)
         {
             // 1 :json 2: use Protobuf
             ffi_init(handler, 2);

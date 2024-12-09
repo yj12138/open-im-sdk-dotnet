@@ -25,122 +25,104 @@ namespace OpenIM.Proto {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "Cg1tZXNzYWdlLnByb3RvEhJvcGVuaW0uc2RrLm1lc3NhZ2UaDHNoYXJlZC5w",
-            "cm90byJmCiNHZXRBZHZhbmNlZEhpc3RvcnlNZXNzYWdlTGlzdFBhcmFtcxIW",
-            "Cg5jb252ZXJzYXRpb25JRBgBIAEoCRIYChBzdGFydENsaWVudE1zZ0lEGAIg",
-            "ASgJEg0KBWNvdW50GAMgASgFIooBCiVHZXRBZHZhbmNlZEhpc3RvcnlNZXNz",
-            "YWdlTGlzdENhbGxiYWNrEjEKC21lc3NhZ2VMaXN0GAEgAygLMhwub3Blbmlt",
-            "LnNkay5zaGFyZWQuSU1NZXNzYWdlEg0KBWlzRW5kGAIgASgIEg8KB2VyckNv",
-            "ZGUYAyABKAUSDgoGZXJyTXNnGAQgASgJInYKDlNlbmRNZXNzYWdlUmVxEi0K",
-            "B21lc3NhZ2UYASABKAsyHC5vcGVuaW0uc2RrLnNoYXJlZC5JTU1lc3NhZ2US",
-            "DgoGcmVjdklEGAIgASgJEg8KB2dyb3VwSUQYAyABKAkSFAoMaXNPbmxpbmVP",
-            "bmx5GAUgASgIIkAKD1NlbmRNZXNzYWdlUmVzcBItCgdtZXNzYWdlGAEgASgL",
-            "Mhwub3BlbmltLnNkay5zaGFyZWQuSU1NZXNzYWdlIqABCiBHZXRBZHZhbmNl",
-            "ZEhpc3RvcnlNZXNzYWdlTGlzdFJlcRIWCg5jb252ZXJzYXRpb25JRBgBIAEo",
-            "CRJkCiNnZXRBZHZhbmNlZEhpc3RvcnlNZXNzYWdlTGlzdFBhcmFtcxgCIAEo",
-            "CzI3Lm9wZW5pbS5zZGsubWVzc2FnZS5HZXRBZHZhbmNlZEhpc3RvcnlNZXNz",
-            "YWdlTGlzdFBhcmFtcyKNAQohR2V0QWR2YW5jZWRIaXN0b3J5TWVzc2FnZUxp",
-            "c3RSZXNwEmgKJWdldEFkdmFuY2VkSGlzdG9yeU1lc3NhZ2VMaXN0Q2FsbGJh",
-            "Y2sYASABKAsyOS5vcGVuaW0uc2RrLm1lc3NhZ2UuR2V0QWR2YW5jZWRIaXN0",
-            "b3J5TWVzc2FnZUxpc3RDYWxsYmFjayKnAQonR2V0QWR2YW5jZWRIaXN0b3J5",
-            "TWVzc2FnZUxpc3RSZXZlcnNlUmVxEhYKDmNvbnZlcnNhdGlvbklEGAEgASgJ",
-            "EmQKI2dldEFkdmFuY2VkSGlzdG9yeU1lc3NhZ2VMaXN0UGFyYW1zGAIgASgL",
-            "Mjcub3BlbmltLnNkay5tZXNzYWdlLkdldEFkdmFuY2VkSGlzdG9yeU1lc3Nh",
-            "Z2VMaXN0UGFyYW1zIpQBCihHZXRBZHZhbmNlZEhpc3RvcnlNZXNzYWdlTGlz",
-            "dFJldmVyc2VSZXNwEmgKJWdldEFkdmFuY2VkSGlzdG9yeU1lc3NhZ2VMaXN0",
-            "Q2FsbGJhY2sYASABKAsyOS5vcGVuaW0uc2RrLm1lc3NhZ2UuR2V0QWR2YW5j",
-            "ZWRIaXN0b3J5TWVzc2FnZUxpc3RDYWxsYmFjayI/ChBSZXZva2VNZXNzYWdl",
-            "UmVxEhYKDmNvbnZlcnNhdGlvbklEGAEgASgJEhMKC2NsaWVudE1zZ0lEGAIg",
-            "ASgJIhMKEVJldm9rZU1lc3NhZ2VSZXNwIjcKFVR5cGluZ1N0YXR1c1VwZGF0",
-            "ZVJlcRIOCgZyZWN2SUQYASABKAkSDgoGbXNnVGlwGAIgASgJIhgKFlR5cGlu",
-            "Z1N0YXR1c1VwZGF0ZVJlc3AiPwoQRGVsZXRlTWVzc2FnZVJlcRIWCg5jb252",
-            "ZXJzYXRpb25JRBgBIAEoCRITCgtjbGllbnRNc2dJRBgCIAEoCSITChFEZWxl",
-            "dGVNZXNzYWdlUmVzcCIjCiFEZWxldGVBbGxNc2dGcm9tTG9jYWxBbmRTZXJ2",
-            "ZXJSZXEiJAoiRGVsZXRlQWxsTXNnRnJvbUxvY2FsQW5kU2VydmVyUmVzcCIl",
-            "CiNEZWxldGVBbGxNZXNzYWdlRnJvbUxvY2FsU3RvcmFnZVJlcSImCiREZWxl",
-            "dGVBbGxNZXNzYWdlRnJvbUxvY2FsU3RvcmFnZVJlc3AicQokSW5zZXJ0U2lu",
-            "Z2xlTWVzc2FnZVRvTG9jYWxTdG9yYWdlUmVxEikKA21zZxgBIAEoCzIcLm9w",
-            "ZW5pbS5zZGsuc2hhcmVkLklNTWVzc2FnZRIOCgZyZWN2SUQYAiABKAkSDgoG",
-            "c2VuZElEGAMgASgJIlIKJUluc2VydFNpbmdsZU1lc3NhZ2VUb0xvY2FsU3Rv",
-            "cmFnZVJlc3ASKQoDbXNnGAEgASgLMhwub3BlbmltLnNkay5zaGFyZWQuSU1N",
-            "ZXNzYWdlInEKI0luc2VydEdyb3VwTWVzc2FnZVRvTG9jYWxTdG9yYWdlUmVx",
-            "EikKA21zZxgBIAEoCzIcLm9wZW5pbS5zZGsuc2hhcmVkLklNTWVzc2FnZRIP",
-            "Cgdncm91cElEGAIgASgJEg4KBnNlbmRJRBgDIAEoCSJRCiRJbnNlcnRHcm91",
-            "cE1lc3NhZ2VUb0xvY2FsU3RvcmFnZVJlc3ASKQoDbXNnGAEgASgLMhwub3Bl",
-            "bmltLnNkay5zaGFyZWQuSU1NZXNzYWdlIiQKFENyZWF0ZVRleHRNZXNzYWdl",
-            "UmVxEgwKBHRleHQYASABKAkiRgoVQ3JlYXRlVGV4dE1lc3NhZ2VSZXNwEi0K",
-            "B21lc3NhZ2UYASABKAsyHC5vcGVuaW0uc2RrLnNoYXJlZC5JTU1lc3NhZ2Ui",
-            "ZwocQ3JlYXRlQWR2YW5jZWRUZXh0TWVzc2FnZVJlcRIMCgR0ZXh0GAEgASgJ",
-            "EjkKD21lc3NhZ2VFbnRpdGllcxgCIAMoCzIgLm9wZW5pbS5zZGsuc2hhcmVk",
-            "Lk1lc3NhZ2VFbnRpdHkiTgodQ3JlYXRlQWR2YW5jZWRUZXh0TWVzc2FnZVJl",
-            "c3ASLQoHbWVzc2FnZRgBIAEoCzIcLm9wZW5pbS5zZGsuc2hhcmVkLklNTWVz",
-            "c2FnZSKcAQoWQ3JlYXRlVGV4dEF0TWVzc2FnZVJlcRIMCgR0ZXh0GAEgASgJ",
-            "EhIKCnVzZXJJRExpc3QYAiADKAkSLAoJdXNlcnNJbmZvGAMgAygLMhkub3Bl",
-            "bmltLnNkay5zaGFyZWQuQXRJbmZvEjIKDHF1b3RlTWVzc2FnZRgEIAEoCzIc",
-            "Lm9wZW5pbS5zZGsuc2hhcmVkLklNTWVzc2FnZSJIChdDcmVhdGVUZXh0QXRN",
-            "ZXNzYWdlUmVzcBItCgdtZXNzYWdlGAEgASgLMhwub3BlbmltLnNkay5zaGFy",
-            "ZWQuSU1NZXNzYWdlIlQKGENyZWF0ZUxvY2F0aW9uTWVzc2FnZVJlcRITCgtk",
-            "ZXNjcmlwdGlvbhgBIAEoCRIRCglsb25naXR1ZGUYAiABKAESEAoIbGF0aXR1",
-            "ZGUYAyABKAEiSgoZQ3JlYXRlTG9jYXRpb25NZXNzYWdlUmVzcBItCgdtZXNz",
-            "YWdlGAEgASgLMhwub3BlbmltLnNkay5zaGFyZWQuSU1NZXNzYWdlIk4KFkNy",
-            "ZWF0ZUN1c3RvbU1lc3NhZ2VSZXESDAoEZGF0YRgBIAEoCRIRCglleHRlbnNp",
-            "b24YAiABKAkSEwoLZGVzY3JpcHRpb24YAyABKAkiSAoXQ3JlYXRlQ3VzdG9t",
-            "TWVzc2FnZVJlc3ASLQoHbWVzc2FnZRgBIAEoCzIcLm9wZW5pbS5zZGsuc2hh",
-            "cmVkLklNTWVzc2FnZSJZChVDcmVhdGVRdW90ZU1lc3NhZ2VSZXESDAoEdGV4",
-            "dBgBIAEoCRIyCgxxdW90ZU1lc3NhZ2UYAiABKAsyHC5vcGVuaW0uc2RrLnNo",
-            "YXJlZC5JTU1lc3NhZ2UiRwoWQ3JlYXRlUXVvdGVNZXNzYWdlUmVzcBItCgdt",
-            "ZXNzYWdlGAEgASgLMhwub3BlbmltLnNkay5zaGFyZWQuSU1NZXNzYWdlIpwB",
-            "Ch1DcmVhdGVBZHZhbmNlZFF1b3RlTWVzc2FnZVJlcRIMCgR0ZXh0GAEgASgJ",
-            "EjIKDHF1b3RlTWVzc2FnZRgCIAEoCzIcLm9wZW5pbS5zZGsuc2hhcmVkLklN",
-            "TWVzc2FnZRI5Cg9tZXNzYWdlRW50aXRpZXMYAyADKAsyIC5vcGVuaW0uc2Rr",
-            "LnNoYXJlZC5NZXNzYWdlRW50aXR5Ik8KHkNyZWF0ZUFkdmFuY2VkUXVvdGVN",
-            "ZXNzYWdlUmVzcBItCgdtZXNzYWdlGAEgASgLMhwub3BlbmltLnNkay5zaGFy",
-            "ZWQuSU1NZXNzYWdlIkEKFENyZWF0ZUNhcmRNZXNzYWdlUmVxEikKBGNhcmQY",
-            "ASABKAsyGy5vcGVuaW0uc2RrLnNoYXJlZC5DYXJkRWxlbSJGChVDcmVhdGVD",
-            "YXJkTWVzc2FnZVJlc3ASLQoHbWVzc2FnZRgBIAEoCzIcLm9wZW5pbS5zZGsu",
-            "c2hhcmVkLklNTWVzc2FnZSLgAQoVQ3JlYXRlSW1hZ2VNZXNzYWdlUmVxEhcK",
-            "D2ltYWdlU291cmNlUGF0aBgBIAEoCRI5Cg1zb3VyY2VQaWN0dXJlGAIgASgL",
-            "MiIub3BlbmltLnNkay5zaGFyZWQuUGljdHVyZUJhc2VJbmZvEjYKCmJpZ1Bp",
-            "Y3R1cmUYAyABKAsyIi5vcGVuaW0uc2RrLnNoYXJlZC5QaWN0dXJlQmFzZUlu",
-            "Zm8SOwoPc25hcHNob3RQaWN0dXJlGAQgASgLMiIub3BlbmltLnNkay5zaGFy",
-            "ZWQuUGljdHVyZUJhc2VJbmZvIkcKFkNyZWF0ZUltYWdlTWVzc2FnZVJlc3AS",
+            "cm90byJ2Cg5TZW5kTWVzc2FnZVJlcRItCgdtZXNzYWdlGAEgASgLMhwub3Bl",
+            "bmltLnNkay5zaGFyZWQuSU1NZXNzYWdlEg4KBnJlY3ZJRBgCIAEoCRIPCgdn",
+            "cm91cElEGAMgASgJEhQKDGlzT25saW5lT25seRgFIAEoCCJACg9TZW5kTWVz",
+            "c2FnZVJlc3ASLQoHbWVzc2FnZRgBIAEoCzIcLm9wZW5pbS5zZGsuc2hhcmVk",
+            "LklNTWVzc2FnZSJuChhHZXRIaXN0b3J5TWVzc2FnZUxpc3RSZXESFgoOY29u",
+            "dmVyc2F0aW9uSUQYASABKAkSGAoQc3RhcnRDbGllbnRNc2dJRBgCIAEoCRIN",
+            "CgVjb3VudBgDIAEoBRIRCglpc1JldmVyc2UYBCABKAgifgoZR2V0SGlzdG9y",
+            "eU1lc3NhZ2VMaXN0UmVzcBIxCgttZXNzYWdlTGlzdBgBIAMoCzIcLm9wZW5p",
+            "bS5zZGsuc2hhcmVkLklNTWVzc2FnZRINCgVpc0VuZBgCIAEoCBIPCgdlcnJD",
+            "b2RlGAMgASgFEg4KBmVyck1zZxgEIAEoCSI/ChBSZXZva2VNZXNzYWdlUmVx",
+            "EhYKDmNvbnZlcnNhdGlvbklEGAEgASgJEhMKC2NsaWVudE1zZ0lEGAIgASgJ",
+            "IhMKEVJldm9rZU1lc3NhZ2VSZXNwIjcKFVR5cGluZ1N0YXR1c1VwZGF0ZVJl",
+            "cRIOCgZyZWN2SUQYASABKAkSDgoGbXNnVGlwGAIgASgJIhgKFlR5cGluZ1N0",
+            "YXR1c1VwZGF0ZVJlc3AiPwoQRGVsZXRlTWVzc2FnZVJlcRIWCg5jb252ZXJz",
+            "YXRpb25JRBgBIAEoCRITCgtjbGllbnRNc2dJRBgCIAEoCSITChFEZWxldGVN",
+            "ZXNzYWdlUmVzcCIjCiFEZWxldGVBbGxNc2dGcm9tTG9jYWxBbmRTZXJ2ZXJS",
+            "ZXEiJAoiRGVsZXRlQWxsTXNnRnJvbUxvY2FsQW5kU2VydmVyUmVzcCIlCiNE",
+            "ZWxldGVBbGxNZXNzYWdlRnJvbUxvY2FsU3RvcmFnZVJlcSImCiREZWxldGVB",
+            "bGxNZXNzYWdlRnJvbUxvY2FsU3RvcmFnZVJlc3AicQokSW5zZXJ0U2luZ2xl",
+            "TWVzc2FnZVRvTG9jYWxTdG9yYWdlUmVxEikKA21zZxgBIAEoCzIcLm9wZW5p",
+            "bS5zZGsuc2hhcmVkLklNTWVzc2FnZRIOCgZyZWN2SUQYAiABKAkSDgoGc2Vu",
+            "ZElEGAMgASgJIlIKJUluc2VydFNpbmdsZU1lc3NhZ2VUb0xvY2FsU3RvcmFn",
+            "ZVJlc3ASKQoDbXNnGAEgASgLMhwub3BlbmltLnNkay5zaGFyZWQuSU1NZXNz",
+            "YWdlInEKI0luc2VydEdyb3VwTWVzc2FnZVRvTG9jYWxTdG9yYWdlUmVxEikK",
+            "A21zZxgBIAEoCzIcLm9wZW5pbS5zZGsuc2hhcmVkLklNTWVzc2FnZRIPCgdn",
+            "cm91cElEGAIgASgJEg4KBnNlbmRJRBgDIAEoCSJRCiRJbnNlcnRHcm91cE1l",
+            "c3NhZ2VUb0xvY2FsU3RvcmFnZVJlc3ASKQoDbXNnGAEgASgLMhwub3Blbmlt",
+            "LnNkay5zaGFyZWQuSU1NZXNzYWdlIiQKFENyZWF0ZVRleHRNZXNzYWdlUmVx",
+            "EgwKBHRleHQYASABKAkiRgoVQ3JlYXRlVGV4dE1lc3NhZ2VSZXNwEi0KB21l",
+            "c3NhZ2UYASABKAsyHC5vcGVuaW0uc2RrLnNoYXJlZC5JTU1lc3NhZ2UiZwoc",
+            "Q3JlYXRlQWR2YW5jZWRUZXh0TWVzc2FnZVJlcRIMCgR0ZXh0GAEgASgJEjkK",
+            "D21lc3NhZ2VFbnRpdGllcxgCIAMoCzIgLm9wZW5pbS5zZGsuc2hhcmVkLk1l",
+            "c3NhZ2VFbnRpdHkiTgodQ3JlYXRlQWR2YW5jZWRUZXh0TWVzc2FnZVJlc3AS",
             "LQoHbWVzc2FnZRgBIAEoCzIcLm9wZW5pbS5zZGsuc2hhcmVkLklNTWVzc2Fn",
-            "ZSJxChVDcmVhdGVTb3VuZE1lc3NhZ2VSZXESEQoJc291bmRQYXRoGAEgASgJ",
-            "EhAKCGR1cmF0aW9uGAIgASgDEjMKCXNvdW5kRWxlbRgDIAEoCzIgLm9wZW5p",
-            "bS5zZGsuc2hhcmVkLlNvdW5kQmFzZUluZm8iRwoWQ3JlYXRlU291bmRNZXNz",
+            "ZSKcAQoWQ3JlYXRlVGV4dEF0TWVzc2FnZVJlcRIMCgR0ZXh0GAEgASgJEhIK",
+            "CnVzZXJJRExpc3QYAiADKAkSLAoJdXNlcnNJbmZvGAMgAygLMhkub3Blbmlt",
+            "LnNkay5zaGFyZWQuQXRJbmZvEjIKDHF1b3RlTWVzc2FnZRgEIAEoCzIcLm9w",
+            "ZW5pbS5zZGsuc2hhcmVkLklNTWVzc2FnZSJIChdDcmVhdGVUZXh0QXRNZXNz",
             "YWdlUmVzcBItCgdtZXNzYWdlGAEgASgLMhwub3BlbmltLnNkay5zaGFyZWQu",
-            "SU1NZXNzYWdlIqYBChVDcmVhdGVWaWRlb01lc3NhZ2VSZXESFwoPdmlkZW9T",
-            "b3VyY2VQYXRoGAEgASgJEhEKCXZpZGVvVHlwZRgCIAEoCRIQCghkdXJhdGlv",
-            "bhgDIAEoAxIaChJzbmFwc2hvdFNvdXJjZVBhdGgYBCABKAkSMwoJdmlkZW9F",
-            "bGVtGAUgASgLMiAub3BlbmltLnNkay5zaGFyZWQuVmlkZW9CYXNlSW5mbyJH",
-            "ChZDcmVhdGVWaWRlb01lc3NhZ2VSZXNwEi0KB21lc3NhZ2UYASABKAsyHC5v",
-            "cGVuaW0uc2RrLnNoYXJlZC5JTU1lc3NhZ2UicwoUQ3JlYXRlRmlsZU1lc3Nh",
-            "Z2VSZXESFgoOZmlsZVNvdXJjZVBhdGgYASABKAkSEAoIZmlsZU5hbWUYAiAB",
-            "KAkSMQoIZmlsZUVsZW0YAyABKAsyHy5vcGVuaW0uc2RrLnNoYXJlZC5GaWxl",
-            "QmFzZUluZm8iRgoVQ3JlYXRlRmlsZU1lc3NhZ2VSZXNwEi0KB21lc3NhZ2UY",
-            "ASABKAsyHC5vcGVuaW0uc2RrLnNoYXJlZC5JTU1lc3NhZ2UiagoWQ3JlYXRl",
-            "TWVyZ2VyTWVzc2FnZVJlcRIuCghtZXNzYWdlcxgBIAMoCzIcLm9wZW5pbS5z",
-            "ZGsuc2hhcmVkLklNTWVzc2FnZRINCgV0aXRsZRgCIAEoCRIRCglzdW1tYXJp",
-            "ZXMYAyADKAkiSAoXQ3JlYXRlTWVyZ2VyTWVzc2FnZVJlc3ASLQoHbWVzc2Fn",
-            "ZRgBIAEoCzIcLm9wZW5pbS5zZGsuc2hhcmVkLklNTWVzc2FnZSIzChRDcmVh",
-            "dGVGYWNlTWVzc2FnZVJlcRINCgVpbmRleBgBIAEoBRIMCgRkYXRhGAIgASgJ",
-            "IkYKFUNyZWF0ZUZhY2VNZXNzYWdlUmVzcBItCgdtZXNzYWdlGAEgASgLMhwu",
-            "b3BlbmltLnNkay5zaGFyZWQuSU1NZXNzYWdlIkgKF0NyZWF0ZUZvcndhcmRN",
-            "ZXNzYWdlUmVxEi0KB21lc3NhZ2UYASABKAsyHC5vcGVuaW0uc2RrLnNoYXJl",
-            "ZC5JTU1lc3NhZ2UiSQoYQ3JlYXRlRm9yd2FyZE1lc3NhZ2VSZXNwEi0KB21l",
-            "c3NhZ2UYASABKAsyHC5vcGVuaW0uc2RrLnNoYXJlZC5JTU1lc3NhZ2VCTFo4",
-            "Z2l0aHViLmNvbS9vcGVuaW1zZGsvb3BlbmltLXNkay1jb3JlL3YzL3Byb3Rv",
-            "L2dvL21lc3NhZ2WqAgxPcGVuSU0uUHJvdG+6AgBiBnByb3RvMw=="));
+            "SU1NZXNzYWdlIlQKGENyZWF0ZUxvY2F0aW9uTWVzc2FnZVJlcRITCgtkZXNj",
+            "cmlwdGlvbhgBIAEoCRIRCglsb25naXR1ZGUYAiABKAESEAoIbGF0aXR1ZGUY",
+            "AyABKAEiSgoZQ3JlYXRlTG9jYXRpb25NZXNzYWdlUmVzcBItCgdtZXNzYWdl",
+            "GAEgASgLMhwub3BlbmltLnNkay5zaGFyZWQuSU1NZXNzYWdlIk4KFkNyZWF0",
+            "ZUN1c3RvbU1lc3NhZ2VSZXESDAoEZGF0YRgBIAEoCRIRCglleHRlbnNpb24Y",
+            "AiABKAkSEwoLZGVzY3JpcHRpb24YAyABKAkiSAoXQ3JlYXRlQ3VzdG9tTWVz",
+            "c2FnZVJlc3ASLQoHbWVzc2FnZRgBIAEoCzIcLm9wZW5pbS5zZGsuc2hhcmVk",
+            "LklNTWVzc2FnZSJZChVDcmVhdGVRdW90ZU1lc3NhZ2VSZXESDAoEdGV4dBgB",
+            "IAEoCRIyCgxxdW90ZU1lc3NhZ2UYAiABKAsyHC5vcGVuaW0uc2RrLnNoYXJl",
+            "ZC5JTU1lc3NhZ2UiRwoWQ3JlYXRlUXVvdGVNZXNzYWdlUmVzcBItCgdtZXNz",
+            "YWdlGAEgASgLMhwub3BlbmltLnNkay5zaGFyZWQuSU1NZXNzYWdlIpwBCh1D",
+            "cmVhdGVBZHZhbmNlZFF1b3RlTWVzc2FnZVJlcRIMCgR0ZXh0GAEgASgJEjIK",
+            "DHF1b3RlTWVzc2FnZRgCIAEoCzIcLm9wZW5pbS5zZGsuc2hhcmVkLklNTWVz",
+            "c2FnZRI5Cg9tZXNzYWdlRW50aXRpZXMYAyADKAsyIC5vcGVuaW0uc2RrLnNo",
+            "YXJlZC5NZXNzYWdlRW50aXR5Ik8KHkNyZWF0ZUFkdmFuY2VkUXVvdGVNZXNz",
+            "YWdlUmVzcBItCgdtZXNzYWdlGAEgASgLMhwub3BlbmltLnNkay5zaGFyZWQu",
+            "SU1NZXNzYWdlIkEKFENyZWF0ZUNhcmRNZXNzYWdlUmVxEikKBGNhcmQYASAB",
+            "KAsyGy5vcGVuaW0uc2RrLnNoYXJlZC5DYXJkRWxlbSJGChVDcmVhdGVDYXJk",
+            "TWVzc2FnZVJlc3ASLQoHbWVzc2FnZRgBIAEoCzIcLm9wZW5pbS5zZGsuc2hh",
+            "cmVkLklNTWVzc2FnZSLgAQoVQ3JlYXRlSW1hZ2VNZXNzYWdlUmVxEhcKD2lt",
+            "YWdlU291cmNlUGF0aBgBIAEoCRI5Cg1zb3VyY2VQaWN0dXJlGAIgASgLMiIu",
+            "b3BlbmltLnNkay5zaGFyZWQuUGljdHVyZUJhc2VJbmZvEjYKCmJpZ1BpY3R1",
+            "cmUYAyABKAsyIi5vcGVuaW0uc2RrLnNoYXJlZC5QaWN0dXJlQmFzZUluZm8S",
+            "OwoPc25hcHNob3RQaWN0dXJlGAQgASgLMiIub3BlbmltLnNkay5zaGFyZWQu",
+            "UGljdHVyZUJhc2VJbmZvIkcKFkNyZWF0ZUltYWdlTWVzc2FnZVJlc3ASLQoH",
+            "bWVzc2FnZRgBIAEoCzIcLm9wZW5pbS5zZGsuc2hhcmVkLklNTWVzc2FnZSJx",
+            "ChVDcmVhdGVTb3VuZE1lc3NhZ2VSZXESEQoJc291bmRQYXRoGAEgASgJEhAK",
+            "CGR1cmF0aW9uGAIgASgDEjMKCXNvdW5kRWxlbRgDIAEoCzIgLm9wZW5pbS5z",
+            "ZGsuc2hhcmVkLlNvdW5kQmFzZUluZm8iRwoWQ3JlYXRlU291bmRNZXNzYWdl",
+            "UmVzcBItCgdtZXNzYWdlGAEgASgLMhwub3BlbmltLnNkay5zaGFyZWQuSU1N",
+            "ZXNzYWdlIqYBChVDcmVhdGVWaWRlb01lc3NhZ2VSZXESFwoPdmlkZW9Tb3Vy",
+            "Y2VQYXRoGAEgASgJEhEKCXZpZGVvVHlwZRgCIAEoCRIQCghkdXJhdGlvbhgD",
+            "IAEoAxIaChJzbmFwc2hvdFNvdXJjZVBhdGgYBCABKAkSMwoJdmlkZW9FbGVt",
+            "GAUgASgLMiAub3BlbmltLnNkay5zaGFyZWQuVmlkZW9CYXNlSW5mbyJHChZD",
+            "cmVhdGVWaWRlb01lc3NhZ2VSZXNwEi0KB21lc3NhZ2UYASABKAsyHC5vcGVu",
+            "aW0uc2RrLnNoYXJlZC5JTU1lc3NhZ2UicwoUQ3JlYXRlRmlsZU1lc3NhZ2VS",
+            "ZXESFgoOZmlsZVNvdXJjZVBhdGgYASABKAkSEAoIZmlsZU5hbWUYAiABKAkS",
+            "MQoIZmlsZUVsZW0YAyABKAsyHy5vcGVuaW0uc2RrLnNoYXJlZC5GaWxlQmFz",
+            "ZUluZm8iRgoVQ3JlYXRlRmlsZU1lc3NhZ2VSZXNwEi0KB21lc3NhZ2UYASAB",
+            "KAsyHC5vcGVuaW0uc2RrLnNoYXJlZC5JTU1lc3NhZ2UiagoWQ3JlYXRlTWVy",
+            "Z2VyTWVzc2FnZVJlcRIuCghtZXNzYWdlcxgBIAMoCzIcLm9wZW5pbS5zZGsu",
+            "c2hhcmVkLklNTWVzc2FnZRINCgV0aXRsZRgCIAEoCRIRCglzdW1tYXJpZXMY",
+            "AyADKAkiSAoXQ3JlYXRlTWVyZ2VyTWVzc2FnZVJlc3ASLQoHbWVzc2FnZRgB",
+            "IAEoCzIcLm9wZW5pbS5zZGsuc2hhcmVkLklNTWVzc2FnZSIzChRDcmVhdGVG",
+            "YWNlTWVzc2FnZVJlcRINCgVpbmRleBgBIAEoBRIMCgRkYXRhGAIgASgJIkYK",
+            "FUNyZWF0ZUZhY2VNZXNzYWdlUmVzcBItCgdtZXNzYWdlGAEgASgLMhwub3Bl",
+            "bmltLnNkay5zaGFyZWQuSU1NZXNzYWdlIkgKF0NyZWF0ZUZvcndhcmRNZXNz",
+            "YWdlUmVxEi0KB21lc3NhZ2UYASABKAsyHC5vcGVuaW0uc2RrLnNoYXJlZC5J",
+            "TU1lc3NhZ2UiSQoYQ3JlYXRlRm9yd2FyZE1lc3NhZ2VSZXNwEi0KB21lc3Nh",
+            "Z2UYASABKAsyHC5vcGVuaW0uc2RrLnNoYXJlZC5JTU1lc3NhZ2VCTFo4Z2l0",
+            "aHViLmNvbS9vcGVuaW1zZGsvb3BlbmltLXNkay1jb3JlL3YzL3Byb3RvL2dv",
+            "L21lc3NhZ2WqAgxPcGVuSU0uUHJvdG+6AgBiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::OpenIM.Proto.SharedReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.GetAdvancedHistoryMessageListParams), global::OpenIM.Proto.GetAdvancedHistoryMessageListParams.Parser, new[]{ "ConversationID", "StartClientMsgID", "Count" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.GetAdvancedHistoryMessageListCallback), global::OpenIM.Proto.GetAdvancedHistoryMessageListCallback.Parser, new[]{ "MessageList", "IsEnd", "ErrCode", "ErrMsg" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.SendMessageReq), global::OpenIM.Proto.SendMessageReq.Parser, new[]{ "Message", "RecvID", "GroupID", "IsOnlineOnly" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.SendMessageResp), global::OpenIM.Proto.SendMessageResp.Parser, new[]{ "Message" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.GetAdvancedHistoryMessageListReq), global::OpenIM.Proto.GetAdvancedHistoryMessageListReq.Parser, new[]{ "ConversationID", "GetAdvancedHistoryMessageListParams" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.GetAdvancedHistoryMessageListResp), global::OpenIM.Proto.GetAdvancedHistoryMessageListResp.Parser, new[]{ "GetAdvancedHistoryMessageListCallback" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.GetAdvancedHistoryMessageListReverseReq), global::OpenIM.Proto.GetAdvancedHistoryMessageListReverseReq.Parser, new[]{ "ConversationID", "GetAdvancedHistoryMessageListParams" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.GetAdvancedHistoryMessageListReverseResp), global::OpenIM.Proto.GetAdvancedHistoryMessageListReverseResp.Parser, new[]{ "GetAdvancedHistoryMessageListCallback" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.GetHistoryMessageListReq), global::OpenIM.Proto.GetHistoryMessageListReq.Parser, new[]{ "ConversationID", "StartClientMsgID", "Count", "IsReverse" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.GetHistoryMessageListResp), global::OpenIM.Proto.GetHistoryMessageListResp.Parser, new[]{ "MessageList", "IsEnd", "ErrCode", "ErrMsg" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.RevokeMessageReq), global::OpenIM.Proto.RevokeMessageReq.Parser, new[]{ "ConversationID", "ClientMsgID" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.RevokeMessageResp), global::OpenIM.Proto.RevokeMessageResp.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.TypingStatusUpdateReq), global::OpenIM.Proto.TypingStatusUpdateReq.Parser, new[]{ "RecvID", "MsgTip" }, null, null, null, null),
@@ -191,576 +173,6 @@ namespace OpenIM.Proto {
 
   }
   #region Messages
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class GetAdvancedHistoryMessageListParams : pb::IMessage<GetAdvancedHistoryMessageListParams>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<GetAdvancedHistoryMessageListParams> _parser = new pb::MessageParser<GetAdvancedHistoryMessageListParams>(() => new GetAdvancedHistoryMessageListParams());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<GetAdvancedHistoryMessageListParams> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[0]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetAdvancedHistoryMessageListParams() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetAdvancedHistoryMessageListParams(GetAdvancedHistoryMessageListParams other) : this() {
-      conversationID_ = other.conversationID_;
-      startClientMsgID_ = other.startClientMsgID_;
-      count_ = other.count_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetAdvancedHistoryMessageListParams Clone() {
-      return new GetAdvancedHistoryMessageListParams(this);
-    }
-
-    /// <summary>Field number for the "conversationID" field.</summary>
-    public const int ConversationIDFieldNumber = 1;
-    private string conversationID_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string ConversationID {
-      get { return conversationID_; }
-      set {
-        conversationID_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "startClientMsgID" field.</summary>
-    public const int StartClientMsgIDFieldNumber = 2;
-    private string startClientMsgID_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string StartClientMsgID {
-      get { return startClientMsgID_; }
-      set {
-        startClientMsgID_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "count" field.</summary>
-    public const int CountFieldNumber = 3;
-    private int count_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int Count {
-      get { return count_; }
-      set {
-        count_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as GetAdvancedHistoryMessageListParams);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(GetAdvancedHistoryMessageListParams other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (ConversationID != other.ConversationID) return false;
-      if (StartClientMsgID != other.StartClientMsgID) return false;
-      if (Count != other.Count) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (ConversationID.Length != 0) hash ^= ConversationID.GetHashCode();
-      if (StartClientMsgID.Length != 0) hash ^= StartClientMsgID.GetHashCode();
-      if (Count != 0) hash ^= Count.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (ConversationID.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(ConversationID);
-      }
-      if (StartClientMsgID.Length != 0) {
-        output.WriteRawTag(18);
-        output.WriteString(StartClientMsgID);
-      }
-      if (Count != 0) {
-        output.WriteRawTag(24);
-        output.WriteInt32(Count);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (ConversationID.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(ConversationID);
-      }
-      if (StartClientMsgID.Length != 0) {
-        output.WriteRawTag(18);
-        output.WriteString(StartClientMsgID);
-      }
-      if (Count != 0) {
-        output.WriteRawTag(24);
-        output.WriteInt32(Count);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (ConversationID.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(ConversationID);
-      }
-      if (StartClientMsgID.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(StartClientMsgID);
-      }
-      if (Count != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Count);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(GetAdvancedHistoryMessageListParams other) {
-      if (other == null) {
-        return;
-      }
-      if (other.ConversationID.Length != 0) {
-        ConversationID = other.ConversationID;
-      }
-      if (other.StartClientMsgID.Length != 0) {
-        StartClientMsgID = other.StartClientMsgID;
-      }
-      if (other.Count != 0) {
-        Count = other.Count;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            ConversationID = input.ReadString();
-            break;
-          }
-          case 18: {
-            StartClientMsgID = input.ReadString();
-            break;
-          }
-          case 24: {
-            Count = input.ReadInt32();
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            ConversationID = input.ReadString();
-            break;
-          }
-          case 18: {
-            StartClientMsgID = input.ReadString();
-            break;
-          }
-          case 24: {
-            Count = input.ReadInt32();
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class GetAdvancedHistoryMessageListCallback : pb::IMessage<GetAdvancedHistoryMessageListCallback>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<GetAdvancedHistoryMessageListCallback> _parser = new pb::MessageParser<GetAdvancedHistoryMessageListCallback>(() => new GetAdvancedHistoryMessageListCallback());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<GetAdvancedHistoryMessageListCallback> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[1]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetAdvancedHistoryMessageListCallback() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetAdvancedHistoryMessageListCallback(GetAdvancedHistoryMessageListCallback other) : this() {
-      messageList_ = other.messageList_.Clone();
-      isEnd_ = other.isEnd_;
-      errCode_ = other.errCode_;
-      errMsg_ = other.errMsg_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetAdvancedHistoryMessageListCallback Clone() {
-      return new GetAdvancedHistoryMessageListCallback(this);
-    }
-
-    /// <summary>Field number for the "messageList" field.</summary>
-    public const int MessageListFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::OpenIM.Proto.IMMessage> _repeated_messageList_codec
-        = pb::FieldCodec.ForMessage(10, global::OpenIM.Proto.IMMessage.Parser);
-    private readonly pbc::RepeatedField<global::OpenIM.Proto.IMMessage> messageList_ = new pbc::RepeatedField<global::OpenIM.Proto.IMMessage>();
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::OpenIM.Proto.IMMessage> MessageList {
-      get { return messageList_; }
-    }
-
-    /// <summary>Field number for the "isEnd" field.</summary>
-    public const int IsEndFieldNumber = 2;
-    private bool isEnd_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool IsEnd {
-      get { return isEnd_; }
-      set {
-        isEnd_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "errCode" field.</summary>
-    public const int ErrCodeFieldNumber = 3;
-    private int errCode_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int ErrCode {
-      get { return errCode_; }
-      set {
-        errCode_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "errMsg" field.</summary>
-    public const int ErrMsgFieldNumber = 4;
-    private string errMsg_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string ErrMsg {
-      get { return errMsg_; }
-      set {
-        errMsg_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as GetAdvancedHistoryMessageListCallback);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(GetAdvancedHistoryMessageListCallback other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if(!messageList_.Equals(other.messageList_)) return false;
-      if (IsEnd != other.IsEnd) return false;
-      if (ErrCode != other.ErrCode) return false;
-      if (ErrMsg != other.ErrMsg) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      hash ^= messageList_.GetHashCode();
-      if (IsEnd != false) hash ^= IsEnd.GetHashCode();
-      if (ErrCode != 0) hash ^= ErrCode.GetHashCode();
-      if (ErrMsg.Length != 0) hash ^= ErrMsg.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      messageList_.WriteTo(output, _repeated_messageList_codec);
-      if (IsEnd != false) {
-        output.WriteRawTag(16);
-        output.WriteBool(IsEnd);
-      }
-      if (ErrCode != 0) {
-        output.WriteRawTag(24);
-        output.WriteInt32(ErrCode);
-      }
-      if (ErrMsg.Length != 0) {
-        output.WriteRawTag(34);
-        output.WriteString(ErrMsg);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      messageList_.WriteTo(ref output, _repeated_messageList_codec);
-      if (IsEnd != false) {
-        output.WriteRawTag(16);
-        output.WriteBool(IsEnd);
-      }
-      if (ErrCode != 0) {
-        output.WriteRawTag(24);
-        output.WriteInt32(ErrCode);
-      }
-      if (ErrMsg.Length != 0) {
-        output.WriteRawTag(34);
-        output.WriteString(ErrMsg);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      size += messageList_.CalculateSize(_repeated_messageList_codec);
-      if (IsEnd != false) {
-        size += 1 + 1;
-      }
-      if (ErrCode != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(ErrCode);
-      }
-      if (ErrMsg.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(ErrMsg);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(GetAdvancedHistoryMessageListCallback other) {
-      if (other == null) {
-        return;
-      }
-      messageList_.Add(other.messageList_);
-      if (other.IsEnd != false) {
-        IsEnd = other.IsEnd;
-      }
-      if (other.ErrCode != 0) {
-        ErrCode = other.ErrCode;
-      }
-      if (other.ErrMsg.Length != 0) {
-        ErrMsg = other.ErrMsg;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            messageList_.AddEntriesFrom(input, _repeated_messageList_codec);
-            break;
-          }
-          case 16: {
-            IsEnd = input.ReadBool();
-            break;
-          }
-          case 24: {
-            ErrCode = input.ReadInt32();
-            break;
-          }
-          case 34: {
-            ErrMsg = input.ReadString();
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            messageList_.AddEntriesFrom(ref input, _repeated_messageList_codec);
-            break;
-          }
-          case 16: {
-            IsEnd = input.ReadBool();
-            break;
-          }
-          case 24: {
-            ErrCode = input.ReadInt32();
-            break;
-          }
-          case 34: {
-            ErrMsg = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
   /// <summary>
   /// ------------------------------------------------------------------------------------------------------
   /// </summary>
@@ -779,7 +191,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[2]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1010,11 +422,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -1048,11 +456,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -1097,7 +501,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[3]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1241,11 +645,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -1267,11 +667,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -1290,21 +686,21 @@ namespace OpenIM.Proto {
   }
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class GetAdvancedHistoryMessageListReq : pb::IMessage<GetAdvancedHistoryMessageListReq>
+  public sealed partial class GetHistoryMessageListReq : pb::IMessage<GetHistoryMessageListReq>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<GetAdvancedHistoryMessageListReq> _parser = new pb::MessageParser<GetAdvancedHistoryMessageListReq>(() => new GetAdvancedHistoryMessageListReq());
+    private static readonly pb::MessageParser<GetHistoryMessageListReq> _parser = new pb::MessageParser<GetHistoryMessageListReq>(() => new GetHistoryMessageListReq());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<GetAdvancedHistoryMessageListReq> Parser { get { return _parser; } }
+    public static pb::MessageParser<GetHistoryMessageListReq> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[4]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1315,7 +711,7 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetAdvancedHistoryMessageListReq() {
+    public GetHistoryMessageListReq() {
       OnConstruction();
     }
 
@@ -1323,16 +719,18 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetAdvancedHistoryMessageListReq(GetAdvancedHistoryMessageListReq other) : this() {
+    public GetHistoryMessageListReq(GetHistoryMessageListReq other) : this() {
       conversationID_ = other.conversationID_;
-      getAdvancedHistoryMessageListParams_ = other.getAdvancedHistoryMessageListParams_ != null ? other.getAdvancedHistoryMessageListParams_.Clone() : null;
+      startClientMsgID_ = other.startClientMsgID_;
+      count_ = other.count_;
+      isReverse_ = other.isReverse_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetAdvancedHistoryMessageListReq Clone() {
-      return new GetAdvancedHistoryMessageListReq(this);
+    public GetHistoryMessageListReq Clone() {
+      return new GetHistoryMessageListReq(this);
     }
 
     /// <summary>Field number for the "conversationID" field.</summary>
@@ -1347,27 +745,51 @@ namespace OpenIM.Proto {
       }
     }
 
-    /// <summary>Field number for the "getAdvancedHistoryMessageListParams" field.</summary>
-    public const int GetAdvancedHistoryMessageListParamsFieldNumber = 2;
-    private global::OpenIM.Proto.GetAdvancedHistoryMessageListParams getAdvancedHistoryMessageListParams_;
+    /// <summary>Field number for the "startClientMsgID" field.</summary>
+    public const int StartClientMsgIDFieldNumber = 2;
+    private string startClientMsgID_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::OpenIM.Proto.GetAdvancedHistoryMessageListParams GetAdvancedHistoryMessageListParams {
-      get { return getAdvancedHistoryMessageListParams_; }
+    public string StartClientMsgID {
+      get { return startClientMsgID_; }
       set {
-        getAdvancedHistoryMessageListParams_ = value;
+        startClientMsgID_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "count" field.</summary>
+    public const int CountFieldNumber = 3;
+    private int count_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int Count {
+      get { return count_; }
+      set {
+        count_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "isReverse" field.</summary>
+    public const int IsReverseFieldNumber = 4;
+    private bool isReverse_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool IsReverse {
+      get { return isReverse_; }
+      set {
+        isReverse_ = value;
       }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as GetAdvancedHistoryMessageListReq);
+      return Equals(other as GetHistoryMessageListReq);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(GetAdvancedHistoryMessageListReq other) {
+    public bool Equals(GetHistoryMessageListReq other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -1375,7 +797,9 @@ namespace OpenIM.Proto {
         return true;
       }
       if (ConversationID != other.ConversationID) return false;
-      if (!object.Equals(GetAdvancedHistoryMessageListParams, other.GetAdvancedHistoryMessageListParams)) return false;
+      if (StartClientMsgID != other.StartClientMsgID) return false;
+      if (Count != other.Count) return false;
+      if (IsReverse != other.IsReverse) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1384,7 +808,9 @@ namespace OpenIM.Proto {
     public override int GetHashCode() {
       int hash = 1;
       if (ConversationID.Length != 0) hash ^= ConversationID.GetHashCode();
-      if (getAdvancedHistoryMessageListParams_ != null) hash ^= GetAdvancedHistoryMessageListParams.GetHashCode();
+      if (StartClientMsgID.Length != 0) hash ^= StartClientMsgID.GetHashCode();
+      if (Count != 0) hash ^= Count.GetHashCode();
+      if (IsReverse != false) hash ^= IsReverse.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1407,9 +833,17 @@ namespace OpenIM.Proto {
         output.WriteRawTag(10);
         output.WriteString(ConversationID);
       }
-      if (getAdvancedHistoryMessageListParams_ != null) {
+      if (StartClientMsgID.Length != 0) {
         output.WriteRawTag(18);
-        output.WriteMessage(GetAdvancedHistoryMessageListParams);
+        output.WriteString(StartClientMsgID);
+      }
+      if (Count != 0) {
+        output.WriteRawTag(24);
+        output.WriteInt32(Count);
+      }
+      if (IsReverse != false) {
+        output.WriteRawTag(32);
+        output.WriteBool(IsReverse);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -1425,9 +859,17 @@ namespace OpenIM.Proto {
         output.WriteRawTag(10);
         output.WriteString(ConversationID);
       }
-      if (getAdvancedHistoryMessageListParams_ != null) {
+      if (StartClientMsgID.Length != 0) {
         output.WriteRawTag(18);
-        output.WriteMessage(GetAdvancedHistoryMessageListParams);
+        output.WriteString(StartClientMsgID);
+      }
+      if (Count != 0) {
+        output.WriteRawTag(24);
+        output.WriteInt32(Count);
+      }
+      if (IsReverse != false) {
+        output.WriteRawTag(32);
+        output.WriteBool(IsReverse);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -1442,8 +884,14 @@ namespace OpenIM.Proto {
       if (ConversationID.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(ConversationID);
       }
-      if (getAdvancedHistoryMessageListParams_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(GetAdvancedHistoryMessageListParams);
+      if (StartClientMsgID.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(StartClientMsgID);
+      }
+      if (Count != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Count);
+      }
+      if (IsReverse != false) {
+        size += 1 + 1;
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1453,18 +901,21 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(GetAdvancedHistoryMessageListReq other) {
+    public void MergeFrom(GetHistoryMessageListReq other) {
       if (other == null) {
         return;
       }
       if (other.ConversationID.Length != 0) {
         ConversationID = other.ConversationID;
       }
-      if (other.getAdvancedHistoryMessageListParams_ != null) {
-        if (getAdvancedHistoryMessageListParams_ == null) {
-          GetAdvancedHistoryMessageListParams = new global::OpenIM.Proto.GetAdvancedHistoryMessageListParams();
-        }
-        GetAdvancedHistoryMessageListParams.MergeFrom(other.GetAdvancedHistoryMessageListParams);
+      if (other.StartClientMsgID.Length != 0) {
+        StartClientMsgID = other.StartClientMsgID;
+      }
+      if (other.Count != 0) {
+        Count = other.Count;
+      }
+      if (other.IsReverse != false) {
+        IsReverse = other.IsReverse;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1477,11 +928,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -1490,10 +937,15 @@ namespace OpenIM.Proto {
             break;
           }
           case 18: {
-            if (getAdvancedHistoryMessageListParams_ == null) {
-              GetAdvancedHistoryMessageListParams = new global::OpenIM.Proto.GetAdvancedHistoryMessageListParams();
-            }
-            input.ReadMessage(GetAdvancedHistoryMessageListParams);
+            StartClientMsgID = input.ReadString();
+            break;
+          }
+          case 24: {
+            Count = input.ReadInt32();
+            break;
+          }
+          case 32: {
+            IsReverse = input.ReadBool();
             break;
           }
         }
@@ -1507,11 +959,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -1520,10 +968,15 @@ namespace OpenIM.Proto {
             break;
           }
           case 18: {
-            if (getAdvancedHistoryMessageListParams_ == null) {
-              GetAdvancedHistoryMessageListParams = new global::OpenIM.Proto.GetAdvancedHistoryMessageListParams();
-            }
-            input.ReadMessage(GetAdvancedHistoryMessageListParams);
+            StartClientMsgID = input.ReadString();
+            break;
+          }
+          case 24: {
+            Count = input.ReadInt32();
+            break;
+          }
+          case 32: {
+            IsReverse = input.ReadBool();
             break;
           }
         }
@@ -1534,21 +987,21 @@ namespace OpenIM.Proto {
   }
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class GetAdvancedHistoryMessageListResp : pb::IMessage<GetAdvancedHistoryMessageListResp>
+  public sealed partial class GetHistoryMessageListResp : pb::IMessage<GetHistoryMessageListResp>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<GetAdvancedHistoryMessageListResp> _parser = new pb::MessageParser<GetAdvancedHistoryMessageListResp>(() => new GetAdvancedHistoryMessageListResp());
+    private static readonly pb::MessageParser<GetHistoryMessageListResp> _parser = new pb::MessageParser<GetHistoryMessageListResp>(() => new GetHistoryMessageListResp());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<GetAdvancedHistoryMessageListResp> Parser { get { return _parser; } }
+    public static pb::MessageParser<GetHistoryMessageListResp> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[5]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1559,7 +1012,7 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetAdvancedHistoryMessageListResp() {
+    public GetHistoryMessageListResp() {
       OnConstruction();
     }
 
@@ -1567,45 +1020,86 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetAdvancedHistoryMessageListResp(GetAdvancedHistoryMessageListResp other) : this() {
-      getAdvancedHistoryMessageListCallback_ = other.getAdvancedHistoryMessageListCallback_ != null ? other.getAdvancedHistoryMessageListCallback_.Clone() : null;
+    public GetHistoryMessageListResp(GetHistoryMessageListResp other) : this() {
+      messageList_ = other.messageList_.Clone();
+      isEnd_ = other.isEnd_;
+      errCode_ = other.errCode_;
+      errMsg_ = other.errMsg_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetAdvancedHistoryMessageListResp Clone() {
-      return new GetAdvancedHistoryMessageListResp(this);
+    public GetHistoryMessageListResp Clone() {
+      return new GetHistoryMessageListResp(this);
     }
 
-    /// <summary>Field number for the "getAdvancedHistoryMessageListCallback" field.</summary>
-    public const int GetAdvancedHistoryMessageListCallbackFieldNumber = 1;
-    private global::OpenIM.Proto.GetAdvancedHistoryMessageListCallback getAdvancedHistoryMessageListCallback_;
+    /// <summary>Field number for the "messageList" field.</summary>
+    public const int MessageListFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::OpenIM.Proto.IMMessage> _repeated_messageList_codec
+        = pb::FieldCodec.ForMessage(10, global::OpenIM.Proto.IMMessage.Parser);
+    private readonly pbc::RepeatedField<global::OpenIM.Proto.IMMessage> messageList_ = new pbc::RepeatedField<global::OpenIM.Proto.IMMessage>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::OpenIM.Proto.GetAdvancedHistoryMessageListCallback GetAdvancedHistoryMessageListCallback {
-      get { return getAdvancedHistoryMessageListCallback_; }
+    public pbc::RepeatedField<global::OpenIM.Proto.IMMessage> MessageList {
+      get { return messageList_; }
+    }
+
+    /// <summary>Field number for the "isEnd" field.</summary>
+    public const int IsEndFieldNumber = 2;
+    private bool isEnd_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool IsEnd {
+      get { return isEnd_; }
       set {
-        getAdvancedHistoryMessageListCallback_ = value;
+        isEnd_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "errCode" field.</summary>
+    public const int ErrCodeFieldNumber = 3;
+    private int errCode_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int ErrCode {
+      get { return errCode_; }
+      set {
+        errCode_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "errMsg" field.</summary>
+    public const int ErrMsgFieldNumber = 4;
+    private string errMsg_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string ErrMsg {
+      get { return errMsg_; }
+      set {
+        errMsg_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as GetAdvancedHistoryMessageListResp);
+      return Equals(other as GetHistoryMessageListResp);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(GetAdvancedHistoryMessageListResp other) {
+    public bool Equals(GetHistoryMessageListResp other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (!object.Equals(GetAdvancedHistoryMessageListCallback, other.GetAdvancedHistoryMessageListCallback)) return false;
+      if(!messageList_.Equals(other.messageList_)) return false;
+      if (IsEnd != other.IsEnd) return false;
+      if (ErrCode != other.ErrCode) return false;
+      if (ErrMsg != other.ErrMsg) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1613,7 +1107,10 @@ namespace OpenIM.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (getAdvancedHistoryMessageListCallback_ != null) hash ^= GetAdvancedHistoryMessageListCallback.GetHashCode();
+      hash ^= messageList_.GetHashCode();
+      if (IsEnd != false) hash ^= IsEnd.GetHashCode();
+      if (ErrCode != 0) hash ^= ErrCode.GetHashCode();
+      if (ErrMsg.Length != 0) hash ^= ErrMsg.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1632,9 +1129,18 @@ namespace OpenIM.Proto {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (getAdvancedHistoryMessageListCallback_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(GetAdvancedHistoryMessageListCallback);
+      messageList_.WriteTo(output, _repeated_messageList_codec);
+      if (IsEnd != false) {
+        output.WriteRawTag(16);
+        output.WriteBool(IsEnd);
+      }
+      if (ErrCode != 0) {
+        output.WriteRawTag(24);
+        output.WriteInt32(ErrCode);
+      }
+      if (ErrMsg.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(ErrMsg);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -1646,9 +1152,18 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (getAdvancedHistoryMessageListCallback_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(GetAdvancedHistoryMessageListCallback);
+      messageList_.WriteTo(ref output, _repeated_messageList_codec);
+      if (IsEnd != false) {
+        output.WriteRawTag(16);
+        output.WriteBool(IsEnd);
+      }
+      if (ErrCode != 0) {
+        output.WriteRawTag(24);
+        output.WriteInt32(ErrCode);
+      }
+      if (ErrMsg.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(ErrMsg);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -1660,8 +1175,15 @@ namespace OpenIM.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (getAdvancedHistoryMessageListCallback_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(GetAdvancedHistoryMessageListCallback);
+      size += messageList_.CalculateSize(_repeated_messageList_codec);
+      if (IsEnd != false) {
+        size += 1 + 1;
+      }
+      if (ErrCode != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(ErrCode);
+      }
+      if (ErrMsg.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ErrMsg);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1671,15 +1193,19 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(GetAdvancedHistoryMessageListResp other) {
+    public void MergeFrom(GetHistoryMessageListResp other) {
       if (other == null) {
         return;
       }
-      if (other.getAdvancedHistoryMessageListCallback_ != null) {
-        if (getAdvancedHistoryMessageListCallback_ == null) {
-          GetAdvancedHistoryMessageListCallback = new global::OpenIM.Proto.GetAdvancedHistoryMessageListCallback();
-        }
-        GetAdvancedHistoryMessageListCallback.MergeFrom(other.GetAdvancedHistoryMessageListCallback);
+      messageList_.Add(other.messageList_);
+      if (other.IsEnd != false) {
+        IsEnd = other.IsEnd;
+      }
+      if (other.ErrCode != 0) {
+        ErrCode = other.ErrCode;
+      }
+      if (other.ErrMsg.Length != 0) {
+        ErrMsg = other.ErrMsg;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1692,19 +1218,24 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            if (getAdvancedHistoryMessageListCallback_ == null) {
-              GetAdvancedHistoryMessageListCallback = new global::OpenIM.Proto.GetAdvancedHistoryMessageListCallback();
-            }
-            input.ReadMessage(GetAdvancedHistoryMessageListCallback);
+            messageList_.AddEntriesFrom(input, _repeated_messageList_codec);
+            break;
+          }
+          case 16: {
+            IsEnd = input.ReadBool();
+            break;
+          }
+          case 24: {
+            ErrCode = input.ReadInt32();
+            break;
+          }
+          case 34: {
+            ErrMsg = input.ReadString();
             break;
           }
         }
@@ -1718,470 +1249,24 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
-            if (getAdvancedHistoryMessageListCallback_ == null) {
-              GetAdvancedHistoryMessageListCallback = new global::OpenIM.Proto.GetAdvancedHistoryMessageListCallback();
-            }
-            input.ReadMessage(GetAdvancedHistoryMessageListCallback);
+            messageList_.AddEntriesFrom(ref input, _repeated_messageList_codec);
             break;
           }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class GetAdvancedHistoryMessageListReverseReq : pb::IMessage<GetAdvancedHistoryMessageListReverseReq>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<GetAdvancedHistoryMessageListReverseReq> _parser = new pb::MessageParser<GetAdvancedHistoryMessageListReverseReq>(() => new GetAdvancedHistoryMessageListReverseReq());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<GetAdvancedHistoryMessageListReverseReq> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[6]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetAdvancedHistoryMessageListReverseReq() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetAdvancedHistoryMessageListReverseReq(GetAdvancedHistoryMessageListReverseReq other) : this() {
-      conversationID_ = other.conversationID_;
-      getAdvancedHistoryMessageListParams_ = other.getAdvancedHistoryMessageListParams_ != null ? other.getAdvancedHistoryMessageListParams_.Clone() : null;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetAdvancedHistoryMessageListReverseReq Clone() {
-      return new GetAdvancedHistoryMessageListReverseReq(this);
-    }
-
-    /// <summary>Field number for the "conversationID" field.</summary>
-    public const int ConversationIDFieldNumber = 1;
-    private string conversationID_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string ConversationID {
-      get { return conversationID_; }
-      set {
-        conversationID_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "getAdvancedHistoryMessageListParams" field.</summary>
-    public const int GetAdvancedHistoryMessageListParamsFieldNumber = 2;
-    private global::OpenIM.Proto.GetAdvancedHistoryMessageListParams getAdvancedHistoryMessageListParams_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::OpenIM.Proto.GetAdvancedHistoryMessageListParams GetAdvancedHistoryMessageListParams {
-      get { return getAdvancedHistoryMessageListParams_; }
-      set {
-        getAdvancedHistoryMessageListParams_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as GetAdvancedHistoryMessageListReverseReq);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(GetAdvancedHistoryMessageListReverseReq other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (ConversationID != other.ConversationID) return false;
-      if (!object.Equals(GetAdvancedHistoryMessageListParams, other.GetAdvancedHistoryMessageListParams)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (ConversationID.Length != 0) hash ^= ConversationID.GetHashCode();
-      if (getAdvancedHistoryMessageListParams_ != null) hash ^= GetAdvancedHistoryMessageListParams.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (ConversationID.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(ConversationID);
-      }
-      if (getAdvancedHistoryMessageListParams_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(GetAdvancedHistoryMessageListParams);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (ConversationID.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(ConversationID);
-      }
-      if (getAdvancedHistoryMessageListParams_ != null) {
-        output.WriteRawTag(18);
-        output.WriteMessage(GetAdvancedHistoryMessageListParams);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (ConversationID.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(ConversationID);
-      }
-      if (getAdvancedHistoryMessageListParams_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(GetAdvancedHistoryMessageListParams);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(GetAdvancedHistoryMessageListReverseReq other) {
-      if (other == null) {
-        return;
-      }
-      if (other.ConversationID.Length != 0) {
-        ConversationID = other.ConversationID;
-      }
-      if (other.getAdvancedHistoryMessageListParams_ != null) {
-        if (getAdvancedHistoryMessageListParams_ == null) {
-          GetAdvancedHistoryMessageListParams = new global::OpenIM.Proto.GetAdvancedHistoryMessageListParams();
-        }
-        GetAdvancedHistoryMessageListParams.MergeFrom(other.GetAdvancedHistoryMessageListParams);
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            ConversationID = input.ReadString();
+          case 16: {
+            IsEnd = input.ReadBool();
             break;
           }
-          case 18: {
-            if (getAdvancedHistoryMessageListParams_ == null) {
-              GetAdvancedHistoryMessageListParams = new global::OpenIM.Proto.GetAdvancedHistoryMessageListParams();
-            }
-            input.ReadMessage(GetAdvancedHistoryMessageListParams);
+          case 24: {
+            ErrCode = input.ReadInt32();
             break;
           }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            ConversationID = input.ReadString();
-            break;
-          }
-          case 18: {
-            if (getAdvancedHistoryMessageListParams_ == null) {
-              GetAdvancedHistoryMessageListParams = new global::OpenIM.Proto.GetAdvancedHistoryMessageListParams();
-            }
-            input.ReadMessage(GetAdvancedHistoryMessageListParams);
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class GetAdvancedHistoryMessageListReverseResp : pb::IMessage<GetAdvancedHistoryMessageListReverseResp>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<GetAdvancedHistoryMessageListReverseResp> _parser = new pb::MessageParser<GetAdvancedHistoryMessageListReverseResp>(() => new GetAdvancedHistoryMessageListReverseResp());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<GetAdvancedHistoryMessageListReverseResp> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[7]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetAdvancedHistoryMessageListReverseResp() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetAdvancedHistoryMessageListReverseResp(GetAdvancedHistoryMessageListReverseResp other) : this() {
-      getAdvancedHistoryMessageListCallback_ = other.getAdvancedHistoryMessageListCallback_ != null ? other.getAdvancedHistoryMessageListCallback_.Clone() : null;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetAdvancedHistoryMessageListReverseResp Clone() {
-      return new GetAdvancedHistoryMessageListReverseResp(this);
-    }
-
-    /// <summary>Field number for the "getAdvancedHistoryMessageListCallback" field.</summary>
-    public const int GetAdvancedHistoryMessageListCallbackFieldNumber = 1;
-    private global::OpenIM.Proto.GetAdvancedHistoryMessageListCallback getAdvancedHistoryMessageListCallback_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::OpenIM.Proto.GetAdvancedHistoryMessageListCallback GetAdvancedHistoryMessageListCallback {
-      get { return getAdvancedHistoryMessageListCallback_; }
-      set {
-        getAdvancedHistoryMessageListCallback_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as GetAdvancedHistoryMessageListReverseResp);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(GetAdvancedHistoryMessageListReverseResp other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (!object.Equals(GetAdvancedHistoryMessageListCallback, other.GetAdvancedHistoryMessageListCallback)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (getAdvancedHistoryMessageListCallback_ != null) hash ^= GetAdvancedHistoryMessageListCallback.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (getAdvancedHistoryMessageListCallback_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(GetAdvancedHistoryMessageListCallback);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (getAdvancedHistoryMessageListCallback_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(GetAdvancedHistoryMessageListCallback);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (getAdvancedHistoryMessageListCallback_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(GetAdvancedHistoryMessageListCallback);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(GetAdvancedHistoryMessageListReverseResp other) {
-      if (other == null) {
-        return;
-      }
-      if (other.getAdvancedHistoryMessageListCallback_ != null) {
-        if (getAdvancedHistoryMessageListCallback_ == null) {
-          GetAdvancedHistoryMessageListCallback = new global::OpenIM.Proto.GetAdvancedHistoryMessageListCallback();
-        }
-        GetAdvancedHistoryMessageListCallback.MergeFrom(other.GetAdvancedHistoryMessageListCallback);
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            if (getAdvancedHistoryMessageListCallback_ == null) {
-              GetAdvancedHistoryMessageListCallback = new global::OpenIM.Proto.GetAdvancedHistoryMessageListCallback();
-            }
-            input.ReadMessage(GetAdvancedHistoryMessageListCallback);
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            if (getAdvancedHistoryMessageListCallback_ == null) {
-              GetAdvancedHistoryMessageListCallback = new global::OpenIM.Proto.GetAdvancedHistoryMessageListCallback();
-            }
-            input.ReadMessage(GetAdvancedHistoryMessageListCallback);
+          case 34: {
+            ErrMsg = input.ReadString();
             break;
           }
         }
@@ -2206,7 +1291,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[8]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2376,11 +1461,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -2403,11 +1484,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -2441,7 +1518,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[9]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2553,11 +1630,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -2572,11 +1645,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -2602,7 +1671,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[10]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2772,11 +1841,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -2799,11 +1864,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -2837,7 +1898,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[11]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2949,11 +2010,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -2968,11 +2025,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -2998,7 +2051,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[12]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3168,11 +2221,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -3195,11 +2244,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -3233,7 +2278,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[13]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3345,11 +2390,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -3364,11 +2405,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -3394,7 +2431,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[14]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3506,11 +2543,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -3525,11 +2558,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -3555,7 +2584,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[15]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[11]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3667,11 +2696,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -3686,11 +2711,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -3716,7 +2737,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[16]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[12]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3828,11 +2849,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -3847,11 +2864,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -3877,7 +2890,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[17]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[13]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3989,11 +3002,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -4008,11 +3017,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -4038,7 +3043,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[18]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[14]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4240,11 +3245,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -4274,11 +3275,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -4319,7 +3316,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[19]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[15]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4463,11 +3460,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -4489,11 +3482,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -4526,7 +3515,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[20]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[16]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4728,11 +3717,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -4762,11 +3747,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -4807,7 +3788,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[21]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[17]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4951,11 +3932,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -4977,11 +3954,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -5014,7 +3987,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[22]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[18]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5155,11 +4128,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -5178,11 +4147,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -5212,7 +4177,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[23]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[19]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5356,11 +4321,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -5382,11 +4343,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -5419,7 +4376,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[24]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[20]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5578,11 +4535,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -5605,11 +4558,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -5643,7 +4592,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[25]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[21]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5787,11 +4736,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -5813,11 +4758,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -5850,7 +4791,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[26]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[22]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6059,11 +5000,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -6097,11 +5034,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -6146,7 +5079,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[27]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[23]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6290,11 +5223,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -6316,11 +5245,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -6353,7 +5278,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[28]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[24]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6552,11 +5477,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -6583,11 +5504,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -6625,7 +5542,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[29]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[25]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6769,11 +5686,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -6795,11 +5708,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -6832,7 +5741,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[30]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[26]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7031,11 +5940,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -7062,11 +5967,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -7104,7 +6005,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[31]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[27]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7248,11 +6149,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -7274,11 +6171,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -7311,7 +6204,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[32]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[28]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7484,11 +6377,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -7514,11 +6403,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -7555,7 +6440,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[33]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[29]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7699,11 +6584,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -7725,11 +6606,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -7762,7 +6639,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[34]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[30]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7953,11 +6830,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -7987,11 +6860,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -8032,7 +6901,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[35]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[31]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8176,11 +7045,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -8202,11 +7067,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -8239,7 +7100,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[36]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[32]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8383,11 +7244,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -8409,11 +7266,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -8446,7 +7299,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[37]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[33]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8590,11 +7443,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -8616,11 +7465,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -8653,7 +7498,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[38]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[34]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8890,11 +7735,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -8934,11 +7775,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -8989,7 +7826,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[39]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[35]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -9133,11 +7970,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -9159,11 +7992,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -9196,7 +8025,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[40]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[36]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -9398,11 +8227,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -9432,11 +8257,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -9477,7 +8298,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[41]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[37]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -9621,11 +8442,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -9647,11 +8464,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -9684,7 +8497,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[42]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[38]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -9944,11 +8757,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -9986,11 +8795,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -10039,7 +8844,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[43]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[39]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -10183,11 +8988,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -10209,11 +9010,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -10246,7 +9043,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[44]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[40]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -10448,11 +9245,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -10482,11 +9275,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -10527,7 +9316,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[45]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[41]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -10671,11 +9460,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -10697,11 +9482,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -10734,7 +9515,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[46]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[42]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -10911,11 +9692,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -10942,11 +9719,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -10984,7 +9757,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[47]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[43]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -11128,11 +9901,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -11154,11 +9923,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -11191,7 +9956,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[48]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[44]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -11361,11 +10126,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -11388,11 +10149,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -11426,7 +10183,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[49]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[45]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -11570,11 +10327,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -11596,11 +10349,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -11633,7 +10382,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[50]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[46]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -11777,11 +10526,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -11803,11 +10548,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -11840,7 +10581,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[51]; }
+      get { return global::OpenIM.Proto.MessageReflection.Descriptor.MessageTypes[47]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -11984,11 +10725,7 @@ namespace OpenIM.Proto {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -12010,11 +10747,7 @@ namespace OpenIM.Proto {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;

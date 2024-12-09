@@ -6,7 +6,7 @@ namespace OpenIM.IMSDK.Listener
     {
         void OnJoinedGroupAdded(IMGroup groupInfo);
         void OnJoinedGroupDeleted(IMGroup groupInfo);
-        void OnGroupMemberAdded(IMGroup groupMemberInfo);
+        void OnGroupMemberAdded(IMGroupMember groupMemberInfo);
         void OnGroupMemberDeleted(IMGroupMember groupMemberInfo);
         void OnGroupApplicationAdded(IMGroupApplication groupApplication);
         void OnGroupApplicationDeleted(IMGroupApplication groupApplication);
