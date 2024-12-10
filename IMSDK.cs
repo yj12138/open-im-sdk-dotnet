@@ -802,14 +802,14 @@ namespace OpenIM.IMSDK
         #endregion
 
         #region group
-        public static void CreateGroup(Action<IMGroup> cb, IMGroup group, string[] memeberUserIds, string[] adminUserIds)
+        public static void CreateGroup(Action<IMGroup> cb, IMGroup group, string[] adminUserIds, string[] memeberUserIds)
         {
             var handleId = GetHandleId();
             callBackDic[handleId] = cb;
             var req = new CreateGroupReq();
             req.GroupInfo = group;
-            req.MemberUserIDs.Add(adminUserIds);
-            req.AdminUserIDs.Add(memeberUserIds);
+            req.AdminUserIDs.Add(adminUserIds);
+            req.MemberUserIDs.Add(memeberUserIds);
             NativeSDK.CallAPI(handleId, FuncRequestEventName.CreateGroup, req);
         }
         public static void JoinGroup(Action<bool> cb, string groupId, string reqMsg, GroupJoinSource joinSource, string ex)

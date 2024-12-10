@@ -4,7 +4,6 @@ using OpenIM.IMSDK.Util;
 using OpenIM.Proto;
 using System.Collections.Concurrent;
 using System.Runtime.InteropServices;
-using System.Text;
 
 namespace OpenIM.IMSDK
 {
@@ -598,70 +597,70 @@ namespace OpenIM.IMSDK
                 case FuncRequestEventName.GetJoinedGroups:
                     {
                         var resp = GetJoinedGroupsResp.Parser.ParseFrom(data);
-                        callBack?.DynamicInvoke([.. resp.Groups]);
+                        callBack?.DynamicInvoke([resp.Groups.ToArray()]);
                     }
                     break;
 
                 case FuncRequestEventName.GetJoinedGroupsPage:
                     {
                         var resp = GetJoinedGroupsPageResp.Parser.ParseFrom(data);
-                        callBack?.DynamicInvoke([.. resp.Groups]);
+                        callBack?.DynamicInvoke([resp.Groups.ToArray()]);
                     }
                     break;
 
                 case FuncRequestEventName.GetSpecifiedGroupsInfo:
                     {
                         var resp = GetSpecifiedGroupsInfoResp.Parser.ParseFrom(data);
-                        callBack?.DynamicInvoke([.. resp.Groups]);
+                        callBack?.DynamicInvoke([resp.Groups.ToArray()]);
                     }
                     break;
 
                 case FuncRequestEventName.SearchGroups:
                     {
                         var resp = SearchGroupsResp.Parser.ParseFrom(data);
-                        callBack?.DynamicInvoke([.. resp.Groups]);
+                        callBack?.DynamicInvoke([resp.Groups.ToArray()]);
                     }
                     break;
 
                 case FuncRequestEventName.GetGroupMemberOwnerAndAdmin:
                     {
                         var resp = GetGroupMemberOwnerAndAdminResp.Parser.ParseFrom(data);
-                        callBack?.DynamicInvoke([.. resp.Members]);
+                        callBack?.DynamicInvoke([resp.Members.ToArray()]);
                     }
                     break;
 
                 case FuncRequestEventName.GetGroupMembersByJoinTimeFilter:
                     {
                         var resp = GetGroupMembersByJoinTimeFilterResp.Parser.ParseFrom(data);
-                        callBack?.DynamicInvoke([.. resp.Members]);
+                        callBack?.DynamicInvoke([resp.Members.ToArray()]);
                     }
                     break;
 
                 case FuncRequestEventName.GetSpecifiedGroupMembersInfo:
                     {
                         var resp = GetSpecifiedGroupMembersInfoResp.Parser.ParseFrom(data);
-                        callBack?.DynamicInvoke([.. resp.Members]);
+                        callBack?.DynamicInvoke([resp.Members.ToArray()]);
                     }
                     break;
 
                 case FuncRequestEventName.GetGroupMembers:
                     {
                         var resp = GetGroupMembersResp.Parser.ParseFrom(data);
-                        callBack?.DynamicInvoke([.. resp.Members]);
+                        callBack?.DynamicInvoke([resp.Members.ToArray()]);
                     }
                     break;
 
                 case FuncRequestEventName.GetGroupRequest:
                     {
                         var resp = GetGroupRequestResp.Parser.ParseFrom(data);
-                        callBack?.DynamicInvoke([.. resp.Requests]);
+                        callBack?.DynamicInvoke([resp.Requests.ToArray()]);
                     }
                     break;
 
                 case FuncRequestEventName.SearchGroupMembers:
                     {
                         var resp = SearchGroupMembersResp.Parser.ParseFrom(data);
-                        callBack?.DynamicInvoke([.. resp.Members]);
+                        callBack?.DynamicInvoke([resp.Members.ToArray()]);
                     }
                     break;
 
@@ -675,7 +674,7 @@ namespace OpenIM.IMSDK
                 case FuncRequestEventName.GetUsersInGroup:
                     {
                         var resp = GetUsersInGroupResp.Parser.ParseFrom(data);
-                        callBack?.DynamicInvoke([.. resp.UserIDs]);
+                        callBack?.DynamicInvoke([resp.UserIDs.ToArray()]);
                     }
                     break;
 
@@ -696,7 +695,7 @@ namespace OpenIM.IMSDK
                 case FuncRequestEventName.GetSpecifiedFriends:
                     {
                         var resp = GetSpecifiedFriendsResp.Parser.ParseFrom(data);
-                        callBack?.DynamicInvoke([.. resp.Friends]);
+                        callBack?.DynamicInvoke([resp.Friends.ToArray()]);
                     }
                     break;
 
@@ -710,7 +709,7 @@ namespace OpenIM.IMSDK
                 case FuncRequestEventName.GetFriendRequests:
                     {
                         var resp = GetFriendRequestsResp.Parser.ParseFrom(data);
-                        callBack?.DynamicInvoke([.. resp.Requests]);
+                        callBack?.DynamicInvoke([resp.Requests.ToArray()]);
                     }
                     break;
 
@@ -724,7 +723,7 @@ namespace OpenIM.IMSDK
                 case FuncRequestEventName.CheckFriend:
                     {
                         var resp = CheckFriendResp.Parser.ParseFrom(data);
-                        callBack?.DynamicInvoke(resp.Result.ToArray());
+                        callBack?.DynamicInvoke([resp.Result.ToArray()]);
                     }
                     break;
 
@@ -738,21 +737,21 @@ namespace OpenIM.IMSDK
                 case FuncRequestEventName.GetFriends:
                     {
                         var resp = GetFriendsResp.Parser.ParseFrom(data);
-                        callBack?.DynamicInvoke(resp.Friends.ToArray());
+                        callBack?.DynamicInvoke([resp.Friends.ToArray()]);
                     }
                     break;
 
                 case FuncRequestEventName.GetFriendsPage:
                     {
                         var resp = GetFriendsPageResp.Parser.ParseFrom(data);
-                        callBack?.DynamicInvoke(resp.Friends.ToArray());
+                        callBack?.DynamicInvoke([resp.Friends.ToArray()]);
                     }
                     break;
 
                 case FuncRequestEventName.SearchFriends:
                     {
                         var resp = SearchFriendsResp.Parser.ParseFrom(data);
-                        callBack?.DynamicInvoke(resp.Friends.ToArray());
+                        callBack?.DynamicInvoke([resp.Friends.ToArray()]);
                     }
                     break;
 
@@ -773,7 +772,7 @@ namespace OpenIM.IMSDK
                 case FuncRequestEventName.GetBlacks:
                     {
                         var resp = GetBlacksResp.Parser.ParseFrom(data);
-                        callBack?.DynamicInvoke(resp.Blacks.ToArray());
+                        callBack?.DynamicInvoke([resp.Blacks.ToArray()]);
                     }
                     break;
 
@@ -787,14 +786,14 @@ namespace OpenIM.IMSDK
                 case FuncRequestEventName.GetAllConversationList:
                     {
                         var resp = GetAllConversationListResp.Parser.ParseFrom(data);
-                        callBack?.DynamicInvoke(resp.ConversationList.ToArray());
+                        callBack?.DynamicInvoke([resp.ConversationList.ToArray()]);
                     }
                     break;
 
                 case FuncRequestEventName.GetConversationListSplit:
                     {
                         var resp = GetConversationListSplitResp.Parser.ParseFrom(data);
-                        callBack?.DynamicInvoke(resp.ConversationList.ToArray());
+                        callBack?.DynamicInvoke([resp.ConversationList.ToArray()]);
                     }
                     break;
 
@@ -822,7 +821,7 @@ namespace OpenIM.IMSDK
                 case FuncRequestEventName.GetMultipleConversation:
                     {
                         var resp = GetMultipleConversationResp.Parser.ParseFrom(data);
-                        callBack?.DynamicInvoke(resp.ConversationList.ToArray());
+                        callBack?.DynamicInvoke([resp.ConversationList.ToArray()]);
                     }
                     break;
 
@@ -864,7 +863,8 @@ namespace OpenIM.IMSDK
                 case FuncRequestEventName.FindMessageList:
                     {
                         var resp = FindMessageListResp.Parser.ParseFrom(data);
-                        callBack?.DynamicInvoke(resp.TotalCount, resp.FindResultItems);
+                        var args = new object[] { resp.TotalCount, resp.FindResultItems.ToArray() };
+                        callBack?.DynamicInvoke(args);
                     }
                     break;
 
@@ -962,7 +962,8 @@ namespace OpenIM.IMSDK
                 case FuncRequestEventName.SearchLocalMessages:
                     {
                         var resp = SearchLocalMessagesResp.Parser.ParseFrom(data);
-                        callBack?.DynamicInvoke(resp.SearchResult.TotalCount, resp.SearchResult.SearchResultItems);
+                        var args = new object[] { resp.SearchResult.TotalCount, resp.SearchResult.SearchResultItems };
+                        callBack?.DynamicInvoke(args);
                     }
                     break;
 
@@ -976,7 +977,7 @@ namespace OpenIM.IMSDK
                 case FuncRequestEventName.SearchConversation:
                     {
                         var resp = SearchConversationResp.Parser.ParseFrom(data);
-                        callBack?.DynamicInvoke(resp.ConversationList.ToArray());
+                        callBack?.DynamicInvoke([resp.ConversationList.ToArray()]);
                     }
                     break;
 
@@ -1089,7 +1090,7 @@ namespace OpenIM.IMSDK
                 case FuncRequestEventName.ProcessUserCommandGetAll:
                     {
                         var resp = ProcessUserCommandGetAllResp.Parser.ParseFrom(data);
-                        callBack?.DynamicInvoke(resp.Commands.ToArray());
+                        callBack?.DynamicInvoke([resp.Commands.ToArray()]);
                     }
                     break;
 
@@ -1131,14 +1132,14 @@ namespace OpenIM.IMSDK
                 case FuncRequestEventName.GetUsersInfo:
                     {
                         var resp = GetUsersInfoResp.Parser.ParseFrom(data);
-                        callBack?.DynamicInvoke(resp.Users.ToArray());
+                        callBack?.DynamicInvoke([resp.Users.ToArray()]);
                     }
                     break;
 
                 case FuncRequestEventName.SubscribeUsersOnlineStatus:
                     {
                         var resp = SubscribeUsersOnlineStatusResp.Parser.ParseFrom(data);
-                        callBack?.DynamicInvoke(resp.Status.ToArray());
+                        callBack?.DynamicInvoke([resp.Status.ToArray()]);
                     }
                     break;
 
