@@ -5,7 +5,7 @@ namespace OpenIM.IMSDK.Listener
     public interface IUserListener
     {
         void OnSelfInfoUpdated(IMUser userInfo);
-        void OnUserStatusChanged(string userId, Platform[] platforms);
+        void OnUserOnlineStatusChanged(string userId, Platform[] platforms);
         void OnUserCommandAdd(CommandInfo commandInfo);
         void OnUserCommandDelete(CommandInfo commandInfo);
         void OnUserCommandUpdate(CommandInfo commandInfo);

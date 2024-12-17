@@ -25,149 +25,167 @@ namespace OpenIM.Proto {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "Cgtncm91cC5wcm90bxIQb3BlbmltLnNkay5ncm91cBoMY29tbW9uLnByb3Rv",
-            "GgxzaGFyZWQucHJvdG8ibAoOQ3JlYXRlR3JvdXBSZXESFQoNbWVtYmVyVXNl",
-            "cklEcxgBIAMoCRIUCgxhZG1pblVzZXJJRHMYAiADKAkSLQoJZ3JvdXBJbmZv",
-            "GAMgASgLMhoub3BlbmltLnNkay5zaGFyZWQuSU1Hcm91cCJACg9DcmVhdGVH",
-            "cm91cFJlc3ASLQoJZ3JvdXBJbmZvGAEgASgLMhoub3BlbmltLnNkay5zaGFy",
-            "ZWQuSU1Hcm91cCJ3CgxKb2luR3JvdXBSZXESDwoHZ3JvdXBJRBgBIAEoCRIS",
-            "CgpyZXFNZXNzYWdlGAIgASgJEjYKCmpvaW5Tb3VyY2UYAyABKA4yIi5vcGVu",
-            "aW0uc2RrLnNoYXJlZC5Hcm91cEpvaW5Tb3VyY2USCgoCZXgYBCABKAkiDwoN",
-            "Sm9pbkdyb3VwUmVzcCIfCgxRdWl0R3JvdXBSZXESDwoHZ3JvdXBJRBgBIAEo",
-            "CSIPCg1RdWl0R3JvdXBSZXNwIiIKD0Rpc21pc3NHcm91cFJlcRIPCgdncm91",
-            "cElEGAEgASgJIhIKEERpc21pc3NHcm91cFJlc3AiMwoSQ2hhbmdlR3JvdXBN",
-            "dXRlUmVxEg8KB2dyb3VwSUQYASABKAkSDAoEbXV0ZRgCIAEoCCIVChNDaGFu",
-            "Z2VHcm91cE11dGVSZXNwIlEKGENoYW5nZUdyb3VwTWVtYmVyTXV0ZVJlcRIP",
-            "Cgdncm91cElEGAEgASgJEg4KBnVzZXJJRBgCIAEoCRIUCgxtdXRlZFNlY29u",
-            "ZHMYAyABKA0iGwoZQ2hhbmdlR3JvdXBNZW1iZXJNdXRlUmVzcCI9ChVUcmFu",
-            "c2Zlckdyb3VwT3duZXJSZXESDwoHZ3JvdXBJRBgBIAEoCRITCgtvd25lclVz",
-            "ZXJJRBgCIAEoCSIYChZUcmFuc2Zlckdyb3VwT3duZXJSZXNwIkwKEktpY2tH",
-            "cm91cE1lbWJlclJlcRIPCgdncm91cElEGAEgASgJEhUKDWtpY2tlZFVzZXJJ",
-            "RHMYAiADKAkSDgoGcmVhc29uGAMgASgJIhUKE0tpY2tHcm91cE1lbWJlclJl",
-            "c3Ai9AIKD1NldEdyb3VwSW5mb1JlcRIPCgdncm91cElEGAEgASgJEhYKCWdy",
-            "b3VwTmFtZRgCIAEoCUgAiAEBEhkKDG5vdGlmaWNhdGlvbhgDIAEoCUgBiAEB",
-            "EhkKDGludHJvZHVjdGlvbhgEIAEoCUgCiAEBEhQKB2ZhY2VVUkwYBSABKAlI",
-            "A4gBARIPCgJleBgGIAEoCUgEiAEBEh0KEG5lZWRWZXJpZmljYXRpb24YByAB",
-            "KAVIBYgBARIbCg5sb29rTWVtYmVySW5mbxgIIAEoBUgGiAEBEh4KEWFwcGx5",
-            "TWVtYmVyRnJpZW5kGAkgASgFSAeIAQFCDAoKX2dyb3VwTmFtZUIPCg1fbm90",
-            "aWZpY2F0aW9uQg8KDV9pbnRyb2R1Y3Rpb25CCgoIX2ZhY2VVUkxCBQoDX2V4",
-            "QhMKEV9uZWVkVmVyaWZpY2F0aW9uQhEKD19sb29rTWVtYmVySW5mb0IUChJf",
-            "YXBwbHlNZW1iZXJGcmllbmQiEgoQU2V0R3JvdXBJbmZvUmVzcCK8AQoVU2V0",
-            "R3JvdXBNZW1iZXJJbmZvUmVxEg8KB2dyb3VwSUQYASABKAkSDgoGdXNlcklE",
-            "GAIgASgJEhUKCG5pY2tuYW1lGAMgASgJSACIAQESFAoHZmFjZVVSTBgEIAEo",
-            "CUgBiAEBEhYKCXJvbGVMZXZlbBgFIAEoBUgCiAEBEg8KAmV4GAYgASgJSAOI",
-            "AQFCCwoJX25pY2tuYW1lQgoKCF9mYWNlVVJMQgwKCl9yb2xlTGV2ZWxCBQoD",
-            "X2V4IhgKFlNldEdyb3VwTWVtYmVySW5mb1Jlc3AiFAoSR2V0Sm9pbmVkR3Jv",
-            "dXBzUmVxIkEKE0dldEpvaW5lZEdyb3Vwc1Jlc3ASKgoGZ3JvdXBzGAEgAygL",
-            "Mhoub3BlbmltLnNkay5zaGFyZWQuSU1Hcm91cCJSChZHZXRKb2luZWRHcm91",
-            "cHNQYWdlUmVxEjgKCnBhZ2luYXRpb24YAiABKAsyJC5vcGVuaW0uc2RrLmNv",
-            "bW1vbi5SZXF1ZXN0UGFnaW5hdGlvbiJFChdHZXRKb2luZWRHcm91cHNQYWdl",
-            "UmVzcBIqCgZncm91cHMYASADKAsyGi5vcGVuaW0uc2RrLnNoYXJlZC5JTUdy",
-            "b3VwIi0KGUdldFNwZWNpZmllZEdyb3Vwc0luZm9SZXESEAoIZ3JvdXBJRHMY",
-            "ASADKAkiSAoaR2V0U3BlY2lmaWVkR3JvdXBzSW5mb1Jlc3ASKgoGZ3JvdXBz",
-            "GAEgAygLMhoub3BlbmltLnNkay5zaGFyZWQuSU1Hcm91cCJSCg9TZWFyY2hH",
-            "cm91cHNSZXESDwoHa2V5d29yZBgBIAEoCRIVCg1zZWFyY2hHcm91cElEGAIg",
-            "ASgIEhcKD3NlYXJjaEdyb3VwTmFtZRgDIAEoCCI+ChBTZWFyY2hHcm91cHNS",
-            "ZXNwEioKBmdyb3VwcxgBIAMoCzIaLm9wZW5pbS5zZGsuc2hhcmVkLklNR3Jv",
-            "dXAiMQoeR2V0R3JvdXBNZW1iZXJPd25lckFuZEFkbWluUmVxEg8KB2dyb3Vw",
-            "SUQYASABKAkiVAofR2V0R3JvdXBNZW1iZXJPd25lckFuZEFkbWluUmVzcBIx",
-            "CgdtZW1iZXJzGAEgAygLMiAub3BlbmltLnNkay5zaGFyZWQuSU1Hcm91cE1l",
-            "bWJlciKbAQoiR2V0R3JvdXBNZW1iZXJzQnlKb2luVGltZUZpbHRlclJlcRIP",
-            "Cgdncm91cElEGAEgASgJEhUKDWpvaW5UaW1lQmVnaW4YAiABKAMSEwoLam9p",
-            "blRpbWVFbmQYAyABKAMSOAoKcGFnaW5hdGlvbhgEIAEoCzIkLm9wZW5pbS5z",
-            "ZGsuY29tbW9uLlJlcXVlc3RQYWdpbmF0aW9uIlgKI0dldEdyb3VwTWVtYmVy",
-            "c0J5Sm9pblRpbWVGaWx0ZXJSZXNwEjEKB21lbWJlcnMYASADKAsyIC5vcGVu",
-            "aW0uc2RrLnNoYXJlZC5JTUdyb3VwTWVtYmVyIkMKH0dldFNwZWNpZmllZEdy",
-            "b3VwTWVtYmVyc0luZm9SZXESDwoHZ3JvdXBJRBgBIAEoCRIPCgd1c2VySURz",
-            "GAIgAygJIlUKIEdldFNwZWNpZmllZEdyb3VwTWVtYmVyc0luZm9SZXNwEjEK",
-            "B21lbWJlcnMYASADKAsyIC5vcGVuaW0uc2RrLnNoYXJlZC5JTUdyb3VwTWVt",
-            "YmVyIo4BChJHZXRHcm91cE1lbWJlcnNSZXESDwoHZ3JvdXBJRBgBIAEoCRIt",
-            "CgZmaWx0ZXIYAiABKA4yHS5vcGVuaW0uc2RrLmdyb3VwLkdyb3VwRmlsdGVy",
-            "EjgKCnBhZ2luYXRpb24YBCABKAsyJC5vcGVuaW0uc2RrLmNvbW1vbi5SZXF1",
-            "ZXN0UGFnaW5hdGlvbiJIChNHZXRHcm91cE1lbWJlcnNSZXNwEjEKB21lbWJl",
-            "cnMYASADKAsyIC5vcGVuaW0uc2RrLnNoYXJlZC5JTUdyb3VwTWVtYmVyIiIK",
-            "EkdldEdyb3VwUmVxdWVzdFJlcRIMCgRzZW5kGAEgASgIIk4KE0dldEdyb3Vw",
-            "UmVxdWVzdFJlc3ASNwoIcmVxdWVzdHMYASADKAsyJS5vcGVuaW0uc2RrLnNo",
-            "YXJlZC5JTUdyb3VwQXBwbGljYXRpb24ipwEKFVNlYXJjaEdyb3VwTWVtYmVy",
-            "c1JlcRIPCgdncm91cElEGAEgASgJEg8KB0tleXdvcmQYAiABKAkSFAoMc2Vh",
-            "cmNoVXNlcklEGAMgASgIEhwKFHNlYXJjaE1lbWJlck5pY2tuYW1lGAQgASgI",
-            "EjgKCnBhZ2luYXRpb24YBSABKAsyJC5vcGVuaW0uc2RrLmNvbW1vbi5SZXF1",
-            "ZXN0UGFnaW5hdGlvbiJLChZTZWFyY2hHcm91cE1lbWJlcnNSZXNwEjEKB21l",
-            "bWJlcnMYASADKAsyIC5vcGVuaW0uc2RrLnNoYXJlZC5JTUdyb3VwTWVtYmVy",
-            "IjEKDklzSm9pbkdyb3VwUmVxEg8KB2dyb3VwSUQYASABKAkSDgoGdXNlcklE",
-            "GAIgASgJIiEKD0lzSm9pbkdyb3VwUmVzcBIOCgZqb2luZWQYASABKAgiNgoS",
-            "R2V0VXNlcnNJbkdyb3VwUmVxEg8KB2dyb3VwSUQYASABKAkSDwoHdXNlcklE",
-            "cxgCIAMoCSImChNHZXRVc2Vyc0luR3JvdXBSZXNwEg8KB3VzZXJJRHMYASAD",
-            "KAkiSAoUSW52aXRlVXNlclRvR3JvdXBSZXESDwoHZ3JvdXBJRBgBIAEoCRIP",
-            "Cgd1c2VySURzGAIgAygJEg4KBnJlYXNvbhgDIAEoCSIXChVJbnZpdGVVc2Vy",
-            "VG9Hcm91cFJlc3AigwEKFUhhbmRsZUdyb3VwUmVxdWVzdFJlcRIPCgdncm91",
-            "cElEGAEgASgJEhIKCmZyb21Vc2VySUQYAiABKAkSEgoKaGFuZGxlZE1zZxgD",
-            "IAEoCRIxCgZzdGF0dXMYBCABKA4yIS5vcGVuaW0uc2RrLmNvbW1vbi5BcHBy",
-            "b3ZhbFN0YXR1cyIYChZIYW5kbGVHcm91cFJlcXVlc3RSZXNwKm0KC0dyb3Vw",
-            "RmlsdGVyEgcKA0FsbBAAEgkKBU93bmVyEAESCQoFQWRtaW4QAhIRCg1PcmRp",
-            "bmFyeVVzZXJzEAMSGQoVQWRtaW5BbmRPcmRpbmFyeVVzZXJzEAQSEQoNT3du",
-            "ZXJBbmRBZG1pbhAFMosTCgVncm91cBJSCgtDcmVhdGVHcm91cBIgLm9wZW5p",
-            "bS5zZGsuZ3JvdXAuQ3JlYXRlR3JvdXBSZXEaIS5vcGVuaW0uc2RrLmdyb3Vw",
-            "LkNyZWF0ZUdyb3VwUmVzcBJMCglKb2luR3JvdXASHi5vcGVuaW0uc2RrLmdy",
-            "b3VwLkpvaW5Hcm91cFJlcRofLm9wZW5pbS5zZGsuZ3JvdXAuSm9pbkdyb3Vw",
-            "UmVzcBJMCglRdWl0R3JvdXASHi5vcGVuaW0uc2RrLmdyb3VwLlF1aXRHcm91",
-            "cFJlcRofLm9wZW5pbS5zZGsuZ3JvdXAuUXVpdEdyb3VwUmVzcBJVCgxEaXNt",
-            "aXNzR3JvdXASIS5vcGVuaW0uc2RrLmdyb3VwLkRpc21pc3NHcm91cFJlcRoi",
-            "Lm9wZW5pbS5zZGsuZ3JvdXAuRGlzbWlzc0dyb3VwUmVzcBJeCg9DaGFuZ2VH",
-            "cm91cE11dGUSJC5vcGVuaW0uc2RrLmdyb3VwLkNoYW5nZUdyb3VwTXV0ZVJl",
-            "cRolLm9wZW5pbS5zZGsuZ3JvdXAuQ2hhbmdlR3JvdXBNdXRlUmVzcBJwChVD",
-            "aGFuZ2VHcm91cE1lbWJlck11dGUSKi5vcGVuaW0uc2RrLmdyb3VwLkNoYW5n",
-            "ZUdyb3VwTWVtYmVyTXV0ZVJlcRorLm9wZW5pbS5zZGsuZ3JvdXAuQ2hhbmdl",
-            "R3JvdXBNZW1iZXJNdXRlUmVzcBJnChJUcmFuc2Zlckdyb3VwT3duZXISJy5v",
-            "cGVuaW0uc2RrLmdyb3VwLlRyYW5zZmVyR3JvdXBPd25lclJlcRooLm9wZW5p",
-            "bS5zZGsuZ3JvdXAuVHJhbnNmZXJHcm91cE93bmVyUmVzcBJeCg9LaWNrR3Jv",
-            "dXBNZW1iZXISJC5vcGVuaW0uc2RrLmdyb3VwLktpY2tHcm91cE1lbWJlclJl",
-            "cRolLm9wZW5pbS5zZGsuZ3JvdXAuS2lja0dyb3VwTWVtYmVyUmVzcBJVCgxT",
-            "ZXRHcm91cEluZm8SIS5vcGVuaW0uc2RrLmdyb3VwLlNldEdyb3VwSW5mb1Jl",
-            "cRoiLm9wZW5pbS5zZGsuZ3JvdXAuU2V0R3JvdXBJbmZvUmVzcBJnChJTZXRH",
-            "cm91cE1lbWJlckluZm8SJy5vcGVuaW0uc2RrLmdyb3VwLlNldEdyb3VwTWVt",
-            "YmVySW5mb1JlcRooLm9wZW5pbS5zZGsuZ3JvdXAuU2V0R3JvdXBNZW1iZXJJ",
-            "bmZvUmVzcBJeCg9HZXRKb2luZWRHcm91cHMSJC5vcGVuaW0uc2RrLmdyb3Vw",
-            "LkdldEpvaW5lZEdyb3Vwc1JlcRolLm9wZW5pbS5zZGsuZ3JvdXAuR2V0Sm9p",
-            "bmVkR3JvdXBzUmVzcBJqChNHZXRKb2luZWRHcm91cHNQYWdlEigub3Blbmlt",
-            "LnNkay5ncm91cC5HZXRKb2luZWRHcm91cHNQYWdlUmVxGikub3BlbmltLnNk",
-            "ay5ncm91cC5HZXRKb2luZWRHcm91cHNQYWdlUmVzcBJzChZHZXRTcGVjaWZp",
-            "ZWRHcm91cHNJbmZvEisub3BlbmltLnNkay5ncm91cC5HZXRTcGVjaWZpZWRH",
-            "cm91cHNJbmZvUmVxGiwub3BlbmltLnNkay5ncm91cC5HZXRTcGVjaWZpZWRH",
-            "cm91cHNJbmZvUmVzcBJVCgxTZWFyY2hHcm91cHMSIS5vcGVuaW0uc2RrLmdy",
-            "b3VwLlNlYXJjaEdyb3Vwc1JlcRoiLm9wZW5pbS5zZGsuZ3JvdXAuU2VhcmNo",
-            "R3JvdXBzUmVzcBKCAQobR2V0R3JvdXBNZW1iZXJPd25lckFuZEFkbWluEjAu",
-            "b3BlbmltLnNkay5ncm91cC5HZXRHcm91cE1lbWJlck93bmVyQW5kQWRtaW5S",
-            "ZXEaMS5vcGVuaW0uc2RrLmdyb3VwLkdldEdyb3VwTWVtYmVyT3duZXJBbmRB",
-            "ZG1pblJlc3ASjgEKH0dldEdyb3VwTWVtYmVyc0J5Sm9pblRpbWVGaWx0ZXIS",
-            "NC5vcGVuaW0uc2RrLmdyb3VwLkdldEdyb3VwTWVtYmVyc0J5Sm9pblRpbWVG",
-            "aWx0ZXJSZXEaNS5vcGVuaW0uc2RrLmdyb3VwLkdldEdyb3VwTWVtYmVyc0J5",
-            "Sm9pblRpbWVGaWx0ZXJSZXNwEoUBChxHZXRTcGVjaWZpZWRHcm91cE1lbWJl",
-            "cnNJbmZvEjEub3BlbmltLnNkay5ncm91cC5HZXRTcGVjaWZpZWRHcm91cE1l",
-            "bWJlcnNJbmZvUmVxGjIub3BlbmltLnNkay5ncm91cC5HZXRTcGVjaWZpZWRH",
-            "cm91cE1lbWJlcnNJbmZvUmVzcBJeCg9HZXRHcm91cE1lbWJlcnMSJC5vcGVu",
-            "aW0uc2RrLmdyb3VwLkdldEdyb3VwTWVtYmVyc1JlcRolLm9wZW5pbS5zZGsu",
-            "Z3JvdXAuR2V0R3JvdXBNZW1iZXJzUmVzcBJeCg9HZXRHcm91cFJlcXVlc3QS",
-            "JC5vcGVuaW0uc2RrLmdyb3VwLkdldEdyb3VwUmVxdWVzdFJlcRolLm9wZW5p",
-            "bS5zZGsuZ3JvdXAuR2V0R3JvdXBSZXF1ZXN0UmVzcBJnChJTZWFyY2hHcm91",
-            "cE1lbWJlcnMSJy5vcGVuaW0uc2RrLmdyb3VwLlNlYXJjaEdyb3VwTWVtYmVy",
-            "c1JlcRooLm9wZW5pbS5zZGsuZ3JvdXAuU2VhcmNoR3JvdXBNZW1iZXJzUmVz",
-            "cBJSCgtJc0pvaW5Hcm91cBIgLm9wZW5pbS5zZGsuZ3JvdXAuSXNKb2luR3Jv",
-            "dXBSZXEaIS5vcGVuaW0uc2RrLmdyb3VwLklzSm9pbkdyb3VwUmVzcBJeCg9H",
-            "ZXRVc2Vyc0luR3JvdXASJC5vcGVuaW0uc2RrLmdyb3VwLkdldFVzZXJzSW5H",
-            "cm91cFJlcRolLm9wZW5pbS5zZGsuZ3JvdXAuR2V0VXNlcnNJbkdyb3VwUmVz",
-            "cBJkChFJbnZpdGVVc2VyVG9Hcm91cBImLm9wZW5pbS5zZGsuZ3JvdXAuSW52",
-            "aXRlVXNlclRvR3JvdXBSZXEaJy5vcGVuaW0uc2RrLmdyb3VwLkludml0ZVVz",
-            "ZXJUb0dyb3VwUmVzcBJnChJIYW5kbGVHcm91cFJlcXVlc3QSJy5vcGVuaW0u",
-            "c2RrLmdyb3VwLkhhbmRsZUdyb3VwUmVxdWVzdFJlcRooLm9wZW5pbS5zZGsu",
-            "Z3JvdXAuSGFuZGxlR3JvdXBSZXF1ZXN0UmVzcEJKWjZnaXRodWIuY29tL29w",
-            "ZW5pbXNkay9vcGVuaW0tc2RrLWNvcmUvdjMvcHJvdG8vZ28vZ3JvdXCqAgxP",
-            "cGVuSU0uUHJvdG+6AgBiBnByb3RvMw=="));
+            "GgxzaGFyZWQucHJvdG8ivwUKDkNyZWF0ZUdyb3VwUmVxEhQKB2dyb3VwSUQY",
+            "ASABKAlIAIgBARIRCglncm91cE5hbWUYAiABKAkSGQoMbm90aWZpY2F0aW9u",
+            "GAMgASgJSAGIAQESGQoMaW50cm9kdWN0aW9uGAQgASgJSAKIAQESFAoHZmFj",
+            "ZVVSTBgFIAEoCUgDiAEBEg8KAmV4GAYgASgJSASIAQESRwoQbmVlZFZlcmlm",
+            "aWNhdGlvbhgHIAEoDjIoLm9wZW5pbS5zZGsuc2hhcmVkLkdyb3VwTmVlZFZl",
+            "cmlmaWNhdGlvbkgFiAEBEkMKDmxvb2tNZW1iZXJJbmZvGAggASgOMiYub3Bl",
+            "bmltLnNkay5zaGFyZWQuR3JvdXBMb29rTWVtYmVySW5mb0gGiAEBEkkKEWFw",
+            "cGx5TWVtYmVyRnJpZW5kGAkgASgOMikub3BlbmltLnNkay5zaGFyZWQuR3Jv",
+            "dXBBcHBseU1lbWJlckZyaWVuZEgHiAEBEiMKFm5vdGlmaWNhdGlvblVwZGF0",
+            "ZVRpbWUYCiABKANICIgBARIfChJub3RpZmljYXRpb25Vc2VySUQYCyABKAlI",
+            "CYgBARIZCgxhdHRhY2hlZEluZm8YDCABKAlICogBARIUCgxhZG1pblVzZXJJ",
+            "RHMYDSADKAkSFQoNbWVtYmVyVXNlcklEcxgOIAMoCUIKCghfZ3JvdXBJREIP",
+            "Cg1fbm90aWZpY2F0aW9uQg8KDV9pbnRyb2R1Y3Rpb25CCgoIX2ZhY2VVUkxC",
+            "BQoDX2V4QhMKEV9uZWVkVmVyaWZpY2F0aW9uQhEKD19sb29rTWVtYmVySW5m",
+            "b0IUChJfYXBwbHlNZW1iZXJGcmllbmRCGQoXX25vdGlmaWNhdGlvblVwZGF0",
+            "ZVRpbWVCFQoTX25vdGlmaWNhdGlvblVzZXJJREIPCg1fYXR0YWNoZWRJbmZv",
+            "IkAKD0NyZWF0ZUdyb3VwUmVzcBItCglncm91cEluZm8YASABKAsyGi5vcGVu",
+            "aW0uc2RrLnNoYXJlZC5JTUdyb3VwInMKDEpvaW5Hcm91cFJlcRIPCgdncm91",
+            "cElEGAEgASgJEg4KBnJlcU1zZxgCIAEoCRI2Cgpqb2luU291cmNlGAMgASgO",
+            "MiIub3BlbmltLnNkay5zaGFyZWQuR3JvdXBKb2luU291cmNlEgoKAmV4GAQg",
+            "ASgJIg8KDUpvaW5Hcm91cFJlc3AiHwoMUXVpdEdyb3VwUmVxEg8KB2dyb3Vw",
+            "SUQYASABKAkiDwoNUXVpdEdyb3VwUmVzcCIiCg9EaXNtaXNzR3JvdXBSZXES",
+            "DwoHZ3JvdXBJRBgBIAEoCSISChBEaXNtaXNzR3JvdXBSZXNwIjMKEkNoYW5n",
+            "ZUdyb3VwTXV0ZVJlcRIPCgdncm91cElEGAEgASgJEgwKBG11dGUYAiABKAgi",
+            "FQoTQ2hhbmdlR3JvdXBNdXRlUmVzcCJRChhDaGFuZ2VHcm91cE1lbWJlck11",
+            "dGVSZXESDwoHZ3JvdXBJRBgBIAEoCRIOCgZ1c2VySUQYAiABKAkSFAoMbXV0",
+            "ZWRTZWNvbmRzGAMgASgNIhsKGUNoYW5nZUdyb3VwTWVtYmVyTXV0ZVJlc3Ai",
+            "PQoVVHJhbnNmZXJHcm91cE93bmVyUmVxEg8KB2dyb3VwSUQYASABKAkSEwoL",
+            "b3duZXJVc2VySUQYAiABKAkiGAoWVHJhbnNmZXJHcm91cE93bmVyUmVzcCJM",
+            "ChJLaWNrR3JvdXBNZW1iZXJSZXESDwoHZ3JvdXBJRBgBIAEoCRIVCg1raWNr",
+            "ZWRVc2VySURzGAIgAygJEg4KBnJlYXNvbhgDIAEoCSIVChNLaWNrR3JvdXBN",
+            "ZW1iZXJSZXNwIvEDCg9TZXRHcm91cEluZm9SZXESDwoHZ3JvdXBJRBgBIAEo",
+            "CRIWCglncm91cE5hbWUYAiABKAlIAIgBARIZCgxub3RpZmljYXRpb24YAyAB",
+            "KAlIAYgBARIZCgxpbnRyb2R1Y3Rpb24YBCABKAlIAogBARIUCgdmYWNlVVJM",
+            "GAUgASgJSAOIAQESDwoCZXgYBiABKAlIBIgBARJHChBuZWVkVmVyaWZpY2F0",
+            "aW9uGAcgASgOMigub3BlbmltLnNkay5zaGFyZWQuR3JvdXBOZWVkVmVyaWZp",
+            "Y2F0aW9uSAWIAQESQwoObG9va01lbWJlckluZm8YCCABKA4yJi5vcGVuaW0u",
+            "c2RrLnNoYXJlZC5Hcm91cExvb2tNZW1iZXJJbmZvSAaIAQESSQoRYXBwbHlN",
+            "ZW1iZXJGcmllbmQYCSABKA4yKS5vcGVuaW0uc2RrLnNoYXJlZC5Hcm91cEFw",
+            "cGx5TWVtYmVyRnJpZW5kSAeIAQFCDAoKX2dyb3VwTmFtZUIPCg1fbm90aWZp",
+            "Y2F0aW9uQg8KDV9pbnRyb2R1Y3Rpb25CCgoIX2ZhY2VVUkxCBQoDX2V4QhMK",
+            "EV9uZWVkVmVyaWZpY2F0aW9uQhEKD19sb29rTWVtYmVySW5mb0IUChJfYXBw",
+            "bHlNZW1iZXJGcmllbmQiEgoQU2V0R3JvdXBJbmZvUmVzcCLlAQoVU2V0R3Jv",
+            "dXBNZW1iZXJJbmZvUmVxEg8KB2dyb3VwSUQYASABKAkSDgoGdXNlcklEGAIg",
+            "ASgJEhUKCG5pY2tuYW1lGAMgASgJSACIAQESFAoHZmFjZVVSTBgEIAEoCUgB",
+            "iAEBEj8KCXJvbGVMZXZlbBgFIAEoDjInLm9wZW5pbS5zZGsuY29tbW9uLkdy",
+            "b3VwTWVtYmVyUm9sZUxldmVsSAKIAQESDwoCZXgYBiABKAlIA4gBAUILCglf",
+            "bmlja25hbWVCCgoIX2ZhY2VVUkxCDAoKX3JvbGVMZXZlbEIFCgNfZXgiGAoW",
+            "U2V0R3JvdXBNZW1iZXJJbmZvUmVzcCIUChJHZXRKb2luZWRHcm91cHNSZXEi",
+            "QQoTR2V0Sm9pbmVkR3JvdXBzUmVzcBIqCgZncm91cHMYASADKAsyGi5vcGVu",
+            "aW0uc2RrLnNoYXJlZC5JTUdyb3VwIlIKFkdldEpvaW5lZEdyb3Vwc1BhZ2VS",
+            "ZXESOAoKcGFnaW5hdGlvbhgCIAEoCzIkLm9wZW5pbS5zZGsuY29tbW9uLlJl",
+            "cXVlc3RQYWdpbmF0aW9uIkUKF0dldEpvaW5lZEdyb3Vwc1BhZ2VSZXNwEioK",
+            "Bmdyb3VwcxgBIAMoCzIaLm9wZW5pbS5zZGsuc2hhcmVkLklNR3JvdXAiLQoZ",
+            "R2V0U3BlY2lmaWVkR3JvdXBzSW5mb1JlcRIQCghncm91cElEcxgBIAMoCSJI",
+            "ChpHZXRTcGVjaWZpZWRHcm91cHNJbmZvUmVzcBIqCgZncm91cHMYASADKAsy",
+            "Gi5vcGVuaW0uc2RrLnNoYXJlZC5JTUdyb3VwIlIKD1NlYXJjaEdyb3Vwc1Jl",
+            "cRIPCgdrZXl3b3JkGAEgASgJEhUKDXNlYXJjaEdyb3VwSUQYAiABKAgSFwoP",
+            "c2VhcmNoR3JvdXBOYW1lGAMgASgIIj4KEFNlYXJjaEdyb3Vwc1Jlc3ASKgoG",
+            "Z3JvdXBzGAEgAygLMhoub3BlbmltLnNkay5zaGFyZWQuSU1Hcm91cCIxCh5H",
+            "ZXRHcm91cE1lbWJlck93bmVyQW5kQWRtaW5SZXESDwoHZ3JvdXBJRBgBIAEo",
+            "CSJUCh9HZXRHcm91cE1lbWJlck93bmVyQW5kQWRtaW5SZXNwEjEKB21lbWJl",
+            "cnMYASADKAsyIC5vcGVuaW0uc2RrLnNoYXJlZC5JTUdyb3VwTWVtYmVyIpsB",
+            "CiJHZXRHcm91cE1lbWJlcnNCeUpvaW5UaW1lRmlsdGVyUmVxEg8KB2dyb3Vw",
+            "SUQYASABKAkSFQoNam9pblRpbWVCZWdpbhgCIAEoAxITCgtqb2luVGltZUVu",
+            "ZBgDIAEoAxI4CgpwYWdpbmF0aW9uGAQgASgLMiQub3BlbmltLnNkay5jb21t",
+            "b24uUmVxdWVzdFBhZ2luYXRpb24iWAojR2V0R3JvdXBNZW1iZXJzQnlKb2lu",
+            "VGltZUZpbHRlclJlc3ASMQoHbWVtYmVycxgBIAMoCzIgLm9wZW5pbS5zZGsu",
+            "c2hhcmVkLklNR3JvdXBNZW1iZXIiQwofR2V0U3BlY2lmaWVkR3JvdXBNZW1i",
+            "ZXJzSW5mb1JlcRIPCgdncm91cElEGAEgASgJEg8KB3VzZXJJRHMYAiADKAki",
+            "VQogR2V0U3BlY2lmaWVkR3JvdXBNZW1iZXJzSW5mb1Jlc3ASMQoHbWVtYmVy",
+            "cxgBIAMoCzIgLm9wZW5pbS5zZGsuc2hhcmVkLklNR3JvdXBNZW1iZXIilAEK",
+            "EkdldEdyb3VwTWVtYmVyc1JlcRIPCgdncm91cElEGAEgASgJEjMKBmZpbHRl",
+            "chgCIAEoDjIjLm9wZW5pbS5zZGsuZ3JvdXAuR3JvdXBNZW1iZXJGaWx0ZXIS",
+            "OAoKcGFnaW5hdGlvbhgEIAEoCzIkLm9wZW5pbS5zZGsuY29tbW9uLlJlcXVl",
+            "c3RQYWdpbmF0aW9uIkgKE0dldEdyb3VwTWVtYmVyc1Jlc3ASMQoHbWVtYmVy",
+            "cxgBIAMoCzIgLm9wZW5pbS5zZGsuc2hhcmVkLklNR3JvdXBNZW1iZXIiJgoW",
+            "R2V0R3JvdXBBcHBsaWNhdGlvblJlcRIMCgRzZW5kGAEgASgIIlYKF0dldEdy",
+            "b3VwQXBwbGljYXRpb25SZXNwEjsKDGFwcGxpY2F0aW9ucxgBIAMoCzIlLm9w",
+            "ZW5pbS5zZGsuc2hhcmVkLklNR3JvdXBBcHBsaWNhdGlvbiKnAQoVU2VhcmNo",
+            "R3JvdXBNZW1iZXJzUmVxEg8KB2dyb3VwSUQYASABKAkSDwoHa2V5d29yZBgC",
+            "IAEoCRIUCgxzZWFyY2hVc2VySUQYAyABKAgSHAoUc2VhcmNoTWVtYmVyTmlj",
+            "a25hbWUYBCABKAgSOAoKcGFnaW5hdGlvbhgFIAEoCzIkLm9wZW5pbS5zZGsu",
+            "Y29tbW9uLlJlcXVlc3RQYWdpbmF0aW9uIksKFlNlYXJjaEdyb3VwTWVtYmVy",
+            "c1Jlc3ASMQoHbWVtYmVycxgBIAMoCzIgLm9wZW5pbS5zZGsuc2hhcmVkLklN",
+            "R3JvdXBNZW1iZXIiMQoOSXNKb2luR3JvdXBSZXESDwoHZ3JvdXBJRBgBIAEo",
+            "CRIOCgZ1c2VySUQYAiABKAkiIQoPSXNKb2luR3JvdXBSZXNwEg4KBmpvaW5l",
+            "ZBgBIAEoCCI2ChJHZXRVc2Vyc0luR3JvdXBSZXESDwoHZ3JvdXBJRBgBIAEo",
+            "CRIPCgd1c2VySURzGAIgAygJIiYKE0dldFVzZXJzSW5Hcm91cFJlc3ASDwoH",
+            "dXNlcklEcxgBIAMoCSJIChRJbnZpdGVVc2VyVG9Hcm91cFJlcRIPCgdncm91",
+            "cElEGAEgASgJEg8KB3VzZXJJRHMYAiADKAkSDgoGcmVhc29uGAMgASgJIhcK",
+            "FUludml0ZVVzZXJUb0dyb3VwUmVzcCKHAQoZSGFuZGxlR3JvdXBBcHBsaWNh",
+            "dGlvblJlcRIPCgdncm91cElEGAEgASgJEhIKCmZyb21Vc2VySUQYAiABKAkS",
+            "EgoKaGFuZGxlZE1zZxgDIAEoCRIxCgZzdGF0dXMYBCABKA4yIS5vcGVuaW0u",
+            "c2RrLmNvbW1vbi5BcHByb3ZhbFN0YXR1cyIcChpIYW5kbGVHcm91cEFwcGxp",
+            "Y2F0aW9uUmVzcCpzChFHcm91cE1lbWJlckZpbHRlchIHCgNBbGwQABIJCgVP",
+            "d25lchABEgkKBUFkbWluEAISEQoNT3JkaW5hcnlVc2VycxADEhkKFUFkbWlu",
+            "QW5kT3JkaW5hcnlVc2VycxAEEhEKDU93bmVyQW5kQWRtaW4QBTKiEwoMR3Jv",
+            "dXBTZXJ2aWNlElIKC0NyZWF0ZUdyb3VwEiAub3BlbmltLnNkay5ncm91cC5D",
+            "cmVhdGVHcm91cFJlcRohLm9wZW5pbS5zZGsuZ3JvdXAuQ3JlYXRlR3JvdXBS",
+            "ZXNwEkwKCUpvaW5Hcm91cBIeLm9wZW5pbS5zZGsuZ3JvdXAuSm9pbkdyb3Vw",
+            "UmVxGh8ub3BlbmltLnNkay5ncm91cC5Kb2luR3JvdXBSZXNwEkwKCVF1aXRH",
+            "cm91cBIeLm9wZW5pbS5zZGsuZ3JvdXAuUXVpdEdyb3VwUmVxGh8ub3Blbmlt",
+            "LnNkay5ncm91cC5RdWl0R3JvdXBSZXNwElUKDERpc21pc3NHcm91cBIhLm9w",
+            "ZW5pbS5zZGsuZ3JvdXAuRGlzbWlzc0dyb3VwUmVxGiIub3BlbmltLnNkay5n",
+            "cm91cC5EaXNtaXNzR3JvdXBSZXNwEl4KD0NoYW5nZUdyb3VwTXV0ZRIkLm9w",
+            "ZW5pbS5zZGsuZ3JvdXAuQ2hhbmdlR3JvdXBNdXRlUmVxGiUub3BlbmltLnNk",
+            "ay5ncm91cC5DaGFuZ2VHcm91cE11dGVSZXNwEnAKFUNoYW5nZUdyb3VwTWVt",
+            "YmVyTXV0ZRIqLm9wZW5pbS5zZGsuZ3JvdXAuQ2hhbmdlR3JvdXBNZW1iZXJN",
+            "dXRlUmVxGisub3BlbmltLnNkay5ncm91cC5DaGFuZ2VHcm91cE1lbWJlck11",
+            "dGVSZXNwEmcKElRyYW5zZmVyR3JvdXBPd25lchInLm9wZW5pbS5zZGsuZ3Jv",
+            "dXAuVHJhbnNmZXJHcm91cE93bmVyUmVxGigub3BlbmltLnNkay5ncm91cC5U",
+            "cmFuc2Zlckdyb3VwT3duZXJSZXNwEl4KD0tpY2tHcm91cE1lbWJlchIkLm9w",
+            "ZW5pbS5zZGsuZ3JvdXAuS2lja0dyb3VwTWVtYmVyUmVxGiUub3BlbmltLnNk",
+            "ay5ncm91cC5LaWNrR3JvdXBNZW1iZXJSZXNwElUKDFNldEdyb3VwSW5mbxIh",
+            "Lm9wZW5pbS5zZGsuZ3JvdXAuU2V0R3JvdXBJbmZvUmVxGiIub3BlbmltLnNk",
+            "ay5ncm91cC5TZXRHcm91cEluZm9SZXNwEmcKElNldEdyb3VwTWVtYmVySW5m",
+            "bxInLm9wZW5pbS5zZGsuZ3JvdXAuU2V0R3JvdXBNZW1iZXJJbmZvUmVxGigu",
+            "b3BlbmltLnNkay5ncm91cC5TZXRHcm91cE1lbWJlckluZm9SZXNwEl4KD0dl",
+            "dEpvaW5lZEdyb3VwcxIkLm9wZW5pbS5zZGsuZ3JvdXAuR2V0Sm9pbmVkR3Jv",
+            "dXBzUmVxGiUub3BlbmltLnNkay5ncm91cC5HZXRKb2luZWRHcm91cHNSZXNw",
+            "EmoKE0dldEpvaW5lZEdyb3Vwc1BhZ2USKC5vcGVuaW0uc2RrLmdyb3VwLkdl",
+            "dEpvaW5lZEdyb3Vwc1BhZ2VSZXEaKS5vcGVuaW0uc2RrLmdyb3VwLkdldEpv",
+            "aW5lZEdyb3Vwc1BhZ2VSZXNwEnMKFkdldFNwZWNpZmllZEdyb3Vwc0luZm8S",
+            "Ky5vcGVuaW0uc2RrLmdyb3VwLkdldFNwZWNpZmllZEdyb3Vwc0luZm9SZXEa",
+            "LC5vcGVuaW0uc2RrLmdyb3VwLkdldFNwZWNpZmllZEdyb3Vwc0luZm9SZXNw",
+            "ElUKDFNlYXJjaEdyb3VwcxIhLm9wZW5pbS5zZGsuZ3JvdXAuU2VhcmNoR3Jv",
+            "dXBzUmVxGiIub3BlbmltLnNkay5ncm91cC5TZWFyY2hHcm91cHNSZXNwEoIB",
+            "ChtHZXRHcm91cE1lbWJlck93bmVyQW5kQWRtaW4SMC5vcGVuaW0uc2RrLmdy",
+            "b3VwLkdldEdyb3VwTWVtYmVyT3duZXJBbmRBZG1pblJlcRoxLm9wZW5pbS5z",
+            "ZGsuZ3JvdXAuR2V0R3JvdXBNZW1iZXJPd25lckFuZEFkbWluUmVzcBKOAQof",
+            "R2V0R3JvdXBNZW1iZXJzQnlKb2luVGltZUZpbHRlchI0Lm9wZW5pbS5zZGsu",
+            "Z3JvdXAuR2V0R3JvdXBNZW1iZXJzQnlKb2luVGltZUZpbHRlclJlcRo1Lm9w",
+            "ZW5pbS5zZGsuZ3JvdXAuR2V0R3JvdXBNZW1iZXJzQnlKb2luVGltZUZpbHRl",
+            "clJlc3AShQEKHEdldFNwZWNpZmllZEdyb3VwTWVtYmVyc0luZm8SMS5vcGVu",
+            "aW0uc2RrLmdyb3VwLkdldFNwZWNpZmllZEdyb3VwTWVtYmVyc0luZm9SZXEa",
+            "Mi5vcGVuaW0uc2RrLmdyb3VwLkdldFNwZWNpZmllZEdyb3VwTWVtYmVyc0lu",
+            "Zm9SZXNwEl4KD0dldEdyb3VwTWVtYmVycxIkLm9wZW5pbS5zZGsuZ3JvdXAu",
+            "R2V0R3JvdXBNZW1iZXJzUmVxGiUub3BlbmltLnNkay5ncm91cC5HZXRHcm91",
+            "cE1lbWJlcnNSZXNwEmYKD0dldEdyb3VwUmVxdWVzdBIoLm9wZW5pbS5zZGsu",
+            "Z3JvdXAuR2V0R3JvdXBBcHBsaWNhdGlvblJlcRopLm9wZW5pbS5zZGsuZ3Jv",
+            "dXAuR2V0R3JvdXBBcHBsaWNhdGlvblJlc3ASZwoSU2VhcmNoR3JvdXBNZW1i",
+            "ZXJzEicub3BlbmltLnNkay5ncm91cC5TZWFyY2hHcm91cE1lbWJlcnNSZXEa",
+            "KC5vcGVuaW0uc2RrLmdyb3VwLlNlYXJjaEdyb3VwTWVtYmVyc1Jlc3ASUgoL",
+            "SXNKb2luR3JvdXASIC5vcGVuaW0uc2RrLmdyb3VwLklzSm9pbkdyb3VwUmVx",
+            "GiEub3BlbmltLnNkay5ncm91cC5Jc0pvaW5Hcm91cFJlc3ASXgoPR2V0VXNl",
+            "cnNJbkdyb3VwEiQub3BlbmltLnNkay5ncm91cC5HZXRVc2Vyc0luR3JvdXBS",
+            "ZXEaJS5vcGVuaW0uc2RrLmdyb3VwLkdldFVzZXJzSW5Hcm91cFJlc3ASZAoR",
+            "SW52aXRlVXNlclRvR3JvdXASJi5vcGVuaW0uc2RrLmdyb3VwLkludml0ZVVz",
+            "ZXJUb0dyb3VwUmVxGicub3BlbmltLnNkay5ncm91cC5JbnZpdGVVc2VyVG9H",
+            "cm91cFJlc3ASbwoSSGFuZGxlR3JvdXBSZXF1ZXN0Eisub3BlbmltLnNkay5n",
+            "cm91cC5IYW5kbGVHcm91cEFwcGxpY2F0aW9uUmVxGiwub3BlbmltLnNkay5n",
+            "cm91cC5IYW5kbGVHcm91cEFwcGxpY2F0aW9uUmVzcEJKWjZnaXRodWIuY29t",
+            "L29wZW5pbXNkay9vcGVuaW0tc2RrLWNvcmUvdjMvcHJvdG8vZ28vZ3JvdXCq",
+            "AgxPcGVuSU0uUHJvdG+6AgBiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::OpenIM.Proto.CommonReflection.Descriptor, global::OpenIM.Proto.SharedReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::OpenIM.Proto.GroupFilter), }, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.CreateGroupReq), global::OpenIM.Proto.CreateGroupReq.Parser, new[]{ "MemberUserIDs", "AdminUserIDs", "GroupInfo" }, null, null, null, null),
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::OpenIM.Proto.GroupMemberFilter), }, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.CreateGroupReq), global::OpenIM.Proto.CreateGroupReq.Parser, new[]{ "GroupID", "GroupName", "Notification", "Introduction", "FaceURL", "Ex", "NeedVerification", "LookMemberInfo", "ApplyMemberFriend", "NotificationUpdateTime", "NotificationUserID", "AttachedInfo", "AdminUserIDs", "MemberUserIDs" }, new[]{ "GroupID", "Notification", "Introduction", "FaceURL", "Ex", "NeedVerification", "LookMemberInfo", "ApplyMemberFriend", "NotificationUpdateTime", "NotificationUserID", "AttachedInfo" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.CreateGroupResp), global::OpenIM.Proto.CreateGroupResp.Parser, new[]{ "GroupInfo" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.JoinGroupReq), global::OpenIM.Proto.JoinGroupReq.Parser, new[]{ "GroupID", "ReqMessage", "JoinSource", "Ex" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.JoinGroupReq), global::OpenIM.Proto.JoinGroupReq.Parser, new[]{ "GroupID", "ReqMsg", "JoinSource", "Ex" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.JoinGroupResp), global::OpenIM.Proto.JoinGroupResp.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.QuitGroupReq), global::OpenIM.Proto.QuitGroupReq.Parser, new[]{ "GroupID" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.QuitGroupResp), global::OpenIM.Proto.QuitGroupResp.Parser, null, null, null, null, null),
@@ -201,8 +219,8 @@ namespace OpenIM.Proto {
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.GetSpecifiedGroupMembersInfoResp), global::OpenIM.Proto.GetSpecifiedGroupMembersInfoResp.Parser, new[]{ "Members" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.GetGroupMembersReq), global::OpenIM.Proto.GetGroupMembersReq.Parser, new[]{ "GroupID", "Filter", "Pagination" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.GetGroupMembersResp), global::OpenIM.Proto.GetGroupMembersResp.Parser, new[]{ "Members" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.GetGroupRequestReq), global::OpenIM.Proto.GetGroupRequestReq.Parser, new[]{ "Send" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.GetGroupRequestResp), global::OpenIM.Proto.GetGroupRequestResp.Parser, new[]{ "Requests" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.GetGroupApplicationReq), global::OpenIM.Proto.GetGroupApplicationReq.Parser, new[]{ "Send" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.GetGroupApplicationResp), global::OpenIM.Proto.GetGroupApplicationResp.Parser, new[]{ "Applications" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.SearchGroupMembersReq), global::OpenIM.Proto.SearchGroupMembersReq.Parser, new[]{ "GroupID", "Keyword", "SearchUserID", "SearchMemberNickname", "Pagination" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.SearchGroupMembersResp), global::OpenIM.Proto.SearchGroupMembersResp.Parser, new[]{ "Members" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.IsJoinGroupReq), global::OpenIM.Proto.IsJoinGroupReq.Parser, new[]{ "GroupID", "UserID" }, null, null, null, null),
@@ -211,15 +229,15 @@ namespace OpenIM.Proto {
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.GetUsersInGroupResp), global::OpenIM.Proto.GetUsersInGroupResp.Parser, new[]{ "UserIDs" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.InviteUserToGroupReq), global::OpenIM.Proto.InviteUserToGroupReq.Parser, new[]{ "GroupID", "UserIDs", "Reason" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.InviteUserToGroupResp), global::OpenIM.Proto.InviteUserToGroupResp.Parser, null, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.HandleGroupRequestReq), global::OpenIM.Proto.HandleGroupRequestReq.Parser, new[]{ "GroupID", "FromUserID", "HandledMsg", "Status" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.HandleGroupRequestResp), global::OpenIM.Proto.HandleGroupRequestResp.Parser, null, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.HandleGroupApplicationReq), global::OpenIM.Proto.HandleGroupApplicationReq.Parser, new[]{ "GroupID", "FromUserID", "HandledMsg", "Status" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.HandleGroupApplicationResp), global::OpenIM.Proto.HandleGroupApplicationResp.Parser, null, null, null, null, null)
           }));
     }
     #endregion
 
   }
   #region Enums
-  public enum GroupFilter {
+  public enum GroupMemberFilter {
     /// <summary>
     /// all users
     /// </summary>
@@ -257,6 +275,7 @@ namespace OpenIM.Proto {
   {
     private static readonly pb::MessageParser<CreateGroupReq> _parser = new pb::MessageParser<CreateGroupReq>(() => new CreateGroupReq());
     private pb::UnknownFieldSet _unknownFields;
+    private int _hasBits0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<CreateGroupReq> Parser { get { return _parser; } }
@@ -284,9 +303,21 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public CreateGroupReq(CreateGroupReq other) : this() {
-      memberUserIDs_ = other.memberUserIDs_.Clone();
+      _hasBits0 = other._hasBits0;
+      groupID_ = other.groupID_;
+      groupName_ = other.groupName_;
+      notification_ = other.notification_;
+      introduction_ = other.introduction_;
+      faceURL_ = other.faceURL_;
+      ex_ = other.ex_;
+      needVerification_ = other.needVerification_;
+      lookMemberInfo_ = other.lookMemberInfo_;
+      applyMemberFriend_ = other.applyMemberFriend_;
+      notificationUpdateTime_ = other.notificationUpdateTime_;
+      notificationUserID_ = other.notificationUserID_;
+      attachedInfo_ = other.attachedInfo_;
       adminUserIDs_ = other.adminUserIDs_.Clone();
-      groupInfo_ = other.groupInfo_ != null ? other.groupInfo_.Clone() : null;
+      memberUserIDs_ = other.memberUserIDs_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -296,27 +327,351 @@ namespace OpenIM.Proto {
       return new CreateGroupReq(this);
     }
 
-    /// <summary>Field number for the "memberUserIDs" field.</summary>
-    public const int MemberUserIDsFieldNumber = 1;
-    private static readonly pb::FieldCodec<string> _repeated_memberUserIDs_codec
-        = pb::FieldCodec.ForString(10);
-    private readonly pbc::RepeatedField<string> memberUserIDs_ = new pbc::RepeatedField<string>();
+    /// <summary>Field number for the "groupID" field.</summary>
+    public const int GroupIDFieldNumber = 1;
+    private readonly static string GroupIDDefaultValue = "";
+
+    private string groupID_;
     /// <summary>
-    /// List of invited group members
+    /// @opt @group_id
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<string> MemberUserIDs {
-      get { return memberUserIDs_; }
+    public string GroupID {
+      get { return groupID_ ?? GroupIDDefaultValue; }
+      set {
+        groupID_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "groupID" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasGroupID {
+      get { return groupID_ != null; }
+    }
+    /// <summary>Clears the value of the "groupID" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearGroupID() {
+      groupID_ = null;
+    }
+
+    /// <summary>Field number for the "groupName" field.</summary>
+    public const int GroupNameFieldNumber = 2;
+    private string groupName_ = "";
+    /// <summary>
+    /// @group_name
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string GroupName {
+      get { return groupName_; }
+      set {
+        groupName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "notification" field.</summary>
+    public const int NotificationFieldNumber = 3;
+    private readonly static string NotificationDefaultValue = "";
+
+    private string notification_;
+    /// <summary>
+    /// @opt @group_notification
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Notification {
+      get { return notification_ ?? NotificationDefaultValue; }
+      set {
+        notification_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "notification" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasNotification {
+      get { return notification_ != null; }
+    }
+    /// <summary>Clears the value of the "notification" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearNotification() {
+      notification_ = null;
+    }
+
+    /// <summary>Field number for the "introduction" field.</summary>
+    public const int IntroductionFieldNumber = 4;
+    private readonly static string IntroductionDefaultValue = "";
+
+    private string introduction_;
+    /// <summary>
+    /// @opt @group_introduction
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Introduction {
+      get { return introduction_ ?? IntroductionDefaultValue; }
+      set {
+        introduction_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "introduction" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasIntroduction {
+      get { return introduction_ != null; }
+    }
+    /// <summary>Clears the value of the "introduction" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearIntroduction() {
+      introduction_ = null;
+    }
+
+    /// <summary>Field number for the "faceURL" field.</summary>
+    public const int FaceURLFieldNumber = 5;
+    private readonly static string FaceURLDefaultValue = "";
+
+    private string faceURL_;
+    /// <summary>
+    /// @opt @group_face_url
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string FaceURL {
+      get { return faceURL_ ?? FaceURLDefaultValue; }
+      set {
+        faceURL_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "faceURL" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasFaceURL {
+      get { return faceURL_ != null; }
+    }
+    /// <summary>Clears the value of the "faceURL" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearFaceURL() {
+      faceURL_ = null;
+    }
+
+    /// <summary>Field number for the "ex" field.</summary>
+    public const int ExFieldNumber = 6;
+    private readonly static string ExDefaultValue = "";
+
+    private string ex_;
+    /// <summary>
+    /// @opt @group_ex
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Ex {
+      get { return ex_ ?? ExDefaultValue; }
+      set {
+        ex_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "ex" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasEx {
+      get { return ex_ != null; }
+    }
+    /// <summary>Clears the value of the "ex" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearEx() {
+      ex_ = null;
+    }
+
+    /// <summary>Field number for the "needVerification" field.</summary>
+    public const int NeedVerificationFieldNumber = 7;
+    private readonly static global::OpenIM.Proto.GroupNeedVerification NeedVerificationDefaultValue = global::OpenIM.Proto.GroupNeedVerification.ApplyNeedVerificationInviteDirectly;
+
+    private global::OpenIM.Proto.GroupNeedVerification needVerification_;
+    /// <summary>
+    /// @opt @group_need_verification
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::OpenIM.Proto.GroupNeedVerification NeedVerification {
+      get { if ((_hasBits0 & 1) != 0) { return needVerification_; } else { return NeedVerificationDefaultValue; } }
+      set {
+        _hasBits0 |= 1;
+        needVerification_ = value;
+      }
+    }
+    /// <summary>Gets whether the "needVerification" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasNeedVerification {
+      get { return (_hasBits0 & 1) != 0; }
+    }
+    /// <summary>Clears the value of the "needVerification" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearNeedVerification() {
+      _hasBits0 &= ~1;
+    }
+
+    /// <summary>Field number for the "lookMemberInfo" field.</summary>
+    public const int LookMemberInfoFieldNumber = 8;
+    private readonly static global::OpenIM.Proto.GroupLookMemberInfo LookMemberInfoDefaultValue = global::OpenIM.Proto.GroupLookMemberInfo.ProhibitGroupLookMemberInfo;
+
+    private global::OpenIM.Proto.GroupLookMemberInfo lookMemberInfo_;
+    /// <summary>
+    /// @opt @group_look_member_info
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::OpenIM.Proto.GroupLookMemberInfo LookMemberInfo {
+      get { if ((_hasBits0 & 2) != 0) { return lookMemberInfo_; } else { return LookMemberInfoDefaultValue; } }
+      set {
+        _hasBits0 |= 2;
+        lookMemberInfo_ = value;
+      }
+    }
+    /// <summary>Gets whether the "lookMemberInfo" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasLookMemberInfo {
+      get { return (_hasBits0 & 2) != 0; }
+    }
+    /// <summary>Clears the value of the "lookMemberInfo" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearLookMemberInfo() {
+      _hasBits0 &= ~2;
+    }
+
+    /// <summary>Field number for the "applyMemberFriend" field.</summary>
+    public const int ApplyMemberFriendFieldNumber = 9;
+    private readonly static global::OpenIM.Proto.GroupApplyMemberFriend ApplyMemberFriendDefaultValue = global::OpenIM.Proto.GroupApplyMemberFriend.ProhibitGroupApplyMemberFriend;
+
+    private global::OpenIM.Proto.GroupApplyMemberFriend applyMemberFriend_;
+    /// <summary>
+    /// @opt @group_apply_member_friend
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::OpenIM.Proto.GroupApplyMemberFriend ApplyMemberFriend {
+      get { if ((_hasBits0 & 4) != 0) { return applyMemberFriend_; } else { return ApplyMemberFriendDefaultValue; } }
+      set {
+        _hasBits0 |= 4;
+        applyMemberFriend_ = value;
+      }
+    }
+    /// <summary>Gets whether the "applyMemberFriend" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasApplyMemberFriend {
+      get { return (_hasBits0 & 4) != 0; }
+    }
+    /// <summary>Clears the value of the "applyMemberFriend" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearApplyMemberFriend() {
+      _hasBits0 &= ~4;
+    }
+
+    /// <summary>Field number for the "notificationUpdateTime" field.</summary>
+    public const int NotificationUpdateTimeFieldNumber = 10;
+    private readonly static long NotificationUpdateTimeDefaultValue = 0L;
+
+    private long notificationUpdateTime_;
+    /// <summary>
+    /// @opt @group_notification_update_time
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public long NotificationUpdateTime {
+      get { if ((_hasBits0 & 8) != 0) { return notificationUpdateTime_; } else { return NotificationUpdateTimeDefaultValue; } }
+      set {
+        _hasBits0 |= 8;
+        notificationUpdateTime_ = value;
+      }
+    }
+    /// <summary>Gets whether the "notificationUpdateTime" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasNotificationUpdateTime {
+      get { return (_hasBits0 & 8) != 0; }
+    }
+    /// <summary>Clears the value of the "notificationUpdateTime" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearNotificationUpdateTime() {
+      _hasBits0 &= ~8;
+    }
+
+    /// <summary>Field number for the "notificationUserID" field.</summary>
+    public const int NotificationUserIDFieldNumber = 11;
+    private readonly static string NotificationUserIDDefaultValue = "";
+
+    private string notificationUserID_;
+    /// <summary>
+    /// @opt @group_notification_user_id
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string NotificationUserID {
+      get { return notificationUserID_ ?? NotificationUserIDDefaultValue; }
+      set {
+        notificationUserID_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "notificationUserID" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasNotificationUserID {
+      get { return notificationUserID_ != null; }
+    }
+    /// <summary>Clears the value of the "notificationUserID" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearNotificationUserID() {
+      notificationUserID_ = null;
+    }
+
+    /// <summary>Field number for the "attachedInfo" field.</summary>
+    public const int AttachedInfoFieldNumber = 12;
+    private readonly static string AttachedInfoDefaultValue = "";
+
+    private string attachedInfo_;
+    /// <summary>
+    /// @opt @group_attached_info
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string AttachedInfo {
+      get { return attachedInfo_ ?? AttachedInfoDefaultValue; }
+      set {
+        attachedInfo_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "attachedInfo" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasAttachedInfo {
+      get { return attachedInfo_ != null; }
+    }
+    /// <summary>Clears the value of the "attachedInfo" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearAttachedInfo() {
+      attachedInfo_ = null;
     }
 
     /// <summary>Field number for the "adminUserIDs" field.</summary>
-    public const int AdminUserIDsFieldNumber = 2;
+    public const int AdminUserIDsFieldNumber = 13;
     private static readonly pb::FieldCodec<string> _repeated_adminUserIDs_codec
-        = pb::FieldCodec.ForString(18);
+        = pb::FieldCodec.ForString(106);
     private readonly pbc::RepeatedField<string> adminUserIDs_ = new pbc::RepeatedField<string>();
     /// <summary>
-    /// List of users invited as administrators
+    /// @opt list of users invited as administrators
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -324,19 +679,18 @@ namespace OpenIM.Proto {
       get { return adminUserIDs_; }
     }
 
-    /// <summary>Field number for the "groupInfo" field.</summary>
-    public const int GroupInfoFieldNumber = 3;
-    private global::OpenIM.Proto.IMGroup groupInfo_;
+    /// <summary>Field number for the "memberUserIDs" field.</summary>
+    public const int MemberUserIDsFieldNumber = 14;
+    private static readonly pb::FieldCodec<string> _repeated_memberUserIDs_codec
+        = pb::FieldCodec.ForString(114);
+    private readonly pbc::RepeatedField<string> memberUserIDs_ = new pbc::RepeatedField<string>();
     /// <summary>
-    /// Basic group chat information
+    /// @opt list of invited group members
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::OpenIM.Proto.IMGroup GroupInfo {
-      get { return groupInfo_; }
-      set {
-        groupInfo_ = value;
-      }
+    public pbc::RepeatedField<string> MemberUserIDs {
+      get { return memberUserIDs_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -354,9 +708,20 @@ namespace OpenIM.Proto {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if(!memberUserIDs_.Equals(other.memberUserIDs_)) return false;
+      if (GroupID != other.GroupID) return false;
+      if (GroupName != other.GroupName) return false;
+      if (Notification != other.Notification) return false;
+      if (Introduction != other.Introduction) return false;
+      if (FaceURL != other.FaceURL) return false;
+      if (Ex != other.Ex) return false;
+      if (NeedVerification != other.NeedVerification) return false;
+      if (LookMemberInfo != other.LookMemberInfo) return false;
+      if (ApplyMemberFriend != other.ApplyMemberFriend) return false;
+      if (NotificationUpdateTime != other.NotificationUpdateTime) return false;
+      if (NotificationUserID != other.NotificationUserID) return false;
+      if (AttachedInfo != other.AttachedInfo) return false;
       if(!adminUserIDs_.Equals(other.adminUserIDs_)) return false;
-      if (!object.Equals(GroupInfo, other.GroupInfo)) return false;
+      if(!memberUserIDs_.Equals(other.memberUserIDs_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -364,9 +729,20 @@ namespace OpenIM.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      hash ^= memberUserIDs_.GetHashCode();
+      if (HasGroupID) hash ^= GroupID.GetHashCode();
+      if (GroupName.Length != 0) hash ^= GroupName.GetHashCode();
+      if (HasNotification) hash ^= Notification.GetHashCode();
+      if (HasIntroduction) hash ^= Introduction.GetHashCode();
+      if (HasFaceURL) hash ^= FaceURL.GetHashCode();
+      if (HasEx) hash ^= Ex.GetHashCode();
+      if (HasNeedVerification) hash ^= NeedVerification.GetHashCode();
+      if (HasLookMemberInfo) hash ^= LookMemberInfo.GetHashCode();
+      if (HasApplyMemberFriend) hash ^= ApplyMemberFriend.GetHashCode();
+      if (HasNotificationUpdateTime) hash ^= NotificationUpdateTime.GetHashCode();
+      if (HasNotificationUserID) hash ^= NotificationUserID.GetHashCode();
+      if (HasAttachedInfo) hash ^= AttachedInfo.GetHashCode();
       hash ^= adminUserIDs_.GetHashCode();
-      if (groupInfo_ != null) hash ^= GroupInfo.GetHashCode();
+      hash ^= memberUserIDs_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -385,12 +761,56 @@ namespace OpenIM.Proto {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      memberUserIDs_.WriteTo(output, _repeated_memberUserIDs_codec);
-      adminUserIDs_.WriteTo(output, _repeated_adminUserIDs_codec);
-      if (groupInfo_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(GroupInfo);
+      if (HasGroupID) {
+        output.WriteRawTag(10);
+        output.WriteString(GroupID);
       }
+      if (GroupName.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(GroupName);
+      }
+      if (HasNotification) {
+        output.WriteRawTag(26);
+        output.WriteString(Notification);
+      }
+      if (HasIntroduction) {
+        output.WriteRawTag(34);
+        output.WriteString(Introduction);
+      }
+      if (HasFaceURL) {
+        output.WriteRawTag(42);
+        output.WriteString(FaceURL);
+      }
+      if (HasEx) {
+        output.WriteRawTag(50);
+        output.WriteString(Ex);
+      }
+      if (HasNeedVerification) {
+        output.WriteRawTag(56);
+        output.WriteEnum((int) NeedVerification);
+      }
+      if (HasLookMemberInfo) {
+        output.WriteRawTag(64);
+        output.WriteEnum((int) LookMemberInfo);
+      }
+      if (HasApplyMemberFriend) {
+        output.WriteRawTag(72);
+        output.WriteEnum((int) ApplyMemberFriend);
+      }
+      if (HasNotificationUpdateTime) {
+        output.WriteRawTag(80);
+        output.WriteInt64(NotificationUpdateTime);
+      }
+      if (HasNotificationUserID) {
+        output.WriteRawTag(90);
+        output.WriteString(NotificationUserID);
+      }
+      if (HasAttachedInfo) {
+        output.WriteRawTag(98);
+        output.WriteString(AttachedInfo);
+      }
+      adminUserIDs_.WriteTo(output, _repeated_adminUserIDs_codec);
+      memberUserIDs_.WriteTo(output, _repeated_memberUserIDs_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -401,12 +821,56 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      memberUserIDs_.WriteTo(ref output, _repeated_memberUserIDs_codec);
-      adminUserIDs_.WriteTo(ref output, _repeated_adminUserIDs_codec);
-      if (groupInfo_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(GroupInfo);
+      if (HasGroupID) {
+        output.WriteRawTag(10);
+        output.WriteString(GroupID);
       }
+      if (GroupName.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(GroupName);
+      }
+      if (HasNotification) {
+        output.WriteRawTag(26);
+        output.WriteString(Notification);
+      }
+      if (HasIntroduction) {
+        output.WriteRawTag(34);
+        output.WriteString(Introduction);
+      }
+      if (HasFaceURL) {
+        output.WriteRawTag(42);
+        output.WriteString(FaceURL);
+      }
+      if (HasEx) {
+        output.WriteRawTag(50);
+        output.WriteString(Ex);
+      }
+      if (HasNeedVerification) {
+        output.WriteRawTag(56);
+        output.WriteEnum((int) NeedVerification);
+      }
+      if (HasLookMemberInfo) {
+        output.WriteRawTag(64);
+        output.WriteEnum((int) LookMemberInfo);
+      }
+      if (HasApplyMemberFriend) {
+        output.WriteRawTag(72);
+        output.WriteEnum((int) ApplyMemberFriend);
+      }
+      if (HasNotificationUpdateTime) {
+        output.WriteRawTag(80);
+        output.WriteInt64(NotificationUpdateTime);
+      }
+      if (HasNotificationUserID) {
+        output.WriteRawTag(90);
+        output.WriteString(NotificationUserID);
+      }
+      if (HasAttachedInfo) {
+        output.WriteRawTag(98);
+        output.WriteString(AttachedInfo);
+      }
+      adminUserIDs_.WriteTo(ref output, _repeated_adminUserIDs_codec);
+      memberUserIDs_.WriteTo(ref output, _repeated_memberUserIDs_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -417,11 +881,44 @@ namespace OpenIM.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      size += memberUserIDs_.CalculateSize(_repeated_memberUserIDs_codec);
-      size += adminUserIDs_.CalculateSize(_repeated_adminUserIDs_codec);
-      if (groupInfo_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(GroupInfo);
+      if (HasGroupID) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(GroupID);
       }
+      if (GroupName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(GroupName);
+      }
+      if (HasNotification) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Notification);
+      }
+      if (HasIntroduction) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Introduction);
+      }
+      if (HasFaceURL) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(FaceURL);
+      }
+      if (HasEx) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Ex);
+      }
+      if (HasNeedVerification) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) NeedVerification);
+      }
+      if (HasLookMemberInfo) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) LookMemberInfo);
+      }
+      if (HasApplyMemberFriend) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) ApplyMemberFriend);
+      }
+      if (HasNotificationUpdateTime) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(NotificationUpdateTime);
+      }
+      if (HasNotificationUserID) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(NotificationUserID);
+      }
+      if (HasAttachedInfo) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(AttachedInfo);
+      }
+      size += adminUserIDs_.CalculateSize(_repeated_adminUserIDs_codec);
+      size += memberUserIDs_.CalculateSize(_repeated_memberUserIDs_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -434,14 +931,44 @@ namespace OpenIM.Proto {
       if (other == null) {
         return;
       }
-      memberUserIDs_.Add(other.memberUserIDs_);
-      adminUserIDs_.Add(other.adminUserIDs_);
-      if (other.groupInfo_ != null) {
-        if (groupInfo_ == null) {
-          GroupInfo = new global::OpenIM.Proto.IMGroup();
-        }
-        GroupInfo.MergeFrom(other.GroupInfo);
+      if (other.HasGroupID) {
+        GroupID = other.GroupID;
       }
+      if (other.GroupName.Length != 0) {
+        GroupName = other.GroupName;
+      }
+      if (other.HasNotification) {
+        Notification = other.Notification;
+      }
+      if (other.HasIntroduction) {
+        Introduction = other.Introduction;
+      }
+      if (other.HasFaceURL) {
+        FaceURL = other.FaceURL;
+      }
+      if (other.HasEx) {
+        Ex = other.Ex;
+      }
+      if (other.HasNeedVerification) {
+        NeedVerification = other.NeedVerification;
+      }
+      if (other.HasLookMemberInfo) {
+        LookMemberInfo = other.LookMemberInfo;
+      }
+      if (other.HasApplyMemberFriend) {
+        ApplyMemberFriend = other.ApplyMemberFriend;
+      }
+      if (other.HasNotificationUpdateTime) {
+        NotificationUpdateTime = other.NotificationUpdateTime;
+      }
+      if (other.HasNotificationUserID) {
+        NotificationUserID = other.NotificationUserID;
+      }
+      if (other.HasAttachedInfo) {
+        AttachedInfo = other.AttachedInfo;
+      }
+      adminUserIDs_.Add(other.adminUserIDs_);
+      memberUserIDs_.Add(other.memberUserIDs_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -462,18 +989,59 @@ namespace OpenIM.Proto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            memberUserIDs_.AddEntriesFrom(input, _repeated_memberUserIDs_codec);
+            GroupID = input.ReadString();
             break;
           }
           case 18: {
-            adminUserIDs_.AddEntriesFrom(input, _repeated_adminUserIDs_codec);
+            GroupName = input.ReadString();
             break;
           }
           case 26: {
-            if (groupInfo_ == null) {
-              GroupInfo = new global::OpenIM.Proto.IMGroup();
-            }
-            input.ReadMessage(GroupInfo);
+            Notification = input.ReadString();
+            break;
+          }
+          case 34: {
+            Introduction = input.ReadString();
+            break;
+          }
+          case 42: {
+            FaceURL = input.ReadString();
+            break;
+          }
+          case 50: {
+            Ex = input.ReadString();
+            break;
+          }
+          case 56: {
+            NeedVerification = (global::OpenIM.Proto.GroupNeedVerification) input.ReadEnum();
+            break;
+          }
+          case 64: {
+            LookMemberInfo = (global::OpenIM.Proto.GroupLookMemberInfo) input.ReadEnum();
+            break;
+          }
+          case 72: {
+            ApplyMemberFriend = (global::OpenIM.Proto.GroupApplyMemberFriend) input.ReadEnum();
+            break;
+          }
+          case 80: {
+            NotificationUpdateTime = input.ReadInt64();
+            break;
+          }
+          case 90: {
+            NotificationUserID = input.ReadString();
+            break;
+          }
+          case 98: {
+            AttachedInfo = input.ReadString();
+            break;
+          }
+          case 106: {
+            adminUserIDs_.AddEntriesFrom(input, _repeated_adminUserIDs_codec);
+            break;
+          }
+          case 114: {
+            memberUserIDs_.AddEntriesFrom(input, _repeated_memberUserIDs_codec);
             break;
           }
         }
@@ -496,18 +1064,59 @@ namespace OpenIM.Proto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
-            memberUserIDs_.AddEntriesFrom(ref input, _repeated_memberUserIDs_codec);
+            GroupID = input.ReadString();
             break;
           }
           case 18: {
-            adminUserIDs_.AddEntriesFrom(ref input, _repeated_adminUserIDs_codec);
+            GroupName = input.ReadString();
             break;
           }
           case 26: {
-            if (groupInfo_ == null) {
-              GroupInfo = new global::OpenIM.Proto.IMGroup();
-            }
-            input.ReadMessage(GroupInfo);
+            Notification = input.ReadString();
+            break;
+          }
+          case 34: {
+            Introduction = input.ReadString();
+            break;
+          }
+          case 42: {
+            FaceURL = input.ReadString();
+            break;
+          }
+          case 50: {
+            Ex = input.ReadString();
+            break;
+          }
+          case 56: {
+            NeedVerification = (global::OpenIM.Proto.GroupNeedVerification) input.ReadEnum();
+            break;
+          }
+          case 64: {
+            LookMemberInfo = (global::OpenIM.Proto.GroupLookMemberInfo) input.ReadEnum();
+            break;
+          }
+          case 72: {
+            ApplyMemberFriend = (global::OpenIM.Proto.GroupApplyMemberFriend) input.ReadEnum();
+            break;
+          }
+          case 80: {
+            NotificationUpdateTime = input.ReadInt64();
+            break;
+          }
+          case 90: {
+            NotificationUserID = input.ReadString();
+            break;
+          }
+          case 98: {
+            AttachedInfo = input.ReadString();
+            break;
+          }
+          case 106: {
+            adminUserIDs_.AddEntriesFrom(ref input, _repeated_adminUserIDs_codec);
+            break;
+          }
+          case 114: {
+            memberUserIDs_.AddEntriesFrom(ref input, _repeated_memberUserIDs_codec);
             break;
           }
         }
@@ -763,7 +1372,7 @@ namespace OpenIM.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public JoinGroupReq(JoinGroupReq other) : this() {
       groupID_ = other.groupID_;
-      reqMessage_ = other.reqMessage_;
+      reqMsg_ = other.reqMsg_;
       joinSource_ = other.joinSource_;
       ex_ = other.ex_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
@@ -790,18 +1399,18 @@ namespace OpenIM.Proto {
       }
     }
 
-    /// <summary>Field number for the "reqMessage" field.</summary>
-    public const int ReqMessageFieldNumber = 2;
-    private string reqMessage_ = "";
+    /// <summary>Field number for the "reqMsg" field.</summary>
+    public const int ReqMsgFieldNumber = 2;
+    private string reqMsg_ = "";
     /// <summary>
     /// request message
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string ReqMessage {
-      get { return reqMessage_; }
+    public string ReqMsg {
+      get { return reqMsg_; }
       set {
-        reqMessage_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        reqMsg_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -851,7 +1460,7 @@ namespace OpenIM.Proto {
         return true;
       }
       if (GroupID != other.GroupID) return false;
-      if (ReqMessage != other.ReqMessage) return false;
+      if (ReqMsg != other.ReqMsg) return false;
       if (JoinSource != other.JoinSource) return false;
       if (Ex != other.Ex) return false;
       return Equals(_unknownFields, other._unknownFields);
@@ -862,7 +1471,7 @@ namespace OpenIM.Proto {
     public override int GetHashCode() {
       int hash = 1;
       if (GroupID.Length != 0) hash ^= GroupID.GetHashCode();
-      if (ReqMessage.Length != 0) hash ^= ReqMessage.GetHashCode();
+      if (ReqMsg.Length != 0) hash ^= ReqMsg.GetHashCode();
       if (JoinSource != global::OpenIM.Proto.GroupJoinSource.GroupJoinSource) hash ^= JoinSource.GetHashCode();
       if (Ex.Length != 0) hash ^= Ex.GetHashCode();
       if (_unknownFields != null) {
@@ -887,9 +1496,9 @@ namespace OpenIM.Proto {
         output.WriteRawTag(10);
         output.WriteString(GroupID);
       }
-      if (ReqMessage.Length != 0) {
+      if (ReqMsg.Length != 0) {
         output.WriteRawTag(18);
-        output.WriteString(ReqMessage);
+        output.WriteString(ReqMsg);
       }
       if (JoinSource != global::OpenIM.Proto.GroupJoinSource.GroupJoinSource) {
         output.WriteRawTag(24);
@@ -913,9 +1522,9 @@ namespace OpenIM.Proto {
         output.WriteRawTag(10);
         output.WriteString(GroupID);
       }
-      if (ReqMessage.Length != 0) {
+      if (ReqMsg.Length != 0) {
         output.WriteRawTag(18);
-        output.WriteString(ReqMessage);
+        output.WriteString(ReqMsg);
       }
       if (JoinSource != global::OpenIM.Proto.GroupJoinSource.GroupJoinSource) {
         output.WriteRawTag(24);
@@ -938,8 +1547,8 @@ namespace OpenIM.Proto {
       if (GroupID.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(GroupID);
       }
-      if (ReqMessage.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(ReqMessage);
+      if (ReqMsg.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ReqMsg);
       }
       if (JoinSource != global::OpenIM.Proto.GroupJoinSource.GroupJoinSource) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) JoinSource);
@@ -962,8 +1571,8 @@ namespace OpenIM.Proto {
       if (other.GroupID.Length != 0) {
         GroupID = other.GroupID;
       }
-      if (other.ReqMessage.Length != 0) {
-        ReqMessage = other.ReqMessage;
+      if (other.ReqMsg.Length != 0) {
+        ReqMsg = other.ReqMsg;
       }
       if (other.JoinSource != global::OpenIM.Proto.GroupJoinSource.GroupJoinSource) {
         JoinSource = other.JoinSource;
@@ -995,7 +1604,7 @@ namespace OpenIM.Proto {
             break;
           }
           case 18: {
-            ReqMessage = input.ReadString();
+            ReqMsg = input.ReadString();
             break;
           }
           case 24: {
@@ -1030,7 +1639,7 @@ namespace OpenIM.Proto {
             break;
           }
           case 18: {
-            ReqMessage = input.ReadString();
+            ReqMsg = input.ReadString();
             break;
           }
           case 24: {
@@ -3827,15 +4436,15 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "needVerification" field.</summary>
     public const int NeedVerificationFieldNumber = 7;
-    private readonly static int NeedVerificationDefaultValue = 0;
+    private readonly static global::OpenIM.Proto.GroupNeedVerification NeedVerificationDefaultValue = global::OpenIM.Proto.GroupNeedVerification.ApplyNeedVerificationInviteDirectly;
 
-    private int needVerification_;
+    private global::OpenIM.Proto.GroupNeedVerification needVerification_;
     /// <summary>
     /// @opt @group_need_verification
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int NeedVerification {
+    public global::OpenIM.Proto.GroupNeedVerification NeedVerification {
       get { if ((_hasBits0 & 1) != 0) { return needVerification_; } else { return NeedVerificationDefaultValue; } }
       set {
         _hasBits0 |= 1;
@@ -3857,15 +4466,15 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "lookMemberInfo" field.</summary>
     public const int LookMemberInfoFieldNumber = 8;
-    private readonly static int LookMemberInfoDefaultValue = 0;
+    private readonly static global::OpenIM.Proto.GroupLookMemberInfo LookMemberInfoDefaultValue = global::OpenIM.Proto.GroupLookMemberInfo.ProhibitGroupLookMemberInfo;
 
-    private int lookMemberInfo_;
+    private global::OpenIM.Proto.GroupLookMemberInfo lookMemberInfo_;
     /// <summary>
     /// @opt @group_look_member_info
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int LookMemberInfo {
+    public global::OpenIM.Proto.GroupLookMemberInfo LookMemberInfo {
       get { if ((_hasBits0 & 2) != 0) { return lookMemberInfo_; } else { return LookMemberInfoDefaultValue; } }
       set {
         _hasBits0 |= 2;
@@ -3887,15 +4496,15 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "applyMemberFriend" field.</summary>
     public const int ApplyMemberFriendFieldNumber = 9;
-    private readonly static int ApplyMemberFriendDefaultValue = 0;
+    private readonly static global::OpenIM.Proto.GroupApplyMemberFriend ApplyMemberFriendDefaultValue = global::OpenIM.Proto.GroupApplyMemberFriend.ProhibitGroupApplyMemberFriend;
 
-    private int applyMemberFriend_;
+    private global::OpenIM.Proto.GroupApplyMemberFriend applyMemberFriend_;
     /// <summary>
     /// @opt @group_apply_member_friend
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int ApplyMemberFriend {
+    public global::OpenIM.Proto.GroupApplyMemberFriend ApplyMemberFriend {
       get { if ((_hasBits0 & 4) != 0) { return applyMemberFriend_; } else { return ApplyMemberFriendDefaultValue; } }
       set {
         _hasBits0 |= 4;
@@ -3999,15 +4608,15 @@ namespace OpenIM.Proto {
       }
       if (HasNeedVerification) {
         output.WriteRawTag(56);
-        output.WriteInt32(NeedVerification);
+        output.WriteEnum((int) NeedVerification);
       }
       if (HasLookMemberInfo) {
         output.WriteRawTag(64);
-        output.WriteInt32(LookMemberInfo);
+        output.WriteEnum((int) LookMemberInfo);
       }
       if (HasApplyMemberFriend) {
         output.WriteRawTag(72);
-        output.WriteInt32(ApplyMemberFriend);
+        output.WriteEnum((int) ApplyMemberFriend);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -4045,15 +4654,15 @@ namespace OpenIM.Proto {
       }
       if (HasNeedVerification) {
         output.WriteRawTag(56);
-        output.WriteInt32(NeedVerification);
+        output.WriteEnum((int) NeedVerification);
       }
       if (HasLookMemberInfo) {
         output.WriteRawTag(64);
-        output.WriteInt32(LookMemberInfo);
+        output.WriteEnum((int) LookMemberInfo);
       }
       if (HasApplyMemberFriend) {
         output.WriteRawTag(72);
-        output.WriteInt32(ApplyMemberFriend);
+        output.WriteEnum((int) ApplyMemberFriend);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -4084,13 +4693,13 @@ namespace OpenIM.Proto {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Ex);
       }
       if (HasNeedVerification) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(NeedVerification);
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) NeedVerification);
       }
       if (HasLookMemberInfo) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(LookMemberInfo);
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) LookMemberInfo);
       }
       if (HasApplyMemberFriend) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(ApplyMemberFriend);
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) ApplyMemberFriend);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -4175,15 +4784,15 @@ namespace OpenIM.Proto {
             break;
           }
           case 56: {
-            NeedVerification = input.ReadInt32();
+            NeedVerification = (global::OpenIM.Proto.GroupNeedVerification) input.ReadEnum();
             break;
           }
           case 64: {
-            LookMemberInfo = input.ReadInt32();
+            LookMemberInfo = (global::OpenIM.Proto.GroupLookMemberInfo) input.ReadEnum();
             break;
           }
           case 72: {
-            ApplyMemberFriend = input.ReadInt32();
+            ApplyMemberFriend = (global::OpenIM.Proto.GroupApplyMemberFriend) input.ReadEnum();
             break;
           }
         }
@@ -4230,15 +4839,15 @@ namespace OpenIM.Proto {
             break;
           }
           case 56: {
-            NeedVerification = input.ReadInt32();
+            NeedVerification = (global::OpenIM.Proto.GroupNeedVerification) input.ReadEnum();
             break;
           }
           case 64: {
-            LookMemberInfo = input.ReadInt32();
+            LookMemberInfo = (global::OpenIM.Proto.GroupLookMemberInfo) input.ReadEnum();
             break;
           }
           case 72: {
-            ApplyMemberFriend = input.ReadInt32();
+            ApplyMemberFriend = (global::OpenIM.Proto.GroupApplyMemberFriend) input.ReadEnum();
             break;
           }
         }
@@ -4551,15 +5160,15 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "roleLevel" field.</summary>
     public const int RoleLevelFieldNumber = 5;
-    private readonly static int RoleLevelDefaultValue = 0;
+    private readonly static global::OpenIM.Proto.GroupMemberRoleLevel RoleLevelDefaultValue = global::OpenIM.Proto.GroupMemberRoleLevel.GroupRoleLevel;
 
-    private int roleLevel_;
+    private global::OpenIM.Proto.GroupMemberRoleLevel roleLevel_;
     /// <summary>
     /// user role level
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int RoleLevel {
+    public global::OpenIM.Proto.GroupMemberRoleLevel RoleLevel {
       get { if ((_hasBits0 & 1) != 0) { return roleLevel_; } else { return RoleLevelDefaultValue; } }
       set {
         _hasBits0 |= 1;
@@ -4678,7 +5287,7 @@ namespace OpenIM.Proto {
       }
       if (HasRoleLevel) {
         output.WriteRawTag(40);
-        output.WriteInt32(RoleLevel);
+        output.WriteEnum((int) RoleLevel);
       }
       if (HasEx) {
         output.WriteRawTag(50);
@@ -4712,7 +5321,7 @@ namespace OpenIM.Proto {
       }
       if (HasRoleLevel) {
         output.WriteRawTag(40);
-        output.WriteInt32(RoleLevel);
+        output.WriteEnum((int) RoleLevel);
       }
       if (HasEx) {
         output.WriteRawTag(50);
@@ -4741,7 +5350,7 @@ namespace OpenIM.Proto {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(FaceURL);
       }
       if (HasRoleLevel) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(RoleLevel);
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) RoleLevel);
       }
       if (HasEx) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Ex);
@@ -4812,7 +5421,7 @@ namespace OpenIM.Proto {
             break;
           }
           case 40: {
-            RoleLevel = input.ReadInt32();
+            RoleLevel = (global::OpenIM.Proto.GroupMemberRoleLevel) input.ReadEnum();
             break;
           }
           case 50: {
@@ -4855,7 +5464,7 @@ namespace OpenIM.Proto {
             break;
           }
           case 40: {
-            RoleLevel = input.ReadInt32();
+            RoleLevel = (global::OpenIM.Proto.GroupMemberRoleLevel) input.ReadEnum();
             break;
           }
           case 50: {
@@ -8027,13 +8636,13 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "filter" field.</summary>
     public const int FilterFieldNumber = 2;
-    private global::OpenIM.Proto.GroupFilter filter_ = global::OpenIM.Proto.GroupFilter.All;
+    private global::OpenIM.Proto.GroupMemberFilter filter_ = global::OpenIM.Proto.GroupMemberFilter.All;
     /// <summary>
     /// filter
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::OpenIM.Proto.GroupFilter Filter {
+    public global::OpenIM.Proto.GroupMemberFilter Filter {
       get { return filter_; }
       set {
         filter_ = value;
@@ -8081,7 +8690,7 @@ namespace OpenIM.Proto {
     public override int GetHashCode() {
       int hash = 1;
       if (GroupID.Length != 0) hash ^= GroupID.GetHashCode();
-      if (Filter != global::OpenIM.Proto.GroupFilter.All) hash ^= Filter.GetHashCode();
+      if (Filter != global::OpenIM.Proto.GroupMemberFilter.All) hash ^= Filter.GetHashCode();
       if (pagination_ != null) hash ^= Pagination.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -8105,7 +8714,7 @@ namespace OpenIM.Proto {
         output.WriteRawTag(10);
         output.WriteString(GroupID);
       }
-      if (Filter != global::OpenIM.Proto.GroupFilter.All) {
+      if (Filter != global::OpenIM.Proto.GroupMemberFilter.All) {
         output.WriteRawTag(16);
         output.WriteEnum((int) Filter);
       }
@@ -8127,7 +8736,7 @@ namespace OpenIM.Proto {
         output.WriteRawTag(10);
         output.WriteString(GroupID);
       }
-      if (Filter != global::OpenIM.Proto.GroupFilter.All) {
+      if (Filter != global::OpenIM.Proto.GroupMemberFilter.All) {
         output.WriteRawTag(16);
         output.WriteEnum((int) Filter);
       }
@@ -8148,7 +8757,7 @@ namespace OpenIM.Proto {
       if (GroupID.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(GroupID);
       }
-      if (Filter != global::OpenIM.Proto.GroupFilter.All) {
+      if (Filter != global::OpenIM.Proto.GroupMemberFilter.All) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Filter);
       }
       if (pagination_ != null) {
@@ -8169,7 +8778,7 @@ namespace OpenIM.Proto {
       if (other.GroupID.Length != 0) {
         GroupID = other.GroupID;
       }
-      if (other.Filter != global::OpenIM.Proto.GroupFilter.All) {
+      if (other.Filter != global::OpenIM.Proto.GroupMemberFilter.All) {
         Filter = other.Filter;
       }
       if (other.pagination_ != null) {
@@ -8202,7 +8811,7 @@ namespace OpenIM.Proto {
             break;
           }
           case 16: {
-            Filter = (global::OpenIM.Proto.GroupFilter) input.ReadEnum();
+            Filter = (global::OpenIM.Proto.GroupMemberFilter) input.ReadEnum();
             break;
           }
           case 34: {
@@ -8236,7 +8845,7 @@ namespace OpenIM.Proto {
             break;
           }
           case 16: {
-            Filter = (global::OpenIM.Proto.GroupFilter) input.ReadEnum();
+            Filter = (global::OpenIM.Proto.GroupMemberFilter) input.ReadEnum();
             break;
           }
           case 34: {
@@ -8444,16 +9053,16 @@ namespace OpenIM.Proto {
   }
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class GetGroupRequestReq : pb::IMessage<GetGroupRequestReq>
+  public sealed partial class GetGroupApplicationReq : pb::IMessage<GetGroupApplicationReq>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<GetGroupRequestReq> _parser = new pb::MessageParser<GetGroupRequestReq>(() => new GetGroupRequestReq());
+    private static readonly pb::MessageParser<GetGroupApplicationReq> _parser = new pb::MessageParser<GetGroupApplicationReq>(() => new GetGroupApplicationReq());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<GetGroupRequestReq> Parser { get { return _parser; } }
+    public static pb::MessageParser<GetGroupApplicationReq> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -8469,7 +9078,7 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetGroupRequestReq() {
+    public GetGroupApplicationReq() {
       OnConstruction();
     }
 
@@ -8477,15 +9086,15 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetGroupRequestReq(GetGroupRequestReq other) : this() {
+    public GetGroupApplicationReq(GetGroupApplicationReq other) : this() {
       send_ = other.send_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetGroupRequestReq Clone() {
-      return new GetGroupRequestReq(this);
+    public GetGroupApplicationReq Clone() {
+      return new GetGroupApplicationReq(this);
     }
 
     /// <summary>Field number for the "send" field.</summary>
@@ -8506,12 +9115,12 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as GetGroupRequestReq);
+      return Equals(other as GetGroupApplicationReq);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(GetGroupRequestReq other) {
+    public bool Equals(GetGroupApplicationReq other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -8584,7 +9193,7 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(GetGroupRequestReq other) {
+    public void MergeFrom(GetGroupApplicationReq other) {
       if (other == null) {
         return;
       }
@@ -8645,16 +9254,16 @@ namespace OpenIM.Proto {
   }
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class GetGroupRequestResp : pb::IMessage<GetGroupRequestResp>
+  public sealed partial class GetGroupApplicationResp : pb::IMessage<GetGroupApplicationResp>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<GetGroupRequestResp> _parser = new pb::MessageParser<GetGroupRequestResp>(() => new GetGroupRequestResp());
+    private static readonly pb::MessageParser<GetGroupApplicationResp> _parser = new pb::MessageParser<GetGroupApplicationResp>(() => new GetGroupApplicationResp());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<GetGroupRequestResp> Parser { get { return _parser; } }
+    public static pb::MessageParser<GetGroupApplicationResp> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -8670,7 +9279,7 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetGroupRequestResp() {
+    public GetGroupApplicationResp() {
       OnConstruction();
     }
 
@@ -8678,47 +9287,47 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetGroupRequestResp(GetGroupRequestResp other) : this() {
-      requests_ = other.requests_.Clone();
+    public GetGroupApplicationResp(GetGroupApplicationResp other) : this() {
+      applications_ = other.applications_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetGroupRequestResp Clone() {
-      return new GetGroupRequestResp(this);
+    public GetGroupApplicationResp Clone() {
+      return new GetGroupApplicationResp(this);
     }
 
-    /// <summary>Field number for the "requests" field.</summary>
-    public const int RequestsFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::OpenIM.Proto.IMGroupApplication> _repeated_requests_codec
+    /// <summary>Field number for the "applications" field.</summary>
+    public const int ApplicationsFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::OpenIM.Proto.IMGroupApplication> _repeated_applications_codec
         = pb::FieldCodec.ForMessage(10, global::OpenIM.Proto.IMGroupApplication.Parser);
-    private readonly pbc::RepeatedField<global::OpenIM.Proto.IMGroupApplication> requests_ = new pbc::RepeatedField<global::OpenIM.Proto.IMGroupApplication>();
+    private readonly pbc::RepeatedField<global::OpenIM.Proto.IMGroupApplication> applications_ = new pbc::RepeatedField<global::OpenIM.Proto.IMGroupApplication>();
     /// <summary>
     /// group request information
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::OpenIM.Proto.IMGroupApplication> Requests {
-      get { return requests_; }
+    public pbc::RepeatedField<global::OpenIM.Proto.IMGroupApplication> Applications {
+      get { return applications_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as GetGroupRequestResp);
+      return Equals(other as GetGroupApplicationResp);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(GetGroupRequestResp other) {
+    public bool Equals(GetGroupApplicationResp other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if(!requests_.Equals(other.requests_)) return false;
+      if(!applications_.Equals(other.applications_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -8726,7 +9335,7 @@ namespace OpenIM.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      hash ^= requests_.GetHashCode();
+      hash ^= applications_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -8745,7 +9354,7 @@ namespace OpenIM.Proto {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      requests_.WriteTo(output, _repeated_requests_codec);
+      applications_.WriteTo(output, _repeated_applications_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -8756,7 +9365,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      requests_.WriteTo(ref output, _repeated_requests_codec);
+      applications_.WriteTo(ref output, _repeated_applications_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -8767,7 +9376,7 @@ namespace OpenIM.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      size += requests_.CalculateSize(_repeated_requests_codec);
+      size += applications_.CalculateSize(_repeated_applications_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -8776,11 +9385,11 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(GetGroupRequestResp other) {
+    public void MergeFrom(GetGroupApplicationResp other) {
       if (other == null) {
         return;
       }
-      requests_.Add(other.requests_);
+      applications_.Add(other.applications_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -8801,7 +9410,7 @@ namespace OpenIM.Proto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            requests_.AddEntriesFrom(input, _repeated_requests_codec);
+            applications_.AddEntriesFrom(input, _repeated_applications_codec);
             break;
           }
         }
@@ -8824,7 +9433,7 @@ namespace OpenIM.Proto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
-            requests_.AddEntriesFrom(ref input, _repeated_requests_codec);
+            applications_.AddEntriesFrom(ref input, _repeated_applications_codec);
             break;
           }
         }
@@ -8898,7 +9507,7 @@ namespace OpenIM.Proto {
       }
     }
 
-    /// <summary>Field number for the "Keyword" field.</summary>
+    /// <summary>Field number for the "keyword" field.</summary>
     public const int KeywordFieldNumber = 2;
     private string keyword_ = "";
     /// <summary>
@@ -10688,16 +11297,16 @@ namespace OpenIM.Proto {
   }
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class HandleGroupRequestReq : pb::IMessage<HandleGroupRequestReq>
+  public sealed partial class HandleGroupApplicationReq : pb::IMessage<HandleGroupApplicationReq>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<HandleGroupRequestReq> _parser = new pb::MessageParser<HandleGroupRequestReq>(() => new HandleGroupRequestReq());
+    private static readonly pb::MessageParser<HandleGroupApplicationReq> _parser = new pb::MessageParser<HandleGroupApplicationReq>(() => new HandleGroupApplicationReq());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<HandleGroupRequestReq> Parser { get { return _parser; } }
+    public static pb::MessageParser<HandleGroupApplicationReq> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -10713,7 +11322,7 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public HandleGroupRequestReq() {
+    public HandleGroupApplicationReq() {
       OnConstruction();
     }
 
@@ -10721,7 +11330,7 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public HandleGroupRequestReq(HandleGroupRequestReq other) : this() {
+    public HandleGroupApplicationReq(HandleGroupApplicationReq other) : this() {
       groupID_ = other.groupID_;
       fromUserID_ = other.fromUserID_;
       handledMsg_ = other.handledMsg_;
@@ -10731,8 +11340,8 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public HandleGroupRequestReq Clone() {
-      return new HandleGroupRequestReq(this);
+    public HandleGroupApplicationReq Clone() {
+      return new HandleGroupApplicationReq(this);
     }
 
     /// <summary>Field number for the "groupID" field.</summary>
@@ -10802,12 +11411,12 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as HandleGroupRequestReq);
+      return Equals(other as HandleGroupApplicationReq);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(HandleGroupRequestReq other) {
+    public bool Equals(HandleGroupApplicationReq other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -10919,7 +11528,7 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(HandleGroupRequestReq other) {
+    public void MergeFrom(HandleGroupApplicationReq other) {
       if (other == null) {
         return;
       }
@@ -11013,16 +11622,16 @@ namespace OpenIM.Proto {
   }
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class HandleGroupRequestResp : pb::IMessage<HandleGroupRequestResp>
+  public sealed partial class HandleGroupApplicationResp : pb::IMessage<HandleGroupApplicationResp>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<HandleGroupRequestResp> _parser = new pb::MessageParser<HandleGroupRequestResp>(() => new HandleGroupRequestResp());
+    private static readonly pb::MessageParser<HandleGroupApplicationResp> _parser = new pb::MessageParser<HandleGroupApplicationResp>(() => new HandleGroupApplicationResp());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<HandleGroupRequestResp> Parser { get { return _parser; } }
+    public static pb::MessageParser<HandleGroupApplicationResp> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -11038,7 +11647,7 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public HandleGroupRequestResp() {
+    public HandleGroupApplicationResp() {
       OnConstruction();
     }
 
@@ -11046,25 +11655,25 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public HandleGroupRequestResp(HandleGroupRequestResp other) : this() {
+    public HandleGroupApplicationResp(HandleGroupApplicationResp other) : this() {
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public HandleGroupRequestResp Clone() {
-      return new HandleGroupRequestResp(this);
+    public HandleGroupApplicationResp Clone() {
+      return new HandleGroupApplicationResp(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as HandleGroupRequestResp);
+      return Equals(other as HandleGroupApplicationResp);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(HandleGroupRequestResp other) {
+    public bool Equals(HandleGroupApplicationResp other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -11124,7 +11733,7 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(HandleGroupRequestResp other) {
+    public void MergeFrom(HandleGroupApplicationResp other) {
       if (other == null) {
         return;
       }

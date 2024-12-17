@@ -245,23 +245,23 @@ namespace OpenIM.IMSDK
             req.MessageEntities.Add(messageEntityList);
             NativeSDK.CallAPI(handleId, FuncRequestEventName.CreateAdvancedQuoteMessage, req);
         }
-        public static void CreateCardMessage(Action<IMMessage> cb, CardElem card)
+        public static void CreateCardMessage(Action<IMMessage> cb, string userId, string nickName, string faceURL, string ex)
         {
             var handleId = GetHandleId();
             callBackDic[handleId] = cb;
             NativeSDK.CallAPI(handleId, FuncRequestEventName.CreateCardMessage, new CreateCardMessageReq
             {
-                Card = card
+                UserID = userId,
+                Nickname = nickName,
+                FaceURL = faceURL,
+                Ex = ex
             });
         }
-        public static void CreateImageMessage(Action<IMMessage> cb, string imagePath)
+        public static void CreateImageMessage(Action<IMMessage> cb, CreateImageMessageReq req)
         {
             var handleId = GetHandleId();
             callBackDic[handleId] = cb;
-            NativeSDK.CallAPI(handleId, FuncRequestEventName.CreateImageMessage, new CreateImageMessageReq
-            {
-                ImageSourcePath = imagePath
-            });
+            NativeSDK.CallAPI(handleId, FuncRequestEventName.CreateImageMessage, req);
         }
         public static void CreateSoundMessage(Action<IMMessage> cb, string soundPath, long duration)
         {
@@ -332,14 +332,17 @@ namespace OpenIM.IMSDK
             callBackDic[handleId] = cb;
             NativeSDK.CallAPI(handleId, FuncRequestEventName.GetAllConversationList, new GetAllConversationListReq { });
         }
-        public static void GetConversationListSplit(Action<IMConversation[]> cb, int offset, int count)
+        public static void GetConversationListSplit(Action<IMConversation[]> cb, int pageNumber, int showNumber)
         {
             var handleId = GetHandleId();
             callBackDic[handleId] = cb;
             NativeSDK.CallAPI(handleId, FuncRequestEventName.GetConversationListSplit, new GetConversationListSplitReq
             {
-                Offset = offset,
-                Count = count,
+                Pagination = new RequestPagination
+                {
+                    PageNumber = pageNumber,
+                    ShowNumber = showNumber,
+                }
             });
         }
         public static void GetOneConversation(Action<IMConversation> cb, SessionType sessionType, string sourceId)
@@ -480,11 +483,11 @@ namespace OpenIM.IMSDK
             callBackDic[handleId] = cb;
             NativeSDK.CallAPI(handleId, FuncRequestEventName.MarkAllConversationMessageAsRead, new MarkConversationMessageAsReadReq { });
         }
-        public static void DeleteMessageFromLocalStorage(Action<bool> cb, string conversationId, string clientMsgId)
+        public static void DeleteMessageFromLocal(Action<bool> cb, string conversationId, string clientMsgId)
         {
             var handleId = GetHandleId();
             callBackDic[handleId] = cb;
-            NativeSDK.CallAPI(handleId, FuncRequestEventName.DeleteMessageFromLocalStorage, new DeleteMessageFromLocalStorageReq
+            NativeSDK.CallAPI(handleId, FuncRequestEventName.DeleteMessageFromLocal, new DeleteMessageFromLocalReq
             {
                 ConversationID = conversationId,
                 ClientMsgID = clientMsgId
@@ -506,11 +509,11 @@ namespace OpenIM.IMSDK
             callBackDic[handleId] = cb;
             NativeSDK.CallAPI(handleId, FuncRequestEventName.DeleteAllMsgFromLocalAndServer, new DeleteAllMsgFromLocalAndServerReq { });
         }
-        public static void DeleteAllMessageFromLocalStorage(Action<bool> cb)
+        public static void DeleteAllMessageFromLocal(Action<bool> cb)
         {
             var handleId = GetHandleId();
             callBackDic[handleId] = cb;
-            NativeSDK.CallAPI(handleId, FuncRequestEventName.DeleteAllMessageFromLocalStorage, new DeleteAllMessageFromLocalStorageReq { });
+            NativeSDK.CallAPI(handleId, FuncRequestEventName.DeleteAllMessageFromLocal, new DeleteAllMessageFromLocalReq { });
         }
         public static void ClearConversationAndDeleteAllMsg(Action<bool> cb, string conversationId)
         {
@@ -530,11 +533,11 @@ namespace OpenIM.IMSDK
                 ConversationID = conversationId
             });
         }
-        public static void InsertSingleMessageToLocalStorage(Action<IMMessage> cb, IMMessage message, string recvId, string sendId)
+        public static void InsertSingleMessageToLocal(Action<IMMessage> cb, IMMessage message, string recvId, string sendId)
         {
             var handleId = GetHandleId();
             callBackDic[handleId] = cb;
-            NativeSDK.CallAPI(handleId, FuncRequestEventName.InsertSingleMessageToLocalStorage, new InsertSingleMessageToLocalStorageReq
+            NativeSDK.CallAPI(handleId, FuncRequestEventName.InsertSingleMessageToLocal, new InsertSingleMessageToLocalReq
             {
                 Msg = message,
                 RecvID = recvId,
@@ -545,21 +548,18 @@ namespace OpenIM.IMSDK
         {
             var handleId = GetHandleId();
             callBackDic[handleId] = cb;
-            NativeSDK.CallAPI(handleId, FuncRequestEventName.InsertGroupMessageToLocalStorage, new InsertGroupMessageToLocalStorageReq
+            NativeSDK.CallAPI(handleId, FuncRequestEventName.InsertGroupMessageToLocal, new InsertGroupMessageToLocalReq
             {
                 Msg = message,
                 GroupID = groupId,
                 SendID = sendId
             });
         }
-        public static void SearchLocalMessages(Action<int, SearchByConversationResult[]> cb, SearchLocalMessagesParams searchParam)
+        public static void SearchLocalMessages(Action<int, SearchByConversationResult[]> cb, SearchLocalMessagesReq req)
         {
             var handleId = GetHandleId();
             callBackDic[handleId] = cb;
-            NativeSDK.CallAPI(handleId, FuncRequestEventName.SearchLocalMessages, new SearchLocalMessagesReq
-            {
-                SearchParam = searchParam
-            });
+            NativeSDK.CallAPI(handleId, FuncRequestEventName.SearchLocalMessages, req);
         }
         public static void SearchConversation(Action<IMConversation[]> cb, string searchParam)
         {
@@ -753,21 +753,21 @@ namespace OpenIM.IMSDK
                 UserID = friendUserId
             });
         }
-        public static void GetFriendsRequest(Action<IMFriendApplication[]> cb, bool send)
+        public static void GetFriendApplication(Action<IMFriendApplication[]> cb, bool isSender)
         {
             var handleId = GetHandleId();
             callBackDic[handleId] = cb;
-            NativeSDK.CallAPI(handleId, FuncRequestEventName.GetFriendRequests, new GetFriendRequestsReq
+            NativeSDK.CallAPI(handleId, FuncRequestEventName.GetFriendApplication, new GetFriendApplicationReq
             {
-                Send = send
+                Send = isSender
             });
         }
 
-        public static void HandleFriendRequest(Action<bool> cb, string userId, string handleMsg, ApprovalStatus status)
+        public static void HandleFriendApplication(Action<bool> cb, string userId, string handleMsg, ApprovalStatus status)
         {
             var handleId = GetHandleId();
             callBackDic[handleId] = cb;
-            NativeSDK.CallAPI(handleId, FuncRequestEventName.HandleFriendRequest, new HandleFriendRequestReq
+            NativeSDK.CallAPI(handleId, FuncRequestEventName.HandleFriendApplication, new HandleFriendApplicationReq
             {
                 UserID = userId,
                 HandleMsg = handleMsg,
@@ -802,14 +802,10 @@ namespace OpenIM.IMSDK
         #endregion
 
         #region group
-        public static void CreateGroup(Action<IMGroup> cb, IMGroup group, string[] adminUserIds, string[] memeberUserIds)
+        public static void CreateGroup(Action<IMGroup> cb, CreateGroupReq req)
         {
             var handleId = GetHandleId();
             callBackDic[handleId] = cb;
-            var req = new CreateGroupReq();
-            req.GroupInfo = group;
-            req.AdminUserIDs.Add(adminUserIds);
-            req.MemberUserIDs.Add(memeberUserIds);
             NativeSDK.CallAPI(handleId, FuncRequestEventName.CreateGroup, req);
         }
         public static void JoinGroup(Action<bool> cb, string groupId, string reqMsg, GroupJoinSource joinSource, string ex)
@@ -819,7 +815,7 @@ namespace OpenIM.IMSDK
             NativeSDK.CallAPI(handleId, FuncRequestEventName.JoinGroup, new JoinGroupReq
             {
                 GroupID = groupId,
-                ReqMessage = reqMsg,
+                ReqMsg = reqMsg,
                 JoinSource = joinSource,
                 Ex = ex
             });
@@ -859,12 +855,12 @@ namespace OpenIM.IMSDK
             callBackDic[handleId] = cb;
             NativeSDK.CallAPI(handleId, FuncRequestEventName.ChangeGroupMemberMute, new ChangeGroupMemberMuteReq
             {
-                GroupID = userId,
+                GroupID = groupId,
                 UserID = userId,
                 MutedSeconds = mutedSeconds
             });
         }
-        public static void SetGroupMemberInfo(Action<bool> cb, string groupId, string userId, string nickName, string faceUrl, int roleLevel, string ex)
+        public static void SetGroupMemberInfo(Action<bool> cb, string groupId, string userId, string nickName, string faceUrl, GroupMemberRoleLevel roleLevel, string ex)
         {
             var handleId = GetHandleId();
             callBackDic[handleId] = cb;
@@ -873,6 +869,7 @@ namespace OpenIM.IMSDK
                 GroupID = groupId,
                 UserID = userId,
                 Nickname = nickName,
+                FaceURL = faceUrl,
                 RoleLevel = roleLevel,
                 Ex = ex
             });
@@ -921,7 +918,7 @@ namespace OpenIM.IMSDK
             callBackDic[handleId] = cb;
             NativeSDK.CallAPI(handleId, FuncRequestEventName.SetGroupInfo, req);
         }
-        public static void GetGroupMembers(Action<IMGroupMember[]> cb, string groupId, GroupFilter filter, int pageNumber, int showNumber)
+        public static void GetGroupMembers(Action<IMGroupMember[]> cb, string groupId, GroupMemberFilter filter, int pageNumber, int showNumber)
         {
             var handleId = GetHandleId();
             callBackDic[handleId] = cb;
@@ -1008,20 +1005,20 @@ namespace OpenIM.IMSDK
             req.UserIDs.Add(userIdList);
             NativeSDK.CallAPI(handleId, FuncRequestEventName.InviteUserToGroup, req);
         }
-        public static void GetGroupRequest(Action<IMGroupApplication[]> cb, bool send)
+        public static void GetGroupApplication(Action<IMGroupApplication[]> cb, bool isSender)
         {
             var handleId = GetHandleId();
             callBackDic[handleId] = cb;
-            NativeSDK.CallAPI(handleId, FuncRequestEventName.GetGroupRequest, new GetGroupRequestReq
+            NativeSDK.CallAPI(handleId, FuncRequestEventName.GetGroupApplication, new GetGroupApplicationReq
             {
-                Send = send
+                Send = isSender
             });
         }
-        public static void HandlerGroupRequest(Action<bool> cb, string groupId, string fromUserId, string handleMsg, ApprovalStatus status)
+        public static void HandleGroupApplication(Action<bool> cb, string groupId, string fromUserId, string handleMsg, ApprovalStatus status)
         {
             var handleId = GetHandleId();
             callBackDic[handleId] = cb;
-            NativeSDK.CallAPI(handleId, FuncRequestEventName.HandleGroupRequest, new HandleGroupRequestReq
+            NativeSDK.CallAPI(handleId, FuncRequestEventName.HandleGroupApplication, new HandleGroupApplicationReq
             {
                 GroupID = groupId,
                 FromUserID = fromUserId,

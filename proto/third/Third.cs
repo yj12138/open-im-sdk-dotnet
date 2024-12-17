@@ -38,9 +38,11 @@ namespace OpenIM.Proto {
             "eSKTAQoGTG9nUmVxEi0KCGxvZ0xldmVsGAEgASgOMhsub3BlbmltLnNkay5j",
             "b21tb24uTG9nTGV2ZWwSDAoEZmlsZRgCIAEoCRIMCgRsaW5lGAMgASgFEgsK",
             "A21zZxgEIAEoCRILCgNlcnIYBSABKAkSJAoDa3ZzGAYgAygLMhcub3Blbmlt",
-            "LnNkay50aGlyZC5Mb2dLdiIJCgdMb2dSZXNwQkpaNmdpdGh1Yi5jb20vb3Bl",
-            "bmltc2RrL29wZW5pbS1zZGstY29yZS92My9wcm90by9nby90aGlyZKoCDE9w",
-            "ZW5JTS5Qcm90b7oCAGIGcHJvdG8z"));
+            "LnNkay50aGlyZC5Mb2dLdiIJCgdMb2dSZXNwMl8KDFRoaXJkU2VydmljZRJP",
+            "CgpVcGxvYWRGaWxlEh8ub3BlbmltLnNkay50aGlyZC5VcGxvYWRGaWxlUmVx",
+            "GiAub3BlbmltLnNkay50aGlyZC5VcGxvYWRGaWxlUmVzcEJKWjZnaXRodWIu",
+            "Y29tL29wZW5pbXNkay9vcGVuaW0tc2RrLWNvcmUvdjMvcHJvdG8vZ28vdGhp",
+            "cmSqAgxPcGVuSU0uUHJvdG+6AgBiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.AnyReflection.Descriptor, global::OpenIM.Proto.CommonReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {

@@ -42,48 +42,51 @@ namespace OpenIM.Proto {
             "EAkSDAoIQXZhbG9uaWEQChILCgdDb3Jkb3ZhEAsSCgoGVW5pQXBwEAwqZwoJ",
             "TXNnU3RhdHVzEg4KCk1zZ1N0YXR1c18QABILCgdTZW5kaW5nEAESDwoLU2Vu",
             "ZFN1Y2Nlc3MQAhIOCgpTZW5kRmFpbGVkEAMSDgoKSGFzRGVsZXRlZBAEEgwK",
-            "CEZpbHRlcmVkEAUq1QYKC0NvbnRlbnRUeXBlEhAKDENvbnRlbnRUeXBlXxAA",
+            "CEZpbHRlcmVkEAUq6gYKC0NvbnRlbnRUeXBlEhAKDENvbnRlbnRUeXBlXxAA",
             "EggKBFRleHQQZRILCgdQaWN0dXJlEGYSCQoFU291bmQQZxIJCgVWaWRlbxBo",
             "EggKBEZpbGUQaRIKCgZBdFRleHQQahIJCgVNZXJnZRBrEggKBENhcmQQbBIM",
             "CghMb2NhdGlvbhBtEgoKBkN1c3RvbRBuEgoKBlR5cGluZxBxEgkKBVF1b3Rl",
             "EHISCAoERmFjZRBzEgoKBlN0cmVhbRB0EhAKDEFkdmFuY2VkVGV4dBB1EiMK",
             "H0N1c3RvbU1zZ05vdFRyaWdnZXJDb252ZXJzYXRpb24QdxIXChNDdXN0b21N",
             "c2dPbmxpbmVPbmx5EHgSKgolRnJpZW5kQXBwbGljYXRpb25BcHByb3ZlZE5v",
-            "dGlmaWNhdGlvbhCxCRIdChhHcm91cENyZWF0ZWROb3RpZmljYXRpb24Q3QsS",
-            "GwoWTWVtYmVyUXVpdE5vdGlmaWNhdGlvbhDgCxImCiFHcm91cE93bmVyVHJh",
-            "bnNmZXJyZWROb3RpZmljYXRpb24Q4wsSHQoYTWVtYmVyS2lja2VkTm90aWZp",
-            "Y2F0aW9uEOQLEh4KGU1lbWJlckludml0ZWROb3RpZmljYXRpb24Q5QsSHAoX",
-            "TWVtYmVyRW50ZXJOb3RpZmljYXRpb24Q5gsSHwoaR3JvdXBEaXNtaXNzZWRO",
-            "b3RpZmljYXRpb24Q5wsSIQocR3JvdXBNZW1iZXJNdXRlZE5vdGlmaWNhdGlv",
-            "bhDoCxInCiJHcm91cE1lbWJlckNhbmNlbE11dGVkTm90aWZpY2F0aW9uEOkL",
-            "EhsKFkdyb3VwTXV0ZWROb3RpZmljYXRpb24Q6gsSIQocR3JvdXBDYW5jZWxN",
-            "dXRlZE5vdGlmaWNhdGlvbhDrCxIpCiRHcm91cEluZm9TZXRBbm5vdW5jZW1l",
-            "bnROb3RpZmljYXRpb24Q7wsSIQocR3JvdXBJbmZvU2V0TmFtZU5vdGlmaWNh",
-            "dGlvbhDwCxIoCiNDb252ZXJzYXRpb25Qcml2YXRlQ2hhdE5vdGlmaWNhdGlv",
-            "bhClDRIZChRCdXNpbmVzc05vdGlmaWNhdGlvbhDRDxIYChNSZXZva2VkTm90",
-            "aWZpY2F0aW9uELUQKkIKDkFwcHJvdmFsU3RhdHVzEgsKB0RlZmF1bHQQABIM",
-            "CghBcHByb3ZlZBABEhUKCFJlamVjdGVkEP///////////wEqWAoOQ29udlJl",
-            "Y3ZNc2dPcHQSEgoOUmVjZWl2ZU1lc3NhZ2UQABIVChFOb3RSZWNlaXZlTWVz",
-            "c2FnZRABEhsKF1JlY2VpdmVOb3ROb3RpZnlNZXNzYWdlEAIqQwoPQ29udkdy",
-            "b3VwQXRUeXBlEgwKCEF0Tm9ybWFsEAASCAoEQXRNZRABEgkKBUF0QWxsEAIS",
-            "DQoJQXRBbGxBdE1lEAMqPQoQR2xvYmFsUmVjdk1zZ09wdBIKCgZOb3JtYWwQ",
-            "ABIOCgpOb3RSZWNlaXZlEAESDQoJTm90Tm90aWZ5EAIqfwoITG9nTGV2ZWwS",
-            "DgoKTGV2ZWxGYXRhbBAAEg4KCkxldmVsUGFuaWMQARIOCgpMZXZlbEVycm9y",
-            "EAISDQoJTGV2ZWxXYXJuEAMSDQoJTGV2ZWxJbmZvEAQSDgoKTGV2ZWxEZWJ1",
-            "ZxAFEhUKEUxldmVsRGVidWdXaXRoU1FMEAYqXgoRVXBsb2FkU0RLRGF0YU1v",
-            "ZGUSFgoSVXBsb2FkU0RLRGF0YU1vZGVfEAASDgoKVXBsb2FkTG9ncxABEgwK",
-            "CFVwbG9hZERCEAISEwoPVXBsb2FkTG9nc0FuZERCEAMqaAoLUmV2b2tlclJv",
-            "bGUSFgoSUmV2b2tlclJvbGVEZWZhdWx0EAASFAoQUmV2b2tlclJvbGVPd25l",
-            "chBkEhQKEFJldm9rZXJSb2xlQWRtaW4QPBIVChFSZXZva2VyUm9sZU1lbWJl",
-            "chAUKjkKDEZyaWVuZFNvdXJjZRIRCg1GcmllbmRTb3VyY2VfEAASCgoGU2Vh",
-            "cmNoEAMSCgoGUVJDb2RlEAQqTwoMSGFuZGxlUmVzdWx0EhEKDVJlc3VsdERl",
-            "ZmF1bHQQABIaCg1SZXN1bHREZWNsaW5lEP///////////wESEAoMUmVzdWx0",
-            "QWNjZXB0EAFCS1o3Z2l0aHViLmNvbS9vcGVuaW1zZGsvb3BlbmltLXNkay1j",
-            "b3JlL3YzL3Byb3RvL2dvL2NvbW1vbqoCDE9wZW5JTS5Qcm90b7oCAGIGcHJv",
-            "dG8z"));
+            "dGlmaWNhdGlvbhCxCRITCg5PQU5vdGlmaWNhdGlvbhD4ChIdChhHcm91cENy",
+            "ZWF0ZWROb3RpZmljYXRpb24Q3QsSGwoWTWVtYmVyUXVpdE5vdGlmaWNhdGlv",
+            "bhDgCxImCiFHcm91cE93bmVyVHJhbnNmZXJyZWROb3RpZmljYXRpb24Q4wsS",
+            "HQoYTWVtYmVyS2lja2VkTm90aWZpY2F0aW9uEOQLEh4KGU1lbWJlckludml0",
+            "ZWROb3RpZmljYXRpb24Q5QsSHAoXTWVtYmVyRW50ZXJOb3RpZmljYXRpb24Q",
+            "5gsSHwoaR3JvdXBEaXNtaXNzZWROb3RpZmljYXRpb24Q5wsSIQocR3JvdXBN",
+            "ZW1iZXJNdXRlZE5vdGlmaWNhdGlvbhDoCxInCiJHcm91cE1lbWJlckNhbmNl",
+            "bE11dGVkTm90aWZpY2F0aW9uEOkLEhsKFkdyb3VwTXV0ZWROb3RpZmljYXRp",
+            "b24Q6gsSIQocR3JvdXBDYW5jZWxNdXRlZE5vdGlmaWNhdGlvbhDrCxIpCiRH",
+            "cm91cEluZm9TZXRBbm5vdW5jZW1lbnROb3RpZmljYXRpb24Q7wsSIQocR3Jv",
+            "dXBJbmZvU2V0TmFtZU5vdGlmaWNhdGlvbhDwCxIoCiNDb252ZXJzYXRpb25Q",
+            "cml2YXRlQ2hhdE5vdGlmaWNhdGlvbhClDRIZChRCdXNpbmVzc05vdGlmaWNh",
+            "dGlvbhDRDxIYChNSZXZva2VkTm90aWZpY2F0aW9uELUQKkIKDkFwcHJvdmFs",
+            "U3RhdHVzEgsKB0RlZmF1bHQQABIMCghBcHByb3ZlZBABEhUKCFJlamVjdGVk",
+            "EP///////////wEqWAoOQ29udlJlY3ZNc2dPcHQSEgoOUmVjZWl2ZU1lc3Nh",
+            "Z2UQABIVChFOb3RSZWNlaXZlTWVzc2FnZRABEhsKF1JlY2VpdmVOb3ROb3Rp",
+            "ZnlNZXNzYWdlEAIqWgoPQ29udkdyb3VwQXRUeXBlEgwKCEF0Tm9ybWFsEAAS",
+            "CAoEQXRNZRABEgkKBUF0QWxsEAISDQoJQXRBbGxBdE1lEAMSFQoRR3JvdXBO",
+            "b3RpZmljYXRpb24QBCo9ChBHbG9iYWxSZWN2TXNnT3B0EgoKBk5vcm1hbBAA",
+            "Eg4KCk5vdFJlY2VpdmUQARINCglOb3ROb3RpZnkQAip/CghMb2dMZXZlbBIO",
+            "CgpMZXZlbEZhdGFsEAASDgoKTGV2ZWxQYW5pYxABEg4KCkxldmVsRXJyb3IQ",
+            "AhINCglMZXZlbFdhcm4QAxINCglMZXZlbEluZm8QBBIOCgpMZXZlbERlYnVn",
+            "EAUSFQoRTGV2ZWxEZWJ1Z1dpdGhTUUwQBipeChFVcGxvYWRTREtEYXRhTW9k",
+            "ZRIWChJVcGxvYWRTREtEYXRhTW9kZV8QABIOCgpVcGxvYWRMb2dzEAESDAoI",
+            "VXBsb2FkREIQAhITCg9VcGxvYWRMb2dzQW5kREIQAypoCgtSZXZva2VyUm9s",
+            "ZRIWChJSZXZva2VyUm9sZURlZmF1bHQQABIUChBSZXZva2VyUm9sZU93bmVy",
+            "EGQSFAoQUmV2b2tlclJvbGVBZG1pbhA8EhUKEVJldm9rZXJSb2xlTWVtYmVy",
+            "EBQqOQoMRnJpZW5kU291cmNlEhEKDUZyaWVuZFNvdXJjZV8QABIKCgZTZWFy",
+            "Y2gQAxIKCgZRUkNvZGUQBCpPCgxIYW5kbGVSZXN1bHQSEQoNUmVzdWx0RGVm",
+            "YXVsdBAAEhoKDVJlc3VsdERlY2xpbmUQ////////////ARIQCgxSZXN1bHRB",
+            "Y2NlcHQQASpjChRHcm91cE1lbWJlclJvbGVMZXZlbBITCg9Hcm91cFJvbGVM",
+            "ZXZlbF8QABIOCgpHcm91cE93bmVyEGQSDgoKR3JvdXBBZG1pbhA8EhYKEkdy",
+            "b3VwT3JkaW5hcnlVc2VycxAUQktaN2dpdGh1Yi5jb20vb3Blbmltc2RrL29w",
+            "ZW5pbS1zZGstY29yZS92My9wcm90by9nby9jb21tb26qAgxPcGVuSU0uUHJv",
+            "dG+6AgBiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
-          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::OpenIM.Proto.SessionType), typeof(global::OpenIM.Proto.MsgFrom), typeof(global::OpenIM.Proto.Platform), typeof(global::OpenIM.Proto.AppFramework), typeof(global::OpenIM.Proto.MsgStatus), typeof(global::OpenIM.Proto.ContentType), typeof(global::OpenIM.Proto.ApprovalStatus), typeof(global::OpenIM.Proto.ConvRecvMsgOpt), typeof(global::OpenIM.Proto.ConvGroupAtType), typeof(global::OpenIM.Proto.GlobalRecvMsgOpt), typeof(global::OpenIM.Proto.LogLevel), typeof(global::OpenIM.Proto.UploadSDKDataMode), typeof(global::OpenIM.Proto.RevokerRole), typeof(global::OpenIM.Proto.FriendSource), typeof(global::OpenIM.Proto.HandleResult), }, null, new pbr::GeneratedClrTypeInfo[] {
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::OpenIM.Proto.SessionType), typeof(global::OpenIM.Proto.MsgFrom), typeof(global::OpenIM.Proto.Platform), typeof(global::OpenIM.Proto.AppFramework), typeof(global::OpenIM.Proto.MsgStatus), typeof(global::OpenIM.Proto.ContentType), typeof(global::OpenIM.Proto.ApprovalStatus), typeof(global::OpenIM.Proto.ConvRecvMsgOpt), typeof(global::OpenIM.Proto.ConvGroupAtType), typeof(global::OpenIM.Proto.GlobalRecvMsgOpt), typeof(global::OpenIM.Proto.LogLevel), typeof(global::OpenIM.Proto.UploadSDKDataMode), typeof(global::OpenIM.Proto.RevokerRole), typeof(global::OpenIM.Proto.FriendSource), typeof(global::OpenIM.Proto.HandleResult), typeof(global::OpenIM.Proto.GroupMemberRoleLevel), }, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.OfflinePushInfo), global::OpenIM.Proto.OfflinePushInfo.Parser, new[]{ "Title", "Desc", "Ex", "IOSPushSound", "IOSBadgeCount", "SignalInfo" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.RequestPagination), global::OpenIM.Proto.RequestPagination.Parser, new[]{ "PageNumber", "ShowNumber" }, null, null, null, null)
           }));
@@ -221,6 +224,7 @@ namespace OpenIM.Proto {
     [pbr::OriginalName("AdvancedText")] AdvancedText = 117,
     [pbr::OriginalName("CustomMsgNotTriggerConversation")] CustomMsgNotTriggerConversation = 119,
     [pbr::OriginalName("CustomMsgOnlineOnly")] CustomMsgOnlineOnly = 120,
+    [pbr::OriginalName("FriendApplicationApprovedNotification")] FriendApplicationApprovedNotification = 1201,
     /// <summary>
     ///  FriendApplicationRejectedNotification = 1202;
     ///  FriendApplicationNotification = 1203;
@@ -228,7 +232,7 @@ namespace OpenIM.Proto {
     ///  FriendDeletedNotification = 1205;
     ///  FriendRemarkSetNotification = 1206;
     /// </summary>
-    [pbr::OriginalName("FriendApplicationApprovedNotification")] FriendApplicationApprovedNotification = 1201,
+    [pbr::OriginalName("OANotification")] Oanotification = 1400,
     /// <summary>
     ///  BlackAddedNotification = 1207;
     ///  BlackDeletedNotification = 1208;
@@ -296,6 +300,7 @@ namespace OpenIM.Proto {
     [pbr::OriginalName("AtMe")] AtMe = 1,
     [pbr::OriginalName("AtAll")] AtAll = 2,
     [pbr::OriginalName("AtAllAtMe")] AtAllAtMe = 3,
+    [pbr::OriginalName("GroupNotification")] GroupNotification = 4,
   }
 
   /// <summary>
@@ -400,6 +405,13 @@ namespace OpenIM.Proto {
     [pbr::OriginalName("ResultDefault")] ResultDefault = 0,
     [pbr::OriginalName("ResultDecline")] ResultDecline = -1,
     [pbr::OriginalName("ResultAccept")] ResultAccept = 1,
+  }
+
+  public enum GroupMemberRoleLevel {
+    [pbr::OriginalName("GroupRoleLevel_")] GroupRoleLevel = 0,
+    [pbr::OriginalName("GroupOwner")] GroupOwner = 100,
+    [pbr::OriginalName("GroupAdmin")] GroupAdmin = 60,
+    [pbr::OriginalName("GroupOrdinaryUsers")] GroupOrdinaryUsers = 20,
   }
 
   #endregion

@@ -345,28 +345,28 @@ namespace OpenIM.IMSDK
                 case FuncRequestEventName.EventOnFriendApplicationAdded:
                     {
                         var resp = EventOnFriendApplicationAddedData.Parser.ParseFrom(data);
-                        friendShipListener?.OnFriendApplicationAdded(resp.Request);
+                        friendShipListener?.OnFriendApplicationAdded(resp.Application);
                     }
                     break;
 
                 case FuncRequestEventName.EventOnFriendApplicationDeleted:
                     {
                         var resp = EventOnFriendApplicationDeletedData.Parser.ParseFrom(data);
-                        friendShipListener?.OnFriendApplicationDeleted(resp.Request);
+                        friendShipListener?.OnFriendApplicationDeleted(resp.Application);
                     }
                     break;
 
                 case FuncRequestEventName.EventOnFriendApplicationAccepted:
                     {
                         var resp = EventOnFriendApplicationAcceptedData.Parser.ParseFrom(data);
-                        friendShipListener?.OnFriendApplicationAccepted(resp.Request);
+                        friendShipListener?.OnFriendApplicationAccepted(resp.Application);
                     }
                     break;
 
                 case FuncRequestEventName.EventOnFriendApplicationRejected:
                     {
                         var resp = EventOnFriendApplicationRejectedData.Parser.ParseFrom(data);
-                        friendShipListener?.OnFriendApplicationRejected(resp.Request);
+                        friendShipListener?.OnFriendApplicationRejected(resp.Application);
                     }
                     break;
 
@@ -436,14 +436,14 @@ namespace OpenIM.IMSDK
                 case FuncRequestEventName.EventOnGroupApplicationAdded:
                     {
                         var resp = EventOnGroupApplicationAddedData.Parser.ParseFrom(data);
-                        groupListener?.OnGroupApplicationAdded(resp.Request);
+                        groupListener?.OnGroupApplicationAdded(resp.Application);
                     }
                     break;
 
                 case FuncRequestEventName.EventOnGroupApplicationDeleted:
                     {
                         var resp = EventOnGroupApplicationDeletedData.Parser.ParseFrom(data);
-                        groupListener?.OnGroupApplicationDeleted(resp.Request);
+                        groupListener?.OnGroupApplicationDeleted(resp.Application);
                     }
                     break;
 
@@ -471,14 +471,14 @@ namespace OpenIM.IMSDK
                 case FuncRequestEventName.EventOnGroupApplicationAccepted:
                     {
                         var resp = EventOnGroupApplicationAcceptedData.Parser.ParseFrom(data);
-                        groupListener?.OnGroupApplicationAccepted(resp.Request);
+                        groupListener?.OnGroupApplicationAccepted(resp.Application);
                     }
                     break;
 
                 case FuncRequestEventName.EventOnGroupApplicationRejected:
                     {
                         var resp = EventOnGroupApplicationRejectedData.Parser.ParseFrom(data);
-                        groupListener?.OnGroupApplicationRejected(resp.Request);
+                        groupListener?.OnGroupApplicationRejected(resp.Application);
                     }
                     break;
 
@@ -496,10 +496,10 @@ namespace OpenIM.IMSDK
                     }
                     break;
 
-                case FuncRequestEventName.EventOnUserStatusChanged:
+                case FuncRequestEventName.EventOnUserOnlineStatusChanged:
                     {
-                        var resp = EventOnUserStatusChangedData.Parser.ParseFrom(data);
-                        userListener?.OnUserStatusChanged(resp.UserID, [.. resp.Platforms]);
+                        var resp = EventOnUserOnlineStatusChangedData.Parser.ParseFrom(data);
+                        userListener?.OnUserOnlineStatusChanged(resp.UserID, [.. resp.Platforms]);
                     }
                     break;
 
@@ -650,10 +650,10 @@ namespace OpenIM.IMSDK
                     }
                     break;
 
-                case FuncRequestEventName.GetGroupRequest:
+                case FuncRequestEventName.GetGroupApplication:
                     {
-                        var resp = GetGroupRequestResp.Parser.ParseFrom(data);
-                        callBack?.DynamicInvoke([resp.Requests.ToArray()]);
+                        var resp = GetGroupApplicationResp.Parser.ParseFrom(data);
+                        callBack?.DynamicInvoke([resp.Applications.ToArray()]);
                     }
                     break;
 
@@ -685,9 +685,9 @@ namespace OpenIM.IMSDK
                     }
                     break;
 
-                case FuncRequestEventName.HandleGroupRequest:
+                case FuncRequestEventName.HandleGroupApplication:
                     {
-                        var resp = HandleGroupRequestResp.Parser.ParseFrom(data);
+                        var resp = HandleGroupApplicationResp.Parser.ParseFrom(data);
                         callBack?.DynamicInvoke(suc);
                     }
                     break;
@@ -706,16 +706,16 @@ namespace OpenIM.IMSDK
                     }
                     break;
 
-                case FuncRequestEventName.GetFriendRequests:
+                case FuncRequestEventName.GetFriendApplication:
                     {
-                        var resp = GetFriendRequestsResp.Parser.ParseFrom(data);
-                        callBack?.DynamicInvoke([resp.Requests.ToArray()]);
+                        var resp = GetFriendApplicationResp.Parser.ParseFrom(data);
+                        callBack?.DynamicInvoke([resp.Applications.ToArray()]);
                     }
                     break;
 
-                case FuncRequestEventName.HandleFriendRequest:
+                case FuncRequestEventName.HandleFriendApplication:
                     {
-                        var resp = HandleFriendRequestResp.Parser.ParseFrom(data);
+                        var resp = HandleFriendApplicationResp.Parser.ParseFrom(data);
                         callBack?.DynamicInvoke(suc);
                     }
                     break;
@@ -903,9 +903,9 @@ namespace OpenIM.IMSDK
                     }
                     break;
 
-                case FuncRequestEventName.DeleteMessageFromLocalStorage:
+                case FuncRequestEventName.DeleteMessageFromLocal:
                     {
-                        var resp = DeleteMessageFromLocalStorageResp.Parser.ParseFrom(data);
+                        var resp = DeleteMessageFromLocalResp.Parser.ParseFrom(data);
                         callBack?.DynamicInvoke(suc);
                     }
                     break;
@@ -924,9 +924,9 @@ namespace OpenIM.IMSDK
                     }
                     break;
 
-                case FuncRequestEventName.DeleteAllMessageFromLocalStorage:
+                case FuncRequestEventName.DeleteAllMessageFromLocal:
                     {
-                        var resp = DeleteAllMessageFromLocalStorageResp.Parser.ParseFrom(data);
+                        var resp = DeleteAllMessageFromLocalResp.Parser.ParseFrom(data);
                         callBack?.DynamicInvoke(suc);
                     }
                     break;
@@ -945,16 +945,16 @@ namespace OpenIM.IMSDK
                     }
                     break;
 
-                case FuncRequestEventName.InsertSingleMessageToLocalStorage:
+                case FuncRequestEventName.InsertSingleMessageToLocal:
                     {
-                        var resp = InsertSingleMessageToLocalStorageResp.Parser.ParseFrom(data);
+                        var resp = InsertSingleMessageToLocalResp.Parser.ParseFrom(data);
                         callBack?.DynamicInvoke(resp.Msg);
                     }
                     break;
 
-                case FuncRequestEventName.InsertGroupMessageToLocalStorage:
+                case FuncRequestEventName.InsertGroupMessageToLocal:
                     {
-                        var resp = InsertGroupMessageToLocalStorageResp.Parser.ParseFrom(data);
+                        var resp = InsertGroupMessageToLocalResp.Parser.ParseFrom(data);
                         callBack?.DynamicInvoke(resp.Msg);
                     }
                     break;
@@ -962,7 +962,7 @@ namespace OpenIM.IMSDK
                 case FuncRequestEventName.SearchLocalMessages:
                     {
                         var resp = SearchLocalMessagesResp.Parser.ParseFrom(data);
-                        var args = new object[] { resp.SearchResult.TotalCount, resp.SearchResult.SearchResultItems };
+                        var args = new object[] { resp.Count, resp.SearchResultItems };
                         callBack?.DynamicInvoke(args);
                     }
                     break;

@@ -41,81 +41,92 @@ namespace OpenIM.Proto {
             "YXR1c1VwZGF0ZVJlc3AiPwoQRGVsZXRlTWVzc2FnZVJlcRIWCg5jb252ZXJz",
             "YXRpb25JRBgBIAEoCRITCgtjbGllbnRNc2dJRBgCIAEoCSITChFEZWxldGVN",
             "ZXNzYWdlUmVzcCIjCiFEZWxldGVBbGxNc2dGcm9tTG9jYWxBbmRTZXJ2ZXJS",
-            "ZXEiJAoiRGVsZXRlQWxsTXNnRnJvbUxvY2FsQW5kU2VydmVyUmVzcCIlCiNE",
-            "ZWxldGVBbGxNZXNzYWdlRnJvbUxvY2FsU3RvcmFnZVJlcSImCiREZWxldGVB",
-            "bGxNZXNzYWdlRnJvbUxvY2FsU3RvcmFnZVJlc3AicQokSW5zZXJ0U2luZ2xl",
-            "TWVzc2FnZVRvTG9jYWxTdG9yYWdlUmVxEikKA21zZxgBIAEoCzIcLm9wZW5p",
-            "bS5zZGsuc2hhcmVkLklNTWVzc2FnZRIOCgZyZWN2SUQYAiABKAkSDgoGc2Vu",
-            "ZElEGAMgASgJIlIKJUluc2VydFNpbmdsZU1lc3NhZ2VUb0xvY2FsU3RvcmFn",
-            "ZVJlc3ASKQoDbXNnGAEgASgLMhwub3BlbmltLnNkay5zaGFyZWQuSU1NZXNz",
-            "YWdlInEKI0luc2VydEdyb3VwTWVzc2FnZVRvTG9jYWxTdG9yYWdlUmVxEikK",
-            "A21zZxgBIAEoCzIcLm9wZW5pbS5zZGsuc2hhcmVkLklNTWVzc2FnZRIPCgdn",
-            "cm91cElEGAIgASgJEg4KBnNlbmRJRBgDIAEoCSJRCiRJbnNlcnRHcm91cE1l",
-            "c3NhZ2VUb0xvY2FsU3RvcmFnZVJlc3ASKQoDbXNnGAEgASgLMhwub3Blbmlt",
-            "LnNkay5zaGFyZWQuSU1NZXNzYWdlIiQKFENyZWF0ZVRleHRNZXNzYWdlUmVx",
-            "EgwKBHRleHQYASABKAkiRgoVQ3JlYXRlVGV4dE1lc3NhZ2VSZXNwEi0KB21l",
-            "c3NhZ2UYASABKAsyHC5vcGVuaW0uc2RrLnNoYXJlZC5JTU1lc3NhZ2UiZwoc",
-            "Q3JlYXRlQWR2YW5jZWRUZXh0TWVzc2FnZVJlcRIMCgR0ZXh0GAEgASgJEjkK",
-            "D21lc3NhZ2VFbnRpdGllcxgCIAMoCzIgLm9wZW5pbS5zZGsuc2hhcmVkLk1l",
-            "c3NhZ2VFbnRpdHkiTgodQ3JlYXRlQWR2YW5jZWRUZXh0TWVzc2FnZVJlc3AS",
-            "LQoHbWVzc2FnZRgBIAEoCzIcLm9wZW5pbS5zZGsuc2hhcmVkLklNTWVzc2Fn",
-            "ZSKcAQoWQ3JlYXRlVGV4dEF0TWVzc2FnZVJlcRIMCgR0ZXh0GAEgASgJEhIK",
-            "CnVzZXJJRExpc3QYAiADKAkSLAoJdXNlcnNJbmZvGAMgAygLMhkub3Blbmlt",
-            "LnNkay5zaGFyZWQuQXRJbmZvEjIKDHF1b3RlTWVzc2FnZRgEIAEoCzIcLm9w",
-            "ZW5pbS5zZGsuc2hhcmVkLklNTWVzc2FnZSJIChdDcmVhdGVUZXh0QXRNZXNz",
-            "YWdlUmVzcBItCgdtZXNzYWdlGAEgASgLMhwub3BlbmltLnNkay5zaGFyZWQu",
-            "SU1NZXNzYWdlIlQKGENyZWF0ZUxvY2F0aW9uTWVzc2FnZVJlcRITCgtkZXNj",
-            "cmlwdGlvbhgBIAEoCRIRCglsb25naXR1ZGUYAiABKAESEAoIbGF0aXR1ZGUY",
-            "AyABKAEiSgoZQ3JlYXRlTG9jYXRpb25NZXNzYWdlUmVzcBItCgdtZXNzYWdl",
-            "GAEgASgLMhwub3BlbmltLnNkay5zaGFyZWQuSU1NZXNzYWdlIk4KFkNyZWF0",
-            "ZUN1c3RvbU1lc3NhZ2VSZXESDAoEZGF0YRgBIAEoCRIRCglleHRlbnNpb24Y",
-            "AiABKAkSEwoLZGVzY3JpcHRpb24YAyABKAkiSAoXQ3JlYXRlQ3VzdG9tTWVz",
-            "c2FnZVJlc3ASLQoHbWVzc2FnZRgBIAEoCzIcLm9wZW5pbS5zZGsuc2hhcmVk",
-            "LklNTWVzc2FnZSJZChVDcmVhdGVRdW90ZU1lc3NhZ2VSZXESDAoEdGV4dBgB",
-            "IAEoCRIyCgxxdW90ZU1lc3NhZ2UYAiABKAsyHC5vcGVuaW0uc2RrLnNoYXJl",
-            "ZC5JTU1lc3NhZ2UiRwoWQ3JlYXRlUXVvdGVNZXNzYWdlUmVzcBItCgdtZXNz",
-            "YWdlGAEgASgLMhwub3BlbmltLnNkay5zaGFyZWQuSU1NZXNzYWdlIpwBCh1D",
-            "cmVhdGVBZHZhbmNlZFF1b3RlTWVzc2FnZVJlcRIMCgR0ZXh0GAEgASgJEjIK",
-            "DHF1b3RlTWVzc2FnZRgCIAEoCzIcLm9wZW5pbS5zZGsuc2hhcmVkLklNTWVz",
-            "c2FnZRI5Cg9tZXNzYWdlRW50aXRpZXMYAyADKAsyIC5vcGVuaW0uc2RrLnNo",
-            "YXJlZC5NZXNzYWdlRW50aXR5Ik8KHkNyZWF0ZUFkdmFuY2VkUXVvdGVNZXNz",
-            "YWdlUmVzcBItCgdtZXNzYWdlGAEgASgLMhwub3BlbmltLnNkay5zaGFyZWQu",
-            "SU1NZXNzYWdlIkEKFENyZWF0ZUNhcmRNZXNzYWdlUmVxEikKBGNhcmQYASAB",
-            "KAsyGy5vcGVuaW0uc2RrLnNoYXJlZC5DYXJkRWxlbSJGChVDcmVhdGVDYXJk",
+            "ZXEiJAoiRGVsZXRlQWxsTXNnRnJvbUxvY2FsQW5kU2VydmVyUmVzcCIeChxE",
+            "ZWxldGVBbGxNZXNzYWdlRnJvbUxvY2FsUmVxIh8KHURlbGV0ZUFsbE1lc3Nh",
+            "Z2VGcm9tTG9jYWxSZXNwImoKHUluc2VydFNpbmdsZU1lc3NhZ2VUb0xvY2Fs",
+            "UmVxEikKA21zZxgBIAEoCzIcLm9wZW5pbS5zZGsuc2hhcmVkLklNTWVzc2Fn",
+            "ZRIOCgZyZWN2SUQYAiABKAkSDgoGc2VuZElEGAMgASgJIksKHkluc2VydFNp",
+            "bmdsZU1lc3NhZ2VUb0xvY2FsUmVzcBIpCgNtc2cYASABKAsyHC5vcGVuaW0u",
+            "c2RrLnNoYXJlZC5JTU1lc3NhZ2UiagocSW5zZXJ0R3JvdXBNZXNzYWdlVG9M",
+            "b2NhbFJlcRIpCgNtc2cYASABKAsyHC5vcGVuaW0uc2RrLnNoYXJlZC5JTU1l",
+            "c3NhZ2USDwoHZ3JvdXBJRBgCIAEoCRIOCgZzZW5kSUQYAyABKAkiSgodSW5z",
+            "ZXJ0R3JvdXBNZXNzYWdlVG9Mb2NhbFJlc3ASKQoDbXNnGAEgASgLMhwub3Bl",
+            "bmltLnNkay5zaGFyZWQuSU1NZXNzYWdlIiQKFENyZWF0ZVRleHRNZXNzYWdl",
+            "UmVxEgwKBHRleHQYASABKAkiRgoVQ3JlYXRlVGV4dE1lc3NhZ2VSZXNwEi0K",
+            "B21lc3NhZ2UYASABKAsyHC5vcGVuaW0uc2RrLnNoYXJlZC5JTU1lc3NhZ2Ui",
+            "ZwocQ3JlYXRlQWR2YW5jZWRUZXh0TWVzc2FnZVJlcRIMCgR0ZXh0GAEgASgJ",
+            "EjkKD21lc3NhZ2VFbnRpdGllcxgCIAMoCzIgLm9wZW5pbS5zZGsuc2hhcmVk",
+            "Lk1lc3NhZ2VFbnRpdHkiTgodQ3JlYXRlQWR2YW5jZWRUZXh0TWVzc2FnZVJl",
+            "c3ASLQoHbWVzc2FnZRgBIAEoCzIcLm9wZW5pbS5zZGsuc2hhcmVkLklNTWVz",
+            "c2FnZSKcAQoWQ3JlYXRlVGV4dEF0TWVzc2FnZVJlcRIMCgR0ZXh0GAEgASgJ",
+            "EhIKCnVzZXJJRExpc3QYAiADKAkSLAoJdXNlcnNJbmZvGAMgAygLMhkub3Bl",
+            "bmltLnNkay5zaGFyZWQuQXRJbmZvEjIKDHF1b3RlTWVzc2FnZRgEIAEoCzIc",
+            "Lm9wZW5pbS5zZGsuc2hhcmVkLklNTWVzc2FnZSJIChdDcmVhdGVUZXh0QXRN",
+            "ZXNzYWdlUmVzcBItCgdtZXNzYWdlGAEgASgLMhwub3BlbmltLnNkay5zaGFy",
+            "ZWQuSU1NZXNzYWdlIlQKGENyZWF0ZUxvY2F0aW9uTWVzc2FnZVJlcRITCgtk",
+            "ZXNjcmlwdGlvbhgBIAEoCRIRCglsb25naXR1ZGUYAiABKAESEAoIbGF0aXR1",
+            "ZGUYAyABKAEiSgoZQ3JlYXRlTG9jYXRpb25NZXNzYWdlUmVzcBItCgdtZXNz",
+            "YWdlGAEgASgLMhwub3BlbmltLnNkay5zaGFyZWQuSU1NZXNzYWdlIk4KFkNy",
+            "ZWF0ZUN1c3RvbU1lc3NhZ2VSZXESDAoEZGF0YRgBIAEoCRIRCglleHRlbnNp",
+            "b24YAiABKAkSEwoLZGVzY3JpcHRpb24YAyABKAkiSAoXQ3JlYXRlQ3VzdG9t",
             "TWVzc2FnZVJlc3ASLQoHbWVzc2FnZRgBIAEoCzIcLm9wZW5pbS5zZGsuc2hh",
-            "cmVkLklNTWVzc2FnZSLgAQoVQ3JlYXRlSW1hZ2VNZXNzYWdlUmVxEhcKD2lt",
-            "YWdlU291cmNlUGF0aBgBIAEoCRI5Cg1zb3VyY2VQaWN0dXJlGAIgASgLMiIu",
-            "b3BlbmltLnNkay5zaGFyZWQuUGljdHVyZUJhc2VJbmZvEjYKCmJpZ1BpY3R1",
-            "cmUYAyABKAsyIi5vcGVuaW0uc2RrLnNoYXJlZC5QaWN0dXJlQmFzZUluZm8S",
-            "OwoPc25hcHNob3RQaWN0dXJlGAQgASgLMiIub3BlbmltLnNkay5zaGFyZWQu",
-            "UGljdHVyZUJhc2VJbmZvIkcKFkNyZWF0ZUltYWdlTWVzc2FnZVJlc3ASLQoH",
-            "bWVzc2FnZRgBIAEoCzIcLm9wZW5pbS5zZGsuc2hhcmVkLklNTWVzc2FnZSJx",
-            "ChVDcmVhdGVTb3VuZE1lc3NhZ2VSZXESEQoJc291bmRQYXRoGAEgASgJEhAK",
-            "CGR1cmF0aW9uGAIgASgDEjMKCXNvdW5kRWxlbRgDIAEoCzIgLm9wZW5pbS5z",
-            "ZGsuc2hhcmVkLlNvdW5kQmFzZUluZm8iRwoWQ3JlYXRlU291bmRNZXNzYWdl",
-            "UmVzcBItCgdtZXNzYWdlGAEgASgLMhwub3BlbmltLnNkay5zaGFyZWQuSU1N",
-            "ZXNzYWdlIqYBChVDcmVhdGVWaWRlb01lc3NhZ2VSZXESFwoPdmlkZW9Tb3Vy",
-            "Y2VQYXRoGAEgASgJEhEKCXZpZGVvVHlwZRgCIAEoCRIQCghkdXJhdGlvbhgD",
-            "IAEoAxIaChJzbmFwc2hvdFNvdXJjZVBhdGgYBCABKAkSMwoJdmlkZW9FbGVt",
-            "GAUgASgLMiAub3BlbmltLnNkay5zaGFyZWQuVmlkZW9CYXNlSW5mbyJHChZD",
-            "cmVhdGVWaWRlb01lc3NhZ2VSZXNwEi0KB21lc3NhZ2UYASABKAsyHC5vcGVu",
-            "aW0uc2RrLnNoYXJlZC5JTU1lc3NhZ2UicwoUQ3JlYXRlRmlsZU1lc3NhZ2VS",
-            "ZXESFgoOZmlsZVNvdXJjZVBhdGgYASABKAkSEAoIZmlsZU5hbWUYAiABKAkS",
-            "MQoIZmlsZUVsZW0YAyABKAsyHy5vcGVuaW0uc2RrLnNoYXJlZC5GaWxlQmFz",
-            "ZUluZm8iRgoVQ3JlYXRlRmlsZU1lc3NhZ2VSZXNwEi0KB21lc3NhZ2UYASAB",
-            "KAsyHC5vcGVuaW0uc2RrLnNoYXJlZC5JTU1lc3NhZ2UiagoWQ3JlYXRlTWVy",
-            "Z2VyTWVzc2FnZVJlcRIuCghtZXNzYWdlcxgBIAMoCzIcLm9wZW5pbS5zZGsu",
-            "c2hhcmVkLklNTWVzc2FnZRINCgV0aXRsZRgCIAEoCRIRCglzdW1tYXJpZXMY",
-            "AyADKAkiSAoXQ3JlYXRlTWVyZ2VyTWVzc2FnZVJlc3ASLQoHbWVzc2FnZRgB",
-            "IAEoCzIcLm9wZW5pbS5zZGsuc2hhcmVkLklNTWVzc2FnZSIzChRDcmVhdGVG",
-            "YWNlTWVzc2FnZVJlcRINCgVpbmRleBgBIAEoBRIMCgRkYXRhGAIgASgJIkYK",
-            "FUNyZWF0ZUZhY2VNZXNzYWdlUmVzcBItCgdtZXNzYWdlGAEgASgLMhwub3Bl",
-            "bmltLnNkay5zaGFyZWQuSU1NZXNzYWdlIkgKF0NyZWF0ZUZvcndhcmRNZXNz",
-            "YWdlUmVxEi0KB21lc3NhZ2UYASABKAsyHC5vcGVuaW0uc2RrLnNoYXJlZC5J",
-            "TU1lc3NhZ2UiSQoYQ3JlYXRlRm9yd2FyZE1lc3NhZ2VSZXNwEi0KB21lc3Nh",
-            "Z2UYASABKAsyHC5vcGVuaW0uc2RrLnNoYXJlZC5JTU1lc3NhZ2VCTFo4Z2l0",
-            "aHViLmNvbS9vcGVuaW1zZGsvb3BlbmltLXNkay1jb3JlL3YzL3Byb3RvL2dv",
-            "L21lc3NhZ2WqAgxPcGVuSU0uUHJvdG+6AgBiBnByb3RvMw=="));
+            "cmVkLklNTWVzc2FnZSJZChVDcmVhdGVRdW90ZU1lc3NhZ2VSZXESDAoEdGV4",
+            "dBgBIAEoCRIyCgxxdW90ZU1lc3NhZ2UYAiABKAsyHC5vcGVuaW0uc2RrLnNo",
+            "YXJlZC5JTU1lc3NhZ2UiRwoWQ3JlYXRlUXVvdGVNZXNzYWdlUmVzcBItCgdt",
+            "ZXNzYWdlGAEgASgLMhwub3BlbmltLnNkay5zaGFyZWQuSU1NZXNzYWdlIpwB",
+            "Ch1DcmVhdGVBZHZhbmNlZFF1b3RlTWVzc2FnZVJlcRIMCgR0ZXh0GAEgASgJ",
+            "EjIKDHF1b3RlTWVzc2FnZRgCIAEoCzIcLm9wZW5pbS5zZGsuc2hhcmVkLklN",
+            "TWVzc2FnZRI5Cg9tZXNzYWdlRW50aXRpZXMYAyADKAsyIC5vcGVuaW0uc2Rr",
+            "LnNoYXJlZC5NZXNzYWdlRW50aXR5Ik8KHkNyZWF0ZUFkdmFuY2VkUXVvdGVN",
+            "ZXNzYWdlUmVzcBItCgdtZXNzYWdlGAEgASgLMhwub3BlbmltLnNkay5zaGFy",
+            "ZWQuSU1NZXNzYWdlIlUKFENyZWF0ZUNhcmRNZXNzYWdlUmVxEg4KBnVzZXJJ",
+            "RBgBIAEoCRIQCghuaWNrbmFtZRgCIAEoCRIPCgdmYWNlVVJMGAMgASgJEgoK",
+            "AmV4GAQgASgJIkYKFUNyZWF0ZUNhcmRNZXNzYWdlUmVzcBItCgdtZXNzYWdl",
+            "GAEgASgLMhwub3BlbmltLnNkay5zaGFyZWQuSU1NZXNzYWdlIqkCChVDcmVh",
+            "dGVJbWFnZU1lc3NhZ2VSZXESEgoKc291cmNlUGF0aBgBIAEoCRIUCgdiaWdQ",
+            "YXRoGAIgASgJSACIAQESGQoMc25hcHNob3RQYXRoGAMgASgJSAGIAQESOQoN",
+            "c291cmNlUGljdHVyZRgEIAEoCzIiLm9wZW5pbS5zZGsuc2hhcmVkLlBpY3R1",
+            "cmVCYXNlSW5mbxI2CgpiaWdQaWN0dXJlGAUgASgLMiIub3BlbmltLnNkay5z",
+            "aGFyZWQuUGljdHVyZUJhc2VJbmZvEjsKD3NuYXBzaG90UGljdHVyZRgGIAEo",
+            "CzIiLm9wZW5pbS5zZGsuc2hhcmVkLlBpY3R1cmVCYXNlSW5mb0IKCghfYmln",
+            "UGF0aEIPCg1fc25hcHNob3RQYXRoIkcKFkNyZWF0ZUltYWdlTWVzc2FnZVJl",
+            "c3ASLQoHbWVzc2FnZRgBIAEoCzIcLm9wZW5pbS5zZGsuc2hhcmVkLklNTWVz",
+            "c2FnZSJxChVDcmVhdGVTb3VuZE1lc3NhZ2VSZXESEQoJc291bmRQYXRoGAEg",
+            "ASgJEhAKCGR1cmF0aW9uGAIgASgDEjMKCXNvdW5kRWxlbRgDIAEoCzIgLm9w",
+            "ZW5pbS5zZGsuc2hhcmVkLlNvdW5kQmFzZUluZm8iRwoWQ3JlYXRlU291bmRN",
+            "ZXNzYWdlUmVzcBItCgdtZXNzYWdlGAEgASgLMhwub3BlbmltLnNkay5zaGFy",
+            "ZWQuSU1NZXNzYWdlIqYBChVDcmVhdGVWaWRlb01lc3NhZ2VSZXESFwoPdmlk",
+            "ZW9Tb3VyY2VQYXRoGAEgASgJEhEKCXZpZGVvVHlwZRgCIAEoCRIQCghkdXJh",
+            "dGlvbhgDIAEoAxIaChJzbmFwc2hvdFNvdXJjZVBhdGgYBCABKAkSMwoJdmlk",
+            "ZW9FbGVtGAUgASgLMiAub3BlbmltLnNkay5zaGFyZWQuVmlkZW9CYXNlSW5m",
+            "byJHChZDcmVhdGVWaWRlb01lc3NhZ2VSZXNwEi0KB21lc3NhZ2UYASABKAsy",
+            "HC5vcGVuaW0uc2RrLnNoYXJlZC5JTU1lc3NhZ2UicwoUQ3JlYXRlRmlsZU1l",
+            "c3NhZ2VSZXESFgoOZmlsZVNvdXJjZVBhdGgYASABKAkSEAoIZmlsZU5hbWUY",
+            "AiABKAkSMQoIZmlsZUVsZW0YAyABKAsyHy5vcGVuaW0uc2RrLnNoYXJlZC5G",
+            "aWxlQmFzZUluZm8iRgoVQ3JlYXRlRmlsZU1lc3NhZ2VSZXNwEi0KB21lc3Nh",
+            "Z2UYASABKAsyHC5vcGVuaW0uc2RrLnNoYXJlZC5JTU1lc3NhZ2UiagoWQ3Jl",
+            "YXRlTWVyZ2VyTWVzc2FnZVJlcRIuCghtZXNzYWdlcxgBIAMoCzIcLm9wZW5p",
+            "bS5zZGsuc2hhcmVkLklNTWVzc2FnZRINCgV0aXRsZRgCIAEoCRIRCglzdW1t",
+            "YXJpZXMYAyADKAkiSAoXQ3JlYXRlTWVyZ2VyTWVzc2FnZVJlc3ASLQoHbWVz",
+            "c2FnZRgBIAEoCzIcLm9wZW5pbS5zZGsuc2hhcmVkLklNTWVzc2FnZSIzChRD",
+            "cmVhdGVGYWNlTWVzc2FnZVJlcRINCgVpbmRleBgBIAEoBRIMCgRkYXRhGAIg",
+            "ASgJIkYKFUNyZWF0ZUZhY2VNZXNzYWdlUmVzcBItCgdtZXNzYWdlGAEgASgL",
+            "Mhwub3BlbmltLnNkay5zaGFyZWQuSU1NZXNzYWdlIkgKF0NyZWF0ZUZvcndh",
+            "cmRNZXNzYWdlUmVxEi0KB21lc3NhZ2UYASABKAsyHC5vcGVuaW0uc2RrLnNo",
+            "YXJlZC5JTU1lc3NhZ2UiSQoYQ3JlYXRlRm9yd2FyZE1lc3NhZ2VSZXNwEi0K",
+            "B21lc3NhZ2UYASABKAsyHC5vcGVuaW0uc2RrLnNoYXJlZC5JTU1lc3NhZ2Uy",
+            "wQMKDk1lc3NhZ2VTZXJ2aWNlEmsKEkNyZWF0ZUltYWdlTWVzc2FnZRIpLm9w",
+            "ZW5pbS5zZGsubWVzc2FnZS5DcmVhdGVJbWFnZU1lc3NhZ2VSZXEaKi5vcGVu",
+            "aW0uc2RrLm1lc3NhZ2UuQ3JlYXRlSW1hZ2VNZXNzYWdlUmVzcBJrChJDcmVh",
+            "dGVTb3VuZE1lc3NhZ2USKS5vcGVuaW0uc2RrLm1lc3NhZ2UuQ3JlYXRlU291",
+            "bmRNZXNzYWdlUmVxGioub3BlbmltLnNkay5tZXNzYWdlLkNyZWF0ZVNvdW5k",
+            "TWVzc2FnZVJlc3ASawoSQ3JlYXRlVmlkZW9NZXNzYWdlEikub3BlbmltLnNk",
+            "ay5tZXNzYWdlLkNyZWF0ZVZpZGVvTWVzc2FnZVJlcRoqLm9wZW5pbS5zZGsu",
+            "bWVzc2FnZS5DcmVhdGVWaWRlb01lc3NhZ2VSZXNwEmgKEUNyZWF0ZUZpbGVN",
+            "ZXNzYWdlEigub3BlbmltLnNkay5tZXNzYWdlLkNyZWF0ZUZpbGVNZXNzYWdl",
+            "UmVxGikub3BlbmltLnNkay5tZXNzYWdlLkNyZWF0ZUZpbGVNZXNzYWdlUmVz",
+            "cEJMWjhnaXRodWIuY29tL29wZW5pbXNkay9vcGVuaW0tc2RrLWNvcmUvdjMv",
+            "cHJvdG8vZ28vbWVzc2FnZaoCDE9wZW5JTS5Qcm90b7oCAGIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::OpenIM.Proto.SharedReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -131,12 +142,12 @@ namespace OpenIM.Proto {
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.DeleteMessageResp), global::OpenIM.Proto.DeleteMessageResp.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.DeleteAllMsgFromLocalAndServerReq), global::OpenIM.Proto.DeleteAllMsgFromLocalAndServerReq.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.DeleteAllMsgFromLocalAndServerResp), global::OpenIM.Proto.DeleteAllMsgFromLocalAndServerResp.Parser, null, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.DeleteAllMessageFromLocalStorageReq), global::OpenIM.Proto.DeleteAllMessageFromLocalStorageReq.Parser, null, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.DeleteAllMessageFromLocalStorageResp), global::OpenIM.Proto.DeleteAllMessageFromLocalStorageResp.Parser, null, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.InsertSingleMessageToLocalStorageReq), global::OpenIM.Proto.InsertSingleMessageToLocalStorageReq.Parser, new[]{ "Msg", "RecvID", "SendID" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.InsertSingleMessageToLocalStorageResp), global::OpenIM.Proto.InsertSingleMessageToLocalStorageResp.Parser, new[]{ "Msg" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.InsertGroupMessageToLocalStorageReq), global::OpenIM.Proto.InsertGroupMessageToLocalStorageReq.Parser, new[]{ "Msg", "GroupID", "SendID" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.InsertGroupMessageToLocalStorageResp), global::OpenIM.Proto.InsertGroupMessageToLocalStorageResp.Parser, new[]{ "Msg" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.DeleteAllMessageFromLocalReq), global::OpenIM.Proto.DeleteAllMessageFromLocalReq.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.DeleteAllMessageFromLocalResp), global::OpenIM.Proto.DeleteAllMessageFromLocalResp.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.InsertSingleMessageToLocalReq), global::OpenIM.Proto.InsertSingleMessageToLocalReq.Parser, new[]{ "Msg", "RecvID", "SendID" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.InsertSingleMessageToLocalResp), global::OpenIM.Proto.InsertSingleMessageToLocalResp.Parser, new[]{ "Msg" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.InsertGroupMessageToLocalReq), global::OpenIM.Proto.InsertGroupMessageToLocalReq.Parser, new[]{ "Msg", "GroupID", "SendID" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.InsertGroupMessageToLocalResp), global::OpenIM.Proto.InsertGroupMessageToLocalResp.Parser, new[]{ "Msg" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.CreateTextMessageReq), global::OpenIM.Proto.CreateTextMessageReq.Parser, new[]{ "Text" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.CreateTextMessageResp), global::OpenIM.Proto.CreateTextMessageResp.Parser, new[]{ "Message" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.CreateAdvancedTextMessageReq), global::OpenIM.Proto.CreateAdvancedTextMessageReq.Parser, new[]{ "Text", "MessageEntities" }, null, null, null, null),
@@ -151,9 +162,9 @@ namespace OpenIM.Proto {
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.CreateQuoteMessageResp), global::OpenIM.Proto.CreateQuoteMessageResp.Parser, new[]{ "Message" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.CreateAdvancedQuoteMessageReq), global::OpenIM.Proto.CreateAdvancedQuoteMessageReq.Parser, new[]{ "Text", "QuoteMessage", "MessageEntities" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.CreateAdvancedQuoteMessageResp), global::OpenIM.Proto.CreateAdvancedQuoteMessageResp.Parser, new[]{ "Message" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.CreateCardMessageReq), global::OpenIM.Proto.CreateCardMessageReq.Parser, new[]{ "Card" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.CreateCardMessageReq), global::OpenIM.Proto.CreateCardMessageReq.Parser, new[]{ "UserID", "Nickname", "FaceURL", "Ex" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.CreateCardMessageResp), global::OpenIM.Proto.CreateCardMessageResp.Parser, new[]{ "Message" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.CreateImageMessageReq), global::OpenIM.Proto.CreateImageMessageReq.Parser, new[]{ "ImageSourcePath", "SourcePicture", "BigPicture", "SnapshotPicture" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.CreateImageMessageReq), global::OpenIM.Proto.CreateImageMessageReq.Parser, new[]{ "SourcePath", "BigPath", "SnapshotPath", "SourcePicture", "BigPicture", "SnapshotPicture" }, new[]{ "BigPath", "SnapshotPath" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.CreateImageMessageResp), global::OpenIM.Proto.CreateImageMessageResp.Parser, new[]{ "Message" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.CreateSoundMessageReq), global::OpenIM.Proto.CreateSoundMessageReq.Parser, new[]{ "SoundPath", "Duration", "SoundElem" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.CreateSoundMessageResp), global::OpenIM.Proto.CreateSoundMessageResp.Parser, new[]{ "Message" }, null, null, null, null),
@@ -2819,16 +2830,16 @@ namespace OpenIM.Proto {
   }
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class DeleteAllMessageFromLocalStorageReq : pb::IMessage<DeleteAllMessageFromLocalStorageReq>
+  public sealed partial class DeleteAllMessageFromLocalReq : pb::IMessage<DeleteAllMessageFromLocalReq>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<DeleteAllMessageFromLocalStorageReq> _parser = new pb::MessageParser<DeleteAllMessageFromLocalStorageReq>(() => new DeleteAllMessageFromLocalStorageReq());
+    private static readonly pb::MessageParser<DeleteAllMessageFromLocalReq> _parser = new pb::MessageParser<DeleteAllMessageFromLocalReq>(() => new DeleteAllMessageFromLocalReq());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<DeleteAllMessageFromLocalStorageReq> Parser { get { return _parser; } }
+    public static pb::MessageParser<DeleteAllMessageFromLocalReq> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -2844,7 +2855,7 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public DeleteAllMessageFromLocalStorageReq() {
+    public DeleteAllMessageFromLocalReq() {
       OnConstruction();
     }
 
@@ -2852,25 +2863,25 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public DeleteAllMessageFromLocalStorageReq(DeleteAllMessageFromLocalStorageReq other) : this() {
+    public DeleteAllMessageFromLocalReq(DeleteAllMessageFromLocalReq other) : this() {
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public DeleteAllMessageFromLocalStorageReq Clone() {
-      return new DeleteAllMessageFromLocalStorageReq(this);
+    public DeleteAllMessageFromLocalReq Clone() {
+      return new DeleteAllMessageFromLocalReq(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as DeleteAllMessageFromLocalStorageReq);
+      return Equals(other as DeleteAllMessageFromLocalReq);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(DeleteAllMessageFromLocalStorageReq other) {
+    public bool Equals(DeleteAllMessageFromLocalReq other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -2930,7 +2941,7 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(DeleteAllMessageFromLocalStorageReq other) {
+    public void MergeFrom(DeleteAllMessageFromLocalReq other) {
       if (other == null) {
         return;
       }
@@ -2980,16 +2991,16 @@ namespace OpenIM.Proto {
   }
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class DeleteAllMessageFromLocalStorageResp : pb::IMessage<DeleteAllMessageFromLocalStorageResp>
+  public sealed partial class DeleteAllMessageFromLocalResp : pb::IMessage<DeleteAllMessageFromLocalResp>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<DeleteAllMessageFromLocalStorageResp> _parser = new pb::MessageParser<DeleteAllMessageFromLocalStorageResp>(() => new DeleteAllMessageFromLocalStorageResp());
+    private static readonly pb::MessageParser<DeleteAllMessageFromLocalResp> _parser = new pb::MessageParser<DeleteAllMessageFromLocalResp>(() => new DeleteAllMessageFromLocalResp());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<DeleteAllMessageFromLocalStorageResp> Parser { get { return _parser; } }
+    public static pb::MessageParser<DeleteAllMessageFromLocalResp> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -3005,7 +3016,7 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public DeleteAllMessageFromLocalStorageResp() {
+    public DeleteAllMessageFromLocalResp() {
       OnConstruction();
     }
 
@@ -3013,25 +3024,25 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public DeleteAllMessageFromLocalStorageResp(DeleteAllMessageFromLocalStorageResp other) : this() {
+    public DeleteAllMessageFromLocalResp(DeleteAllMessageFromLocalResp other) : this() {
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public DeleteAllMessageFromLocalStorageResp Clone() {
-      return new DeleteAllMessageFromLocalStorageResp(this);
+    public DeleteAllMessageFromLocalResp Clone() {
+      return new DeleteAllMessageFromLocalResp(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as DeleteAllMessageFromLocalStorageResp);
+      return Equals(other as DeleteAllMessageFromLocalResp);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(DeleteAllMessageFromLocalStorageResp other) {
+    public bool Equals(DeleteAllMessageFromLocalResp other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -3091,7 +3102,7 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(DeleteAllMessageFromLocalStorageResp other) {
+    public void MergeFrom(DeleteAllMessageFromLocalResp other) {
       if (other == null) {
         return;
       }
@@ -3141,16 +3152,16 @@ namespace OpenIM.Proto {
   }
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class InsertSingleMessageToLocalStorageReq : pb::IMessage<InsertSingleMessageToLocalStorageReq>
+  public sealed partial class InsertSingleMessageToLocalReq : pb::IMessage<InsertSingleMessageToLocalReq>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<InsertSingleMessageToLocalStorageReq> _parser = new pb::MessageParser<InsertSingleMessageToLocalStorageReq>(() => new InsertSingleMessageToLocalStorageReq());
+    private static readonly pb::MessageParser<InsertSingleMessageToLocalReq> _parser = new pb::MessageParser<InsertSingleMessageToLocalReq>(() => new InsertSingleMessageToLocalReq());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<InsertSingleMessageToLocalStorageReq> Parser { get { return _parser; } }
+    public static pb::MessageParser<InsertSingleMessageToLocalReq> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -3166,7 +3177,7 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public InsertSingleMessageToLocalStorageReq() {
+    public InsertSingleMessageToLocalReq() {
       OnConstruction();
     }
 
@@ -3174,7 +3185,7 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public InsertSingleMessageToLocalStorageReq(InsertSingleMessageToLocalStorageReq other) : this() {
+    public InsertSingleMessageToLocalReq(InsertSingleMessageToLocalReq other) : this() {
       msg_ = other.msg_ != null ? other.msg_.Clone() : null;
       recvID_ = other.recvID_;
       sendID_ = other.sendID_;
@@ -3183,8 +3194,8 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public InsertSingleMessageToLocalStorageReq Clone() {
-      return new InsertSingleMessageToLocalStorageReq(this);
+    public InsertSingleMessageToLocalReq Clone() {
+      return new InsertSingleMessageToLocalReq(this);
     }
 
     /// <summary>Field number for the "msg" field.</summary>
@@ -3226,12 +3237,12 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as InsertSingleMessageToLocalStorageReq);
+      return Equals(other as InsertSingleMessageToLocalReq);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(InsertSingleMessageToLocalStorageReq other) {
+    public bool Equals(InsertSingleMessageToLocalReq other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -3330,7 +3341,7 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(InsertSingleMessageToLocalStorageReq other) {
+    public void MergeFrom(InsertSingleMessageToLocalReq other) {
       if (other == null) {
         return;
       }
@@ -3422,16 +3433,16 @@ namespace OpenIM.Proto {
   }
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class InsertSingleMessageToLocalStorageResp : pb::IMessage<InsertSingleMessageToLocalStorageResp>
+  public sealed partial class InsertSingleMessageToLocalResp : pb::IMessage<InsertSingleMessageToLocalResp>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<InsertSingleMessageToLocalStorageResp> _parser = new pb::MessageParser<InsertSingleMessageToLocalStorageResp>(() => new InsertSingleMessageToLocalStorageResp());
+    private static readonly pb::MessageParser<InsertSingleMessageToLocalResp> _parser = new pb::MessageParser<InsertSingleMessageToLocalResp>(() => new InsertSingleMessageToLocalResp());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<InsertSingleMessageToLocalStorageResp> Parser { get { return _parser; } }
+    public static pb::MessageParser<InsertSingleMessageToLocalResp> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -3447,7 +3458,7 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public InsertSingleMessageToLocalStorageResp() {
+    public InsertSingleMessageToLocalResp() {
       OnConstruction();
     }
 
@@ -3455,15 +3466,15 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public InsertSingleMessageToLocalStorageResp(InsertSingleMessageToLocalStorageResp other) : this() {
+    public InsertSingleMessageToLocalResp(InsertSingleMessageToLocalResp other) : this() {
       msg_ = other.msg_ != null ? other.msg_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public InsertSingleMessageToLocalStorageResp Clone() {
-      return new InsertSingleMessageToLocalStorageResp(this);
+    public InsertSingleMessageToLocalResp Clone() {
+      return new InsertSingleMessageToLocalResp(this);
     }
 
     /// <summary>Field number for the "msg" field.</summary>
@@ -3481,12 +3492,12 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as InsertSingleMessageToLocalStorageResp);
+      return Equals(other as InsertSingleMessageToLocalResp);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(InsertSingleMessageToLocalStorageResp other) {
+    public bool Equals(InsertSingleMessageToLocalResp other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -3559,7 +3570,7 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(InsertSingleMessageToLocalStorageResp other) {
+    public void MergeFrom(InsertSingleMessageToLocalResp other) {
       if (other == null) {
         return;
       }
@@ -3629,16 +3640,16 @@ namespace OpenIM.Proto {
   }
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class InsertGroupMessageToLocalStorageReq : pb::IMessage<InsertGroupMessageToLocalStorageReq>
+  public sealed partial class InsertGroupMessageToLocalReq : pb::IMessage<InsertGroupMessageToLocalReq>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<InsertGroupMessageToLocalStorageReq> _parser = new pb::MessageParser<InsertGroupMessageToLocalStorageReq>(() => new InsertGroupMessageToLocalStorageReq());
+    private static readonly pb::MessageParser<InsertGroupMessageToLocalReq> _parser = new pb::MessageParser<InsertGroupMessageToLocalReq>(() => new InsertGroupMessageToLocalReq());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<InsertGroupMessageToLocalStorageReq> Parser { get { return _parser; } }
+    public static pb::MessageParser<InsertGroupMessageToLocalReq> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -3654,7 +3665,7 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public InsertGroupMessageToLocalStorageReq() {
+    public InsertGroupMessageToLocalReq() {
       OnConstruction();
     }
 
@@ -3662,7 +3673,7 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public InsertGroupMessageToLocalStorageReq(InsertGroupMessageToLocalStorageReq other) : this() {
+    public InsertGroupMessageToLocalReq(InsertGroupMessageToLocalReq other) : this() {
       msg_ = other.msg_ != null ? other.msg_.Clone() : null;
       groupID_ = other.groupID_;
       sendID_ = other.sendID_;
@@ -3671,8 +3682,8 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public InsertGroupMessageToLocalStorageReq Clone() {
-      return new InsertGroupMessageToLocalStorageReq(this);
+    public InsertGroupMessageToLocalReq Clone() {
+      return new InsertGroupMessageToLocalReq(this);
     }
 
     /// <summary>Field number for the "msg" field.</summary>
@@ -3714,12 +3725,12 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as InsertGroupMessageToLocalStorageReq);
+      return Equals(other as InsertGroupMessageToLocalReq);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(InsertGroupMessageToLocalStorageReq other) {
+    public bool Equals(InsertGroupMessageToLocalReq other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -3818,7 +3829,7 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(InsertGroupMessageToLocalStorageReq other) {
+    public void MergeFrom(InsertGroupMessageToLocalReq other) {
       if (other == null) {
         return;
       }
@@ -3910,16 +3921,16 @@ namespace OpenIM.Proto {
   }
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class InsertGroupMessageToLocalStorageResp : pb::IMessage<InsertGroupMessageToLocalStorageResp>
+  public sealed partial class InsertGroupMessageToLocalResp : pb::IMessage<InsertGroupMessageToLocalResp>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<InsertGroupMessageToLocalStorageResp> _parser = new pb::MessageParser<InsertGroupMessageToLocalStorageResp>(() => new InsertGroupMessageToLocalStorageResp());
+    private static readonly pb::MessageParser<InsertGroupMessageToLocalResp> _parser = new pb::MessageParser<InsertGroupMessageToLocalResp>(() => new InsertGroupMessageToLocalResp());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<InsertGroupMessageToLocalStorageResp> Parser { get { return _parser; } }
+    public static pb::MessageParser<InsertGroupMessageToLocalResp> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -3935,7 +3946,7 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public InsertGroupMessageToLocalStorageResp() {
+    public InsertGroupMessageToLocalResp() {
       OnConstruction();
     }
 
@@ -3943,15 +3954,15 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public InsertGroupMessageToLocalStorageResp(InsertGroupMessageToLocalStorageResp other) : this() {
+    public InsertGroupMessageToLocalResp(InsertGroupMessageToLocalResp other) : this() {
       msg_ = other.msg_ != null ? other.msg_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public InsertGroupMessageToLocalStorageResp Clone() {
-      return new InsertGroupMessageToLocalStorageResp(this);
+    public InsertGroupMessageToLocalResp Clone() {
+      return new InsertGroupMessageToLocalResp(this);
     }
 
     /// <summary>Field number for the "msg" field.</summary>
@@ -3969,12 +3980,12 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as InsertGroupMessageToLocalStorageResp);
+      return Equals(other as InsertGroupMessageToLocalResp);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(InsertGroupMessageToLocalStorageResp other) {
+    public bool Equals(InsertGroupMessageToLocalResp other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -4047,7 +4058,7 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(InsertGroupMessageToLocalStorageResp other) {
+    public void MergeFrom(InsertGroupMessageToLocalResp other) {
       if (other == null) {
         return;
       }
@@ -7376,7 +7387,10 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public CreateCardMessageReq(CreateCardMessageReq other) : this() {
-      card_ = other.card_ != null ? other.card_.Clone() : null;
+      userID_ = other.userID_;
+      nickname_ = other.nickname_;
+      faceURL_ = other.faceURL_;
+      ex_ = other.ex_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -7386,15 +7400,51 @@ namespace OpenIM.Proto {
       return new CreateCardMessageReq(this);
     }
 
-    /// <summary>Field number for the "card" field.</summary>
-    public const int CardFieldNumber = 1;
-    private global::OpenIM.Proto.CardElem card_;
+    /// <summary>Field number for the "userID" field.</summary>
+    public const int UserIDFieldNumber = 1;
+    private string userID_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::OpenIM.Proto.CardElem Card {
-      get { return card_; }
+    public string UserID {
+      get { return userID_; }
       set {
-        card_ = value;
+        userID_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "nickname" field.</summary>
+    public const int NicknameFieldNumber = 2;
+    private string nickname_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Nickname {
+      get { return nickname_; }
+      set {
+        nickname_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "faceURL" field.</summary>
+    public const int FaceURLFieldNumber = 3;
+    private string faceURL_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string FaceURL {
+      get { return faceURL_; }
+      set {
+        faceURL_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ex" field.</summary>
+    public const int ExFieldNumber = 4;
+    private string ex_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Ex {
+      get { return ex_; }
+      set {
+        ex_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -7413,7 +7463,10 @@ namespace OpenIM.Proto {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (!object.Equals(Card, other.Card)) return false;
+      if (UserID != other.UserID) return false;
+      if (Nickname != other.Nickname) return false;
+      if (FaceURL != other.FaceURL) return false;
+      if (Ex != other.Ex) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -7421,7 +7474,10 @@ namespace OpenIM.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (card_ != null) hash ^= Card.GetHashCode();
+      if (UserID.Length != 0) hash ^= UserID.GetHashCode();
+      if (Nickname.Length != 0) hash ^= Nickname.GetHashCode();
+      if (FaceURL.Length != 0) hash ^= FaceURL.GetHashCode();
+      if (Ex.Length != 0) hash ^= Ex.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -7440,9 +7496,21 @@ namespace OpenIM.Proto {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (card_ != null) {
+      if (UserID.Length != 0) {
         output.WriteRawTag(10);
-        output.WriteMessage(Card);
+        output.WriteString(UserID);
+      }
+      if (Nickname.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Nickname);
+      }
+      if (FaceURL.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(FaceURL);
+      }
+      if (Ex.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(Ex);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -7454,9 +7522,21 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (card_ != null) {
+      if (UserID.Length != 0) {
         output.WriteRawTag(10);
-        output.WriteMessage(Card);
+        output.WriteString(UserID);
+      }
+      if (Nickname.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Nickname);
+      }
+      if (FaceURL.Length != 0) {
+        output.WriteRawTag(26);
+        output.WriteString(FaceURL);
+      }
+      if (Ex.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(Ex);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -7468,8 +7548,17 @@ namespace OpenIM.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (card_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Card);
+      if (UserID.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(UserID);
+      }
+      if (Nickname.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Nickname);
+      }
+      if (FaceURL.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(FaceURL);
+      }
+      if (Ex.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Ex);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -7483,11 +7572,17 @@ namespace OpenIM.Proto {
       if (other == null) {
         return;
       }
-      if (other.card_ != null) {
-        if (card_ == null) {
-          Card = new global::OpenIM.Proto.CardElem();
-        }
-        Card.MergeFrom(other.Card);
+      if (other.UserID.Length != 0) {
+        UserID = other.UserID;
+      }
+      if (other.Nickname.Length != 0) {
+        Nickname = other.Nickname;
+      }
+      if (other.FaceURL.Length != 0) {
+        FaceURL = other.FaceURL;
+      }
+      if (other.Ex.Length != 0) {
+        Ex = other.Ex;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -7509,10 +7604,19 @@ namespace OpenIM.Proto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            if (card_ == null) {
-              Card = new global::OpenIM.Proto.CardElem();
-            }
-            input.ReadMessage(Card);
+            UserID = input.ReadString();
+            break;
+          }
+          case 18: {
+            Nickname = input.ReadString();
+            break;
+          }
+          case 26: {
+            FaceURL = input.ReadString();
+            break;
+          }
+          case 34: {
+            Ex = input.ReadString();
             break;
           }
         }
@@ -7535,10 +7639,19 @@ namespace OpenIM.Proto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
-            if (card_ == null) {
-              Card = new global::OpenIM.Proto.CardElem();
-            }
-            input.ReadMessage(Card);
+            UserID = input.ReadString();
+            break;
+          }
+          case 18: {
+            Nickname = input.ReadString();
+            break;
+          }
+          case 26: {
+            FaceURL = input.ReadString();
+            break;
+          }
+          case 34: {
+            Ex = input.ReadString();
             break;
           }
         }
@@ -7790,7 +7903,9 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public CreateImageMessageReq(CreateImageMessageReq other) : this() {
-      imageSourcePath_ = other.imageSourcePath_;
+      sourcePath_ = other.sourcePath_;
+      bigPath_ = other.bigPath_;
+      snapshotPath_ = other.snapshotPath_;
       sourcePicture_ = other.sourcePicture_ != null ? other.sourcePicture_.Clone() : null;
       bigPicture_ = other.bigPicture_ != null ? other.bigPicture_.Clone() : null;
       snapshotPicture_ = other.snapshotPicture_ != null ? other.snapshotPicture_.Clone() : null;
@@ -7803,20 +7918,72 @@ namespace OpenIM.Proto {
       return new CreateImageMessageReq(this);
     }
 
-    /// <summary>Field number for the "imageSourcePath" field.</summary>
-    public const int ImageSourcePathFieldNumber = 1;
-    private string imageSourcePath_ = "";
+    /// <summary>Field number for the "sourcePath" field.</summary>
+    public const int SourcePathFieldNumber = 1;
+    private string sourcePath_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string ImageSourcePath {
-      get { return imageSourcePath_; }
+    public string SourcePath {
+      get { return sourcePath_; }
       set {
-        imageSourcePath_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        sourcePath_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
+    /// <summary>Field number for the "bigPath" field.</summary>
+    public const int BigPathFieldNumber = 2;
+    private readonly static string BigPathDefaultValue = "";
+
+    private string bigPath_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string BigPath {
+      get { return bigPath_ ?? BigPathDefaultValue; }
+      set {
+        bigPath_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "bigPath" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasBigPath {
+      get { return bigPath_ != null; }
+    }
+    /// <summary>Clears the value of the "bigPath" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearBigPath() {
+      bigPath_ = null;
+    }
+
+    /// <summary>Field number for the "snapshotPath" field.</summary>
+    public const int SnapshotPathFieldNumber = 3;
+    private readonly static string SnapshotPathDefaultValue = "";
+
+    private string snapshotPath_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string SnapshotPath {
+      get { return snapshotPath_ ?? SnapshotPathDefaultValue; }
+      set {
+        snapshotPath_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "snapshotPath" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasSnapshotPath {
+      get { return snapshotPath_ != null; }
+    }
+    /// <summary>Clears the value of the "snapshotPath" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearSnapshotPath() {
+      snapshotPath_ = null;
+    }
+
     /// <summary>Field number for the "sourcePicture" field.</summary>
-    public const int SourcePictureFieldNumber = 2;
+    public const int SourcePictureFieldNumber = 4;
     private global::OpenIM.Proto.PictureBaseInfo sourcePicture_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -7828,7 +7995,7 @@ namespace OpenIM.Proto {
     }
 
     /// <summary>Field number for the "bigPicture" field.</summary>
-    public const int BigPictureFieldNumber = 3;
+    public const int BigPictureFieldNumber = 5;
     private global::OpenIM.Proto.PictureBaseInfo bigPicture_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -7840,7 +8007,7 @@ namespace OpenIM.Proto {
     }
 
     /// <summary>Field number for the "snapshotPicture" field.</summary>
-    public const int SnapshotPictureFieldNumber = 4;
+    public const int SnapshotPictureFieldNumber = 6;
     private global::OpenIM.Proto.PictureBaseInfo snapshotPicture_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -7866,7 +8033,9 @@ namespace OpenIM.Proto {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (ImageSourcePath != other.ImageSourcePath) return false;
+      if (SourcePath != other.SourcePath) return false;
+      if (BigPath != other.BigPath) return false;
+      if (SnapshotPath != other.SnapshotPath) return false;
       if (!object.Equals(SourcePicture, other.SourcePicture)) return false;
       if (!object.Equals(BigPicture, other.BigPicture)) return false;
       if (!object.Equals(SnapshotPicture, other.SnapshotPicture)) return false;
@@ -7877,7 +8046,9 @@ namespace OpenIM.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (ImageSourcePath.Length != 0) hash ^= ImageSourcePath.GetHashCode();
+      if (SourcePath.Length != 0) hash ^= SourcePath.GetHashCode();
+      if (HasBigPath) hash ^= BigPath.GetHashCode();
+      if (HasSnapshotPath) hash ^= SnapshotPath.GetHashCode();
       if (sourcePicture_ != null) hash ^= SourcePicture.GetHashCode();
       if (bigPicture_ != null) hash ^= BigPicture.GetHashCode();
       if (snapshotPicture_ != null) hash ^= SnapshotPicture.GetHashCode();
@@ -7899,20 +8070,28 @@ namespace OpenIM.Proto {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (ImageSourcePath.Length != 0) {
+      if (SourcePath.Length != 0) {
         output.WriteRawTag(10);
-        output.WriteString(ImageSourcePath);
+        output.WriteString(SourcePath);
+      }
+      if (HasBigPath) {
+        output.WriteRawTag(18);
+        output.WriteString(BigPath);
+      }
+      if (HasSnapshotPath) {
+        output.WriteRawTag(26);
+        output.WriteString(SnapshotPath);
       }
       if (sourcePicture_ != null) {
-        output.WriteRawTag(18);
+        output.WriteRawTag(34);
         output.WriteMessage(SourcePicture);
       }
       if (bigPicture_ != null) {
-        output.WriteRawTag(26);
+        output.WriteRawTag(42);
         output.WriteMessage(BigPicture);
       }
       if (snapshotPicture_ != null) {
-        output.WriteRawTag(34);
+        output.WriteRawTag(50);
         output.WriteMessage(SnapshotPicture);
       }
       if (_unknownFields != null) {
@@ -7925,20 +8104,28 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (ImageSourcePath.Length != 0) {
+      if (SourcePath.Length != 0) {
         output.WriteRawTag(10);
-        output.WriteString(ImageSourcePath);
+        output.WriteString(SourcePath);
+      }
+      if (HasBigPath) {
+        output.WriteRawTag(18);
+        output.WriteString(BigPath);
+      }
+      if (HasSnapshotPath) {
+        output.WriteRawTag(26);
+        output.WriteString(SnapshotPath);
       }
       if (sourcePicture_ != null) {
-        output.WriteRawTag(18);
+        output.WriteRawTag(34);
         output.WriteMessage(SourcePicture);
       }
       if (bigPicture_ != null) {
-        output.WriteRawTag(26);
+        output.WriteRawTag(42);
         output.WriteMessage(BigPicture);
       }
       if (snapshotPicture_ != null) {
-        output.WriteRawTag(34);
+        output.WriteRawTag(50);
         output.WriteMessage(SnapshotPicture);
       }
       if (_unknownFields != null) {
@@ -7951,8 +8138,14 @@ namespace OpenIM.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (ImageSourcePath.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(ImageSourcePath);
+      if (SourcePath.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(SourcePath);
+      }
+      if (HasBigPath) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(BigPath);
+      }
+      if (HasSnapshotPath) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(SnapshotPath);
       }
       if (sourcePicture_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(SourcePicture);
@@ -7975,8 +8168,14 @@ namespace OpenIM.Proto {
       if (other == null) {
         return;
       }
-      if (other.ImageSourcePath.Length != 0) {
-        ImageSourcePath = other.ImageSourcePath;
+      if (other.SourcePath.Length != 0) {
+        SourcePath = other.SourcePath;
+      }
+      if (other.HasBigPath) {
+        BigPath = other.BigPath;
+      }
+      if (other.HasSnapshotPath) {
+        SnapshotPath = other.SnapshotPath;
       }
       if (other.sourcePicture_ != null) {
         if (sourcePicture_ == null) {
@@ -8016,24 +8215,32 @@ namespace OpenIM.Proto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            ImageSourcePath = input.ReadString();
+            SourcePath = input.ReadString();
             break;
           }
           case 18: {
+            BigPath = input.ReadString();
+            break;
+          }
+          case 26: {
+            SnapshotPath = input.ReadString();
+            break;
+          }
+          case 34: {
             if (sourcePicture_ == null) {
               SourcePicture = new global::OpenIM.Proto.PictureBaseInfo();
             }
             input.ReadMessage(SourcePicture);
             break;
           }
-          case 26: {
+          case 42: {
             if (bigPicture_ == null) {
               BigPicture = new global::OpenIM.Proto.PictureBaseInfo();
             }
             input.ReadMessage(BigPicture);
             break;
           }
-          case 34: {
+          case 50: {
             if (snapshotPicture_ == null) {
               SnapshotPicture = new global::OpenIM.Proto.PictureBaseInfo();
             }
@@ -8060,24 +8267,32 @@ namespace OpenIM.Proto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
-            ImageSourcePath = input.ReadString();
+            SourcePath = input.ReadString();
             break;
           }
           case 18: {
+            BigPath = input.ReadString();
+            break;
+          }
+          case 26: {
+            SnapshotPath = input.ReadString();
+            break;
+          }
+          case 34: {
             if (sourcePicture_ == null) {
               SourcePicture = new global::OpenIM.Proto.PictureBaseInfo();
             }
             input.ReadMessage(SourcePicture);
             break;
           }
-          case 26: {
+          case 42: {
             if (bigPicture_ == null) {
               BigPicture = new global::OpenIM.Proto.PictureBaseInfo();
             }
             input.ReadMessage(BigPicture);
             break;
           }
-          case 34: {
+          case 50: {
             if (snapshotPicture_ == null) {
               SnapshotPicture = new global::OpenIM.Proto.PictureBaseInfo();
             }

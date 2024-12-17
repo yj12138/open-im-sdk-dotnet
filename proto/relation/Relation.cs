@@ -30,42 +30,43 @@ namespace OpenIM.Proto {
             "IkcKF0dldFNwZWNpZmllZEZyaWVuZHNSZXNwEiwKB2ZyaWVuZHMYASADKAsy",
             "Gy5vcGVuaW0uc2RrLnNoYXJlZC5JTUZyaWVuZCI6CgxBZGRGcmllbmRSZXES",
             "DgoGdXNlcklEGAEgASgJEg4KBnJlcU1zZxgCIAEoCRIKCgJleBgDIAEoCSIP",
-            "Cg1BZGRGcmllbmRSZXNwIiQKFEdldEZyaWVuZFJlcXVlc3RzUmVxEgwKBHNl",
-            "bmQYASABKAgiUQoVR2V0RnJpZW5kUmVxdWVzdHNSZXNwEjgKCHJlcXVlc3Rz",
-            "GAEgAygLMiYub3BlbmltLnNkay5zaGFyZWQuSU1GcmllbmRBcHBsaWNhdGlv",
-            "biJuChZIYW5kbGVGcmllbmRSZXF1ZXN0UmVxEg4KBnVzZXJJRBgBIAEoCRIR",
-            "CgloYW5kbGVNc2cYAiABKAkSMQoGc3RhdHVzGAMgASgOMiEub3BlbmltLnNk",
-            "ay5jb21tb24uQXBwcm92YWxTdGF0dXMiGQoXSGFuZGxlRnJpZW5kUmVxdWVz",
-            "dFJlc3AiJwoOQ2hlY2tGcmllbmRSZXESFQoNZnJpZW5kVXNlcklEcxgBIAMo",
-            "CSJZCg9DaGVja0ZyaWVuZEluZm8SDgoGdXNlcklEGAEgASgJEjYKBnJlc3Vs",
-            "dBgCIAEoDjImLm9wZW5pbS5zZGsucmVsYXRpb24uQ2hlY2tGcmllbmRSZXN1",
-            "bHQiRwoPQ2hlY2tGcmllbmRSZXNwEjQKBnJlc3VsdBgBIAMoCzIkLm9wZW5p",
-            "bS5zZGsucmVsYXRpb24uQ2hlY2tGcmllbmRJbmZvIiEKD0RlbGV0ZUZyaWVu",
-            "ZFJlcRIOCgZ1c2VySUQYASABKAkiEgoQRGVsZXRlRnJpZW5kUmVzcCIkCg1H",
-            "ZXRGcmllbmRzUmVxEhMKC2ZpbHRlckJsYWNrGAEgASgIIj4KDkdldEZyaWVu",
-            "ZHNSZXNwEiwKB2ZyaWVuZHMYASADKAsyGy5vcGVuaW0uc2RrLnNoYXJlZC5J",
-            "TUZyaWVuZCJiChFHZXRGcmllbmRzUGFnZVJlcRITCgtmaWx0ZXJCbGFjaxgB",
-            "IAEoCBI4CgpwYWdpbmF0aW9uGAIgASgLMiQub3BlbmltLnNkay5jb21tb24u",
-            "UmVxdWVzdFBhZ2luYXRpb24iQgoSR2V0RnJpZW5kc1BhZ2VSZXNwEiwKB2Zy",
-            "aWVuZHMYASADKAsyGy5vcGVuaW0uc2RrLnNoYXJlZC5JTUZyaWVuZCJnChBT",
-            "ZWFyY2hGcmllbmRzUmVxEg8KB2tleXdvcmQYASABKAkSFAoMc2VhcmNoVXNl",
-            "cklEGAIgASgIEhYKDnNlYXJjaE5pY2tuYW1lGAMgASgIEhQKDHNlYXJjaFJl",
-            "bWFyaxgEIAEoCCJ5ChFTZWFyY2hGcmllbmRzSW5mbxIrCgZmcmllbmQYASAB",
-            "KAsyGy5vcGVuaW0uc2RrLnNoYXJlZC5JTUZyaWVuZBI3CgxyZWxhdGlvbnNo",
-            "aXAYAiABKA4yIS5vcGVuaW0uc2RrLnJlbGF0aW9uLlJlbGF0aW9uc2hpcCJM",
-            "ChFTZWFyY2hGcmllbmRzUmVzcBI3CgdmcmllbmRzGAEgAygLMiYub3Blbmlt",
-            "LnNkay5yZWxhdGlvbi5TZWFyY2hGcmllbmRzSW5mbyIpCgtBZGRCbGFja1Jl",
-            "cRIOCgZ1c2VySUQYASABKAkSCgoCZXgYAiABKAkiDgoMQWRkQmxhY2tSZXNw",
-            "IiAKDkRlbGV0ZUJsYWNrUmVxEg4KBnVzZXJJRBgBIAEoCSIRCg9EZWxldGVC",
-            "bGFja1Jlc3AiDgoMR2V0QmxhY2tzUmVxIjsKDUdldEJsYWNrc1Jlc3ASKgoG",
-            "YmxhY2tzGAEgAygLMhoub3BlbmltLnNkay5zaGFyZWQuSU1CbGFjayJ5Cg9V",
-            "cGRhdGVGcmllbmRSZXESDgoGdXNlcklEGAEgASgJEhMKBnBpbm5lZBgCIAEo",
-            "CEgAiAEBEhMKBlJlbWFyaxgDIAEoCUgBiAEBEg8KAmV4GAQgASgJSAKIAQFC",
-            "CQoHX3Bpbm5lZEIJCgdfUmVtYXJrQgUKA19leCISChBVcGRhdGVGcmllbmRS",
-            "ZXNwKjAKEUNoZWNrRnJpZW5kUmVzdWx0Eg0KCU5vdEZyaWVuZBAAEgwKCElz",
-            "RnJpZW5kEAEqJQoMUmVsYXRpb25zaGlwEgkKBUJsYWNrEAASCgoGRnJpZW5k",
-            "EAFCTVo5Z2l0aHViLmNvbS9vcGVuaW1zZGsvb3BlbmltLXNkay1jb3JlL3Yz",
-            "L3Byb3RvL2dvL3JlbGF0aW9uqgIMT3BlbklNLlByb3RvugIAYgZwcm90bzM="));
+            "Cg1BZGRGcmllbmRSZXNwIicKF0dldEZyaWVuZEFwcGxpY2F0aW9uUmVxEgwK",
+            "BHNlbmQYASABKAgiWAoYR2V0RnJpZW5kQXBwbGljYXRpb25SZXNwEjwKDGFw",
+            "cGxpY2F0aW9ucxgBIAMoCzImLm9wZW5pbS5zZGsuc2hhcmVkLklNRnJpZW5k",
+            "QXBwbGljYXRpb24icgoaSGFuZGxlRnJpZW5kQXBwbGljYXRpb25SZXESDgoG",
+            "dXNlcklEGAEgASgJEhEKCWhhbmRsZU1zZxgCIAEoCRIxCgZzdGF0dXMYAyAB",
+            "KA4yIS5vcGVuaW0uc2RrLmNvbW1vbi5BcHByb3ZhbFN0YXR1cyIdChtIYW5k",
+            "bGVGcmllbmRBcHBsaWNhdGlvblJlc3AiJwoOQ2hlY2tGcmllbmRSZXESFQoN",
+            "ZnJpZW5kVXNlcklEcxgBIAMoCSJZCg9DaGVja0ZyaWVuZEluZm8SDgoGdXNl",
+            "cklEGAEgASgJEjYKBnJlc3VsdBgCIAEoDjImLm9wZW5pbS5zZGsucmVsYXRp",
+            "b24uQ2hlY2tGcmllbmRSZXN1bHQiRwoPQ2hlY2tGcmllbmRSZXNwEjQKBnJl",
+            "c3VsdBgBIAMoCzIkLm9wZW5pbS5zZGsucmVsYXRpb24uQ2hlY2tGcmllbmRJ",
+            "bmZvIiEKD0RlbGV0ZUZyaWVuZFJlcRIOCgZ1c2VySUQYASABKAkiEgoQRGVs",
+            "ZXRlRnJpZW5kUmVzcCIkCg1HZXRGcmllbmRzUmVxEhMKC2ZpbHRlckJsYWNr",
+            "GAEgASgIIj4KDkdldEZyaWVuZHNSZXNwEiwKB2ZyaWVuZHMYASADKAsyGy5v",
+            "cGVuaW0uc2RrLnNoYXJlZC5JTUZyaWVuZCJiChFHZXRGcmllbmRzUGFnZVJl",
+            "cRITCgtmaWx0ZXJCbGFjaxgBIAEoCBI4CgpwYWdpbmF0aW9uGAIgASgLMiQu",
+            "b3BlbmltLnNkay5jb21tb24uUmVxdWVzdFBhZ2luYXRpb24iQgoSR2V0RnJp",
+            "ZW5kc1BhZ2VSZXNwEiwKB2ZyaWVuZHMYASADKAsyGy5vcGVuaW0uc2RrLnNo",
+            "YXJlZC5JTUZyaWVuZCJnChBTZWFyY2hGcmllbmRzUmVxEg8KB2tleXdvcmQY",
+            "ASABKAkSFAoMc2VhcmNoVXNlcklEGAIgASgIEhYKDnNlYXJjaE5pY2tuYW1l",
+            "GAMgASgIEhQKDHNlYXJjaFJlbWFyaxgEIAEoCCJ5ChFTZWFyY2hGcmllbmRz",
+            "SW5mbxIrCgZmcmllbmQYASABKAsyGy5vcGVuaW0uc2RrLnNoYXJlZC5JTUZy",
+            "aWVuZBI3CgxyZWxhdGlvbnNoaXAYAiABKA4yIS5vcGVuaW0uc2RrLnJlbGF0",
+            "aW9uLlJlbGF0aW9uc2hpcCJMChFTZWFyY2hGcmllbmRzUmVzcBI3Cgdmcmll",
+            "bmRzGAEgAygLMiYub3BlbmltLnNkay5yZWxhdGlvbi5TZWFyY2hGcmllbmRz",
+            "SW5mbyIpCgtBZGRCbGFja1JlcRIOCgZ1c2VySUQYASABKAkSCgoCZXgYAiAB",
+            "KAkiDgoMQWRkQmxhY2tSZXNwIiAKDkRlbGV0ZUJsYWNrUmVxEg4KBnVzZXJJ",
+            "RBgBIAEoCSIRCg9EZWxldGVCbGFja1Jlc3AiDgoMR2V0QmxhY2tzUmVxIjsK",
+            "DUdldEJsYWNrc1Jlc3ASKgoGYmxhY2tzGAEgAygLMhoub3BlbmltLnNkay5z",
+            "aGFyZWQuSU1CbGFjayJ5Cg9VcGRhdGVGcmllbmRSZXESDgoGdXNlcklEGAEg",
+            "ASgJEhMKBnBpbm5lZBgCIAEoCEgAiAEBEhMKBnJlbWFyaxgDIAEoCUgBiAEB",
+            "Eg8KAmV4GAQgASgJSAKIAQFCCQoHX3Bpbm5lZEIJCgdfcmVtYXJrQgUKA19l",
+            "eCISChBVcGRhdGVGcmllbmRSZXNwKjAKEUNoZWNrRnJpZW5kUmVzdWx0Eg0K",
+            "CU5vdEZyaWVuZBAAEgwKCElzRnJpZW5kEAEqJQoMUmVsYXRpb25zaGlwEgkK",
+            "BUJsYWNrEAASCgoGRnJpZW5kEAFCTVo5Z2l0aHViLmNvbS9vcGVuaW1zZGsv",
+            "b3BlbmltLXNkay1jb3JlL3YzL3Byb3RvL2dvL3JlbGF0aW9uqgIMT3BlbklN",
+            "LlByb3RvugIAYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::OpenIM.Proto.CommonReflection.Descriptor, global::OpenIM.Proto.SharedReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::OpenIM.Proto.CheckFriendResult), typeof(global::OpenIM.Proto.Relationship), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -73,10 +74,10 @@ namespace OpenIM.Proto {
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.GetSpecifiedFriendsResp), global::OpenIM.Proto.GetSpecifiedFriendsResp.Parser, new[]{ "Friends" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.AddFriendReq), global::OpenIM.Proto.AddFriendReq.Parser, new[]{ "UserID", "ReqMsg", "Ex" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.AddFriendResp), global::OpenIM.Proto.AddFriendResp.Parser, null, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.GetFriendRequestsReq), global::OpenIM.Proto.GetFriendRequestsReq.Parser, new[]{ "Send" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.GetFriendRequestsResp), global::OpenIM.Proto.GetFriendRequestsResp.Parser, new[]{ "Requests" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.HandleFriendRequestReq), global::OpenIM.Proto.HandleFriendRequestReq.Parser, new[]{ "UserID", "HandleMsg", "Status" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.HandleFriendRequestResp), global::OpenIM.Proto.HandleFriendRequestResp.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.GetFriendApplicationReq), global::OpenIM.Proto.GetFriendApplicationReq.Parser, new[]{ "Send" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.GetFriendApplicationResp), global::OpenIM.Proto.GetFriendApplicationResp.Parser, new[]{ "Applications" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.HandleFriendApplicationReq), global::OpenIM.Proto.HandleFriendApplicationReq.Parser, new[]{ "UserID", "HandleMsg", "Status" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.HandleFriendApplicationResp), global::OpenIM.Proto.HandleFriendApplicationResp.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.CheckFriendReq), global::OpenIM.Proto.CheckFriendReq.Parser, new[]{ "FriendUserIDs" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.CheckFriendInfo), global::OpenIM.Proto.CheckFriendInfo.Parser, new[]{ "UserID", "Result" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.CheckFriendResp), global::OpenIM.Proto.CheckFriendResp.Parser, new[]{ "Result" }, null, null, null, null),
@@ -991,16 +992,16 @@ namespace OpenIM.Proto {
   }
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class GetFriendRequestsReq : pb::IMessage<GetFriendRequestsReq>
+  public sealed partial class GetFriendApplicationReq : pb::IMessage<GetFriendApplicationReq>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<GetFriendRequestsReq> _parser = new pb::MessageParser<GetFriendRequestsReq>(() => new GetFriendRequestsReq());
+    private static readonly pb::MessageParser<GetFriendApplicationReq> _parser = new pb::MessageParser<GetFriendApplicationReq>(() => new GetFriendApplicationReq());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<GetFriendRequestsReq> Parser { get { return _parser; } }
+    public static pb::MessageParser<GetFriendApplicationReq> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1016,7 +1017,7 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetFriendRequestsReq() {
+    public GetFriendApplicationReq() {
       OnConstruction();
     }
 
@@ -1024,15 +1025,15 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetFriendRequestsReq(GetFriendRequestsReq other) : this() {
+    public GetFriendApplicationReq(GetFriendApplicationReq other) : this() {
       send_ = other.send_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetFriendRequestsReq Clone() {
-      return new GetFriendRequestsReq(this);
+    public GetFriendApplicationReq Clone() {
+      return new GetFriendApplicationReq(this);
     }
 
     /// <summary>Field number for the "send" field.</summary>
@@ -1054,12 +1055,12 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as GetFriendRequestsReq);
+      return Equals(other as GetFriendApplicationReq);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(GetFriendRequestsReq other) {
+    public bool Equals(GetFriendApplicationReq other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -1132,7 +1133,7 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(GetFriendRequestsReq other) {
+    public void MergeFrom(GetFriendApplicationReq other) {
       if (other == null) {
         return;
       }
@@ -1193,16 +1194,16 @@ namespace OpenIM.Proto {
   }
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class GetFriendRequestsResp : pb::IMessage<GetFriendRequestsResp>
+  public sealed partial class GetFriendApplicationResp : pb::IMessage<GetFriendApplicationResp>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<GetFriendRequestsResp> _parser = new pb::MessageParser<GetFriendRequestsResp>(() => new GetFriendRequestsResp());
+    private static readonly pb::MessageParser<GetFriendApplicationResp> _parser = new pb::MessageParser<GetFriendApplicationResp>(() => new GetFriendApplicationResp());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<GetFriendRequestsResp> Parser { get { return _parser; } }
+    public static pb::MessageParser<GetFriendApplicationResp> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1218,7 +1219,7 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetFriendRequestsResp() {
+    public GetFriendApplicationResp() {
       OnConstruction();
     }
 
@@ -1226,47 +1227,47 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetFriendRequestsResp(GetFriendRequestsResp other) : this() {
-      requests_ = other.requests_.Clone();
+    public GetFriendApplicationResp(GetFriendApplicationResp other) : this() {
+      applications_ = other.applications_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetFriendRequestsResp Clone() {
-      return new GetFriendRequestsResp(this);
+    public GetFriendApplicationResp Clone() {
+      return new GetFriendApplicationResp(this);
     }
 
-    /// <summary>Field number for the "requests" field.</summary>
-    public const int RequestsFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::OpenIM.Proto.IMFriendApplication> _repeated_requests_codec
+    /// <summary>Field number for the "applications" field.</summary>
+    public const int ApplicationsFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::OpenIM.Proto.IMFriendApplication> _repeated_applications_codec
         = pb::FieldCodec.ForMessage(10, global::OpenIM.Proto.IMFriendApplication.Parser);
-    private readonly pbc::RepeatedField<global::OpenIM.Proto.IMFriendApplication> requests_ = new pbc::RepeatedField<global::OpenIM.Proto.IMFriendApplication>();
+    private readonly pbc::RepeatedField<global::OpenIM.Proto.IMFriendApplication> applications_ = new pbc::RepeatedField<global::OpenIM.Proto.IMFriendApplication>();
     /// <summary>
     /// corresponding friend request list
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::OpenIM.Proto.IMFriendApplication> Requests {
-      get { return requests_; }
+    public pbc::RepeatedField<global::OpenIM.Proto.IMFriendApplication> Applications {
+      get { return applications_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as GetFriendRequestsResp);
+      return Equals(other as GetFriendApplicationResp);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(GetFriendRequestsResp other) {
+    public bool Equals(GetFriendApplicationResp other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if(!requests_.Equals(other.requests_)) return false;
+      if(!applications_.Equals(other.applications_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1274,7 +1275,7 @@ namespace OpenIM.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      hash ^= requests_.GetHashCode();
+      hash ^= applications_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1293,7 +1294,7 @@ namespace OpenIM.Proto {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      requests_.WriteTo(output, _repeated_requests_codec);
+      applications_.WriteTo(output, _repeated_applications_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1304,7 +1305,7 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      requests_.WriteTo(ref output, _repeated_requests_codec);
+      applications_.WriteTo(ref output, _repeated_applications_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1315,7 +1316,7 @@ namespace OpenIM.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      size += requests_.CalculateSize(_repeated_requests_codec);
+      size += applications_.CalculateSize(_repeated_applications_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -1324,11 +1325,11 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(GetFriendRequestsResp other) {
+    public void MergeFrom(GetFriendApplicationResp other) {
       if (other == null) {
         return;
       }
-      requests_.Add(other.requests_);
+      applications_.Add(other.applications_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -1349,7 +1350,7 @@ namespace OpenIM.Proto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            requests_.AddEntriesFrom(input, _repeated_requests_codec);
+            applications_.AddEntriesFrom(input, _repeated_applications_codec);
             break;
           }
         }
@@ -1372,7 +1373,7 @@ namespace OpenIM.Proto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
-            requests_.AddEntriesFrom(ref input, _repeated_requests_codec);
+            applications_.AddEntriesFrom(ref input, _repeated_applications_codec);
             break;
           }
         }
@@ -1383,16 +1384,16 @@ namespace OpenIM.Proto {
   }
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class HandleFriendRequestReq : pb::IMessage<HandleFriendRequestReq>
+  public sealed partial class HandleFriendApplicationReq : pb::IMessage<HandleFriendApplicationReq>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<HandleFriendRequestReq> _parser = new pb::MessageParser<HandleFriendRequestReq>(() => new HandleFriendRequestReq());
+    private static readonly pb::MessageParser<HandleFriendApplicationReq> _parser = new pb::MessageParser<HandleFriendApplicationReq>(() => new HandleFriendApplicationReq());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<HandleFriendRequestReq> Parser { get { return _parser; } }
+    public static pb::MessageParser<HandleFriendApplicationReq> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1408,7 +1409,7 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public HandleFriendRequestReq() {
+    public HandleFriendApplicationReq() {
       OnConstruction();
     }
 
@@ -1416,7 +1417,7 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public HandleFriendRequestReq(HandleFriendRequestReq other) : this() {
+    public HandleFriendApplicationReq(HandleFriendApplicationReq other) : this() {
       userID_ = other.userID_;
       handleMsg_ = other.handleMsg_;
       status_ = other.status_;
@@ -1425,8 +1426,8 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public HandleFriendRequestReq Clone() {
-      return new HandleFriendRequestReq(this);
+    public HandleFriendApplicationReq Clone() {
+      return new HandleFriendApplicationReq(this);
     }
 
     /// <summary>Field number for the "userID" field.</summary>
@@ -1477,12 +1478,12 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as HandleFriendRequestReq);
+      return Equals(other as HandleFriendApplicationReq);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(HandleFriendRequestReq other) {
+    public bool Equals(HandleFriendApplicationReq other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -1581,7 +1582,7 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(HandleFriendRequestReq other) {
+    public void MergeFrom(HandleFriendApplicationReq other) {
       if (other == null) {
         return;
       }
@@ -1664,16 +1665,16 @@ namespace OpenIM.Proto {
   }
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class HandleFriendRequestResp : pb::IMessage<HandleFriendRequestResp>
+  public sealed partial class HandleFriendApplicationResp : pb::IMessage<HandleFriendApplicationResp>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<HandleFriendRequestResp> _parser = new pb::MessageParser<HandleFriendRequestResp>(() => new HandleFriendRequestResp());
+    private static readonly pb::MessageParser<HandleFriendApplicationResp> _parser = new pb::MessageParser<HandleFriendApplicationResp>(() => new HandleFriendApplicationResp());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<HandleFriendRequestResp> Parser { get { return _parser; } }
+    public static pb::MessageParser<HandleFriendApplicationResp> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1689,7 +1690,7 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public HandleFriendRequestResp() {
+    public HandleFriendApplicationResp() {
       OnConstruction();
     }
 
@@ -1697,25 +1698,25 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public HandleFriendRequestResp(HandleFriendRequestResp other) : this() {
+    public HandleFriendApplicationResp(HandleFriendApplicationResp other) : this() {
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public HandleFriendRequestResp Clone() {
-      return new HandleFriendRequestResp(this);
+    public HandleFriendApplicationResp Clone() {
+      return new HandleFriendApplicationResp(this);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as HandleFriendRequestResp);
+      return Equals(other as HandleFriendApplicationResp);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(HandleFriendRequestResp other) {
+    public bool Equals(HandleFriendApplicationResp other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -1775,7 +1776,7 @@ namespace OpenIM.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(HandleFriendRequestResp other) {
+    public void MergeFrom(HandleFriendApplicationResp other) {
       if (other == null) {
         return;
       }
@@ -5609,7 +5610,7 @@ namespace OpenIM.Proto {
       _hasBits0 &= ~1;
     }
 
-    /// <summary>Field number for the "Remark" field.</summary>
+    /// <summary>Field number for the "remark" field.</summary>
     public const int RemarkFieldNumber = 3;
     private readonly static string RemarkDefaultValue = "";
 
@@ -5625,13 +5626,13 @@ namespace OpenIM.Proto {
         remark_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
-    /// <summary>Gets whether the "Remark" field is set</summary>
+    /// <summary>Gets whether the "remark" field is set</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool HasRemark {
       get { return remark_ != null; }
     }
-    /// <summary>Clears the value of the "Remark" field</summary>
+    /// <summary>Clears the value of the "remark" field</summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void ClearRemark() {
