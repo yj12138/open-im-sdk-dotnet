@@ -120,6 +120,7 @@ namespace OpenIM.IMSDK
             Interal_Init();
 
             var handleId = GetHandleId();
+            callBackDic[handleId] = cb;
             NativeSDK.CallAPI(handleId, FuncRequestEventName.InitSdk, new InitSDKReq
             {
                 Config = config
