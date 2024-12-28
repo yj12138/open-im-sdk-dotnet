@@ -1388,7 +1388,7 @@ namespace OpenIM.Proto {
     public const int GroupIDFieldNumber = 1;
     private string groupID_ = "";
     /// <summary>
-    /// group id you joined
+    /// want to join group id
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1867,7 +1867,7 @@ namespace OpenIM.Proto {
     public const int GroupIDFieldNumber = 1;
     private string groupID_ = "";
     /// <summary>
-    /// group id you quit
+    /// want to quit group id
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -2229,7 +2229,7 @@ namespace OpenIM.Proto {
     public const int GroupIDFieldNumber = 1;
     private string groupID_ = "";
     /// <summary>
-    /// group id you dismissed
+    /// want to dismiss group id
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -2592,7 +2592,7 @@ namespace OpenIM.Proto {
     public const int GroupIDFieldNumber = 1;
     private string groupID_ = "";
     /// <summary>
-    /// group id you want to mute
+    /// want to mute group id
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -2995,7 +2995,7 @@ namespace OpenIM.Proto {
     public const int GroupIDFieldNumber = 1;
     private string groupID_ = "";
     /// <summary>
-    /// group id you want to mute
+    /// want to mute group id
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -3010,7 +3010,7 @@ namespace OpenIM.Proto {
     public const int UserIDFieldNumber = 2;
     private string userID_ = "";
     /// <summary>
-    /// user id you want to mute
+    /// @group_member_user_id
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -8653,7 +8653,7 @@ namespace OpenIM.Proto {
     public const int PaginationFieldNumber = 4;
     private global::OpenIM.Proto.RequestPagination pagination_;
     /// <summary>
-    /// pagination
+    /// @common_request_pagination
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -8913,7 +8913,7 @@ namespace OpenIM.Proto {
         = pb::FieldCodec.ForMessage(10, global::OpenIM.Proto.IMGroupMember.Parser);
     private readonly pbc::RepeatedField<global::OpenIM.Proto.IMGroupMember> members_ = new pbc::RepeatedField<global::OpenIM.Proto.IMGroupMember>();
     /// <summary>
-    /// group member information
+    /// @shared_imgroup_members
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -9304,7 +9304,7 @@ namespace OpenIM.Proto {
         = pb::FieldCodec.ForMessage(10, global::OpenIM.Proto.IMGroupApplication.Parser);
     private readonly pbc::RepeatedField<global::OpenIM.Proto.IMGroupApplication> applications_ = new pbc::RepeatedField<global::OpenIM.Proto.IMGroupApplication>();
     /// <summary>
-    /// group request information
+    /// @shared_imgroup_applications
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -9556,7 +9556,7 @@ namespace OpenIM.Proto {
     public const int PaginationFieldNumber = 5;
     private global::OpenIM.Proto.RequestPagination pagination_;
     /// <summary>
-    /// pagination
+    /// @common_request_pagination
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -9864,7 +9864,7 @@ namespace OpenIM.Proto {
         = pb::FieldCodec.ForMessage(10, global::OpenIM.Proto.IMGroupMember.Parser);
     private readonly pbc::RepeatedField<global::OpenIM.Proto.IMGroupMember> members_ = new pbc::RepeatedField<global::OpenIM.Proto.IMGroupMember>();
     /// <summary>
-    /// group member information
+    /// @shared_imgroup_members
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -11348,11 +11348,7 @@ namespace OpenIM.Proto {
     public const int GroupIDFieldNumber = 1;
     private string groupID_ = "";
     /// <summary>
-    ///*
-    /// group id you want to handle1&lt;br>
-    /// group id you want to handle2&lt;br>
-    /// group id you want to handle3&lt;br>
-    /// group id you want to handle4&lt;br>
+    /// @group_id
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]

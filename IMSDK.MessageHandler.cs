@@ -39,7 +39,7 @@ namespace OpenIM.IMSDK
             }
             NativeSDK.DropHandle(handleId);
         }
-        static void dispatchEvent(bool suc, ulong handleId, FuncRequestEventName eventName, ByteString data, int errCode, string errMsg)
+        static void dispatchEvent(bool suc, long handleId, FuncRequestEventName eventName, ByteString data, int errCode, string errMsg)
         {
             callBackDic.TryGetValue(handleId, out var callBack);
             switch (eventName)
@@ -49,7 +49,7 @@ namespace OpenIM.IMSDK
                 case FuncRequestEventName.InitSdk:
                     {
                         var resp = InitSDKResp.Parser.ParseFrom(data);
-                        callBack?.DynamicInvoke(resp.Suc);
+                        callBack?.DynamicInvoke(suc);
                     }
                     break;
 

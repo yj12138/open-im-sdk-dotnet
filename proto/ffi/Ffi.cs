@@ -25,12 +25,12 @@ namespace OpenIM.Proto {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CglmZmkucHJvdG8SCm9wZW5pbS5mZmkaC2V2ZW50LnByb3RvIncKCkZmaVJl",
-            "cXVlc3QSEwoLb3BlcmF0aW9uSUQYASABKAkSEAoIaGFuZGxlSUQYAiABKAQS",
+            "cXVlc3QSEwoLb3BlcmF0aW9uSUQYASABKAkSEAoIaGFuZGxlSUQYAiABKAMS",
             "NAoIZnVuY05hbWUYAyABKA4yIi5vcGVuaW0uZXZlbnQuRnVuY1JlcXVlc3RF",
             "dmVudE5hbWUSDAoEZGF0YRgEIAEoDCKCAQoJRmZpUmVzdWx0Eg8KB2VyckNv",
             "ZGUYASABKAUSDgoGZXJyTXNnGAIgASgJEjQKCGZ1bmNOYW1lGAMgASgOMiIu",
             "b3BlbmltLmV2ZW50LkZ1bmNSZXF1ZXN0RXZlbnROYW1lEgwKBGRhdGEYBCAB",
-            "KAwSEAoIaGFuZGxlSUQYBSABKARCSFo0Z2l0aHViLmNvbS9vcGVuaW1zZGsv",
+            "KAwSEAoIaGFuZGxlSUQYBSABKANCSFo0Z2l0aHViLmNvbS9vcGVuaW1zZGsv",
             "b3BlbmltLXNkay1jb3JlL3YzL3Byb3RvL2dvL2ZmaaoCDE9wZW5JTS5Qcm90",
             "b7oCAGIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
@@ -109,10 +109,13 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "handleID" field.</summary>
     public const int HandleIDFieldNumber = 2;
-    private ulong handleID_;
+    private long handleID_;
+    /// <summary>
+    /// The handle ID.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ulong HandleID {
+    public long HandleID {
       get { return handleID_; }
       set {
         handleID_ = value;
@@ -122,6 +125,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "funcName" field.</summary>
     public const int FuncNameFieldNumber = 3;
     private global::OpenIM.Proto.FuncRequestEventName funcName_ = global::OpenIM.Proto.FuncRequestEventName.None;
+    /// <summary>
+    /// Function request event name.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.FuncRequestEventName FuncName {
@@ -134,6 +140,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "data" field.</summary>
     public const int DataFieldNumber = 4;
     private pb::ByteString data_ = pb::ByteString.Empty;
+    /// <summary>
+    /// The request data.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pb::ByteString Data {
@@ -170,7 +179,7 @@ namespace OpenIM.Proto {
     public override int GetHashCode() {
       int hash = 1;
       if (OperationID.Length != 0) hash ^= OperationID.GetHashCode();
-      if (HandleID != 0UL) hash ^= HandleID.GetHashCode();
+      if (HandleID != 0L) hash ^= HandleID.GetHashCode();
       if (FuncName != global::OpenIM.Proto.FuncRequestEventName.None) hash ^= FuncName.GetHashCode();
       if (Data.Length != 0) hash ^= Data.GetHashCode();
       if (_unknownFields != null) {
@@ -195,9 +204,9 @@ namespace OpenIM.Proto {
         output.WriteRawTag(10);
         output.WriteString(OperationID);
       }
-      if (HandleID != 0UL) {
+      if (HandleID != 0L) {
         output.WriteRawTag(16);
-        output.WriteUInt64(HandleID);
+        output.WriteInt64(HandleID);
       }
       if (FuncName != global::OpenIM.Proto.FuncRequestEventName.None) {
         output.WriteRawTag(24);
@@ -221,9 +230,9 @@ namespace OpenIM.Proto {
         output.WriteRawTag(10);
         output.WriteString(OperationID);
       }
-      if (HandleID != 0UL) {
+      if (HandleID != 0L) {
         output.WriteRawTag(16);
-        output.WriteUInt64(HandleID);
+        output.WriteInt64(HandleID);
       }
       if (FuncName != global::OpenIM.Proto.FuncRequestEventName.None) {
         output.WriteRawTag(24);
@@ -246,8 +255,8 @@ namespace OpenIM.Proto {
       if (OperationID.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(OperationID);
       }
-      if (HandleID != 0UL) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(HandleID);
+      if (HandleID != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(HandleID);
       }
       if (FuncName != global::OpenIM.Proto.FuncRequestEventName.None) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) FuncName);
@@ -270,7 +279,7 @@ namespace OpenIM.Proto {
       if (other.OperationID.Length != 0) {
         OperationID = other.OperationID;
       }
-      if (other.HandleID != 0UL) {
+      if (other.HandleID != 0L) {
         HandleID = other.HandleID;
       }
       if (other.FuncName != global::OpenIM.Proto.FuncRequestEventName.None) {
@@ -303,7 +312,7 @@ namespace OpenIM.Proto {
             break;
           }
           case 16: {
-            HandleID = input.ReadUInt64();
+            HandleID = input.ReadInt64();
             break;
           }
           case 24: {
@@ -338,7 +347,7 @@ namespace OpenIM.Proto {
             break;
           }
           case 16: {
-            HandleID = input.ReadUInt64();
+            HandleID = input.ReadInt64();
             break;
           }
           case 24: {
@@ -408,6 +417,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "errCode" field.</summary>
     public const int ErrCodeFieldNumber = 1;
     private int errCode_;
+    /// <summary>
+    /// The error code, 0 means success, non-zero means failure.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int ErrCode {
@@ -420,6 +432,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "errMsg" field.</summary>
     public const int ErrMsgFieldNumber = 2;
     private string errMsg_ = "";
+    /// <summary>
+    /// The error message.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string ErrMsg {
@@ -432,6 +447,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "funcName" field.</summary>
     public const int FuncNameFieldNumber = 3;
     private global::OpenIM.Proto.FuncRequestEventName funcName_ = global::OpenIM.Proto.FuncRequestEventName.None;
+    /// <summary>
+    /// Function request event name.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.FuncRequestEventName FuncName {
@@ -444,6 +462,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "data" field.</summary>
     public const int DataFieldNumber = 4;
     private pb::ByteString data_ = pb::ByteString.Empty;
+    /// <summary>
+    /// The result data.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pb::ByteString Data {
@@ -455,10 +476,13 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "handleID" field.</summary>
     public const int HandleIDFieldNumber = 5;
-    private ulong handleID_;
+    private long handleID_;
+    /// <summary>
+    /// handleID
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ulong HandleID {
+    public long HandleID {
       get { return handleID_; }
       set {
         handleID_ = value;
@@ -496,7 +520,7 @@ namespace OpenIM.Proto {
       if (ErrMsg.Length != 0) hash ^= ErrMsg.GetHashCode();
       if (FuncName != global::OpenIM.Proto.FuncRequestEventName.None) hash ^= FuncName.GetHashCode();
       if (Data.Length != 0) hash ^= Data.GetHashCode();
-      if (HandleID != 0UL) hash ^= HandleID.GetHashCode();
+      if (HandleID != 0L) hash ^= HandleID.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -531,9 +555,9 @@ namespace OpenIM.Proto {
         output.WriteRawTag(34);
         output.WriteBytes(Data);
       }
-      if (HandleID != 0UL) {
+      if (HandleID != 0L) {
         output.WriteRawTag(40);
-        output.WriteUInt64(HandleID);
+        output.WriteInt64(HandleID);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -561,9 +585,9 @@ namespace OpenIM.Proto {
         output.WriteRawTag(34);
         output.WriteBytes(Data);
       }
-      if (HandleID != 0UL) {
+      if (HandleID != 0L) {
         output.WriteRawTag(40);
-        output.WriteUInt64(HandleID);
+        output.WriteInt64(HandleID);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -587,8 +611,8 @@ namespace OpenIM.Proto {
       if (Data.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeBytesSize(Data);
       }
-      if (HandleID != 0UL) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(HandleID);
+      if (HandleID != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(HandleID);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -614,7 +638,7 @@ namespace OpenIM.Proto {
       if (other.Data.Length != 0) {
         Data = other.Data;
       }
-      if (other.HandleID != 0UL) {
+      if (other.HandleID != 0L) {
         HandleID = other.HandleID;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -653,7 +677,7 @@ namespace OpenIM.Proto {
             break;
           }
           case 40: {
-            HandleID = input.ReadUInt64();
+            HandleID = input.ReadInt64();
             break;
           }
         }
@@ -692,7 +716,7 @@ namespace OpenIM.Proto {
             break;
           }
           case 40: {
-            HandleID = input.ReadUInt64();
+            HandleID = input.ReadInt64();
             break;
           }
         }

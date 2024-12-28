@@ -28,10 +28,10 @@ namespace OpenIM.IMSDK
     {
         public delegate void ErrorHandler(int errCode, string errMsg);
 
-        private static Dictionary<ulong, Delegate> callBackDic = new Dictionary<ulong, Delegate>();
-        private static Dictionary<ulong, ISendMsg> sendMsgCallBackDic = new Dictionary<ulong, ISendMsg>();
-        private static Dictionary<ulong, IUploadFile> uploadFileCallBackDic = new Dictionary<ulong, IUploadFile>();
-        private static Dictionary<ulong, IUploadLogs> uploadLogsCallBackDic = new Dictionary<ulong, IUploadLogs>();
+        private static Dictionary<long, Delegate> callBackDic = new Dictionary<long, Delegate>();
+        private static Dictionary<long, ISendMsg> sendMsgCallBackDic = new Dictionary<long, ISendMsg>();
+        private static Dictionary<long, IUploadFile> uploadFileCallBackDic = new Dictionary<long, IUploadFile>();
+        private static Dictionary<long, IUploadLogs> uploadLogsCallBackDic = new Dictionary<long, IUploadLogs>();
         private static ErrorHandler errorHandler;
         private static IConnListener connListener;
         private static IConversationListener conversationListener;
@@ -101,8 +101,8 @@ namespace OpenIM.IMSDK
             }
         }
 
-        static ulong handleId = 0;
-        static ulong GetHandleId()
+        static long handleId = 0;
+        static long GetHandleId()
         {
             handleId++;
             return handleId;

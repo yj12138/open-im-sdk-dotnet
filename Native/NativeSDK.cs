@@ -17,7 +17,7 @@ namespace OpenIM.IMSDK.Native
         static extern void ffi_request(byte[] data, int length);
 
         [DllImport(IMDLLName, CallingConvention = CallingConvention.Cdecl)]
-        static extern void ffi_drop_handle(ulong handleId);
+        static extern void ffi_drop_handle(long handleId);
 
 
         public static void Init(OnRecvEvent handler)
@@ -31,7 +31,7 @@ namespace OpenIM.IMSDK.Native
             operationId++;
             return string.Format("{0}", operationId);
         }
-        public static void CallAPI<T>(ulong handleId, FuncRequestEventName apiKey, T req) where T : IMessage
+        public static void CallAPI<T>(long handleId, FuncRequestEventName apiKey, T req) where T : IMessage
         {
             try
             {
@@ -55,7 +55,7 @@ namespace OpenIM.IMSDK.Native
                 Util.Utils.Log(e.ToString());
             }
         }
-        public static void DropHandle(ulong handleId)
+        public static void DropHandle(long handleId)
         {
             ffi_drop_handle(handleId);
         }

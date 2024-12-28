@@ -110,6 +110,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "uuid" field.</summary>
     public const int UuidFieldNumber = 1;
     private string uuid_ = "";
+    /// <summary>
+    /// file uuid
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Uuid {
@@ -308,6 +311,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "size" field.</summary>
     public const int SizeFieldNumber = 1;
     private long size_;
+    /// <summary>
+    /// file size
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long Size {
@@ -508,6 +514,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "uuid" field.</summary>
     public const int UuidFieldNumber = 1;
     private string uuid_ = "";
+    /// <summary>
+    /// file uuid
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Uuid {
@@ -520,6 +529,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "offset" field.</summary>
     public const int OffsetFieldNumber = 2;
     private long offset_;
+    /// <summary>
+    /// read offset
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long Offset {
@@ -532,6 +544,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "length" field.</summary>
     public const int LengthFieldNumber = 3;
     private long length_;
+    /// <summary>
+    /// read length
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long Length {
@@ -778,6 +793,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "data" field.</summary>
     public const int DataFieldNumber = 1;
     private pb::ByteString data_ = pb::ByteString.Empty;
+    /// <summary>
+    /// read data
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pb::ByteString Data {
@@ -976,6 +994,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "uuid" field.</summary>
     public const int UuidFieldNumber = 1;
     private string uuid_ = "";
+    /// <summary>
+    /// file uuid
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Uuid {
@@ -1335,6 +1356,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "name" field.</summary>
     public const int NameFieldNumber = 1;
     private string name_ = "";
+    /// <summary>
+    /// db name
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Name {
@@ -1533,6 +1557,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "id" field.</summary>
     public const int IdFieldNumber = 1;
     private long id_;
+    /// <summary>
+    /// db id
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long Id {
@@ -1731,6 +1758,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "id" field.</summary>
     public const int IdFieldNumber = 1;
     private long id_;
+    /// <summary>
+    /// db id
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long Id {
@@ -2092,6 +2122,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "id" field.</summary>
     public const int IdFieldNumber = 1;
     private long id_;
+    /// <summary>
+    /// db id
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long Id {
@@ -2104,6 +2137,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "sql" field.</summary>
     public const int SqlFieldNumber = 2;
     private string sql_ = "";
+    /// <summary>
+    /// sql query
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Sql {
@@ -2117,7 +2153,7 @@ namespace OpenIM.Proto {
     public const int ArgsFieldNumber = 3;
     private string args_ = "";
     /// <summary>
-    /// json array
+    /// query args, json array
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -2565,6 +2601,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "id" field.</summary>
     public const int IdFieldNumber = 1;
     private long id_;
+    /// <summary>
+    /// db id
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long Id {
@@ -2577,6 +2616,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "sql" field.</summary>
     public const int SqlFieldNumber = 2;
     private string sql_ = "";
+    /// <summary>
+    /// sql query
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Sql {
@@ -2590,7 +2632,7 @@ namespace OpenIM.Proto {
     public const int ArgsFieldNumber = 3;
     private string args_ = "";
     /// <summary>
-    /// json array
+    /// query args, json array
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -2839,7 +2881,7 @@ namespace OpenIM.Proto {
     public const int ResultFieldNumber = 1;
     private string result_ = "";
     /// <summary>
-    /// json array
+    /// query result, json array
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]

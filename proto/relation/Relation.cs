@@ -64,9 +64,37 @@ namespace OpenIM.Proto {
             "Eg8KAmV4GAQgASgJSAKIAQFCCQoHX3Bpbm5lZEIJCgdfcmVtYXJrQgUKA19l",
             "eCISChBVcGRhdGVGcmllbmRSZXNwKjAKEUNoZWNrRnJpZW5kUmVzdWx0Eg0K",
             "CU5vdEZyaWVuZBAAEgwKCElzRnJpZW5kEAEqJQoMUmVsYXRpb25zaGlwEgkK",
-            "BUJsYWNrEAASCgoGRnJpZW5kEAFCTVo5Z2l0aHViLmNvbS9vcGVuaW1zZGsv",
-            "b3BlbmltLXNkay1jb3JlL3YzL3Byb3RvL2dvL3JlbGF0aW9uqgIMT3BlbklN",
-            "LlByb3RvugIAYgZwcm90bzM="));
+            "BUJsYWNrEAASCgoGRnJpZW5kEAEy9wkKD1JlbGF0aW9uU2VydmljZRJwChNH",
+            "ZXRTcGVjaWZpZWRGcmllbmRzEisub3BlbmltLnNkay5yZWxhdGlvbi5HZXRT",
+            "cGVjaWZpZWRGcmllbmRzUmVxGiwub3BlbmltLnNkay5yZWxhdGlvbi5HZXRT",
+            "cGVjaWZpZWRGcmllbmRzUmVzcBJSCglBZGRGcmllbmQSIS5vcGVuaW0uc2Rr",
+            "LnJlbGF0aW9uLkFkZEZyaWVuZFJlcRoiLm9wZW5pbS5zZGsucmVsYXRpb24u",
+            "QWRkRnJpZW5kUmVzcBJzChRHZXRGcmllbmRBcHBsaWNhdGlvbhIsLm9wZW5p",
+            "bS5zZGsucmVsYXRpb24uR2V0RnJpZW5kQXBwbGljYXRpb25SZXEaLS5vcGVu",
+            "aW0uc2RrLnJlbGF0aW9uLkdldEZyaWVuZEFwcGxpY2F0aW9uUmVzcBJ8ChdI",
+            "YW5kbGVGcmllbmRBcHBsaWNhdGlvbhIvLm9wZW5pbS5zZGsucmVsYXRpb24u",
+            "SGFuZGxlRnJpZW5kQXBwbGljYXRpb25SZXEaMC5vcGVuaW0uc2RrLnJlbGF0",
+            "aW9uLkhhbmRsZUZyaWVuZEFwcGxpY2F0aW9uUmVzcBJYCgtDaGVja0ZyaWVu",
+            "ZBIjLm9wZW5pbS5zZGsucmVsYXRpb24uQ2hlY2tGcmllbmRSZXEaJC5vcGVu",
+            "aW0uc2RrLnJlbGF0aW9uLkNoZWNrRnJpZW5kUmVzcBJVCgpHZXRGcmllbmRz",
+            "EiIub3BlbmltLnNkay5yZWxhdGlvbi5HZXRGcmllbmRzUmVxGiMub3Blbmlt",
+            "LnNkay5yZWxhdGlvbi5HZXRGcmllbmRzUmVzcBJbCgxEZWxldGVGcmllbmQS",
+            "JC5vcGVuaW0uc2RrLnJlbGF0aW9uLkRlbGV0ZUZyaWVuZFJlcRolLm9wZW5p",
+            "bS5zZGsucmVsYXRpb24uRGVsZXRlRnJpZW5kUmVzcBJhCg5HZXRGcmllbmRz",
+            "UGFnZRImLm9wZW5pbS5zZGsucmVsYXRpb24uR2V0RnJpZW5kc1BhZ2VSZXEa",
+            "Jy5vcGVuaW0uc2RrLnJlbGF0aW9uLkdldEZyaWVuZHNQYWdlUmVzcBJeCg1T",
+            "ZWFyY2hGcmllbmRzEiUub3BlbmltLnNkay5yZWxhdGlvbi5TZWFyY2hGcmll",
+            "bmRzUmVxGiYub3BlbmltLnNkay5yZWxhdGlvbi5TZWFyY2hGcmllbmRzUmVz",
+            "cBJPCghBZGRCbGFjaxIgLm9wZW5pbS5zZGsucmVsYXRpb24uQWRkQmxhY2tS",
+            "ZXEaIS5vcGVuaW0uc2RrLnJlbGF0aW9uLkFkZEJsYWNrUmVzcBJYCgtEZWxl",
+            "dGVCbGFjaxIjLm9wZW5pbS5zZGsucmVsYXRpb24uRGVsZXRlQmxhY2tSZXEa",
+            "JC5vcGVuaW0uc2RrLnJlbGF0aW9uLkRlbGV0ZUJsYWNrUmVzcBJSCglHZXRC",
+            "bGFja3MSIS5vcGVuaW0uc2RrLnJlbGF0aW9uLkdldEJsYWNrc1JlcRoiLm9w",
+            "ZW5pbS5zZGsucmVsYXRpb24uR2V0QmxhY2tzUmVzcBJbCgxVcGRhdGVGcmll",
+            "bmQSJC5vcGVuaW0uc2RrLnJlbGF0aW9uLlVwZGF0ZUZyaWVuZFJlcRolLm9w",
+            "ZW5pbS5zZGsucmVsYXRpb24uVXBkYXRlRnJpZW5kUmVzcEJNWjlnaXRodWIu",
+            "Y29tL29wZW5pbXNkay9vcGVuaW0tc2RrLWNvcmUvdjMvcHJvdG8vZ28vcmVs",
+            "YXRpb26qAgxPcGVuSU0uUHJvdG+6AgBiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::OpenIM.Proto.CommonReflection.Descriptor, global::OpenIM.Proto.SharedReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::OpenIM.Proto.CheckFriendResult), typeof(global::OpenIM.Proto.Relationship), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -106,22 +134,22 @@ namespace OpenIM.Proto {
   #region Enums
   public enum CheckFriendResult {
     /// <summary>
-    /// not friend
+    /// The user is not a friend.
     /// </summary>
     [pbr::OriginalName("NotFriend")] NotFriend = 0,
     /// <summary>
-    /// is friend
+    /// The user is a friend.
     /// </summary>
     [pbr::OriginalName("IsFriend")] IsFriend = 1,
   }
 
   public enum Relationship {
     /// <summary>
-    /// black
+    /// The user is a black
     /// </summary>
     [pbr::OriginalName("Black")] Black = 0,
     /// <summary>
-    /// friend
+    /// The user is a friend
     /// </summary>
     [pbr::OriginalName("Friend")] Friend = 1,
   }
@@ -193,7 +221,7 @@ namespace OpenIM.Proto {
     public const int FilterBlackFieldNumber = 2;
     private bool filterBlack_;
     /// <summary>
-    /// filter black, default false
+    /// @relation_filter_black
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -410,7 +438,7 @@ namespace OpenIM.Proto {
         = pb::FieldCodec.ForMessage(10, global::OpenIM.Proto.IMFriend.Parser);
     private readonly pbc::RepeatedField<global::OpenIM.Proto.IMFriend> friends_ = new pbc::RepeatedField<global::OpenIM.Proto.IMFriend>();
     /// <summary>
-    /// get specified friend list
+    /// @shared_imfriends
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -600,7 +628,7 @@ namespace OpenIM.Proto {
     public const int UserIDFieldNumber = 1;
     private string userID_ = "";
     /// <summary>
-    /// userid
+    /// @user_id
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -630,7 +658,7 @@ namespace OpenIM.Proto {
     public const int ExFieldNumber = 3;
     private string ex_ = "";
     /// <summary>
-    /// extension fields
+    /// friend extension fields
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1040,8 +1068,9 @@ namespace OpenIM.Proto {
     public const int SendFieldNumber = 1;
     private bool send_;
     /// <summary>
-    /// 1. user send friend request.
-    /// 2. user receive friend request
+    ///*
+    /// true: user sended friend request.
+    /// false: user received friend request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1244,7 +1273,7 @@ namespace OpenIM.Proto {
         = pb::FieldCodec.ForMessage(10, global::OpenIM.Proto.IMFriendApplication.Parser);
     private readonly pbc::RepeatedField<global::OpenIM.Proto.IMFriendApplication> applications_ = new pbc::RepeatedField<global::OpenIM.Proto.IMFriendApplication>();
     /// <summary>
-    /// corresponding friend request list
+    /// list of corresponding friend request
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1434,7 +1463,7 @@ namespace OpenIM.Proto {
     public const int UserIDFieldNumber = 1;
     private string userID_ = "";
     /// <summary>
-    /// send friend request userid
+    /// send friend request user id
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1449,7 +1478,7 @@ namespace OpenIM.Proto {
     public const int HandleMsgFieldNumber = 2;
     private string handleMsg_ = "";
     /// <summary>
-    /// handle message
+    /// request handle message
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1464,7 +1493,7 @@ namespace OpenIM.Proto {
     public const int StatusFieldNumber = 3;
     private global::OpenIM.Proto.ApprovalStatus status_ = global::OpenIM.Proto.ApprovalStatus.Default;
     /// <summary>
-    /// handle status
+    /// @common_approval_status
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1876,7 +1905,7 @@ namespace OpenIM.Proto {
         = pb::FieldCodec.ForString(10);
     private readonly pbc::RepeatedField<string> friendUserIDs_ = new pbc::RepeatedField<string>();
     /// <summary>
-    /// checkFriend userid list
+    /// list of check it friend user id
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -2065,7 +2094,7 @@ namespace OpenIM.Proto {
     public const int UserIDFieldNumber = 1;
     private string userID_ = "";
     /// <summary>
-    /// checkFriend target userid
+    /// @user_id
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -2080,7 +2109,7 @@ namespace OpenIM.Proto {
     public const int ResultFieldNumber = 2;
     private global::OpenIM.Proto.CheckFriendResult result_ = global::OpenIM.Proto.CheckFriendResult.NotFriend;
     /// <summary>
-    /// checkFriend result
+    /// User relationship result.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -2495,7 +2524,7 @@ namespace OpenIM.Proto {
     public const int UserIDFieldNumber = 1;
     private string userID_ = "";
     /// <summary>
-    /// need delete friend userid
+    /// @user_id
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -2857,7 +2886,7 @@ namespace OpenIM.Proto {
     public const int FilterBlackFieldNumber = 1;
     private bool filterBlack_;
     /// <summary>
-    /// filter black friend, default false
+    /// @relation_filter_black
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -3060,7 +3089,7 @@ namespace OpenIM.Proto {
         = pb::FieldCodec.ForMessage(10, global::OpenIM.Proto.IMFriend.Parser);
     private readonly pbc::RepeatedField<global::OpenIM.Proto.IMFriend> friends_ = new pbc::RepeatedField<global::OpenIM.Proto.IMFriend>();
     /// <summary>
-    /// get friend list
+    /// @shared_imfriends
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -3249,7 +3278,7 @@ namespace OpenIM.Proto {
     public const int FilterBlackFieldNumber = 1;
     private bool filterBlack_;
     /// <summary>
-    /// filter black friend, default false
+    /// @relation_filter_black
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -3264,7 +3293,7 @@ namespace OpenIM.Proto {
     public const int PaginationFieldNumber = 2;
     private global::OpenIM.Proto.RequestPagination pagination_;
     /// <summary>
-    /// pagination, include pagenumber and pageSize
+    /// @common_request_pagination
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -3500,7 +3529,7 @@ namespace OpenIM.Proto {
         = pb::FieldCodec.ForMessage(10, global::OpenIM.Proto.IMFriend.Parser);
     private readonly pbc::RepeatedField<global::OpenIM.Proto.IMFriend> friends_ = new pbc::RepeatedField<global::OpenIM.Proto.IMFriend>();
     /// <summary>
-    /// get friend list
+    /// @shared_imfriends
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -3691,7 +3720,7 @@ namespace OpenIM.Proto {
     public const int KeywordFieldNumber = 1;
     private string keyword_ = "";
     /// <summary>
-    /// search keyword
+    /// Search keyword
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -3706,7 +3735,7 @@ namespace OpenIM.Proto {
     public const int SearchUserIDFieldNumber = 2;
     private bool searchUserID_;
     /// <summary>
-    /// search userid is condition
+    ///  Userid is a search condition
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -3721,7 +3750,7 @@ namespace OpenIM.Proto {
     public const int SearchNicknameFieldNumber = 3;
     private bool searchNickname_;
     /// <summary>
-    /// search nickname is condition
+    ///  Nickname is a search condition
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -3736,7 +3765,7 @@ namespace OpenIM.Proto {
     public const int SearchRemarkFieldNumber = 4;
     private bool searchRemark_;
     /// <summary>
-    /// search remark is condition
+    /// Remark is a search condition
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -4010,7 +4039,7 @@ namespace OpenIM.Proto {
     public const int FriendFieldNumber = 1;
     private global::OpenIM.Proto.IMFriend friend_;
     /// <summary>
-    /// search friend info
+    /// @shared_imfriend
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -4450,7 +4479,7 @@ namespace OpenIM.Proto {
     public const int UserIDFieldNumber = 1;
     private string userID_ = "";
     /// <summary>
-    /// need add black userid
+    /// @user_id
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -4465,7 +4494,7 @@ namespace OpenIM.Proto {
     public const int ExFieldNumber = 2;
     private string ex_ = "";
     /// <summary>
-    /// extension fields
+    /// @relation_black_ex
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -4851,7 +4880,7 @@ namespace OpenIM.Proto {
     public const int UserIDFieldNumber = 1;
     private string userID_ = "";
     /// <summary>
-    /// need delete black userid
+    /// @user_id
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -5376,7 +5405,7 @@ namespace OpenIM.Proto {
         = pb::FieldCodec.ForMessage(10, global::OpenIM.Proto.IMBlack.Parser);
     private readonly pbc::RepeatedField<global::OpenIM.Proto.IMBlack> blacks_ = new pbc::RepeatedField<global::OpenIM.Proto.IMBlack>();
     /// <summary>
-    /// black list info list
+    /// list of black user
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -5569,7 +5598,7 @@ namespace OpenIM.Proto {
     public const int UserIDFieldNumber = 1;
     private string userID_ = "";
     /// <summary>
-    /// need update friend
+    /// @user_id
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -5586,7 +5615,7 @@ namespace OpenIM.Proto {
 
     private bool pinned_;
     /// <summary>
-    /// update friend pinned status
+    /// @opt @user_pinned
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -5616,7 +5645,7 @@ namespace OpenIM.Proto {
 
     private string remark_;
     /// <summary>
-    /// update friend remark
+    /// @opt @user_remark
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -5645,7 +5674,7 @@ namespace OpenIM.Proto {
 
     private string ex_;
     /// <summary>
-    /// upate friend extension fields
+    /// @opt friend extension field.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]

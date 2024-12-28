@@ -73,69 +73,252 @@ namespace OpenIM.Proto {
     /// </summary>
     [pbr::OriginalName("NoError")] NoError = 0,
     /// <summary>
-    /// Common error codes.
+    /// Server internal error. Usually due to internal network issues. Check if all server nodes are running properly.
     /// </summary>
     [pbr::OriginalName("ServerInternal")] ServerInternal = 500,
+    /// <summary>
+    /// Server Args error. Need check body args and header args is correct.
+    /// </summary>
     [pbr::OriginalName("Args")] Args = 1001,
+    /// <summary>
+    /// Server nno permission. Uaually header token is not correct or permission d.
+    /// </summary>
     [pbr::OriginalName("NoPermission")] NoPermission = 1002,
+    /// <summary>
+    /// Server database duplicate key.
+    /// </summary>
     [pbr::OriginalName("DuplicateKey")] DuplicateKey = 1003,
+    /// <summary>
+    /// Server database record not found.
+    /// </summary>
     [pbr::OriginalName("RecordNotFound")] RecordNotFound = 1004,
+    /// <summary>
+    /// Server token expired.
+    /// </summary>
     [pbr::OriginalName("TokenExpired")] TokenExpired = 1501,
+    /// <summary>
+    /// Server token invalid.
+    /// </summary>
     [pbr::OriginalName("TokenInvalid")] TokenInvalid = 1502,
+    /// <summary>
+    /// Server token format error.
+    /// </summary>
     [pbr::OriginalName("TokenMalformed")] TokenMalformed = 1503,
+    /// <summary>
+    /// Server token not valid yet.
+    /// </summary>
     [pbr::OriginalName("TokenNotValidYet")] TokenNotValidYet = 1504,
+    /// <summary>
+    /// Server token unknown.
+    /// </summary>
     [pbr::OriginalName("TokenUnknown")] TokenUnknown = 1505,
+    /// <summary>
+    /// Server token kicked, is invalid.
+    /// </summary>
     [pbr::OriginalName("TokenKicked")] TokenKicked = 1506,
+    /// <summary>
+    /// Server token not exist.
+    /// </summary>
     [pbr::OriginalName("TokenNotExist")] TokenNotExist = 1507,
+    /// <summary>
+    /// SDK network request error.
+    /// </summary>
     [pbr::OriginalName("SdkNetwork")] SdkNetwork = 10000,
+    /// <summary>
+    /// SDK network timeout.
+    /// </summary>
     [pbr::OriginalName("SdkNetworkTimeout")] SdkNetworkTimeout = 10001,
+    /// <summary>
+    /// SDK args error.
+    /// </summary>
     [pbr::OriginalName("SdkArgs")] SdkArgs = 10002,
+    /// <summary>
+    /// SDK context deadline exceeded, usually user is logout.
+    /// </summary>
     [pbr::OriginalName("SdkCtxDeadlineExceeded")] SdkCtxDeadlineExceeded = 10003,
+    /// <summary>
+    /// SDK resource load not complete, usually is not init or login interface will not callback success.
+    /// </summary>
     [pbr::OriginalName("SdkResourceLoadNotComplete")] SdkResourceLoadNotComplete = 10004,
+    /// <summary>
+    /// SDK unknown error. Need check error msg find reason.
+    /// </summary>
     [pbr::OriginalName("SdkUnknownCode")] SdkUnknownCode = 10005,
+    /// <summary>
+    /// SDK internal error. Need check error msg find reason.
+    /// </summary>
     [pbr::OriginalName("SdkInternal")] SdkInternal = 10006,
+    /// <summary>
+    /// SDK func not found.
+    /// </summary>
     [pbr::OriginalName("SdkFuncNotFound")] SdkFuncNotFound = 10007,
+    /// <summary>
+    /// SDK not init.
+    /// </summary>
     [pbr::OriginalName("SdkNotInit")] SdkNotInit = 10008,
+    /// <summary>
+    /// SDK not login.
+    /// </summary>
     [pbr::OriginalName("SdkNotLogin")] SdkNotLogin = 10009,
+    /// <summary>
+    /// SDK user id not exist or not register.
+    /// </summary>
     [pbr::OriginalName("SdkUserIDNotFound")] SdkUserIdnotFound = 10100,
+    /// <summary>
+    /// SDK user login out.
+    /// </summary>
     [pbr::OriginalName("SdkLoginOut")] SdkLoginOut = 10101,
+    /// <summary>
+    /// User repeated login. You can use `getloginstatus` to check user login status, avoid repeat login.
+    /// </summary>
     [pbr::OriginalName("SdkLoginRepeat")] SdkLoginRepeat = 10102,
+    /// <summary>
+    /// SDK need upload file not found.
+    /// </summary>
     [pbr::OriginalName("SdkFileNotFound")] SdkFileNotFound = 10200,
+    /// <summary>
+    /// SDK message decompression error.
+    /// </summary>
     [pbr::OriginalName("SdkMsgDeCompression")] SdkMsgDeCompression = 10201,
+    /// <summary>
+    /// SDK message decode error.
+    /// </summary>
     [pbr::OriginalName("SdkMsgDecodeBinaryWs")] SdkMsgDecodeBinaryWs = 10202,
+    /// <summary>
+    /// SDK not support long connection binary protocol.
+    /// </summary>
     [pbr::OriginalName("SdkMsgBinaryTypeNotSupport")] SdkMsgBinaryTypeNotSupport = 10203,
+    /// <summary>
+    /// SDK message send repeat.
+    /// </summary>
     [pbr::OriginalName("SdkMsgRepeat")] SdkMsgRepeat = 10204,
+    /// <summary>
+    /// SDK message content type not support.
+    /// </summary>
     [pbr::OriginalName("SdkMsgContentTypeNotSupport")] SdkMsgContentTypeNotSupport = 10205,
+    /// <summary>
+    /// SDK message has no seq.
+    /// </summary>
     [pbr::OriginalName("SdkMsgHasNoSeq")] SdkMsgHasNoSeq = 10206,
+    /// <summary>
+    /// SDK not support option.
+    /// </summary>
     [pbr::OriginalName("SdkNotSupportOpt")] SdkNotSupportOpt = 10301,
+    /// <summary>
+    /// SDK not support type.
+    /// </summary>
     [pbr::OriginalName("SdkNotSupportType")] SdkNotSupportType = 10302,
+    /// <summary>
+    /// SDK unread count error.
+    /// </summary>
     [pbr::OriginalName("SdkUnreadCount")] SdkUnreadCount = 10303,
+    /// <summary>
+    /// SDK group id not found.
+    /// </summary>
     [pbr::OriginalName("SdkGroupIDNotFound")] SdkGroupIdnotFound = 10400,
+    /// <summary>
+    /// SDK group type not error.
+    /// </summary>
     [pbr::OriginalName("SdkGroupType")] SdkGroupType = 10401,
+    /// <summary>
+    /// Server userid not found.
+    /// </summary>
     [pbr::OriginalName("SrvUserIDNotFound")] SrvUserIdnotFound = 1101,
+    /// <summary>
+    /// Server user registered already.
+    /// </summary>
     [pbr::OriginalName("SrvRegisteredAlready")] SrvRegisteredAlready = 1102,
+    /// <summary>
+    /// Server group id not found.
+    /// </summary>
     [pbr::OriginalName("SrvGroupIDNotFound")] SrvGroupIdnotFound = 1201,
+    /// <summary>
+    /// Server group id existed.
+    /// </summary>
     [pbr::OriginalName("SrvGroupIDExisted")] SrvGroupIdexisted = 1202,
+    /// <summary>
+    /// Server not in group yet.
+    /// </summary>
     [pbr::OriginalName("SrvNotInGroupYet")] SrvNotInGroupYet = 1203,
+    /// <summary>
+    /// Server dismissed.
+    /// </summary>
     [pbr::OriginalName("SrvDismissedAlready")] SrvDismissedAlready = 1204,
+    /// <summary>
+    /// Server group type not support.
+    /// </summary>
     [pbr::OriginalName("SrvGroupTypeNotSupport")] SrvGroupTypeNotSupport = 1205,
+    /// <summary>
+    /// Server request handled error, don't need repeat handle.
+    /// </summary>
     [pbr::OriginalName("SrvGroupRequestHandled")] SrvGroupRequestHandled = 1206,
+    /// <summary>
+    /// Server can not add yourself to friend.
+    /// </summary>
     [pbr::OriginalName("SrvCanNotAddYourself")] SrvCanNotAddYourself = 1301,
+    /// <summary>
+    /// Server blocked by other user error.
+    /// </summary>
     [pbr::OriginalName("SrvBlockedByPeer")] SrvBlockedByPeer = 1302,
+    /// <summary>
+    /// Server not other user's friend.
+    /// </summary>
     [pbr::OriginalName("SrvNotPeersFriend")] SrvNotPeersFriend = 1303,
+    /// <summary>
+    /// Server relationship already, don't need repeat request.
+    /// </summary>
     [pbr::OriginalName("SrvRelationshipAlready")] SrvRelationshipAlready = 1304,
+    /// <summary>
+    /// Server message has read disable.
+    /// </summary>
     [pbr::OriginalName("SrvMessageHasReadDisable")] SrvMessageHasReadDisable = 1401,
+    /// <summary>
+    /// Server you are muted in group.
+    /// </summary>
     [pbr::OriginalName("SrvMutedInGroup")] SrvMutedInGroup = 1402,
+    /// <summary>
+    /// Server group has muted.
+    /// </summary>
     [pbr::OriginalName("SrvMutedGroup")] SrvMutedGroup = 1403,
+    /// <summary>
+    /// Server message already revoke.
+    /// </summary>
     [pbr::OriginalName("SrvMsgAlreadyRevoke")] SrvMsgAlreadyRevoke = 1404,
+    /// <summary>
+    /// Server connect over max num limit in gateway.
+    /// </summary>
     [pbr::OriginalName("SrvConnOverMaxNumLimit")] SrvConnOverMaxNumLimit = 1601,
+    /// <summary>
+    /// Server connect args error.
+    /// </summary>
     [pbr::OriginalName("SrvConnArgs")] SrvConnArgs = 1602,
+    /// <summary>
+    /// Server push message error.
+    /// </summary>
     [pbr::OriginalName("SrvPushMsg")] SrvPushMsg = 1603,
+    /// <summary>
+    /// Server ios background push error.
+    /// </summary>
     [pbr::OriginalName("SrvIOSBackgroundPush")] SrvIosbackgroundPush = 1604,
+    /// <summary>
+    /// Server file uploaded expired.
+    /// </summary>
     [pbr::OriginalName("SrvFileUploadedExpired")] SrvFileUploadedExpired = 1701,
+    /// <summary>
+    /// Server database error.
+    /// </summary>
     [pbr::OriginalName("SrvDatabase")] SrvDatabase = 90002,
+    /// <summary>
+    /// Server network error.
+    /// </summary>
     [pbr::OriginalName("SrvNetwork")] SrvNetwork = 90004,
+    /// <summary>
+    /// Server data error.
+    /// </summary>
     [pbr::OriginalName("SrvData")] SrvData = 90007,
+    /// <summary>
+    /// Server callback error.
+    /// </summary>
     [pbr::OriginalName("SrvCallback")] SrvCallback = 80000,
   }
 

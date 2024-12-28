@@ -370,11 +370,17 @@ namespace OpenIM.Proto {
     /// normal group chat
     /// </summary>
     [pbr::OriginalName("Default")] Default = 0,
+    /// <summary>
+    /// the group chat has been banned
+    /// </summary>
     [pbr::OriginalName("Banned")] Banned = 1,
     /// <summary>
-    /// the group chat has been disbanded
+    /// the group chat has been dismissed
     /// </summary>
     [pbr::OriginalName("Dismissed")] Dismissed = 2,
+    /// <summary>
+    /// the group chat has been muted
+    /// </summary>
     [pbr::OriginalName("Muted")] Muted = 3,
   }
 
@@ -935,6 +941,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "userID" field.</summary>
     public const int UserIDFieldNumber = 1;
     private string userID_ = "";
+    /// <summary>
+    /// @user_id
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string UserID {
@@ -947,6 +956,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "type" field.</summary>
     public const int TypeFieldNumber = 2;
     private int type_;
+    /// <summary>
+    /// @user_command_type
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int Type {
@@ -959,6 +971,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "createTime" field.</summary>
     public const int CreateTimeFieldNumber = 3;
     private long createTime_;
+    /// <summary>
+    /// command create time
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long CreateTime {
@@ -971,6 +986,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "uuid" field.</summary>
     public const int UuidFieldNumber = 4;
     private string uuid_ = "";
+    /// <summary>
+    /// @user_command_uuid
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Uuid {
@@ -983,6 +1001,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "value" field.</summary>
     public const int ValueFieldNumber = 5;
     private string value_ = "";
+    /// <summary>
+    /// @user_command_value
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Value {
@@ -995,6 +1016,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "ex" field.</summary>
     public const int ExFieldNumber = 6;
     private string ex_ = "";
+    /// <summary>
+    /// @user_command_ex
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Ex {
@@ -1327,7 +1351,7 @@ namespace OpenIM.Proto {
     public const int OwnerUserIDFieldNumber = 1;
     private string ownerUserID_ = "";
     /// <summary>
-    /// Currently logged-in user ID
+    /// @shared_owner_user_id
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1342,7 +1366,7 @@ namespace OpenIM.Proto {
     public const int FriendUserIDFieldNumber = 2;
     private string friendUserID_ = "";
     /// <summary>
-    /// Friend user ID
+    /// @relation_friend_user_id
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1357,7 +1381,7 @@ namespace OpenIM.Proto {
     public const int RemarkFieldNumber = 3;
     private string remark_ = "";
     /// <summary>
-    /// Friend remark
+    /// @relation_remark
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1372,7 +1396,7 @@ namespace OpenIM.Proto {
     public const int CreateTimeFieldNumber = 4;
     private long createTime_;
     /// <summary>
-    /// Friend add time
+    /// @relation_friend_add_time
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1387,7 +1411,7 @@ namespace OpenIM.Proto {
     public const int AddSourceFieldNumber = 5;
     private global::OpenIM.Proto.FriendSource addSource_ = global::OpenIM.Proto.FriendSource.FriendSource;
     /// <summary>
-    /// Friend add source
+    /// @relation_friend_add_source
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1402,7 +1426,7 @@ namespace OpenIM.Proto {
     public const int OperatorUserIDFieldNumber = 6;
     private string operatorUserID_ = "";
     /// <summary>
-    /// Operator user ID
+    /// @relation_friend_op_user_id
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1477,7 +1501,7 @@ namespace OpenIM.Proto {
     public const int IsPinnedFieldNumber = 11;
     private bool isPinned_;
     /// <summary>
-    /// Whether the friend is pinned
+    /// @user_pinned
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1926,7 +1950,7 @@ namespace OpenIM.Proto {
     public const int OwnerUserIDFieldNumber = 1;
     private string ownerUserID_ = "";
     /// <summary>
-    /// Currently logged-in user ID
+    /// @shared_owner_user_id
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1986,7 +2010,7 @@ namespace OpenIM.Proto {
     public const int CreateTimeFieldNumber = 5;
     private long createTime_;
     /// <summary>
-    /// Block time
+    /// @relation_black_block_time
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -2001,7 +2025,7 @@ namespace OpenIM.Proto {
     public const int AddSourceFieldNumber = 6;
     private global::OpenIM.Proto.FriendSource addSource_ = global::OpenIM.Proto.FriendSource.FriendSource;
     /// <summary>
-    /// Block source
+    /// @realtion_friend_add_source
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -2016,7 +2040,7 @@ namespace OpenIM.Proto {
     public const int OperatorUserIDFieldNumber = 7;
     private string operatorUserID_ = "";
     /// <summary>
-    /// Operator user ID
+    /// @relation_black_op_user_id
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -2031,7 +2055,7 @@ namespace OpenIM.Proto {
     public const int ExFieldNumber = 8;
     private string ex_ = "";
     /// <summary>
-    /// Block extension field
+    /// @relation_black_ex
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -2046,7 +2070,7 @@ namespace OpenIM.Proto {
     public const int AttachedFieldNumber = 9;
     private string attached_ = "";
     /// <summary>
-    /// SDK internal extension field, not currently used
+    /// @relation_attached
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -2647,7 +2671,7 @@ namespace OpenIM.Proto {
     public const int AttachedFieldNumber = 14;
     private string attached_ = "";
     /// <summary>
-    /// SDK internal extension field, not currently used
+    /// @relation_attached
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -5738,6 +5762,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "conversationID" field.</summary>
     public const int ConversationIDFieldNumber = 1;
     private string conversationID_ = "";
+    /// <summary>
+    /// @conversation_id
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string ConversationID {
@@ -5750,6 +5777,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "conversationType" field.</summary>
     public const int ConversationTypeFieldNumber = 2;
     private global::OpenIM.Proto.SessionType conversationType_ = global::OpenIM.Proto.SessionType.SessionType;
+    /// <summary>
+    /// @conversation_type
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.SessionType ConversationType {
@@ -5762,6 +5792,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "userID" field.</summary>
     public const int UserIDFieldNumber = 3;
     private string userID_ = "";
+    /// <summary>
+    /// @user_id
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string UserID {
@@ -5774,6 +5807,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "groupID" field.</summary>
     public const int GroupIDFieldNumber = 4;
     private string groupID_ = "";
+    /// <summary>
+    /// @group_id
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string GroupID {
@@ -5786,6 +5822,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "showName" field.</summary>
     public const int ShowNameFieldNumber = 5;
     private string showName_ = "";
+    /// <summary>
+    /// @conversation_show_name
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string ShowName {
@@ -5798,6 +5837,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "faceURL" field.</summary>
     public const int FaceURLFieldNumber = 6;
     private string faceURL_ = "";
+    /// <summary>
+    /// @user_face_url
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string FaceURL {
@@ -5810,6 +5852,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "recvMsgOpt" field.</summary>
     public const int RecvMsgOptFieldNumber = 7;
     private global::OpenIM.Proto.ConvRecvMsgOpt recvMsgOpt_ = global::OpenIM.Proto.ConvRecvMsgOpt.ReceiveMessage;
+    /// <summary>
+    /// @conversation_recv_msg_opt
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.ConvRecvMsgOpt RecvMsgOpt {
@@ -5822,6 +5867,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "unreadCount" field.</summary>
     public const int UnreadCountFieldNumber = 8;
     private int unreadCount_;
+    /// <summary>
+    /// @conversation_unread_count
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int UnreadCount {
@@ -5834,6 +5882,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "groupAtType" field.</summary>
     public const int GroupAtTypeFieldNumber = 9;
     private global::OpenIM.Proto.ConvGroupAtType groupAtType_ = global::OpenIM.Proto.ConvGroupAtType.AtNormal;
+    /// <summary>
+    /// @conversation_group_at_type
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.ConvGroupAtType GroupAtType {
@@ -5846,6 +5897,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "latestMsg" field.</summary>
     public const int LatestMsgFieldNumber = 10;
     private global::OpenIM.Proto.IMMessage latestMsg_;
+    /// <summary>
+    /// @conversation_latest_msg
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.IMMessage LatestMsg {
@@ -5858,6 +5912,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "latestMsgSendTime" field.</summary>
     public const int LatestMsgSendTimeFieldNumber = 11;
     private long latestMsgSendTime_;
+    /// <summary>
+    /// @conversation_latest_msg_send_time
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long LatestMsgSendTime {
@@ -5870,6 +5927,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "draftText" field.</summary>
     public const int DraftTextFieldNumber = 12;
     private string draftText_ = "";
+    /// <summary>
+    /// @conversation_draft_text
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string DraftText {
@@ -5882,6 +5942,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "draftTextTime" field.</summary>
     public const int DraftTextTimeFieldNumber = 13;
     private long draftTextTime_;
+    /// <summary>
+    /// @conversation_draft_text_time
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long DraftTextTime {
@@ -5894,6 +5957,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "isPinned" field.</summary>
     public const int IsPinnedFieldNumber = 14;
     private bool isPinned_;
+    /// <summary>
+    /// @conversation_is_pinned
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool IsPinned {
@@ -5906,6 +5972,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "isPrivateChat" field.</summary>
     public const int IsPrivateChatFieldNumber = 15;
     private bool isPrivateChat_;
+    /// <summary>
+    /// @conversation_is_private
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool IsPrivateChat {
@@ -5918,6 +5987,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "burnDuration" field.</summary>
     public const int BurnDurationFieldNumber = 16;
     private int burnDuration_;
+    /// <summary>
+    /// @conversation_burn_duration
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int BurnDuration {
@@ -5930,6 +6002,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "ex" field.</summary>
     public const int ExFieldNumber = 17;
     private string ex_ = "";
+    /// <summary>
+    /// @conversation_ex
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Ex {
@@ -6522,6 +6597,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "atUserID" field.</summary>
     public const int AtUserIDFieldNumber = 1;
     private string atUserID_ = "";
+    /// <summary>
+    /// @message_at_user_id
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string AtUserID {
@@ -6534,6 +6612,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "groupNickname" field.</summary>
     public const int GroupNicknameFieldNumber = 2;
     private string groupNickname_ = "";
+    /// <summary>
+    /// @message_group_nick_name
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string GroupNickname {
@@ -6759,6 +6840,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "width" field.</summary>
     public const int WidthFieldNumber = 1;
     private int width_;
+    /// <summary>
+    /// @message_image_width
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int Width {
@@ -6771,6 +6855,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "height" field.</summary>
     public const int HeightFieldNumber = 2;
     private int height_;
+    /// <summary>
+    /// @message_image_height
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int Height {
@@ -6783,6 +6870,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "type" field.</summary>
     public const int TypeFieldNumber = 3;
     private string type_ = "";
+    /// <summary>
+    /// @message_image_type
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Type {
@@ -6795,6 +6885,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "size" field.</summary>
     public const int SizeFieldNumber = 4;
     private long size_;
+    /// <summary>
+    /// @message_image_size
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long Size {
@@ -7070,6 +7163,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "uuid" field.</summary>
     public const int UuidFieldNumber = 1;
     private string uuid_ = "";
+    /// <summary>
+    /// picture uuid
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Uuid {
@@ -7082,6 +7178,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "type" field.</summary>
     public const int TypeFieldNumber = 2;
     private string type_ = "";
+    /// <summary>
+    /// picture type
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Type {
@@ -7094,6 +7193,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "size" field.</summary>
     public const int SizeFieldNumber = 3;
     private long size_;
+    /// <summary>
+    /// picture size
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long Size {
@@ -7106,6 +7208,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "width" field.</summary>
     public const int WidthFieldNumber = 4;
     private int width_;
+    /// <summary>
+    /// picture width
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int Width {
@@ -7118,6 +7223,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "height" field.</summary>
     public const int HeightFieldNumber = 5;
     private int height_;
+    /// <summary>
+    /// picture height
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int Height {
@@ -7130,6 +7238,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "url" field.</summary>
     public const int UrlFieldNumber = 6;
     private string url_ = "";
+    /// <summary>
+    /// picture url
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Url {
@@ -7453,6 +7564,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "uuid" field.</summary>
     public const int UuidFieldNumber = 1;
     private string uuid_ = "";
+    /// <summary>
+    /// sound uuid
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Uuid {
@@ -7465,6 +7579,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "soundPath" field.</summary>
     public const int SoundPathFieldNumber = 2;
     private string soundPath_ = "";
+    /// <summary>
+    /// sound local path
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string SoundPath {
@@ -7477,6 +7594,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "sourceURL" field.</summary>
     public const int SourceURLFieldNumber = 3;
     private string sourceURL_ = "";
+    /// <summary>
+    /// sound source URL
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string SourceURL {
@@ -7489,6 +7609,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "dataSize" field.</summary>
     public const int DataSizeFieldNumber = 4;
     private long dataSize_;
+    /// <summary>
+    /// sound size
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long DataSize {
@@ -7501,6 +7624,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "duration" field.</summary>
     public const int DurationFieldNumber = 5;
     private long duration_;
+    /// <summary>
+    /// sound duration
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long Duration {
@@ -7513,6 +7639,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "soundType" field.</summary>
     public const int SoundTypeFieldNumber = 6;
     private string soundType_ = "";
+    /// <summary>
+    /// sound type
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string SoundType {
@@ -7843,6 +7972,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "videoPath" field.</summary>
     public const int VideoPathFieldNumber = 1;
     private string videoPath_ = "";
+    /// <summary>
+    /// video local path
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string VideoPath {
@@ -7855,6 +7987,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "videoUUID" field.</summary>
     public const int VideoUUIDFieldNumber = 2;
     private string videoUUID_ = "";
+    /// <summary>
+    /// video uuid
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string VideoUUID {
@@ -7867,6 +8002,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "videoURL" field.</summary>
     public const int VideoURLFieldNumber = 3;
     private string videoURL_ = "";
+    /// <summary>
+    /// video source URL
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string VideoURL {
@@ -7879,6 +8017,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "videoType" field.</summary>
     public const int VideoTypeFieldNumber = 4;
     private string videoType_ = "";
+    /// <summary>
+    /// video type
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string VideoType {
@@ -7891,6 +8032,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "videoSize" field.</summary>
     public const int VideoSizeFieldNumber = 5;
     private long videoSize_;
+    /// <summary>
+    /// video size
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long VideoSize {
@@ -7903,6 +8047,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "duration" field.</summary>
     public const int DurationFieldNumber = 6;
     private long duration_;
+    /// <summary>
+    /// video duration
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long Duration {
@@ -7915,6 +8062,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "snapshotPath" field.</summary>
     public const int SnapshotPathFieldNumber = 7;
     private string snapshotPath_ = "";
+    /// <summary>
+    /// video snapshot local path
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string SnapshotPath {
@@ -7927,6 +8077,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "snapshotUUID" field.</summary>
     public const int SnapshotUUIDFieldNumber = 8;
     private string snapshotUUID_ = "";
+    /// <summary>
+    /// video snapshot uuid
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string SnapshotUUID {
@@ -7939,6 +8092,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "snapshotSize" field.</summary>
     public const int SnapshotSizeFieldNumber = 9;
     private long snapshotSize_;
+    /// <summary>
+    /// video snapshot size
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long SnapshotSize {
@@ -7951,6 +8107,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "snapshotURL" field.</summary>
     public const int SnapshotURLFieldNumber = 10;
     private string snapshotURL_ = "";
+    /// <summary>
+    /// video snapshot URL
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string SnapshotURL {
@@ -7963,6 +8122,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "snapshotWidth" field.</summary>
     public const int SnapshotWidthFieldNumber = 11;
     private int snapshotWidth_;
+    /// <summary>
+    /// video snapshot width
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int SnapshotWidth {
@@ -7975,6 +8137,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "snapshotHeight" field.</summary>
     public const int SnapshotHeightFieldNumber = 12;
     private int snapshotHeight_;
+    /// <summary>
+    /// video snapshot height
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int SnapshotHeight {
@@ -7987,6 +8152,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "snapshotType" field.</summary>
     public const int SnapshotTypeFieldNumber = 13;
     private string snapshotType_ = "";
+    /// <summary>
+    /// video snapshot type
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string SnapshotType {
@@ -8478,6 +8646,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "filePath" field.</summary>
     public const int FilePathFieldNumber = 1;
     private string filePath_ = "";
+    /// <summary>
+    /// file local path
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string FilePath {
@@ -8490,6 +8661,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "uuid" field.</summary>
     public const int UuidFieldNumber = 2;
     private string uuid_ = "";
+    /// <summary>
+    /// file uuid
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Uuid {
@@ -8502,6 +8676,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "sourceURL" field.</summary>
     public const int SourceURLFieldNumber = 3;
     private string sourceURL_ = "";
+    /// <summary>
+    /// file source URL
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string SourceURL {
@@ -8514,6 +8691,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "fileName" field.</summary>
     public const int FileNameFieldNumber = 4;
     private string fileName_ = "";
+    /// <summary>
+    /// file name
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string FileName {
@@ -8526,6 +8706,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "fileSize" field.</summary>
     public const int FileSizeFieldNumber = 5;
     private long fileSize_;
+    /// <summary>
+    /// file size
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long FileSize {
@@ -8538,6 +8721,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "fileType" field.</summary>
     public const int FileTypeFieldNumber = 6;
     private string fileType_ = "";
+    /// <summary>
+    /// file type
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string FileType {
@@ -8856,6 +9042,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "content" field.</summary>
     public const int ContentFieldNumber = 1;
     private string content_ = "";
+    /// <summary>
+    /// text content
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Content {
@@ -9057,6 +9246,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "userID" field.</summary>
     public const int UserIDFieldNumber = 1;
     private string userID_ = "";
+    /// <summary>
+    /// @user_id
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string UserID {
@@ -9069,6 +9261,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "nickname" field.</summary>
     public const int NicknameFieldNumber = 2;
     private string nickname_ = "";
+    /// <summary>
+    /// @user_nickname
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Nickname {
@@ -9081,6 +9276,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "faceURL" field.</summary>
     public const int FaceURLFieldNumber = 3;
     private string faceURL_ = "";
+    /// <summary>
+    /// @user_face_url
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string FaceURL {
@@ -9093,6 +9291,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "ex" field.</summary>
     public const int ExFieldNumber = 4;
     private string ex_ = "";
+    /// <summary>
+    /// @user_ex
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Ex {
@@ -9368,6 +9569,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "sourcePath" field.</summary>
     public const int SourcePathFieldNumber = 1;
     private string sourcePath_ = "";
+    /// <summary>
+    /// picture local path
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string SourcePath {
@@ -9380,6 +9584,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "bigPath" field.</summary>
     public const int BigPathFieldNumber = 2;
     private string bigPath_ = "";
+    /// <summary>
+    /// picture big local path
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string BigPath {
@@ -9392,6 +9599,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "snapshotPath" field.</summary>
     public const int SnapshotPathFieldNumber = 3;
     private string snapshotPath_ = "";
+    /// <summary>
+    /// picture snapshot local path
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string SnapshotPath {
@@ -9404,6 +9614,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "sourcePicture" field.</summary>
     public const int SourcePictureFieldNumber = 4;
     private global::OpenIM.Proto.PictureBaseInfo sourcePicture_;
+    /// <summary>
+    /// source picture info
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.PictureBaseInfo SourcePicture {
@@ -9416,6 +9629,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "bigPicture" field.</summary>
     public const int BigPictureFieldNumber = 5;
     private global::OpenIM.Proto.PictureBaseInfo bigPicture_;
+    /// <summary>
+    /// big picture info
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.PictureBaseInfo BigPicture {
@@ -9428,6 +9644,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "snapshotPicture" field.</summary>
     public const int SnapshotPictureFieldNumber = 6;
     private global::OpenIM.Proto.PictureBaseInfo snapshotPicture_;
+    /// <summary>
+    /// snapshot picture info
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.PictureBaseInfo SnapshotPicture {
@@ -9778,6 +9997,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "uuid" field.</summary>
     public const int UuidFieldNumber = 1;
     private string uuid_ = "";
+    /// <summary>
+    /// sound uuid
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Uuid {
@@ -9790,6 +10012,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "soundPath" field.</summary>
     public const int SoundPathFieldNumber = 2;
     private string soundPath_ = "";
+    /// <summary>
+    /// sound local path
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string SoundPath {
@@ -9802,6 +10027,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "sourceURL" field.</summary>
     public const int SourceURLFieldNumber = 3;
     private string sourceURL_ = "";
+    /// <summary>
+    /// sound source URL
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string SourceURL {
@@ -9814,6 +10042,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "dataSize" field.</summary>
     public const int DataSizeFieldNumber = 4;
     private long dataSize_;
+    /// <summary>
+    /// sound size
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long DataSize {
@@ -9826,6 +10057,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "duration" field.</summary>
     public const int DurationFieldNumber = 5;
     private long duration_;
+    /// <summary>
+    /// sound duration
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long Duration {
@@ -9838,6 +10072,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "soundType" field.</summary>
     public const int SoundTypeFieldNumber = 6;
     private string soundType_ = "";
+    /// <summary>
+    /// sound type
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string SoundType {
@@ -10168,6 +10405,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "videoPath" field.</summary>
     public const int VideoPathFieldNumber = 1;
     private string videoPath_ = "";
+    /// <summary>
+    /// video local path
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string VideoPath {
@@ -10180,6 +10420,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "videoUUID" field.</summary>
     public const int VideoUUIDFieldNumber = 2;
     private string videoUUID_ = "";
+    /// <summary>
+    /// video uuid
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string VideoUUID {
@@ -10192,6 +10435,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "videoURL" field.</summary>
     public const int VideoURLFieldNumber = 3;
     private string videoURL_ = "";
+    /// <summary>
+    /// video source URL
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string VideoURL {
@@ -10204,6 +10450,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "videoType" field.</summary>
     public const int VideoTypeFieldNumber = 4;
     private string videoType_ = "";
+    /// <summary>
+    /// video type
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string VideoType {
@@ -10216,6 +10465,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "videoSize" field.</summary>
     public const int VideoSizeFieldNumber = 5;
     private long videoSize_;
+    /// <summary>
+    /// video size
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long VideoSize {
@@ -10228,6 +10480,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "duration" field.</summary>
     public const int DurationFieldNumber = 6;
     private long duration_;
+    /// <summary>
+    /// video duration
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long Duration {
@@ -10240,6 +10495,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "snapshotPath" field.</summary>
     public const int SnapshotPathFieldNumber = 7;
     private string snapshotPath_ = "";
+    /// <summary>
+    /// video snapshot local path
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string SnapshotPath {
@@ -10252,6 +10510,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "snapshotUUID" field.</summary>
     public const int SnapshotUUIDFieldNumber = 8;
     private string snapshotUUID_ = "";
+    /// <summary>
+    /// video snapshot uuid
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string SnapshotUUID {
@@ -10264,6 +10525,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "snapshotSize" field.</summary>
     public const int SnapshotSizeFieldNumber = 9;
     private long snapshotSize_;
+    /// <summary>
+    /// video snapshot size
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long SnapshotSize {
@@ -10276,6 +10540,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "snapshotURL" field.</summary>
     public const int SnapshotURLFieldNumber = 10;
     private string snapshotURL_ = "";
+    /// <summary>
+    /// video snapshot URL
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string SnapshotURL {
@@ -10288,6 +10555,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "snapshotWidth" field.</summary>
     public const int SnapshotWidthFieldNumber = 11;
     private int snapshotWidth_;
+    /// <summary>
+    /// video snapshot width
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int SnapshotWidth {
@@ -10300,6 +10570,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "snapshotHeight" field.</summary>
     public const int SnapshotHeightFieldNumber = 12;
     private int snapshotHeight_;
+    /// <summary>
+    /// video snapshot height
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int SnapshotHeight {
@@ -10312,6 +10585,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "snapshotType" field.</summary>
     public const int SnapshotTypeFieldNumber = 13;
     private string snapshotType_ = "";
+    /// <summary>
+    /// video snapshot type
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string SnapshotType {
@@ -10803,6 +11079,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "filePath" field.</summary>
     public const int FilePathFieldNumber = 1;
     private string filePath_ = "";
+    /// <summary>
+    /// file local path
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string FilePath {
@@ -10815,6 +11094,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "uuid" field.</summary>
     public const int UuidFieldNumber = 2;
     private string uuid_ = "";
+    /// <summary>
+    /// file uuid
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Uuid {
@@ -10827,6 +11109,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "sourceURL" field.</summary>
     public const int SourceURLFieldNumber = 3;
     private string sourceURL_ = "";
+    /// <summary>
+    /// file source URL
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string SourceURL {
@@ -10839,6 +11124,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "fileName" field.</summary>
     public const int FileNameFieldNumber = 4;
     private string fileName_ = "";
+    /// <summary>
+    /// file name
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string FileName {
@@ -10851,6 +11139,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "fileSize" field.</summary>
     public const int FileSizeFieldNumber = 5;
     private long fileSize_;
+    /// <summary>
+    /// file size
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long FileSize {
@@ -10863,6 +11154,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "fileType" field.</summary>
     public const int FileTypeFieldNumber = 6;
     private string fileType_ = "";
+    /// <summary>
+    /// file type
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string FileType {
@@ -11182,6 +11476,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "type" field.</summary>
     public const int TypeFieldNumber = 1;
     private string type_ = "";
+    /// <summary>
+    /// error code
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Type {
@@ -11194,6 +11491,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "data" field.</summary>
     public const int DataFieldNumber = 2;
     private string data_ = "";
+    /// <summary>
+    /// error message
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Data {
@@ -11420,6 +11720,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "type" field.</summary>
     public const int TypeFieldNumber = 1;
     private string type_ = "";
+    /// <summary>
+    /// message entity type
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Type {
@@ -11432,6 +11735,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "offset" field.</summary>
     public const int OffsetFieldNumber = 2;
     private int offset_;
+    /// <summary>
+    /// message entity offset
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int Offset {
@@ -11444,6 +11750,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "length" field.</summary>
     public const int LengthFieldNumber = 3;
     private int length_;
+    /// <summary>
+    /// message entity length
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int Length {
@@ -11456,6 +11765,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "url" field.</summary>
     public const int UrlFieldNumber = 4;
     private string url_ = "";
+    /// <summary>
+    /// message entity data
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Url {
@@ -11468,6 +11780,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "ex" field.</summary>
     public const int ExFieldNumber = 5;
     private string ex_ = "";
+    /// <summary>
+    /// message entity data
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Ex {
@@ -11765,6 +12080,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "title" field.</summary>
     public const int TitleFieldNumber = 1;
     private string title_ = "";
+    /// <summary>
+    /// merge message title
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Title {
@@ -11779,6 +12097,9 @@ namespace OpenIM.Proto {
     private static readonly pb::FieldCodec<string> _repeated_abstractList_codec
         = pb::FieldCodec.ForString(18);
     private readonly pbc::RepeatedField<string> abstractList_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    /// merge message summary
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::RepeatedField<string> AbstractList {
@@ -11790,6 +12111,9 @@ namespace OpenIM.Proto {
     private static readonly pb::FieldCodec<global::OpenIM.Proto.IMMessage> _repeated_multiMessage_codec
         = pb::FieldCodec.ForMessage(26, global::OpenIM.Proto.IMMessage.Parser);
     private readonly pbc::RepeatedField<global::OpenIM.Proto.IMMessage> multiMessage_ = new pbc::RepeatedField<global::OpenIM.Proto.IMMessage>();
+    /// <summary>
+    /// merge message message list
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::RepeatedField<global::OpenIM.Proto.IMMessage> MultiMessage {
@@ -11801,6 +12125,9 @@ namespace OpenIM.Proto {
     private static readonly pb::FieldCodec<global::OpenIM.Proto.MessageEntity> _repeated_messageEntityList_codec
         = pb::FieldCodec.ForMessage(34, global::OpenIM.Proto.MessageEntity.Parser);
     private readonly pbc::RepeatedField<global::OpenIM.Proto.MessageEntity> messageEntityList_ = new pbc::RepeatedField<global::OpenIM.Proto.MessageEntity>();
+    /// <summary>
+    /// merge message entity list
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::RepeatedField<global::OpenIM.Proto.MessageEntity> MessageEntityList {
@@ -12042,6 +12369,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "text" field.</summary>
     public const int TextFieldNumber = 1;
     private string text_ = "";
+    /// <summary>
+    /// text content
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Text {
@@ -12056,6 +12386,9 @@ namespace OpenIM.Proto {
     private static readonly pb::FieldCodec<string> _repeated_atUserList_codec
         = pb::FieldCodec.ForString(18);
     private readonly pbc::RepeatedField<string> atUserList_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    /// at user list
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::RepeatedField<string> AtUserList {
@@ -12067,6 +12400,9 @@ namespace OpenIM.Proto {
     private static readonly pb::FieldCodec<global::OpenIM.Proto.AtInfo> _repeated_atUsersInfo_codec
         = pb::FieldCodec.ForMessage(26, global::OpenIM.Proto.AtInfo.Parser);
     private readonly pbc::RepeatedField<global::OpenIM.Proto.AtInfo> atUsersInfo_ = new pbc::RepeatedField<global::OpenIM.Proto.AtInfo>();
+    /// <summary>
+    /// at user info list
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::RepeatedField<global::OpenIM.Proto.AtInfo> AtUsersInfo {
@@ -12076,6 +12412,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "quoteMessage" field.</summary>
     public const int QuoteMessageFieldNumber = 4;
     private global::OpenIM.Proto.IMMessage quoteMessage_;
+    /// <summary>
+    /// quote message
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.IMMessage QuoteMessage {
@@ -12088,6 +12427,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "isAtSelf" field.</summary>
     public const int IsAtSelfFieldNumber = 5;
     private bool isAtSelf_;
+    /// <summary>
+    /// is at self
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool IsAtSelf {
@@ -12372,6 +12714,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "index" field.</summary>
     public const int IndexFieldNumber = 1;
     private int index_;
+    /// <summary>
+    /// face index
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int Index {
@@ -12384,6 +12729,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "data" field.</summary>
     public const int DataFieldNumber = 2;
     private string data_ = "";
+    /// <summary>
+    /// face data
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Data {
@@ -12608,6 +12956,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "description" field.</summary>
     public const int DescriptionFieldNumber = 1;
     private string description_ = "";
+    /// <summary>
+    /// location description
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Description {
@@ -12620,6 +12971,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "longitude" field.</summary>
     public const int LongitudeFieldNumber = 2;
     private double longitude_;
+    /// <summary>
+    /// location longitude
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public double Longitude {
@@ -12632,6 +12986,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "latitude" field.</summary>
     public const int LatitudeFieldNumber = 3;
     private double latitude_;
+    /// <summary>
+    /// location latitude
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public double Latitude {
@@ -12880,6 +13237,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "data" field.</summary>
     public const int DataFieldNumber = 1;
     private string data_ = "";
+    /// <summary>
+    /// custom message data
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Data {
@@ -12892,6 +13252,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "description" field.</summary>
     public const int DescriptionFieldNumber = 2;
     private string description_ = "";
+    /// <summary>
+    /// custom message description
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Description {
@@ -12904,6 +13267,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "extension" field.</summary>
     public const int ExtensionFieldNumber = 3;
     private string extension_ = "";
+    /// <summary>
+    /// custom message extension field
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Extension {
@@ -13152,6 +13518,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "text" field.</summary>
     public const int TextFieldNumber = 1;
     private string text_ = "";
+    /// <summary>
+    /// message text
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Text {
@@ -13164,6 +13533,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "quoteMessage" field.</summary>
     public const int QuoteMessageFieldNumber = 2;
     private global::OpenIM.Proto.IMMessage quoteMessage_;
+    /// <summary>
+    /// quote message
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.IMMessage QuoteMessage {
@@ -13178,6 +13550,9 @@ namespace OpenIM.Proto {
     private static readonly pb::FieldCodec<global::OpenIM.Proto.MessageEntity> _repeated_messageEntityList_codec
         = pb::FieldCodec.ForMessage(26, global::OpenIM.Proto.MessageEntity.Parser);
     private readonly pbc::RepeatedField<global::OpenIM.Proto.MessageEntity> messageEntityList_ = new pbc::RepeatedField<global::OpenIM.Proto.MessageEntity>();
+    /// <summary>
+    /// message entity list
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::RepeatedField<global::OpenIM.Proto.MessageEntity> MessageEntityList {
@@ -13421,6 +13796,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "text" field.</summary>
     public const int TextFieldNumber = 1;
     private string text_ = "";
+    /// <summary>
+    /// text content
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Text {
@@ -13435,6 +13813,9 @@ namespace OpenIM.Proto {
     private static readonly pb::FieldCodec<global::OpenIM.Proto.MessageEntity> _repeated_messageEntityList_codec
         = pb::FieldCodec.ForMessage(18, global::OpenIM.Proto.MessageEntity.Parser);
     private readonly pbc::RepeatedField<global::OpenIM.Proto.MessageEntity> messageEntityList_ = new pbc::RepeatedField<global::OpenIM.Proto.MessageEntity>();
+    /// <summary>
+    /// message entity list
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::RepeatedField<global::OpenIM.Proto.MessageEntity> MessageEntityList {
@@ -13644,6 +14025,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "msgTips" field.</summary>
     public const int MsgTipsFieldNumber = 1;
     private string msgTips_ = "";
+    /// <summary>
+    /// typing status
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string MsgTips {
@@ -13845,6 +14229,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "type" field.</summary>
     public const int TypeFieldNumber = 1;
     private string type_ = "";
+    /// <summary>
+    /// stream type
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Type {
@@ -13857,6 +14244,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "content" field.</summary>
     public const int ContentFieldNumber = 2;
     private string content_ = "";
+    /// <summary>
+    /// stream content
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Content {
@@ -13871,6 +14261,9 @@ namespace OpenIM.Proto {
     private static readonly pb::FieldCodec<string> _repeated_packets_codec
         = pb::FieldCodec.ForString(26);
     private readonly pbc::RepeatedField<string> packets_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    /// stream packet list
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::RepeatedField<string> Packets {
@@ -13880,6 +14273,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "end" field.</summary>
     public const int EndFieldNumber = 4;
     private bool end_;
+    /// <summary>
+    /// stream is end
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool End {
@@ -14143,6 +14539,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "total" field.</summary>
     public const int TotalFieldNumber = 1;
     private long total_;
+    /// <summary>
+    /// total
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long Total {
@@ -14155,6 +14554,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "save" field.</summary>
     public const int SaveFieldNumber = 2;
     private long save_;
+    /// <summary>
+    /// save
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long Save {
@@ -14167,6 +14569,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "current" field.</summary>
     public const int CurrentFieldNumber = 3;
     private long current_;
+    /// <summary>
+    /// current
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long Current {
@@ -14179,6 +14584,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "uploadID" field.</summary>
     public const int UploadIDFieldNumber = 4;
     private string uploadID_ = "";
+    /// <summary>
+    /// uploadID
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string UploadID {
@@ -14452,6 +14860,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "isPrivateChat" field.</summary>
     public const int IsPrivateChatFieldNumber = 1;
     private bool isPrivateChat_;
+    /// <summary>
+    /// is private chat
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool IsPrivateChat {
@@ -14464,6 +14875,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "burnDuration" field.</summary>
     public const int BurnDurationFieldNumber = 2;
     private int burnDuration_;
+    /// <summary>
+    /// message burn duration
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int BurnDuration {
@@ -14476,6 +14890,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "hasReadTime" field.</summary>
     public const int HasReadTimeFieldNumber = 3;
     private long hasReadTime_;
+    /// <summary>
+    /// message has read time(timestamp)
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long HasReadTime {
@@ -14488,6 +14905,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "progress" field.</summary>
     public const int ProgressFieldNumber = 4;
     private global::OpenIM.Proto.UploadProgress progress_;
+    /// <summary>
+    /// upload progress
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.UploadProgress Progress {
@@ -14777,6 +15197,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "notificationName" field.</summary>
     public const int NotificationNameFieldNumber = 1;
     private string notificationName_ = "";
+    /// <summary>
+    /// notification name
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string NotificationName {
@@ -14789,6 +15212,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "notificationFaceURL" field.</summary>
     public const int NotificationFaceURLFieldNumber = 2;
     private string notificationFaceURL_ = "";
+    /// <summary>
+    /// notification face URL
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string NotificationFaceURL {
@@ -14801,6 +15227,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "notificationType" field.</summary>
     public const int NotificationTypeFieldNumber = 3;
     private int notificationType_;
+    /// <summary>
+    /// notification type
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int NotificationType {
@@ -14813,6 +15242,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "text" field.</summary>
     public const int TextFieldNumber = 4;
     private string text_ = "";
+    /// <summary>
+    /// notification content
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Text {
@@ -14825,6 +15257,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "url" field.</summary>
     public const int UrlFieldNumber = 5;
     private string url_ = "";
+    /// <summary>
+    /// notification URL
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Url {
@@ -14837,6 +15272,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "mixType" field.</summary>
     public const int MixTypeFieldNumber = 6;
     private int mixType_;
+    /// <summary>
+    /// mix type
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int MixType {
@@ -14849,6 +15287,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "pictureElem" field.</summary>
     public const int PictureElemFieldNumber = 7;
     private global::OpenIM.Proto.PictureElem pictureElem_;
+    /// <summary>
+    /// picture message
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.PictureElem PictureElem {
@@ -14861,6 +15302,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "soundElem" field.</summary>
     public const int SoundElemFieldNumber = 8;
     private global::OpenIM.Proto.SoundElem soundElem_;
+    /// <summary>
+    /// sound message
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.SoundElem SoundElem {
@@ -14873,6 +15317,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "videoElem" field.</summary>
     public const int VideoElemFieldNumber = 9;
     private global::OpenIM.Proto.VideoElem videoElem_;
+    /// <summary>
+    /// video message
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.VideoElem VideoElem {
@@ -14885,6 +15332,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "fileElem" field.</summary>
     public const int FileElemFieldNumber = 10;
     private global::OpenIM.Proto.FileElem fileElem_;
+    /// <summary>
+    /// file message
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.FileElem FileElem {
@@ -14897,6 +15347,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "ex" field.</summary>
     public const int ExFieldNumber = 11;
     private string ex_ = "";
+    /// <summary>
+    /// OA notification extension field
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Ex {
@@ -15323,11 +15776,6 @@ namespace OpenIM.Proto {
 
   }
 
-  /// <summary>
-  ///&#x2F;///////////////////group/////////////////////
-  ///
-  ///	OnGroupCreated()
-  /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GroupCreatedTips : pb::IMessage<GroupCreatedTips>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -15380,6 +15828,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "group" field.</summary>
     public const int GroupFieldNumber = 1;
     private global::OpenIM.Proto.IMGroup group_;
+    /// <summary>
+    /// @shared_imgroup
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.IMGroup Group {
@@ -15392,6 +15843,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "opUser" field.</summary>
     public const int OpUserFieldNumber = 2;
     private global::OpenIM.Proto.IMGroupMember opUser_;
+    /// <summary>
+    /// created group operator user info
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.IMGroupMember OpUser {
@@ -15406,6 +15860,9 @@ namespace OpenIM.Proto {
     private static readonly pb::FieldCodec<global::OpenIM.Proto.IMGroupMember> _repeated_memberList_codec
         = pb::FieldCodec.ForMessage(26, global::OpenIM.Proto.IMGroupMember.Parser);
     private readonly pbc::RepeatedField<global::OpenIM.Proto.IMGroupMember> memberList_ = new pbc::RepeatedField<global::OpenIM.Proto.IMGroupMember>();
+    /// <summary>
+    /// group member info list
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::RepeatedField<global::OpenIM.Proto.IMGroupMember> MemberList {
@@ -15415,6 +15872,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "operationTime" field.</summary>
     public const int OperationTimeFieldNumber = 4;
     private long operationTime_;
+    /// <summary>
+    /// group created time
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long OperationTime {
@@ -15427,6 +15887,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "groupOwnerUser" field.</summary>
     public const int GroupOwnerUserFieldNumber = 5;
     private global::OpenIM.Proto.IMGroupMember groupOwnerUser_;
+    /// <summary>
+    /// group owner info
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.IMGroupMember GroupOwnerUser {
@@ -15740,7 +16203,7 @@ namespace OpenIM.Proto {
     public const int OpUserFieldNumber = 1;
     private global::OpenIM.Proto.IMGroupMember opUser_;
     /// <summary>
-    ///who do this
+    /// Set group name operator user info
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -15754,6 +16217,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "group" field.</summary>
     public const int GroupFieldNumber = 2;
     private global::OpenIM.Proto.IMGroup group_;
+    /// <summary>
+    /// @shared_imgroup
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.IMGroup Group {
@@ -15998,7 +16464,7 @@ namespace OpenIM.Proto {
     public const int OpUserFieldNumber = 1;
     private global::OpenIM.Proto.IMGroupMember opUser_;
     /// <summary>
-    ///who do this
+    /// Set group announcement operator user info
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -16012,6 +16478,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "group" field.</summary>
     public const int GroupFieldNumber = 2;
     private global::OpenIM.Proto.IMGroup group_;
+    /// <summary>
+    /// @shared_imgroup
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.IMGroup Group {
@@ -16024,6 +16493,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "groupMemberVersion" field.</summary>
     public const int GroupMemberVersionFieldNumber = 3;
     private ulong groupMemberVersion_;
+    /// <summary>
+    /// group member incr version
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ulong GroupMemberVersion {
@@ -16036,6 +16508,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "groupMemberVersionID" field.</summary>
     public const int GroupMemberVersionIDFieldNumber = 4;
     private string groupMemberVersionID_ = "";
+    /// <summary>
+    /// group member incr version ID
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string GroupMemberVersionID {
@@ -16276,35 +16751,6 @@ namespace OpenIM.Proto {
 
   }
 
-  /// <summary>
-  ///
-  ///	OnGroupInfoSet()
-  ///message GroupInfoSetTips {
-  ///  shared.IMGroupMember opUser = 1; //who do this
-  ///  int64 muteTime = 2;
-  ///  shared.IMGroup group = 3;
-  ///}
-  ///
-  ///message GroupInfoSetNameTips {
-  ///  shared.IMGroupMember opUser = 1; //who do this
-  ///  shared.IMGroup group = 2;
-  ///}
-  ///
-  ///message GroupInfoSetAnnouncementTips {
-  ///  shared.IMGroupMember opUser = 1; //who do this
-  ///  shared.IMGroup group = 2;
-  ///}
-  ///
-  ///	OnJoinGroupApplication()
-  ///message JoinGroupApplicationTips {
-  ///  shared.IMGroup group = 1;
-  ///  shared.IMUser applicant = 2;
-  ///  string reqMsg = 3;
-  ///}
-  ///
-  ///	OnQuitGroup()
-  ///Actively leave the group
-  /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class MemberQuitTips : pb::IMessage<MemberQuitTips>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -16355,6 +16801,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "group" field.</summary>
     public const int GroupFieldNumber = 1;
     private global::OpenIM.Proto.IMGroup group_;
+    /// <summary>
+    /// @shared_imgroup
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.IMGroup Group {
@@ -16367,6 +16816,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "quitUser" field.</summary>
     public const int QuitUserFieldNumber = 2;
     private global::OpenIM.Proto.IMGroupMember quitUser_;
+    /// <summary>
+    /// quit group user info
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.IMGroupMember QuitUser {
@@ -16379,6 +16831,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "operationTime" field.</summary>
     public const int OperationTimeFieldNumber = 3;
     private long operationTime_;
+    /// <summary>
+    /// quited group time
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long OperationTime {
@@ -16595,26 +17050,6 @@ namespace OpenIM.Proto {
 
   }
 
-  /// <summary>
-  ///
-  ///	OnApplicationGroupAccepted()
-  ///message GroupApplicationAcceptedTips {
-  ///  shared.IMGroup group = 1;
-  ///  shared.IMGroupMember opUser = 2;
-  ///  string handleMsg = 4;
-  ///  int32 receiverAs = 5; // admin(==1) or applicant(==0)
-  ///}
-  ///
-  ///	OnApplicationGroupRejected()
-  ///message GroupApplicationRejectedTips {
-  ///  shared.IMGroup group = 1;
-  ///  shared.IMGroupMember opUser = 2;
-  ///  string handleMsg = 4;
-  ///  int32 receiverAs = 5; // admin(==1) or applicant(==0)
-  ///}
-  ///
-  ///	OnTransferGroupOwner()
-  /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GroupOwnerTransferredTips : pb::IMessage<GroupOwnerTransferredTips>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -16668,6 +17103,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "group" field.</summary>
     public const int GroupFieldNumber = 1;
     private global::OpenIM.Proto.IMGroup group_;
+    /// <summary>
+    /// @shared_imgroup
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.IMGroup Group {
@@ -16680,6 +17118,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "opUser" field.</summary>
     public const int OpUserFieldNumber = 2;
     private global::OpenIM.Proto.IMGroupMember opUser_;
+    /// <summary>
+    /// transfer group owner operator user info
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.IMGroupMember OpUser {
@@ -16692,6 +17133,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "newGroupOwner" field.</summary>
     public const int NewGroupOwnerFieldNumber = 3;
     private global::OpenIM.Proto.IMGroupMember newGroupOwner_;
+    /// <summary>
+    /// new group owner info
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.IMGroupMember NewGroupOwner {
@@ -16704,6 +17148,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "oldGroupOwner" field.</summary>
     public const int OldGroupOwnerFieldNumber = 4;
     private string oldGroupOwner_ = "";
+    /// <summary>
+    /// old group owner user ID
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string OldGroupOwner {
@@ -16716,6 +17163,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "operationTime" field.</summary>
     public const int OperationTimeFieldNumber = 5;
     private long operationTime_;
+    /// <summary>
+    /// transfer group owner time
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long OperationTime {
@@ -16728,6 +17178,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "oldGroupOwnerInfo" field.</summary>
     public const int OldGroupOwnerInfoFieldNumber = 6;
     private global::OpenIM.Proto.IMGroupMember oldGroupOwnerInfo_;
+    /// <summary>
+    /// old group owner info
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.IMGroupMember OldGroupOwnerInfo {
@@ -17034,10 +17487,6 @@ namespace OpenIM.Proto {
 
   }
 
-  /// <summary>
-  ///
-  ///	OnMemberKicked()
-  /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class MemberKickedTips : pb::IMessage<MemberKickedTips>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -17089,6 +17538,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "group" field.</summary>
     public const int GroupFieldNumber = 1;
     private global::OpenIM.Proto.IMGroup group_;
+    /// <summary>
+    /// @shared_imgroup
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.IMGroup Group {
@@ -17101,6 +17553,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "opUser" field.</summary>
     public const int OpUserFieldNumber = 2;
     private global::OpenIM.Proto.IMGroupMember opUser_;
+    /// <summary>
+    /// operator group user info
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.IMGroupMember OpUser {
@@ -17115,6 +17570,9 @@ namespace OpenIM.Proto {
     private static readonly pb::FieldCodec<global::OpenIM.Proto.IMGroupMember> _repeated_kickedUserList_codec
         = pb::FieldCodec.ForMessage(26, global::OpenIM.Proto.IMGroupMember.Parser);
     private readonly pbc::RepeatedField<global::OpenIM.Proto.IMGroupMember> kickedUserList_ = new pbc::RepeatedField<global::OpenIM.Proto.IMGroupMember>();
+    /// <summary>
+    /// kicked group member info list
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::RepeatedField<global::OpenIM.Proto.IMGroupMember> KickedUserList {
@@ -17124,6 +17582,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "operationTime" field.</summary>
     public const int OperationTimeFieldNumber = 4;
     private long operationTime_;
+    /// <summary>
+    /// kicked group member time
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long OperationTime {
@@ -17354,10 +17815,6 @@ namespace OpenIM.Proto {
 
   }
 
-  /// <summary>
-  ///
-  ///	OnMemberInvited()
-  /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class MemberInvitedTips : pb::IMessage<MemberInvitedTips>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -17410,6 +17867,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "group" field.</summary>
     public const int GroupFieldNumber = 1;
     private global::OpenIM.Proto.IMGroup group_;
+    /// <summary>
+    /// @shared_imgroup
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.IMGroup Group {
@@ -17422,6 +17882,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "opUser" field.</summary>
     public const int OpUserFieldNumber = 2;
     private global::OpenIM.Proto.IMGroupMember opUser_;
+    /// <summary>
+    /// invite group operator user info
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.IMGroupMember OpUser {
@@ -17436,6 +17899,9 @@ namespace OpenIM.Proto {
     private static readonly pb::FieldCodec<global::OpenIM.Proto.IMGroupMember> _repeated_invitedUserList_codec
         = pb::FieldCodec.ForMessage(26, global::OpenIM.Proto.IMGroupMember.Parser);
     private readonly pbc::RepeatedField<global::OpenIM.Proto.IMGroupMember> invitedUserList_ = new pbc::RepeatedField<global::OpenIM.Proto.IMGroupMember>();
+    /// <summary>
+    /// invited user info list
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::RepeatedField<global::OpenIM.Proto.IMGroupMember> InvitedUserList {
@@ -17445,6 +17911,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "operationTime" field.</summary>
     public const int OperationTimeFieldNumber = 4;
     private long operationTime_;
+    /// <summary>
+    /// invited member time
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long OperationTime {
@@ -17457,6 +17926,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "inviterUser" field.</summary>
     public const int InviterUserFieldNumber = 7;
     private global::OpenIM.Proto.IMGroupMember inviterUser_;
+    /// <summary>
+    /// inviter user info
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.IMGroupMember InviterUser {
@@ -17720,10 +18192,6 @@ namespace OpenIM.Proto {
 
   }
 
-  /// <summary>
-  ///
-  ///Actively join the group
-  /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class MemberEnterTips : pb::IMessage<MemberEnterTips>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -17774,6 +18242,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "group" field.</summary>
     public const int GroupFieldNumber = 1;
     private global::OpenIM.Proto.IMGroup group_;
+    /// <summary>
+    /// @shared_imgroup
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.IMGroup Group {
@@ -17786,6 +18257,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "entrantUser" field.</summary>
     public const int EntrantUserFieldNumber = 2;
     private global::OpenIM.Proto.IMGroupMember entrantUser_;
+    /// <summary>
+    /// enter group user info
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.IMGroupMember EntrantUser {
@@ -17798,6 +18272,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "operationTime" field.</summary>
     public const int OperationTimeFieldNumber = 3;
     private long operationTime_;
+    /// <summary>
+    /// enter group time
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long OperationTime {
@@ -18014,8 +18491,6 @@ namespace OpenIM.Proto {
 
   }
 
-  /// <summary>
-  /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GroupDismissedTips : pb::IMessage<GroupDismissedTips>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -18066,6 +18541,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "group" field.</summary>
     public const int GroupFieldNumber = 1;
     private global::OpenIM.Proto.IMGroup group_;
+    /// <summary>
+    /// @shared_imgroup
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.IMGroup Group {
@@ -18078,6 +18556,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "opUser" field.</summary>
     public const int OpUserFieldNumber = 2;
     private global::OpenIM.Proto.IMGroupMember opUser_;
+    /// <summary>
+    /// dismiss group operator user info
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.IMGroupMember OpUser {
@@ -18090,6 +18571,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "operationTime" field.</summary>
     public const int OperationTimeFieldNumber = 3;
     private long operationTime_;
+    /// <summary>
+    /// dismiss group time
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long OperationTime {
@@ -18306,8 +18790,6 @@ namespace OpenIM.Proto {
 
   }
 
-  /// <summary>
-  /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GroupMemberMutedTips : pb::IMessage<GroupMemberMutedTips>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -18360,6 +18842,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "group" field.</summary>
     public const int GroupFieldNumber = 1;
     private global::OpenIM.Proto.IMGroup group_;
+    /// <summary>
+    /// @shared_imgroup
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.IMGroup Group {
@@ -18372,6 +18857,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "opUser" field.</summary>
     public const int OpUserFieldNumber = 2;
     private global::OpenIM.Proto.IMGroupMember opUser_;
+    /// <summary>
+    /// mute group member operator user info
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.IMGroupMember OpUser {
@@ -18384,6 +18872,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "operationTime" field.</summary>
     public const int OperationTimeFieldNumber = 3;
     private long operationTime_;
+    /// <summary>
+    /// mute group member time
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long OperationTime {
@@ -18396,6 +18887,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "mutedUser" field.</summary>
     public const int MutedUserFieldNumber = 4;
     private global::OpenIM.Proto.IMGroupMember mutedUser_;
+    /// <summary>
+    /// muted group member info
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.IMGroupMember MutedUser {
@@ -18408,6 +18902,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "mutedSeconds" field.</summary>
     public const int MutedSecondsFieldNumber = 5;
     private uint mutedSeconds_;
+    /// <summary>
+    /// muted seconds
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public uint MutedSeconds {
@@ -18681,8 +19178,6 @@ namespace OpenIM.Proto {
 
   }
 
-  /// <summary>
-  /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GroupMemberCancelMutedTips : pb::IMessage<GroupMemberCancelMutedTips>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -18734,6 +19229,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "group" field.</summary>
     public const int GroupFieldNumber = 1;
     private global::OpenIM.Proto.IMGroup group_;
+    /// <summary>
+    /// @shared_imgroup
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.IMGroup Group {
@@ -18746,6 +19244,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "opUser" field.</summary>
     public const int OpUserFieldNumber = 2;
     private global::OpenIM.Proto.IMGroupMember opUser_;
+    /// <summary>
+    /// cancel mute group operator user info
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.IMGroupMember OpUser {
@@ -18758,6 +19259,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "operationTime" field.</summary>
     public const int OperationTimeFieldNumber = 3;
     private long operationTime_;
+    /// <summary>
+    /// cancel mute group member time
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long OperationTime {
@@ -18770,6 +19274,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "mutedUser" field.</summary>
     public const int MutedUserFieldNumber = 4;
     private global::OpenIM.Proto.IMGroupMember mutedUser_;
+    /// <summary>
+    /// cancel muted group member info
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.IMGroupMember MutedUser {
@@ -19069,6 +19576,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "group" field.</summary>
     public const int GroupFieldNumber = 1;
     private global::OpenIM.Proto.IMGroup group_;
+    /// <summary>
+    /// @shared_imgroup
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.IMGroup Group {
@@ -19081,6 +19591,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "opUser" field.</summary>
     public const int OpUserFieldNumber = 2;
     private global::OpenIM.Proto.IMGroupMember opUser_;
+    /// <summary>
+    /// mute group operator user info
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.IMGroupMember OpUser {
@@ -19093,6 +19606,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "operationTime" field.</summary>
     public const int OperationTimeFieldNumber = 3;
     private long operationTime_;
+    /// <summary>
+    /// mute group time
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long OperationTime {
@@ -19359,6 +19875,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "group" field.</summary>
     public const int GroupFieldNumber = 1;
     private global::OpenIM.Proto.IMGroup group_;
+    /// <summary>
+    /// @shared_imgroup
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.IMGroup Group {
@@ -19371,6 +19890,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "opUser" field.</summary>
     public const int OpUserFieldNumber = 2;
     private global::OpenIM.Proto.IMGroupMember opUser_;
+    /// <summary>
+    /// cancel mute group operator user info
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.IMGroupMember OpUser {
@@ -19383,6 +19905,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "operationTime" field.</summary>
     public const int OperationTimeFieldNumber = 3;
     private long operationTime_;
+    /// <summary>
+    /// cancel mute group time
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long OperationTime {
@@ -19599,23 +20124,6 @@ namespace OpenIM.Proto {
 
   }
 
-  /// <summary>
-  ///
-  ///message GroupMemberInfoSetTips {
-  ///  shared.IMGroup group = 1;
-  ///  shared.IMGroupMember opUser = 2;
-  ///  int64 operationTime = 3;
-  ///  shared.IMGroupMember changedUser = 4;
-  ///}
-  ///
-  ///&#x2F;///////////////////friend/////////////////////
-  ///
-  ///message FriendApplication {
-  ///  int64 addTime = 1;
-  ///  common.FriendSource addSource = 2;
-  ///  string addWording = 3;
-  ///}
-  /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class FromToUserID : pb::IMessage<FromToUserID>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -19665,6 +20173,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "fromUserID" field.</summary>
     public const int FromUserIDFieldNumber = 1;
     private string fromUserID_ = "";
+    /// <summary>
+    /// sender user ID
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string FromUserID {
@@ -19677,6 +20188,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "toUserID" field.</summary>
     public const int ToUserIDFieldNumber = 2;
     private string toUserID_ = "";
+    /// <summary>
+    /// receiver user ID
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string ToUserID {
@@ -19851,15 +20365,6 @@ namespace OpenIM.Proto {
 
   }
 
-  /// <summary>
-  ///
-  ///FromUserID apply to add ToUserID
-  ///message FriendApplicationTips {
-  ///  FromToUserID fromToUserID = 1;
-  ///}
-  ///
-  ///FromUserID accept or reject ToUserID
-  /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class FriendApplicationApprovedTips : pb::IMessage<FriendApplicationApprovedTips>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -19908,6 +20413,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "fromToUserID" field.</summary>
     public const int FromToUserIDFieldNumber = 1;
     private global::OpenIM.Proto.FromToUserID fromToUserID_;
+    /// <summary>
+    /// request relation user ID
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.FromToUserID FromToUserID {
@@ -20125,6 +20633,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "revokerID" field.</summary>
     public const int RevokerIDFieldNumber = 1;
     private string revokerID_ = "";
+    /// <summary>
+    /// revoked user ID
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string RevokerID {
@@ -20136,7 +20647,10 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "revokerRole" field.</summary>
     public const int RevokerRoleFieldNumber = 2;
-    private global::OpenIM.Proto.RevokerRole revokerRole_ = global::OpenIM.Proto.RevokerRole.Default;
+    private global::OpenIM.Proto.RevokerRole revokerRole_ = global::OpenIM.Proto.RevokerRole.RevokerRole;
+    /// <summary>
+    /// revoked user role
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.RevokerRole RevokerRole {
@@ -20149,6 +20663,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "clientMsgID" field.</summary>
     public const int ClientMsgIDFieldNumber = 3;
     private string clientMsgID_ = "";
+    /// <summary>
+    /// @message_client_msg_id
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string ClientMsgID {
@@ -20161,6 +20678,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "revokerNickname" field.</summary>
     public const int RevokerNicknameFieldNumber = 4;
     private string revokerNickname_ = "";
+    /// <summary>
+    /// revoked user nickname
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string RevokerNickname {
@@ -20173,6 +20693,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "revokeTime" field.</summary>
     public const int RevokeTimeFieldNumber = 5;
     private long revokeTime_;
+    /// <summary>
+    /// revoked time
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long RevokeTime {
@@ -20185,6 +20708,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "sourceMessageSendTime" field.</summary>
     public const int SourceMessageSendTimeFieldNumber = 6;
     private long sourceMessageSendTime_;
+    /// <summary>
+    /// revoked message send time
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long SourceMessageSendTime {
@@ -20197,6 +20723,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "sourceMessageSendID" field.</summary>
     public const int SourceMessageSendIDFieldNumber = 7;
     private string sourceMessageSendID_ = "";
+    /// <summary>
+    /// revoked message sender ID
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string SourceMessageSendID {
@@ -20209,6 +20738,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "sourceMessageSenderNickname" field.</summary>
     public const int SourceMessageSenderNicknameFieldNumber = 8;
     private string sourceMessageSenderNickname_ = "";
+    /// <summary>
+    /// revoked message sender nickname
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string SourceMessageSenderNickname {
@@ -20221,6 +20753,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "sessionType" field.</summary>
     public const int SessionTypeFieldNumber = 10;
     private global::OpenIM.Proto.SessionType sessionType_ = global::OpenIM.Proto.SessionType.SessionType;
+    /// <summary>
+    /// @message_session_type
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.SessionType SessionType {
@@ -20233,6 +20768,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "seq" field.</summary>
     public const int SeqFieldNumber = 11;
     private long seq_;
+    /// <summary>
+    /// @message_seq
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long Seq {
@@ -20245,6 +20783,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "ex" field.</summary>
     public const int ExFieldNumber = 12;
     private string ex_ = "";
+    /// <summary>
+    /// revoked message extension field
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Ex {
@@ -20288,7 +20829,7 @@ namespace OpenIM.Proto {
     public override int GetHashCode() {
       int hash = 1;
       if (RevokerID.Length != 0) hash ^= RevokerID.GetHashCode();
-      if (RevokerRole != global::OpenIM.Proto.RevokerRole.Default) hash ^= RevokerRole.GetHashCode();
+      if (RevokerRole != global::OpenIM.Proto.RevokerRole.RevokerRole) hash ^= RevokerRole.GetHashCode();
       if (ClientMsgID.Length != 0) hash ^= ClientMsgID.GetHashCode();
       if (RevokerNickname.Length != 0) hash ^= RevokerNickname.GetHashCode();
       if (RevokeTime != 0L) hash ^= RevokeTime.GetHashCode();
@@ -20320,7 +20861,7 @@ namespace OpenIM.Proto {
         output.WriteRawTag(10);
         output.WriteString(RevokerID);
       }
-      if (RevokerRole != global::OpenIM.Proto.RevokerRole.Default) {
+      if (RevokerRole != global::OpenIM.Proto.RevokerRole.RevokerRole) {
         output.WriteRawTag(16);
         output.WriteEnum((int) RevokerRole);
       }
@@ -20374,7 +20915,7 @@ namespace OpenIM.Proto {
         output.WriteRawTag(10);
         output.WriteString(RevokerID);
       }
-      if (RevokerRole != global::OpenIM.Proto.RevokerRole.Default) {
+      if (RevokerRole != global::OpenIM.Proto.RevokerRole.RevokerRole) {
         output.WriteRawTag(16);
         output.WriteEnum((int) RevokerRole);
       }
@@ -20427,7 +20968,7 @@ namespace OpenIM.Proto {
       if (RevokerID.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(RevokerID);
       }
-      if (RevokerRole != global::OpenIM.Proto.RevokerRole.Default) {
+      if (RevokerRole != global::OpenIM.Proto.RevokerRole.RevokerRole) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) RevokerRole);
       }
       if (ClientMsgID.Length != 0) {
@@ -20472,7 +21013,7 @@ namespace OpenIM.Proto {
       if (other.RevokerID.Length != 0) {
         RevokerID = other.RevokerID;
       }
-      if (other.RevokerRole != global::OpenIM.Proto.RevokerRole.Default) {
+      if (other.RevokerRole != global::OpenIM.Proto.RevokerRole.RevokerRole) {
         RevokerRole = other.RevokerRole;
       }
       if (other.ClientMsgID.Length != 0) {
@@ -20686,6 +21227,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "recvID" field.</summary>
     public const int RecvIDFieldNumber = 1;
     private string recvID_ = "";
+    /// <summary>
+    /// @message_recv_id
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string RecvID {
@@ -20698,6 +21242,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "sendID" field.</summary>
     public const int SendIDFieldNumber = 2;
     private string sendID_ = "";
+    /// <summary>
+    /// @message_send_id
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string SendID {
@@ -20710,6 +21257,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "isPrivate" field.</summary>
     public const int IsPrivateFieldNumber = 3;
     private bool isPrivate_;
+    /// <summary>
+    /// @conversation_is_private
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool IsPrivate {
@@ -20722,6 +21272,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "conversationID" field.</summary>
     public const int ConversationIDFieldNumber = 4;
     private string conversationID_ = "";
+    /// <summary>
+    /// @conversation_id
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string ConversationID {
@@ -20993,6 +21546,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "key" field.</summary>
     public const int KeyFieldNumber = 1;
     private string key_ = "";
+    /// <summary>
+    /// key
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Key {
@@ -21005,6 +21561,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "data" field.</summary>
     public const int DataFieldNumber = 2;
     private string data_ = "";
+    /// <summary>
+    /// custom notification content
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Data {
@@ -21351,6 +21910,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "clientMsgID" field.</summary>
     public const int ClientMsgIDFieldNumber = 1;
     private string clientMsgID_ = "";
+    /// <summary>
+    /// @message_client_msg_id
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string ClientMsgID {
@@ -21363,6 +21925,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "serverMsgID" field.</summary>
     public const int ServerMsgIDFieldNumber = 2;
     private string serverMsgID_ = "";
+    /// <summary>
+    /// @message_server_msg_id
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string ServerMsgID {
@@ -21375,6 +21940,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "createTime" field.</summary>
     public const int CreateTimeFieldNumber = 3;
     private long createTime_;
+    /// <summary>
+    /// @message_create_time
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long CreateTime {
@@ -21387,6 +21955,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "sendTime" field.</summary>
     public const int SendTimeFieldNumber = 4;
     private long sendTime_;
+    /// <summary>
+    /// @message_send_time
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long SendTime {
@@ -21399,6 +21970,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "sessionType" field.</summary>
     public const int SessionTypeFieldNumber = 5;
     private global::OpenIM.Proto.SessionType sessionType_ = global::OpenIM.Proto.SessionType.SessionType;
+    /// <summary>
+    /// @message_session_type
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.SessionType SessionType {
@@ -21411,6 +21985,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "sendID" field.</summary>
     public const int SendIDFieldNumber = 6;
     private string sendID_ = "";
+    /// <summary>
+    /// @message_send_id
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string SendID {
@@ -21423,6 +22000,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "recvID" field.</summary>
     public const int RecvIDFieldNumber = 7;
     private string recvID_ = "";
+    /// <summary>
+    /// @message_recv_id
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string RecvID {
@@ -21435,6 +22015,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "msgFrom" field.</summary>
     public const int MsgFromFieldNumber = 8;
     private global::OpenIM.Proto.MsgFrom msgFrom_ = global::OpenIM.Proto.MsgFrom.MsgFrom;
+    /// <summary>
+    /// @message_msg_from
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.MsgFrom MsgFrom {
@@ -21447,6 +22030,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "contentType" field.</summary>
     public const int ContentTypeFieldNumber = 9;
     private global::OpenIM.Proto.ContentType contentType_ = global::OpenIM.Proto.ContentType.ContentType;
+    /// <summary>
+    /// @common_content_type
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.ContentType ContentType {
@@ -21459,6 +22045,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "senderPlatformID" field.</summary>
     public const int SenderPlatformIDFieldNumber = 10;
     private global::OpenIM.Proto.Platform senderPlatformID_ = global::OpenIM.Proto.Platform.Platform;
+    /// <summary>
+    /// @common_platform
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.Platform SenderPlatformID {
@@ -21471,6 +22060,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "senderNickname" field.</summary>
     public const int SenderNicknameFieldNumber = 11;
     private string senderNickname_ = "";
+    /// <summary>
+    /// sender nickname
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string SenderNickname {
@@ -21483,6 +22075,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "senderFaceURL" field.</summary>
     public const int SenderFaceURLFieldNumber = 12;
     private string senderFaceURL_ = "";
+    /// <summary>
+    /// sender avatar URL
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string SenderFaceURL {
@@ -21495,6 +22090,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "groupID" field.</summary>
     public const int GroupIDFieldNumber = 13;
     private string groupID_ = "";
+    /// <summary>
+    /// @group_id
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string GroupID {
@@ -21507,6 +22105,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "seq" field.</summary>
     public const int SeqFieldNumber = 15;
     private long seq_;
+    /// <summary>
+    /// @message_seq
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public long Seq {
@@ -21519,6 +22120,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "isRead" field.</summary>
     public const int IsReadFieldNumber = 16;
     private bool isRead_;
+    /// <summary>
+    /// message is read
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool IsRead {
@@ -21531,6 +22135,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "status" field.</summary>
     public const int StatusFieldNumber = 17;
     private global::OpenIM.Proto.MsgStatus status_ = global::OpenIM.Proto.MsgStatus.MsgStatus;
+    /// <summary>
+    /// @message_msg_status
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.MsgStatus Status {
@@ -21543,6 +22150,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "offlinePush" field.</summary>
     public const int OfflinePushFieldNumber = 18;
     private global::OpenIM.Proto.OfflinePushInfo offlinePush_;
+    /// <summary>
+    /// offline push info
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.OfflinePushInfo OfflinePush {
@@ -21555,6 +22165,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "ex" field.</summary>
     public const int ExFieldNumber = 20;
     private string ex_ = "";
+    /// <summary>
+    /// message extension field
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Ex {
@@ -21567,6 +22180,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "localEx" field.</summary>
     public const int LocalExFieldNumber = 21;
     private string localEx_ = "";
+    /// <summary>
+    /// local extension field
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string LocalEx {
@@ -21579,6 +22195,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "attachedInfoElem" field.</summary>
     public const int AttachedInfoElemFieldNumber = 22;
     private global::OpenIM.Proto.AttachedInfoElem attachedInfoElem_;
+    /// <summary>
+    /// message attached info
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.AttachedInfoElem AttachedInfoElem {
@@ -21590,6 +22209,9 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "textElem" field.</summary>
     public const int TextElemFieldNumber = 23;
+    /// <summary>
+    /// text message
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.TextElem TextElem {
@@ -21602,6 +22224,9 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "cardElem" field.</summary>
     public const int CardElemFieldNumber = 24;
+    /// <summary>
+    /// card message
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.CardElem CardElem {
@@ -21614,6 +22239,9 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "pictureElem" field.</summary>
     public const int PictureElemFieldNumber = 25;
+    /// <summary>
+    /// picture message
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.PictureElem PictureElem {
@@ -21626,6 +22254,9 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "soundElem" field.</summary>
     public const int SoundElemFieldNumber = 26;
+    /// <summary>
+    /// sound message
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.SoundElem SoundElem {
@@ -21638,6 +22269,9 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "videoElem" field.</summary>
     public const int VideoElemFieldNumber = 27;
+    /// <summary>
+    /// video message
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.VideoElem VideoElem {
@@ -21650,6 +22284,9 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "fileElem" field.</summary>
     public const int FileElemFieldNumber = 28;
+    /// <summary>
+    /// file message
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.FileElem FileElem {
@@ -21662,6 +22299,9 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "mergeElem" field.</summary>
     public const int MergeElemFieldNumber = 29;
+    /// <summary>
+    /// merge message
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.MergeElem MergeElem {
@@ -21674,6 +22314,9 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "atTextElem" field.</summary>
     public const int AtTextElemFieldNumber = 30;
+    /// <summary>
+    /// at text message
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.AtTextElem AtTextElem {
@@ -21686,6 +22329,9 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "faceElem" field.</summary>
     public const int FaceElemFieldNumber = 31;
+    /// <summary>
+    /// face message
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.FaceElem FaceElem {
@@ -21698,6 +22344,9 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "locationElem" field.</summary>
     public const int LocationElemFieldNumber = 32;
+    /// <summary>
+    /// location message
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.LocationElem LocationElem {
@@ -21710,6 +22359,9 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "customElem" field.</summary>
     public const int CustomElemFieldNumber = 33;
+    /// <summary>
+    /// custom message
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.CustomElem CustomElem {
@@ -21722,6 +22374,9 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "quoteElem" field.</summary>
     public const int QuoteElemFieldNumber = 34;
+    /// <summary>
+    /// quote message
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.QuoteElem QuoteElem {
@@ -21734,6 +22389,9 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "advancedTextElem" field.</summary>
     public const int AdvancedTextElemFieldNumber = 35;
+    /// <summary>
+    /// advanced text message
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.AdvancedTextElem AdvancedTextElem {
@@ -21746,6 +22404,9 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "typingElem" field.</summary>
     public const int TypingElemFieldNumber = 36;
+    /// <summary>
+    /// input status
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.TypingElem TypingElem {
@@ -21758,6 +22419,9 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "streamElem" field.</summary>
     public const int StreamElemFieldNumber = 37;
+    /// <summary>
+    /// stream message
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.StreamElem StreamElem {
@@ -21770,6 +22434,9 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "revokedTips" field.</summary>
     public const int RevokedTipsFieldNumber = 38;
+    /// <summary>
+    /// revoke message notification
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.RevokedTips RevokedTips {
@@ -21782,6 +22449,9 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "errorTips" field.</summary>
     public const int ErrorTipsFieldNumber = 39;
+    /// <summary>
+    /// error message
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.ErrorElem ErrorTips {
@@ -21794,6 +22464,9 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "groupCreatedTips" field.</summary>
     public const int GroupCreatedTipsFieldNumber = 311;
+    /// <summary>
+    /// group created notification
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.GroupCreatedTips GroupCreatedTips {
@@ -21806,6 +22479,9 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "groupInfoSetNameTips" field.</summary>
     public const int GroupInfoSetNameTipsFieldNumber = 312;
+    /// <summary>
+    /// group information set name notification
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.GroupInfoSetNameTips GroupInfoSetNameTips {
@@ -21818,6 +22494,9 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "groupInfoSetAnnouncementTips" field.</summary>
     public const int GroupInfoSetAnnouncementTipsFieldNumber = 313;
+    /// <summary>
+    /// group information set announcement notification
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.GroupInfoSetAnnouncementTips GroupInfoSetAnnouncementTips {
@@ -21831,10 +22510,7 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "memberQuitTips" field.</summary>
     public const int MemberQuitTipsFieldNumber = 43;
     /// <summary>
-    ///    GroupInfoSetTips groupInfoSetTips = 39;
-    ///    GroupInfoSetNameTips groupInfoSetNameTips = 40;
-    ///    GroupInfoSetAnnouncementTips groupInfoSetAnnouncementTips = 41;
-    ///    JoinGroupApplicationTips joinGroupApplicationTips = 42;
+    /// member quit notification
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -21849,8 +22525,7 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "groupOwnerTransferredTips" field.</summary>
     public const int GroupOwnerTransferredTipsFieldNumber = 46;
     /// <summary>
-    ///    GroupApplicationAcceptedTips groupApplicationAcceptedTips = 44;
-    ///    GroupApplicationRejectedTips groupApplicationRejectedTips = 45;
+    /// group owner transferred notification
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -21864,6 +22539,9 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "memberKickedTips" field.</summary>
     public const int MemberKickedTipsFieldNumber = 47;
+    /// <summary>
+    /// member kicked notification
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.MemberKickedTips MemberKickedTips {
@@ -21876,6 +22554,9 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "memberInvitedTips" field.</summary>
     public const int MemberInvitedTipsFieldNumber = 48;
+    /// <summary>
+    /// member invited notification
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.MemberInvitedTips MemberInvitedTips {
@@ -21888,6 +22569,9 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "memberEnterTips" field.</summary>
     public const int MemberEnterTipsFieldNumber = 49;
+    /// <summary>
+    /// member enter notification
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.MemberEnterTips MemberEnterTips {
@@ -21900,6 +22584,9 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "groupDismissedTips" field.</summary>
     public const int GroupDismissedTipsFieldNumber = 50;
+    /// <summary>
+    /// group dismissed notification
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.GroupDismissedTips GroupDismissedTips {
@@ -21912,6 +22599,9 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "groupMemberMutedTips" field.</summary>
     public const int GroupMemberMutedTipsFieldNumber = 51;
+    /// <summary>
+    /// group member muted notification
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.GroupMemberMutedTips GroupMemberMutedTips {
@@ -21924,6 +22614,9 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "groupMemberCancelMutedTips" field.</summary>
     public const int GroupMemberCancelMutedTipsFieldNumber = 52;
+    /// <summary>
+    /// group member cancel muted notification
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.GroupMemberCancelMutedTips GroupMemberCancelMutedTips {
@@ -21936,6 +22629,9 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "groupMutedTips" field.</summary>
     public const int GroupMutedTipsFieldNumber = 53;
+    /// <summary>
+    /// group muted notification
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.GroupMutedTips GroupMutedTips {
@@ -21948,6 +22644,9 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "groupCancelMutedTips" field.</summary>
     public const int GroupCancelMutedTipsFieldNumber = 54;
+    /// <summary>
+    /// group unmuted notification
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.GroupCancelMutedTips GroupCancelMutedTips {
@@ -21961,8 +22660,7 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "friendApplicationApprovedTips" field.</summary>
     public const int FriendApplicationApprovedTipsFieldNumber = 57;
     /// <summary>
-    ///    GroupMemberInfoSetTips groupMemberInfoSetTips = 55;
-    ///    FriendApplicationTips friendApplicationTips = 56;
+    /// friend request approved notification
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -21977,28 +22675,7 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "conversationPrivateChatTips" field.</summary>
     public const int ConversationPrivateChatTipsFieldNumber = 79;
     /// <summary>
-    ///    FriendApplicationRejectedTips friendApplicationRejectedTips = 58;
-    ///    FriendAddedTips friendAddedTips = 59;
-    ///    FriendDeletedTips friendDeletedTips = 60;
-    ///    BlackAddedTips blackAddedTips = 61;
-    ///    BlackDeletedTips blackDeletedTips = 62;
-    ///    FriendInfoChangedTips friendInfoChangedTips = 63;
-    ///    UserInfoUpdatedTips userInfoUpdatedTips = 64;
-    ///    UserStatusChangeTips userStatusChangeTips = 65;
-    ///    UserCommandAddTips userCommandAddTips = 66;
-    ///    UserCommandUpdateTips userCommandUpdateTips = 67;
-    ///    UserCommandDeleteTips userCommandDeleteTips = 68;
-    ///    ConversationUpdateTips conversationUpdateTips = 69;
-    ///    ConversationSetPrivateTips conversationSetPrivateTips = 70;
-    ///    ConversationHasReadTips conversationHasReadTips = 71;
-    ///    DeleteMessageTips deleteMessageTips = 72;
-    ///    RevokedTips revokedTips = 73;
-    ///    ClearConversationTips clearConversationTips = 74;
-    ///    DeleteMsgsTips deleteMsgsTips = 75;
-    ///    MarkAsReadTips markAsReadTips = 76;
-    ///    FriendsInfoUpdateTips friendsInfoUpdateTips = 77;
-    ///    SubUserOnlineStatusTips subUserOnlineStatusTips = 78;
-    ///    StreamMsgTips streamMsgTips = 79;
+    /// conversation private chat notification
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -22012,6 +22689,9 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "businessTips" field.</summary>
     public const int BusinessTipsFieldNumber = 80;
+    /// <summary>
+    /// custom notification
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.BusinessTips BusinessTips {
@@ -22024,6 +22704,9 @@ namespace OpenIM.Proto {
 
     /// <summary>Field number for the "oaTips" field.</summary>
     public const int OaTipsFieldNumber = 81;
+    /// <summary>
+    /// OA system notification
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.OaTips OaTips {

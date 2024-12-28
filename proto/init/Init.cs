@@ -32,25 +32,36 @@ namespace OpenIM.Proto {
             "b3BlbmltLnNkay5jb21tb24uTG9nTGV2ZWwSGwoTaXNMb2dTdGFuZGFyZE91",
             "dHB1dBgHIAEoCBITCgtsb2dGaWxlUGF0aBgIIAEoCRIOCgZkYlBhdGgYCSAB",
             "KAkiMwoKSW5pdFNES1JlcRIlCgZjb25maWcYASABKAsyFS5vcGVuaW0uaW5p",
-            "dC5JTUNvbmZpZyIaCgtJbml0U0RLUmVzcBILCgNzdWMYASABKAgiKQoITG9n",
-            "aW5SZXESDgoGdXNlcklEGAEgASgJEg0KBXRva2VuGAIgASgJIgsKCUxvZ2lu",
-            "UmVzcCILCglMb2dvdXRSZXEiDAoKTG9nb3V0UmVzcCIxChlTZXRBcHBCYWNr",
-            "Z3JvdW5kU3RhdHVzUmVxEhQKDGlzQmFja2dyb3VuZBgBIAEoCCIcChpTZXRB",
-            "cHBCYWNrZ3JvdW5kU3RhdHVzUmVzcCIZChdOZXR3b3JrU3RhdHVzQ2hhbmdl",
-            "ZFJlcSIaChhOZXR3b3JrU3RhdHVzQ2hhbmdlZFJlc3AiEwoRR2V0TG9naW5T",
-            "dGF0dXNSZXEiPgoSR2V0TG9naW5TdGF0dXNSZXNwEigKBnN0YXR1cxgBIAEo",
-            "DjIYLm9wZW5pbS5pbml0LkxvZ2luU3RhdHVzIgwKClZlcnNpb25SZXEiHgoL",
-            "VmVyc2lvblJlc3ASDwoHdmVyc2lvbhgBIAEoCSpFCgtMb2dpblN0YXR1cxIQ",
-            "CgxMb2dpblN0YXR1c18QABILCgdEZWZhdWx0EAESCwoHTG9nZ2luZxACEgoK",
-            "BkxvZ2dlZBADQklaNWdpdGh1Yi5jb20vb3Blbmltc2RrL29wZW5pbS1zZGst",
-            "Y29yZS92My9wcm90by9nby9pbml0qgIMT3BlbklNLlByb3RvugIAYgZwcm90",
-            "bzM="));
+            "dC5JTUNvbmZpZyINCgtJbml0U0RLUmVzcCIpCghMb2dpblJlcRIOCgZ1c2Vy",
+            "SUQYASABKAkSDQoFdG9rZW4YAiABKAkiCwoJTG9naW5SZXNwIgsKCUxvZ291",
+            "dFJlcSIMCgpMb2dvdXRSZXNwIjEKGVNldEFwcEJhY2tncm91bmRTdGF0dXNS",
+            "ZXESFAoMaXNCYWNrZ3JvdW5kGAEgASgIIhwKGlNldEFwcEJhY2tncm91bmRT",
+            "dGF0dXNSZXNwIhkKF05ldHdvcmtTdGF0dXNDaGFuZ2VkUmVxIhoKGE5ldHdv",
+            "cmtTdGF0dXNDaGFuZ2VkUmVzcCITChFHZXRMb2dpblN0YXR1c1JlcSI+ChJH",
+            "ZXRMb2dpblN0YXR1c1Jlc3ASKAoGc3RhdHVzGAEgASgOMhgub3BlbmltLmlu",
+            "aXQuTG9naW5TdGF0dXMiDAoKVmVyc2lvblJlcSIeCgtWZXJzaW9uUmVzcBIP",
+            "Cgd2ZXJzaW9uGAEgASgJKkUKC0xvZ2luU3RhdHVzEhAKDExvZ2luU3RhdHVz",
+            "XxAAEgsKB0RlZmF1bHQQARILCgdMb2dnaW5nEAISCgoGTG9nZ2VkEAMynwQK",
+            "C2luaXRTZXJ2aWNlEjwKB0luaXRTREsSFy5vcGVuaW0uaW5pdC5Jbml0U0RL",
+            "UmVxGhgub3BlbmltLmluaXQuSW5pdFNES1Jlc3ASNgoFTG9naW4SFS5vcGVu",
+            "aW0uaW5pdC5Mb2dpblJlcRoWLm9wZW5pbS5pbml0LkxvZ2luUmVzcBI5CgZM",
+            "b2dvdXQSFi5vcGVuaW0uaW5pdC5Mb2dvdXRSZXEaFy5vcGVuaW0uaW5pdC5M",
+            "b2dvdXRSZXNwEmkKFlNldEFwcEJhY2tncm91bmRTdGF0dXMSJi5vcGVuaW0u",
+            "aW5pdC5TZXRBcHBCYWNrZ3JvdW5kU3RhdHVzUmVxGicub3BlbmltLmluaXQu",
+            "U2V0QXBwQmFja2dyb3VuZFN0YXR1c1Jlc3ASYwoUTmV0d29ya1N0YXR1c0No",
+            "YW5nZWQSJC5vcGVuaW0uaW5pdC5OZXR3b3JrU3RhdHVzQ2hhbmdlZFJlcRol",
+            "Lm9wZW5pbS5pbml0Lk5ldHdvcmtTdGF0dXNDaGFuZ2VkUmVzcBJRCg5HZXRM",
+            "b2dpblN0YXR1cxIeLm9wZW5pbS5pbml0LkdldExvZ2luU3RhdHVzUmVxGh8u",
+            "b3BlbmltLmluaXQuR2V0TG9naW5TdGF0dXNSZXNwEjwKB1ZlcnNpb24SFy5v",
+            "cGVuaW0uaW5pdC5WZXJzaW9uUmVxGhgub3BlbmltLmluaXQuVmVyc2lvblJl",
+            "c3BCSVo1Z2l0aHViLmNvbS9vcGVuaW1zZGsvb3BlbmltLXNkay1jb3JlL3Yz",
+            "L3Byb3RvL2dvL2luaXSqAgxPcGVuSU0uUHJvdG+6AgBiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::OpenIM.Proto.CommonReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::OpenIM.Proto.LoginStatus), }, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.IMConfig), global::OpenIM.Proto.IMConfig.Parser, new[]{ "AppFramework", "Platform", "ApiAddr", "WsAddr", "DataDir", "LogLevel", "IsLogStandardOutput", "LogFilePath", "DbPath" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.InitSDKReq), global::OpenIM.Proto.InitSDKReq.Parser, new[]{ "Config" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.InitSDKResp), global::OpenIM.Proto.InitSDKResp.Parser, new[]{ "Suc" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.InitSDKResp), global::OpenIM.Proto.InitSDKResp.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.LoginReq), global::OpenIM.Proto.LoginReq.Parser, new[]{ "UserID", "Token" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.LoginResp), global::OpenIM.Proto.LoginResp.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::OpenIM.Proto.LogoutReq), global::OpenIM.Proto.LogoutReq.Parser, null, null, null, null, null),
@@ -71,8 +82,17 @@ namespace OpenIM.Proto {
   #region Enums
   public enum LoginStatus {
     [pbr::OriginalName("LoginStatus_")] LoginStatus = 0,
+    /// <summary>
+    /// No loggin.
+    /// </summary>
     [pbr::OriginalName("Default")] Default = 1,
+    /// <summary>
+    /// Logging.
+    /// </summary>
     [pbr::OriginalName("Logging")] Logging = 2,
+    /// <summary>
+    /// Logged.
+    /// </summary>
     [pbr::OriginalName("Logged")] Logged = 3,
   }
 
@@ -135,6 +155,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "appFramework" field.</summary>
     public const int AppFrameworkFieldNumber = 1;
     private global::OpenIM.Proto.AppFramework appFramework_ = global::OpenIM.Proto.AppFramework.AppFramework;
+    /// <summary>
+    /// @common_app_framework
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.AppFramework AppFramework {
@@ -147,6 +170,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "platform" field.</summary>
     public const int PlatformFieldNumber = 2;
     private global::OpenIM.Proto.Platform platform_ = global::OpenIM.Proto.Platform.Platform;
+    /// <summary>
+    /// @common_platform
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.Platform Platform {
@@ -159,6 +185,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "apiAddr" field.</summary>
     public const int ApiAddrFieldNumber = 3;
     private string apiAddr_ = "";
+    /// <summary>
+    /// api address
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string ApiAddr {
@@ -171,6 +200,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "wsAddr" field.</summary>
     public const int WsAddrFieldNumber = 4;
     private string wsAddr_ = "";
+    /// <summary>
+    /// ws address
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string WsAddr {
@@ -183,6 +215,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "dataDir" field.</summary>
     public const int DataDirFieldNumber = 5;
     private string dataDir_ = "";
+    /// <summary>
+    /// data dir
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string DataDir {
@@ -195,6 +230,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "logLevel" field.</summary>
     public const int LogLevelFieldNumber = 6;
     private global::OpenIM.Proto.LogLevel logLevel_ = global::OpenIM.Proto.LogLevel.LevelFatal;
+    /// <summary>
+    /// @common_log_level
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.LogLevel LogLevel {
@@ -207,6 +245,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "isLogStandardOutput" field.</summary>
     public const int IsLogStandardOutputFieldNumber = 7;
     private bool isLogStandardOutput_;
+    /// <summary>
+    /// Is log standard output
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool IsLogStandardOutput {
@@ -219,6 +260,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "logFilePath" field.</summary>
     public const int LogFilePathFieldNumber = 8;
     private string logFilePath_ = "";
+    /// <summary>
+    /// log file source path
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string LogFilePath {
@@ -231,6 +275,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "dbPath" field.</summary>
     public const int DbPathFieldNumber = 9;
     private string dbPath_ = "";
+    /// <summary>
+    /// db file source path
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string DbPath {
@@ -621,6 +668,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "config" field.</summary>
     public const int ConfigFieldNumber = 1;
     private global::OpenIM.Proto.IMConfig config_;
+    /// <summary>
+    /// IM configuration
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.IMConfig Config {
@@ -815,7 +865,6 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public InitSDKResp(InitSDKResp other) : this() {
-      suc_ = other.suc_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -823,18 +872,6 @@ namespace OpenIM.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public InitSDKResp Clone() {
       return new InitSDKResp(this);
-    }
-
-    /// <summary>Field number for the "suc" field.</summary>
-    public const int SucFieldNumber = 1;
-    private bool suc_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Suc {
-      get { return suc_; }
-      set {
-        suc_ = value;
-      }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -852,7 +889,6 @@ namespace OpenIM.Proto {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (Suc != other.Suc) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -860,7 +896,6 @@ namespace OpenIM.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (Suc != false) hash ^= Suc.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -879,10 +914,6 @@ namespace OpenIM.Proto {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (Suc != false) {
-        output.WriteRawTag(8);
-        output.WriteBool(Suc);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -893,10 +924,6 @@ namespace OpenIM.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Suc != false) {
-        output.WriteRawTag(8);
-        output.WriteBool(Suc);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -907,9 +934,6 @@ namespace OpenIM.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (Suc != false) {
-        size += 1 + 1;
-      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -921,9 +945,6 @@ namespace OpenIM.Proto {
     public void MergeFrom(InitSDKResp other) {
       if (other == null) {
         return;
-      }
-      if (other.Suc != false) {
-        Suc = other.Suc;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -944,10 +965,6 @@ namespace OpenIM.Proto {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
-          case 8: {
-            Suc = input.ReadBool();
-            break;
-          }
         }
       }
     #endif
@@ -967,10 +984,6 @@ namespace OpenIM.Proto {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
-          case 8: {
-            Suc = input.ReadBool();
-            break;
-          }
         }
       }
     }
@@ -1027,6 +1040,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "userID" field.</summary>
     public const int UserIDFieldNumber = 1;
     private string userID_ = "";
+    /// <summary>
+    /// @user_id
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string UserID {
@@ -1039,6 +1055,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "token" field.</summary>
     public const int TokenFieldNumber = 2;
     private string token_ = "";
+    /// <summary>
+    /// @user_token
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Token {
@@ -1744,6 +1763,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "isBackground" field.</summary>
     public const int IsBackgroundFieldNumber = 1;
     private bool isBackground_;
+    /// <summary>
+    /// App background status
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool IsBackground {
@@ -2586,6 +2608,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "status" field.</summary>
     public const int StatusFieldNumber = 1;
     private global::OpenIM.Proto.LoginStatus status_ = global::OpenIM.Proto.LoginStatus.LoginStatus;
+    /// <summary>
+    /// user login status
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::OpenIM.Proto.LoginStatus Status {
@@ -2945,6 +2970,9 @@ namespace OpenIM.Proto {
     /// <summary>Field number for the "version" field.</summary>
     public const int VersionFieldNumber = 1;
     private string version_ = "";
+    /// <summary>
+    /// SDK version
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Version {

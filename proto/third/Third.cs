@@ -38,11 +38,18 @@ namespace OpenIM.Proto {
             "eSKTAQoGTG9nUmVxEi0KCGxvZ0xldmVsGAEgASgOMhsub3BlbmltLnNkay5j",
             "b21tb24uTG9nTGV2ZWwSDAoEZmlsZRgCIAEoCRIMCgRsaW5lGAMgASgFEgsK",
             "A21zZxgEIAEoCRILCgNlcnIYBSABKAkSJAoDa3ZzGAYgAygLMhcub3Blbmlt",
-            "LnNkay50aGlyZC5Mb2dLdiIJCgdMb2dSZXNwMl8KDFRoaXJkU2VydmljZRJP",
-            "CgpVcGxvYWRGaWxlEh8ub3BlbmltLnNkay50aGlyZC5VcGxvYWRGaWxlUmVx",
-            "GiAub3BlbmltLnNkay50aGlyZC5VcGxvYWRGaWxlUmVzcEJKWjZnaXRodWIu",
-            "Y29tL29wZW5pbXNkay9vcGVuaW0tc2RrLWNvcmUvdjMvcHJvdG8vZ28vdGhp",
-            "cmSqAgxPcGVuSU0uUHJvdG+6AgBiBnByb3RvMw=="));
+            "LnNkay50aGlyZC5Mb2dLdiIJCgdMb2dSZXNwMqYDCgxUaGlyZFNlcnZpY2US",
+            "TwoKVXBsb2FkRmlsZRIfLm9wZW5pbS5zZGsudGhpcmQuVXBsb2FkRmlsZVJl",
+            "cRogLm9wZW5pbS5zZGsudGhpcmQuVXBsb2FkRmlsZVJlc3ASWAoNVXBsb2Fk",
+            "U0RLRGF0YRIiLm9wZW5pbS5zZGsudGhpcmQuVXBsb2FkU0RLRGF0YVJlcRoj",
+            "Lm9wZW5pbS5zZGsudGhpcmQuVXBsb2FkU0RLRGF0YVJlc3ASOgoDTG9nEhgu",
+            "b3BlbmltLnNkay50aGlyZC5Mb2dSZXEaGS5vcGVuaW0uc2RrLnRoaXJkLkxv",
+            "Z1Jlc3ASWwoOVXBkYXRlRmNtVG9rZW4SIy5vcGVuaW0uc2RrLnRoaXJkLlVw",
+            "ZGF0ZUZjbVRva2VuUmVxGiQub3BlbmltLnNkay50aGlyZC5VcGRhdGVGY21U",
+            "b2tlblJlc3ASUgoLU2V0QXBwQmFkZ2USIC5vcGVuaW0uc2RrLnRoaXJkLlNl",
+            "dEFwcEJhZGdlUmVxGiEub3BlbmltLnNkay50aGlyZC5TZXRBcHBCYWRnZVJl",
+            "c3BCSlo2Z2l0aHViLmNvbS9vcGVuaW1zZGsvb3BlbmltLXNkay1jb3JlL3Yz",
+            "L3Byb3RvL2dvL3RoaXJkqgIMT3BlbklNLlByb3RvugIAYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.AnyReflection.Descriptor, global::OpenIM.Proto.CommonReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -2095,7 +2102,7 @@ namespace OpenIM.Proto {
     public const int LogLevelFieldNumber = 1;
     private global::OpenIM.Proto.LogLevel logLevel_ = global::OpenIM.Proto.LogLevel.LevelFatal;
     /// <summary>
-    /// log level
+    /// @common_log_level
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
